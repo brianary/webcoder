@@ -10,8 +10,7 @@ let's list all the cmdlets that have an "Encoding" parameter, plus the type and 
 
 ```powershell
 gcm |
-    ? {$_.Parameters} |
-    ? {$_.Parameters.ContainsKey('Encoding')} |
+    ? {$_.Parameters -and $_.Parameters.ContainsKey('Encoding')} |
     % {[pscustomobject]@{
         CommandName  = $_.Name
         EncodingType = ([type]$_.Parameters.Encoding.ParameterType).Name # for brevity
@@ -38,19 +37,19 @@ Send-MailMessage Encoding                         ASCII
 Set-Content      FileSystemCmdletProviderEncoding ASCII
 ```
 
-We used **Get-Help** and parsed the text description of the parameter defaults.
+This script uses **Get-Help** and parses the text description of the parameter defaults.
 
 Those defaults are definitely not… harmonius:
 ASCII, utf-8, "ANSI"/"OEM" (depending on your locale), and "Unicode" (which is really utf-16).
-`Default` as described in **Out-File** and **Select-String** **Encoding** parameter help aren't
-even the default.
+`Default` encoding, as described in **Out-File** and **Select-String**'s **Encoding** parameter help aren't
+actually the default of any cmdlets.
 
 > Default uses the encoding of the system's current ANSI code page.
 
 Not even the types of these parameters are in agreement!
 Some string names, some **System.Text.Encoding** objects (which can be converted from a name), but also an enumeration.
 
-Let's get the values available for that enumeration using
+To get the values available for that enumeration, use
 [**Get-EnumValues.ps1**](https://github.com/brianary/scripts/blob/master/Get-EnumValues.ps1):
 
 ```powershell
