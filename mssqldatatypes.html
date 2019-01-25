@@ -1,0 +1,143 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>SQL Server Datatypes QuickRef</title>
+<style type="text/css">
+table {border-collapse:collapse;margin-top:1em}
+caption {border-top:4px double black;font-size:140%}
+table,th,td {border:1px solid #999}
+col.mid {text-align:center}
+col.numeric {text-align:right}
+td>ul {text-align:left}
+div {display:table;border:none}
+div>table {display:table-cell;padding:1em;vertical-align:top}
+</style></head><body>
+<table><caption>Datatypes</caption><colgroup><col span="2"><col class="mid" span="2"><col class="numeric" span="2"></colgroup><tbody>
+<tr><th>Family</th><th>name</th><th>since SQL#</th><th>bytes</th><th>lower bound</th><th>upper bound</th></tr>
+<tr><th rowspan="6" valign="middle">Date/Time</th><td>date</td><td>2008</td><td>3</td><td>0001-01-01</td><td>9999-12-31</td></tr>
+<tr><td>datetime</td><td></td><td>8</td><td>1753-01-01 00:00:00.000</td><td>9999-12-31 23:59:59.997</td></tr>
+<tr><td>datetime2[(<var>s</var>)]</td><td>2008</td><td><var>s</var> &lt; 3/5/8 = 6/7/8</td><td>0001-01-01 00:00:00.0…</td><td>9999-12-31 23:59:59.9…</td></tr>
+<tr><td>datetimeoffset</td><td>2008</td><td>10</td><td>0001-01-01 00:00:00.0000000 -14:00</td><td>9999-12-31 23:59:59.9999999 +14:00</td></tr>
+<tr><td>smalldatetime</td><td></td><td>4</td><td>1900-01-01 00:00</td><td>2079-12-31 23:59</td></tr>
+<tr><td>time</td><td>2008</td><td>5</td><td>00:00:00.0000000</td><td>23:59:59.9999999</td></tr>
+<tr><th rowspan="5" valign="middle">Integer</th><td>bigint</td><td>2000</td><td>8</td><td>-9,223,372,036,854,775,808</td><td>9,223,372,036,854,775,807</td></tr>
+<tr><td>bit</td><td></td><td>1</td><td>0</td><td>1</td></tr>
+<tr><td>int</td><td></td><td>4</td><td>-2,147,483,648</td><td>2,147,483,647</td></tr>
+<tr><td>smallint</td><td></td><td>2</td><td>-32,768</td><td>32,767</td></tr>
+<tr><td>tinyint</td><td></td><td>1</td><td>0</td><td>255</td></tr>
+<tr><th rowspan="2" valign="middle">Monetary</th><td>money</td><td></td><td>8</td><td>-922,337,203,685,477.5808</td><td>922,337,203,685,477.5807</td></tr>
+<tr><td>smallmoney</td><td></td><td>4</td><td>-214,748.3648</td><td>214,748.3647</td></tr>
+<tr><th rowspan="2" valign="middle">Approximate Numeric</th><td>float[(<var>n</var>)]</td><td></td><td>8</td></tr>
+<tr><td>real</td><td></td><td>4</td></tr>
+<tr><th rowspan="2" valign="middle">Exact Numeric</th><td>decimal[(<var>p</var>[,<var>s</var>])]</td><td></td><td rowspan="2"><var>p</var> &lt; 9/19/28/38 = 5/9/13/17</td></tr>
+<tr><td>numeric[(<var>p</var>[,<var>s</var>])]</td><td></td></tr>
+<tr><th rowspan="2" valign="middle">Binary</th><td>binary[(<var>n</var>)]</td><td></td><td><var>n</var> ≤ 8,000</td></tr>
+<tr><td>varbinary[(<var>n</var>)]</td><td></td><td>≤ <var>n</var> ≤ 8,000</td></tr>
+<tr><th rowspan="4" valign="middle">Character</th><td>char[(<var>n</var>)]</td><td></td><td><var>n</var> ≤ 8,000</td></tr>
+<tr><td>nchar[(<var>n</var>)]</td><td>7</td><td><var>n</var> × 2 ≤ 8,000</td></tr>
+<tr><td>nvarchar[(<var>n</var>)]</td><td>7</td><td>≤ <var>n</var> × 2 ≤ 8,000</td></tr>
+<tr><td>varchar[(<var>n</var>)]</td><td></td><td>≤ <var>n</var> ≤ 8,000</td></tr>
+<tr><th rowspan="6" valign="middle">Long Text and Binary</th><td>image</td><td><abbr title="deprecated">dep.</abbr> 2005</td>
+	<td rowspan="6" colspan="3"><ul>
+		<li>16 byte in-row pointer to ≤ 2,147,483,647 bytes data.</li>
+		<li>Max types are stored in-row up to 8,000 bytes.</li>
+		<li>n(var)char/ntext are stored as <a href="http://en.wikipedia.org/wiki/UCS-2">UCS-2</a>, two bytes per character.</li></ul></td></tr>
+<tr><td>ntext</td><td>7, <abbr title="deprecated">dep.</abbr> 2005</td></tr>
+<tr><td>nvarchar(max)</td><td>2005</td></tr>
+<tr><td>text</td><td><abbr title="deprecated">dep.</abbr> 2005</td></tr>
+<tr><td>varbinary(max)</td><td>2005</td></tr>
+<tr><td>varchar(max)</td><td>2005</td></tr>
+<tr><th rowspan="6" valign="middle">Special</th><td>hierarchyid</td><td>2008</td><td colspan="3">A slash-separated path: <code>/1/3/</code></td></tr>
+<tr><td>rowversion</td><td></td><td>8</td><td></td></tr>
+<tr><td>sql_variant</td><td>2000</td><td colspan="3">Stores any datatype except long text, long binary, or special types (max 8016 bytes).</td></tr>
+<tr><td>table</td><td>2000</td><td colspan="3">Sometimes faster than temporary tables. <code>declare @<var>name</var> table ( <var>… table definition …</var> )</code></td></tr>
+<tr><td>uniqueidentifier</td><td>7</td><td>16</td></tr>
+<tr><td>xml</td><td>2005</td><td>16 (in-row pointer)</td><td colspan="3">XML data with a schema is stored as a parsed tree.</td></tr>
+</tbody></table>
+<div>
+<table><caption>Synonyms</caption>
+<tbody><tr><th>synonym</th><th>datatype</th></tr>
+<tr><td>binary varying</td><td>varbinary</td></tr>
+<tr><td>[national] character[(<var>n</var>)]</td><td>[n]char[(<var>n</var>)]</td></tr>
+<tr><td>[national] character varying(<var>n</var>)</td><td>[n]varchar(<var>n</var>)</td></tr>
+<tr><td>[national] text</td><td>ntext</td></tr>
+<tr><td>dec</td><td>decimal</td></tr>
+<tr><td>integer</td><td>int</td></tr>
+<tr><td>double precision</td><td>float</td></tr>
+<tr><td>float(1-7)</td><td>real</td></tr>
+<tr><td>float(8-15)</td><td>float</td></tr>
+<tr><td>timestamp</td><td>rowversion</td></tr>
+</tbody></table>
+<table><caption>Current Timestamp Variants</caption>
+<thead><tr><th>function</th><th>datatype</th><th>detail</th></tr></thead><tbody>
+<tr><td>current_timestamp</td><td>datetime</td><td>ANSI SQL standard equivalent of getdate()</td></tr>
+<tr><td>{fn current_date()}</td><td>varchar(10)</td><td>ODBC cannonical system date</td></tr>
+<tr><td>{fn current_time()}</td><td>varchar(30)</td><td>ODBC cannonical system time</td></tr>
+<tr><td>{fn now()}</td><td>datetime</td><td>ODBC cannonical equivalent of getdate()</td></tr>
+<tr><td>getdate()</td><td>datetime</td><td>current system date and time</td></tr>
+<tr><td>getutcdate()</td><td>datetime</td><td>current UTC date and time</td></tr>
+<tr><td>sysdatetime()</td><td>datetime2(7)</td><td>current system date and time</td></tr>
+<tr><td>sysdatetimeoffset()</td><td>datetimeoffset(7)</td><td>current date and time with timezone</td></tr>
+<tr><td>sysutcdatetime()</td><td>datetime2</td><td>current UTC date and time</td></tr>
+</tbody></table>
+</div>
+<div>
+<table><caption>convert(varchar,<var>datetime</var>,<var>n</var>)</caption>
+<thead><tr><th>code</th><th>2-digit<br>year<br>code</th><th>Format</th><th>Name</th></tr></thead>
+<tbody>
+<tr><td>0 or 100</td><td></td><td>MMM dd yyyy hh:mmtt</td><td>Default</td></tr>
+<tr><td>101</td><td>1</td><td>MM/dd/yyyy</td><td>US</td></tr>
+<tr><td>102</td><td>2</td><td>yyyy.MM.dd</td><td>ANSI</td></tr>
+<tr><td>103</td><td>3</td><td>dd/MM/yyyy</td><td>British/French</td></tr>
+<tr><td>104</td><td>4</td><td>dd.MM.yyyy</td><td>German</td></tr>
+<tr><td>105</td><td>5</td><td>dd-MM-yyyy</td><td>Italian</td></tr>
+<tr><td>106</td><td>6</td><td>dd MMM yyyy</td><td></td></tr>
+<tr><td>107</td><td>7</td><td>MMM dd, yyyy</td><td></td></tr>
+<tr><td>8 or 108</td><td></td><td>HH:mm:ss</td><td></td></tr>
+<tr><td>9 or 109</td><td></td><td>MMM dd yyyy hh:mm:ss.fff…tt</td><td></td></tr>
+<tr><td>110</td><td>10</td><td>MM-dd-yyyy</td><td>US</td></tr>
+<tr><td>111</td><td>11</td><td>yyyy/MM/dd</td><td>Japan</td></tr>
+<tr><td>112</td><td>12</td><td>yyyyMMdd</td><td>ISO</td></tr>
+<tr><td>13 or 113</td><td></td><td>dd MMM yyyy HH:mm:ss.fff…</td><td>Europe w/ms</td></tr>
+<tr><td>14 or 114</td><td></td><td>HH:mm:ss:fff…</td><td></td></tr>
+<tr><td>20 or 120</td><td></td><td>yyyy-MM-dd HH:mm:ss</td><td>ODBC</td></tr>
+<tr><td>21 or 121</td><td></td><td>yyyy-MM-dd HH:mm:ss.fff…</td><td>ODBC w/ms</td></tr>
+<tr><td>126</td><td></td><td>yyyy-MM-ddTHH:mm:ss.fff…</td><td>ISO8601</td></tr>
+<tr><td>127</td><td></td><td>yyyy-MM-ddTHH:mm:ss.fff…Z</td><td>ISO8601 w/timezone Z</td></tr>
+<tr><td>130</td><td></td><td>dd MMM yyyy hh:mm:ss.fff…tt</td><td>Hijri</td></tr>
+<tr><td>131</td><td></td><td>dd/MM/yyyy hh:mm:ss.fff…tt</td><td>Hijri</td></tr>
+<tr><td colspan="4"><ul>
+<li>MMM = Jan, …, Dec; tt = AM or PM; T = T</li>
+<li>HH = 24-hour hours, fff… = all fractional seconds digits available</li>
+<li><code>cast(<var>datetime</var> as varchar)</code> ≡ <code>convert(varchar,<var>datetime</var>,0)</code></li>
+<li><code><var>time_at_new_zone</var>= switchoffset(<var>datetimeoffset</var>,'<var>±HH:mm</var>')</code></li>
+<li><code><var>string_name</var>= {fn dayname(<var>datetime</var>)}</code></li>
+<li><code><var>string_name</var>= {fn monthname(<var>datetime</var>)}</code></li>
+<li><code><var>int_quarter</var>= {fn quarter(<var>datetime</var>)}</code></li>
+</ul></td></tr>
+</tbody>
+</table>
+<table><caption>Date Parts</caption><colgroup><col span="2"><col class="numeric" span="2">
+</colgroup><tbody><tr><th>date part</th><th>abbrev</th><th>lower bound</th><th>upper bound</th></tr>
+<tr><td>year</td><td>yy or yyyy</td><td>1</td><td>9999</td></tr>
+<tr><td>quarter</td><td>q or qq</td><td>1</td><td>4</td></tr>
+<tr><td>month</td><td>m or mm</td><td>1</td><td>12</td></tr>
+<tr><td>dayofyear</td><td>y or dy</td><td>1</td><td>366</td></tr>
+<tr><td>day</td><td>d or dd</td><td>1</td><td>31</td></tr>
+<tr><td>week (configurable)</td><td>ww or wk</td><td>1</td><td>53</td></tr>
+<tr><td>weekday</td><td>dw</td><td>1 (Sun)</td><td>7 (Sat)</td></tr>
+<tr><td>hour</td><td>hh</td><td>0</td><td>23</td></tr>
+<tr><td>minute</td><td>n or mi</td><td>0</td><td>59</td></tr>
+<tr><td>second</td><td>s or ss</td><td>0</td><td>59</td></tr>
+<tr><td>millisecond</td><td>ms</td><td>0</td><td>999</td></tr>
+<tr><td>microsecond</td><td>mcs</td><td>0</td><td>999999</td></tr>
+<tr><td>nanosecond</td><td>ns</td><td>0</td><td>999999900</td></tr>
+<tr><td>tzoffset</td><td>tz</td><td>-840</td><td>840</td></tr>
+<tr><td>iso_week (thursday-week)</td><td>isowk or isoww</td><td>1</td><td>53</td></tr>
+<tr><td>millisecond</td><td>ms</td><td>0</td><td>999</td></tr>
+<tr><td colspan="5"><ul>
+<li><code><var>datetime_new</var>= dateadd(<var>datepart</var>,<var>number</var>,<var>datetime</var>)</code></li>
+<li><code><var>number_diff</var>= datediff(<var>datepart</var>,<var>from_datetime</var>,<var>to_datetime</var>)</code></li>
+<li><code><var>string_name</var>= datename(<var>datepart</var>,<var>datetime</var>)</code></li>
+<li><code><var>number_value</var>= datepart(<var>datepart</var>,<var>datetime</var>)</code></li></ul></td></tr>
+</tbody></table></div>
+
+</body></html>

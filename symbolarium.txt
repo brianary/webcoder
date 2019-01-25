@@ -1,0 +1,215 @@
+﻿★ star
+☆ white star
+✯ pinwheel star
+☺ smiling face
+☹ frowning face
+‽ interrobang
+⸮ reversed question mark (irony mark)
+؟ Arabic question mark (irony mark)
+ℹ⃝ information (combined)
+ⓘ information (compatible)
+☡ caution
+⚠ warning
+☠ skull&Xbones (poison)
+☢ radioactive
+☣ biohazard
+☤ caduceus
+☘ shamrock
+⚘ flower
+⚡ high voltage
+⌁ electric arrow (end transmission)
+♼ recycled
+✈ airplane
+☀ sun
+☁ cloud
+⛆ rain
+☂ umbrella
+☃ snowman
+❄ snowflake
+☕ hot beverage
+☯ yin yang
+☮ peace
+♀ female/venus
+♂ male/mars
+☐ unchecked box
+☑ checked box
+☒ X box
+✓ check mark
+✗ ballot X
+⚙ gear
+⚛ atom
+⌚ watch
+⌛ hourglass
+✉ envelope
+☎ telephone
+✆ telephone location
+℡ telephone sign
+⁂ asterism
+‰ permille
+‱ permyriad
+… horizontal elipsis
+⋮ vertical elipsis
+⋰ up right elipsis
+⋱ down right elipsis
+∗ low asterisk
+• bullet
+· middle dot
+⋅ dot operator
+‧ hyphenation point (break letters/syllables)
+‐ hyphen
+⁃ hyphen bullet
+− minus
+‒ figure dash (number separator)
+– en dash (range, "to")
+— em dash (parenthetical, break)
+― quotation dash (horizontal bar)
+⏤ straightness
+↵ down, left (crarr)
+⏎ return
+← left
+↑ up
+→ right
+↓ down
+↔ left-right
+↕ up-down
+⇐ double left
+⇑ double up
+⇒ double right
+⇓ double down
+⇔ double left-right
+⇕ double up-down
+↺ anticlockwise
+↻ clockwise
+¼ one fourth
+½ one half
+¾ three fourth
+⅓ one third
+⅔ two thirds
+⅕ one fifth
+⅖ two fifths
+⅗ three fifths
+⅘ four fifths
+⅙ one sixth
+⅚ five sixths
+⅛ one eighth
+⅜ three eighths
+⅝ five eighths
+⅞ seven eighths
+⅟ one numerator
+⁄ fraction slash
+± plus or minus
+∓ minus or plus
+× times
+÷ divide
+′ prime/feet/minutes
+″ double-prime/inches/seconds
+≠ not equal
+≅ approx. equal
+≈ almost equal
+≟ questioned equal
+≡ equivalent
+≢ not equivalent
+≤ less or equal
+≪ much less
+⋘ very much less
+≥ greater or equal
+≫ much greater
+⋙ very much greater
+« left angle quote
+» right angle quote
+‹ left single angle quote
+› right single angle quote
+〈 left angle bracket
+〉 right angle bracket
+∝ proportional
+∀ for all/any/each
+∃ there exists
+∄ there does not exist
+∵ because
+∴ therefore
+∎ end of proof
+∧ and
+∨ or
+∶ ratio
+∷ proportion
+∞ infinity
+∈ is in
+∉ not in
+∋ contains
+⊆ subset or equal
+⊂ subset
+⊄ not subset
+⊇ superset or equal
+⊃ superset
+∅ empty set
+∩ intersection
+∪ union
+¢ cents
+§ section
+⚀ die 1
+⚁ die 2
+⚂ die 3
+⚃ die 4
+⚄ die 5
+⚅ die 6
+♠ spades
+♣ clubs
+♥ hearts
+♦ diamonds
+⛀ white checker
+⛁ white checker king
+⛂ black checker
+⛃ black checker king
+♔ white king
+♕ white queen
+♖ white rook
+♗ white bishop
+♘ white knight
+♙ white pawn
+♚ black king
+♛ black queen
+♜ black rook
+♝ black bishop
+♞ black knight
+♟ black pawn
+⌨ keyboard
+► rightward pointer
+⚫ record
+■ square
+█ full block
+⏏ eject
+⌂ house
+⎙ print screen
+⎗ previous page
+⎘ next page
+♩ quarter note
+♪ eighth note
+♫ eighth notes
+♬ sixteenth notes
+⌘ interest
+※ reference
+❖ X-diamond
+⛝ squared saltire
+⚜ fleur-de-lis
+␠ space symbol
+␢ blank symbol
+␣ space box
+␈ backspace symbol
+␥ delete
+␡ delete symbol
+⌦ delete right key
+⌧ clear key
+⌫ delete left key
+⇥ tab key
+␉ tab symbol
+␤ newline symbol
+␛ escape symbol
+␀ null symbol
+␆ acknowledge symbol
+␕ negative acknowledge symbol
+␂ start of text symbol
+␃ end of text symbol
+␄ end transmission symbol
+[ ] en space
+[ ] em space
+[ ] thin space
