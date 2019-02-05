@@ -6,7 +6,7 @@
 ‽ interrobang
 ⸮ reversed question mark (irony mark)
 ؟ Arabic question mark (irony mark)
-ℹ⃝ information (combined)
+🛈 information
 ⓘ information (compatible)
 ☡ caution
 ⚠ warning
