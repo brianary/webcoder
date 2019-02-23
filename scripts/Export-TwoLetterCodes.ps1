@@ -100,23 +100,23 @@ function Format-HtmlTableCell([Parameter(ValueFromPipeline=$true)][ValidatePatte
     else {@"
 <td><details><summary>$code $(Get-CodeIndicator $code)</summary><ul>
 $($details |% {"<li>$([Net.WebUtility]::HtmlEncode($_))</li>"})
-</ul></details></td>
+</ul></details>
 "@
 }}}
 
 function Format-HtmlTableRow([Parameter(ValueFromPipeline=$true)][char]$letter)
-{Process{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)</tr>"}}
+{Process{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)"}}
 
 function Format-Markdown
 {@"
-<style>div.container {width:100%;max-width:auto;margin:0}</style>
-
 Two Letter Country Codes
 ========================
 
-<table style="min-width:150em;white-space:nowrap;font-size:9pt"><caption></caption><tbody>
+<table style="min-width:150em;white-space:nowrap;font-size:9pt;margin:0 -8% 1em"><caption></caption>
 $(0x41..0x5A |% {[char]$_} |Format-HtmlTableRow)
-</tbody></table>
+</table>
+
+<!-- ... -->
 
 Legend
 ------
