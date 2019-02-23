@@ -123,7 +123,7 @@ $($details |% {"<li>$([Net.WebUtility]::HtmlEncode($_) -replace '&amp;(#?\w+;)',
 }}}
 
 function Format-HtmlTableRow([Parameter(ValueFromPipeline=$true)][char]$letter)
-{Process{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)</tr>"}}
+{Process{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)"}}
 
 function Format-Markdown
 {@"
@@ -140,7 +140,7 @@ that overlap with country codes.
 <table style="white-space:nowrap;font-size:9pt">
 <caption>ISO/FIPS Country Codes</caption><tbody>
 $(0x41..0x5A |% {[char]$_} |Format-HtmlTableRow)
-</tbody><tfoot><tr>
+<tfoot><tr>
 <td colspan="20" style="vertical-align:top"><h2>Legend</h2><ul>
 <li>$($icon.mismatch) ISO and FIPS codes do not agree, though the code is valid in both</li>
 <li>$($icon.iso_only) ISO defines this code, but it is an invalid FIPS code</li>
@@ -157,7 +157,7 @@ $(0x41..0x5A |% {[char]$_} |Format-HtmlTableRow)
 <li>$($icon.fips_only) $($Script:fips.Count) FIPS codes total</li>
 <li>$($icon.subregion_only) $subregion_only subregion-only codes</li>
 <li>$($icon.subregion_only) $($Script:subregion.Count) subregion codes total</li>
-</ul></td></tr></tfoot></table>
+</ul></td>
 
 <style>div.container {margin:0 !important}</style>
 "@}
