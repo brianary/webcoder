@@ -1,7 +1,9 @@
-﻿Two Letter Country Codes
+﻿<style>html,body {margin-left:0;margin-right:0;padding-left:1ex;padding-right:1ex}</style>
+
+Two Letter Country Codes
 ========================
 
-<table><caption></caption><tbody>
+<table style="min-width:150em;white-space:nowrap;font-size:9pt"><caption></caption><tbody>
 <tr><td><details><summary>AA &#x1F6C8;</summary><ul>
 <li>ET-AA Addis Ababa</li> <li>GH-AA Greater Accra Region</li> <li>WS-AA A&#39;ana</li>
 </ul></details> <td><details><summary>AB &#x1F6C8;</summary><ul>
@@ -52,7 +54,7 @@
 <li>Antarctica (FIPS)</li>
 </ul></details> <td><details><summary>AZ &#x1F310;</summary><ul>
 <li>Azerbaijan (ISO)</li> <li>AE-AZ Abu Dhabi</li> <li>JO-AZ Zarqa Governorate</li> <li>US-AZ Arizona</li>
-</ul></details></tr> <tr><td><details><summary>BA &#x26A0;</summary><ul>
+</ul></details> <tr><td><details><summary>BA &#x26A0;</summary><ul>
 <li>Bosnia and Herzegovina (ISO)</li> <li>Bahrain (FIPS)</li> <li>BR-BA Bahia</li> <li>GH-BA Brong-Ahafo Region</li> <li>GW-BA Bafat&#225; Region</li> <li>GY-BA Barima-Waini</li> <li>HU-BA Baranya County</li> <li>ID-BA Bali</li> <li>IQ-BA Basra Governorate</li> <li>JO-BA Balqa Governorate</li> <li>LB-BA Beirut Governorate</li> <li>LY-BA Benghazi</li> <li>MD-BA Bălți</li> <li>NG-BA Bauchi State</li> <li>PK-BA Balochistan</li> <li>TD-BA Batha Region</li> <li>TL-BA Baucau District</li> <li>YE-BA Al Bayda&#39; Governorate</li>
 </ul></details> <td><details><summary>BB </summary><ul>
 <li>Barbados</li> <li>BI-BB Bubanza Province</li> <li>CF-BB Bamingui-Bangoran</li> <li>DE-BB Brandenburg</li> <li>ID-BB Kepulauan Bangka Belitung</li> <li>IQ-BB Babil Governorate</li>
@@ -104,7 +106,7 @@
 <li>Belarus (ISO)</li> <li>Burundi (FIPS)</li> <li>BS-BY Berry Islands</li> <li>DE-BY Bavaria</li> <li>NG-BY Bayelsa State</li> <li>SO-BY Bay</li>
 </ul></details> <td><details><summary>BZ &#x1F310;</summary><ul>
 <li>Belize (ISO)</li> <li>HU-BZ Borsod-Aba&#250;j-Zempl&#233;n County</li> <li>RO-BZ Buzău County</li>
-</ul></details></tr> <tr><td><details><summary>CA </summary><ul>
+</ul></details> <tr><td><details><summary>CA </summary><ul>
 <li>Canada</li> <li>BI-CA Cankuzo Province</li> <li>CV-CA Santa Catarina</li> <li>GW-CA Cacheu Region</li> <li>LU-CA Capellen</li> <li>MD-CA Cahul District</li> <li>NA-CA Zambezi Region</li> <li>NI-CA Carazo Department</li> <li>SV-CA Caba&#241;as Department</li> <li>US-CA California</li> <li>UY-CA Canelones Department</li>
 </ul></details> <td><details><summary>CB &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>Cambodia (FIPS)</li> <li>ES-CB Cantabria</li> <li>TD-CB Chari-Baguirmi Region</li>
@@ -154,7 +156,7 @@
 <li>Cyprus</li>
 </ul></details> <td><details><summary>CZ &#x1F310;</summary><ul>
 <li>Czech Republic (ISO)</li>
-</ul></details></tr> <tr><td><details><summary>DA &#x1F1FA;&#x1F1F8;</summary><ul>
+</ul></details> <tr><td><details><summary>DA &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>Denmark (FIPS)</li> <li>IQ-DA Dohuk Governorate</li> <li>OM-DA Ad Dakhiliyah Governorate</li> <li>QA-DA Doha</li> <li>YE-DA Ad Dali&#39; Governorate</li>
 </ul></details> <td><details><summary>DB &#x1F6C8;</summary><ul>
 <li>RO-DB D&#226;mbovița County</li> <li>SN-DB Diourbel Region</li>
@@ -196,7 +198,7 @@
 <li>SY-DY Deir ez-Zor Governorate</li>
 </ul></details> <td><details><summary>DZ &#x1F310;</summary><ul>
 <li>Algeria (ISO)</li>
-</ul></details></tr> <tr><td>&cir; EA <td><details><summary>EB &#x1F6C8;</summary><ul>
+</ul></details> <tr><td>&cir; EA <td><details><summary>EB &#x1F6C8;</summary><ul>
 <li>GY-EB East Berbice-Corentyne</li> <li>NG-EB Ebonyi State</li>
 </ul></details> <td><details><summary>EC </summary><ul>
 <li>Ecuador</li> <li>LU-EC Echternach</li> <li>ZA-EC Eastern Cape</li>
@@ -230,7 +232,7 @@
 <li>BS-EX Exuma</li> <li>ES-EX Extremadura</li>
 </ul></details> <td>&cir; EY <td><details><summary>EZ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>Czech Republic (FIPS)</li>
-</ul></details></tr> <tr><td><details><summary>FA &#x1F6C8;</summary><ul>
+</ul></details> <tr><td><details><summary>FA &#x1F6C8;</summary><ul>
 <li>KW-FA Al Farwaniyah Governorate</li> <li>MD-FA Fălești District</li> <li>UZ-FA Fergana Province</li> <li>WS-FA Fa&#39;asaleleaga</li>
 </ul></details> <td>&cir; FB <td><details><summary>FC &#x1F6C8;</summary><ul>
 <li>NG-FC Federal Capital Territory</li>
@@ -260,7 +262,7 @@
 <li>French Southern and Antarctic Lands (FIPS)</li> <li>UY-FS Flores Department</li> <li>ZA-FS Free State</li>
 </ul></details> <td>&cir; FT <td><details><summary>FU &#x1F6C8;</summary><ul>
 <li>AE-FU Fujairah</li>
-</ul></details> <td>&cir; FV <td>&cir; FW <td>&cir; FX <td>&cir; FY <td>&cir; FZ</tr> <tr><td><details><summary>GA &#x26A0;</summary><ul>
+</ul></details> <td>&cir; FV <td>&cir; FW <td>&cir; FX <td>&cir; FY <td>&cir; FZ <tr><td><details><summary>GA &#x26A0;</summary><ul>
 <li>Gabon (ISO)</li> <li>The Gambia (FIPS)</li> <li>ES-GA Galicia</li> <li>ET-GA Gambela Region</li> <li>GW-GA Gab&#250; Region</li> <li>HT-GA Grand’Anse</li> <li>IN-GA Goa</li> <li>MD-GA Gagauzia</li> <li>SO-GA Galguduud</li> <li>US-GA Georgia</li>
 </ul></details> <td><details><summary>GB &#x26A0;</summary><ul>
 <li>United Kingdom (ISO)</li> <li>Gabon (FIPS)</li> <li>ER-GB Gash-Barka Region</li> <li>LR-GB Grand Bassa County</li> <li>TJ-GB Gorno-Badakhshan Autonomous Province</li>
@@ -310,7 +312,7 @@
 <li>Guyana</li>
 </ul></details> <td><details><summary>GZ &#x1F6C8;</summary><ul>
 <li>SD-GZ Al Jazirah</li>
-</ul></details></tr> <tr><td><details><summary>HA &#x1F1FA;&#x1F1F8;</summary><ul>
+</ul></details> <tr><td><details><summary>HA &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>Haiti (FIPS)</li> <li>BM-HA Hamilton</li> <li>ET-HA Harari Region</li> <li>IL-HA Haifa District</li> <li>KW-HA Hawalli Governorate</li> <li>NA-HA Hardap Region</li> <li>SY-HA Al-Hasakah Governorate</li> <li>ZW-HA Harare Province</li>
 </ul></details> <td><details><summary>HB &#x1F6C8;</summary><ul>
 <li>DE-HB Bremen</li> <li>HU-HB Hajd&#250;-Bihar County</li>
@@ -344,7 +346,7 @@
 <li>Haiti (ISO)</li> <li>BS-HT Hope Town</li>
 </ul></details> <td><details><summary>HU </summary><ul>
 <li>Hungary</li> <li>CD-HU Haut-U&#233;l&#233;</li> <li>GT-HU Huehuetenango Department</li> <li>YE-HU Al Hudaydah Governorate</li>
-</ul></details> <td>&cir; HV <td>&cir; HW <td>&cir; HX <td>&cir; HY <td>&cir; HZ</tr> <tr><td><details><summary>IA &#x1F6C8;</summary><ul>
+</ul></details> <td>&cir; HV <td>&cir; HW <td>&cir; HX <td>&cir; HY <td>&cir; HZ <tr><td><details><summary>IA &#x1F6C8;</summary><ul>
 <li>MD-IA Ialoveni District</li> <li>US-IA Iowa</li>
 </ul></details> <td><details><summary>IB &#x1F6C8;</summary><ul>
 <li>HN-IB Bay Islands Department</li> <li>YE-IB Ibb Governorate</li>
@@ -376,7 +378,7 @@
 <li>Ivory Coast (FIPS)</li>
 </ul></details> <td>&cir; IW <td>&cir; IX <td>&cir; IY <td><details><summary>IZ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>Iraq (FIPS)</li> <li>GT-IZ Izabal Department</li>
-</ul></details></tr> <tr><td><details><summary>JA &#x1F1FA;&#x1F1F8;</summary><ul>
+</ul></details> <tr><td><details><summary>JA &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>Japan (FIPS)</li> <li>GT-JA Jalapa Department</li> <li>ID-JA Jambi</li> <li>JO-JA Jerash Governorate</li> <li>KW-JA Al Jahra Governorate</li> <li>LB-JA South Governorate</li> <li>LY-JA Jabal al Akhdar</li> <li>YE-JA Al Jawf</li>
 </ul></details> <td><details><summary>JB &#x1F6C8;</summary><ul>
 <li>ID-JB West Java</li>
@@ -408,7 +410,7 @@
 <li>ID-JT Central Java</li>
 </ul></details> <td><details><summary>JU &#x1F6C8;</summary><ul>
 <li>CH-JU Canton of Jura</li> <li>GT-JU Jutiapa Department</li> <li>LY-JU Jufra District</li>
-</ul></details> <td>&cir; JV <td>&cir; JW <td>&cir; JX <td>&cir; JY <td>&cir; JZ</tr> <tr><td><details><summary>KA &#x1F6C8;</summary><ul>
+</ul></details> <td>&cir; JV <td>&cir; JW <td>&cir; JX <td>&cir; JY <td>&cir; JZ <tr><td><details><summary>KA &#x1F6C8;</summary><ul>
 <li>CZ-KA Karlovy Vary Region</li> <li>GE-KA Kakheti</li> <li>IN-KA Karnataka</li> <li>IQ-KA Karbala Governorate</li> <li>JO-KA Karak Governorate</li> <li>NA-KA ǁKaras Region</li> <li>SD-KA Kassala</li> <li>SN-KA Kaffrine Region</li> <li>TD-KA Kanem Region</li>
 </ul></details> <td><details><summary>KB &#x1F6C8;</summary><ul>
 <li>CF-KB Nana-Gr&#233;bizi</li> <li>ID-KB West Kalimantan</li>
@@ -452,7 +454,7 @@
 <li>Cayman Islands (ISO)</li> <li>BI-KY Kayanza Province</li> <li>US-KY Kentucky</li>
 </ul></details> <td><details><summary>KZ </summary><ul>
 <li>Kazakhstan</li>
-</ul></details></tr> <tr><td><details><summary>LA </summary><ul>
+</ul></details> <tr><td><details><summary>LA </summary><ul>
 <li>Laos</li> <li>ID-LA Lampung</li> <li>NG-LA Lagos State</li> <li>SY-LA Latakia Governorate</li> <li>TL-LA Laut&#233;m District</li> <li>US-LA Louisiana</li> <li>UY-LA Lavalleja Department</li> <li>YE-LA Lahij Governorate</li>
 </ul></details> <td><details><summary>LB &#x1F310;</summary><ul>
 <li>Lebanon (ISO)</li> <li>CF-LB Lobaye</li> <li>PL-LB Lubusz Voivodeship</li>
@@ -490,7 +492,7 @@
 <li>Latvia (ISO)</li>
 </ul></details> <td>&cir; LW <td>&cir; LX <td><details><summary>LY </summary><ul>
 <li>Libya</li>
-</ul></details> <td>&cir; LZ</tr> <tr><td><details><summary>MA &#x26A0;</summary><ul>
+</ul></details> <td>&cir; LZ <tr><td><details><summary>MA &#x26A0;</summary><ul>
 <li>Morocco (ISO)</li> <li>Madagascar (FIPS)</li> <li>BI-MA Makamba Province</li> <li>BR-MA Maranh&#227;o</li> <li>BY-MA Mogilev Region</li> <li>CD-MA Maniema</li> <li>CL-MA Magallanes y la Ant&#225;rtica Chilena Region</li> <li>CV-MA Maio</li> <li>ER-MA Maekel Region</li> <li>GY-MA Mahaica-Berbice</li> <li>ID-MA Maluku</li> <li>IQ-MA Maysan Governorate</li> <li>JO-MA Mafraq Governorate</li> <li>OM-MA Muscat Governorate</li> <li>PL-MA Lesser Poland Voivodeship</li> <li>SR-MA Marowijne District</li> <li>SZ-MA Manzini District</li> <li>TD-MA Mandoul Region</li> <li>US-MA Massachusetts</li> <li>UY-MA Maldonado Department</li> <li>YE-MA Ma&#39;rib Governorate</li> <li>ZW-MA Manicaland Province</li>
 </ul></details> <td><details><summary>MB &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>Martinique (FIPS)</li> <li>CA-MB Manitoba</li> <li>CF-MB Mbomou</li> <li>LY-MB Murqub District</li>
@@ -542,7 +544,7 @@
 <li>Malaysia</li> <li>BI-MY Muyinga Province</li> <li>LR-MY Maryland County</li>
 </ul></details> <td><details><summary>MZ </summary><ul>
 <li>Mozambique</li> <li>IN-MZ Mizoram</li> <li>PL-MZ Masovian Voivodeship</li>
-</ul></details></tr> <tr><td><details><summary>NA &#x1F310;</summary><ul>
+</ul></details> <tr><td><details><summary>NA &#x1F310;</summary><ul>
 <li>Namibia (ISO)</li> <li>IQ-NA Najaf Governorate</li> <li>LB-NA Nabatieh Governorate</li> <li>NG-NA Nasarawa State</li> <li>PK-NA Gilgit-Baltistan</li>
 </ul></details> <td><details><summary>NB &#x1F6C8;</summary><ul>
 <li>CA-NB New Brunswick</li> <li>ID-NB West Nusa Tenggara</li> <li>NL-NB North Brabant</li> <li>SD-NB Blue Nile</li>
@@ -588,7 +590,7 @@
 <li>US-NY New York</li>
 </ul></details> <td><details><summary>NZ </summary><ul>
 <li>New Zealand</li>
-</ul></details></tr> <tr><td>&cir; OA <td><details><summary>OB &#x1F6C8;</summary><ul>
+</ul></details> <tr><td>&cir; OA <td><details><summary>OB &#x1F6C8;</summary><ul>
 <li>DJ-OB Obock Region</li>
 </ul></details> <td><details><summary>OC &#x1F6C8;</summary><ul>
 <li>HN-OC Ocotepeque Department</li> <li>MD-OC Ocnița District</li>
@@ -626,7 +628,7 @@
 <li>CH-OW Obwalden</li> <li>NA-OW Ohangwena Region</li>
 </ul></details> <td>&cir; OX <td><details><summary>OY &#x1F6C8;</summary><ul>
 <li>NG-OY Oyo State</li>
-</ul></details> <td>&cir; OZ</tr> <tr><td><details><summary>PA &#x26A0;</summary><ul>
+</ul></details> <td>&cir; OZ <tr><td><details><summary>PA &#x26A0;</summary><ul>
 <li>Panama (ISO)</li> <li>Paraguay (FIPS)</li> <li>BR-PA Par&#225;</li> <li>CV-PA Paul</li> <li>CZ-PA Pardubice Region</li> <li>ID-PA Papua</li> <li>MU-PA Pamplemousses District</li> <li>SV-PA La Paz</li> <li>US-PA Pennsylvania</li> <li>UY-PA Paysand&#250; Department</li> <li>WS-PA Palauli</li>
 </ul></details> <td><details><summary>PB &#x1F6C8;</summary><ul>
 <li>BR-PB Para&#237;ba</li> <li>IN-PB Punjab</li> <li>PK-PB Punjab</li>
@@ -668,7 +670,7 @@
 <li>Palau (ISO)</li> <li>MU-PW Plaines Wilhems District</li>
 </ul></details> <td>&cir; PX <td><details><summary>PY &#x1F310;</summary><ul>
 <li>Paraguay (ISO)</li> <li>IN-PY Puducherry</li>
-</ul></details> <td>&cir; PZ</tr> <tr><td><details><summary>QA </summary><ul>
+</ul></details> <td>&cir; PZ <tr><td><details><summary>QA </summary><ul>
 <li>Qatar</li> <li>GL-QA Qaasuitsup Kommunia</li> <li>IQ-QA Al-Qādisiyyah Governorate</li> <li>UZ-QA Qashqadaryo Province</li>
 </ul></details> <td>&cir; QB <td><details><summary>QC &#x1F6C8;</summary><ul>
 <li>CA-QC Quebec</li> <li>GT-QC Quich&#233; Department</li>
@@ -680,7 +682,7 @@
 <li>GW-QU Quinara Region</li> <li>SY-QU Quneitra Governorate</li>
 </ul></details> <td>&cir; QV <td>&cir; QW <td>&cir; QX <td>&cir; QY <td><details><summary>QZ &#x1F6C8;</summary><ul>
 <li>GT-QZ Quetzaltenango Department</li>
-</ul></details></tr> <tr><td><details><summary>RA &#x1F6C8;</summary><ul>
+</ul></details> <tr><td><details><summary>RA &#x1F6C8;</summary><ul>
 <li>QA-RA Ar Rayyān</li> <li>SY-RA Ar-Raqqah Governorate</li> <li>TJ-RA Districts of Republican Subordination</li> <li>YE-RA Raymah Governorate</li>
 </ul></details> <td><details><summary>RB &#x1F6C8;</summary><ul>
 <li>CV-RB Ribeira Brava</li> <li>SB-RB Rennell and Bellona Province</li>
@@ -724,7 +726,7 @@
 <li>Rwanda</li>
 </ul></details> <td>&cir; RX <td><details><summary>RY &#x1F6C8;</summary><ul>
 <li>BI-RY Ruyigi Province</li>
-</ul></details> <td>&cir; RZ</tr> <tr><td><details><summary>SA </summary><ul>
+</ul></details> <td>&cir; RZ <tr><td><details><summary>SA </summary><ul>
 <li>Saudi Arabia</li> <li>AU-SA South Australia</li> <li>BM-SA Sandys</li> <li>BQ-SA Saba</li> <li>BS-SA South Andros</li> <li>CD-SA Sankuru</li> <li>GT-SA Sacatep&#233;quez Department</li> <li>ID-SA North Sulawesi</li> <li>LT-SA Šiauliai County</li> <li>MU-SA Savanne District</li> <li>SO-SA Sanaag</li> <li>SR-SA Saramacca District</li> <li>SV-SA Santa Ana Department</li> <li>TD-SA Salamat Region</li> <li>UY-SA Salto Department</li> <li>UZ-SA Samarqand Province</li> <li>WS-SA Satupa&#39;itea</li> <li>YE-SA Sana&#39;a</li> <li>YE-SA Sana&#39;a</li>
 </ul></details> <td><details><summary>SB &#x26A0;</summary><ul>
 <li>Solomon Islands (ISO)</li> <li>Saint Pierre and Miquelon (FIPS)</li> <li>HN-SB Santa B&#225;rbara</li> <li>ID-SB West Sumatra</li> <li>LY-SB Sabha District</li> <li>RO-SB Sibiu County</li>
@@ -774,7 +776,7 @@
 <li>Syria</li>
 </ul></details> <td><details><summary>SZ &#x26A0;</summary><ul>
 <li>Swaziland (ISO)</li> <li>Switzerland (FIPS)</li> <li>CH-SZ Canton of Schwyz</li> <li>GE-SZ Samegrelo-Zemo Svaneti</li> <li>HU-SZ Szabolcs-Szatm&#225;r-Bereg County</li>
-</ul></details></tr> <tr><td><details><summary>TA &#x1F6C8;</summary><ul>
+</ul></details> <tr><td><details><summary>TA &#x1F6C8;</summary><ul>
 <li>CD-TA Tanganyika</li> <li>CL-TA Tarapac&#225; Region</li> <li>CV-TA Tarrafal</li> <li>DJ-TA Tadjourah Region</li> <li>IL-TA Tel Aviv District</li> <li>LT-TA Tauragė County</li> <li>MD-TA Taraclia District</li> <li>NG-TA Taraba State</li> <li>PK-TA Federally Administered Tribal Areas</li> <li>SH-TA Tristan da Cunha</li> <li>SK-TA Trnava Region</li> <li>SY-TA Tartus Governorate</li> <li>TD-TA Tandjil&#233; Region</li> <li>UY-TA Tacuaremb&#243; Department</li> <li>YE-TA Ta&#39;izz Governorate</li>
 </ul></details> <td><details><summary>TB &#x1F6C8;</summary><ul>
 <li>GE-TB Tbilisi</li> <li>LY-TB Tripoli District</li>
@@ -822,7 +824,7 @@
 <li>Turkmenistan (FIPS)</li> <li>US-TX Texas</li>
 </ul></details> <td>&cir; TY <td><details><summary>TZ </summary><ul>
 <li>Tanzania</li>
-</ul></details></tr> <tr><td><details><summary>UA &#x1F310;</summary><ul>
+</ul></details> <tr><td><details><summary>UA &#x1F310;</summary><ul>
 <li>Ukraine (ISO)</li>
 </ul></details> <td>&cir; UB <td>&cir; UC <td><details><summary>UD &#x1F6C8;</summary><ul>
 <li>GY-UD Upper Demerara-Berbice</li>
@@ -856,7 +858,7 @@
 <li>Uruguay</li>
 </ul></details> <td><details><summary>UZ </summary><ul>
 <li>Uzbekistan</li>
-</ul></details></tr> <tr><td><details><summary>VA &#x1F310;</summary><ul>
+</ul></details> <tr><td><details><summary>VA &#x1F310;</summary><ul>
 <li>Vatican City (ISO)</li> <li>HN-VA Valle Department</li> <li>HU-VA Vas County</li> <li>US-VA Virginia</li>
 </ul></details> <td><details><summary>VB &#x1F6C8;</summary><ul>
 <li>CI-VB Vall&#233;e du Bandama</li>
@@ -892,7 +894,7 @@
 <li>Vanuatu (ISO)</li>
 </ul></details> <td>&cir; VV <td>&cir; VW <td>&cir; VX <td><details><summary>VY &#x1F6C8;</summary><ul>
 <li>CZ-VY Vysočina Region</li>
-</ul></details> <td>&cir; VZ</tr> <tr><td><details><summary>WA &#x1F1FA;&#x1F1F8;</summary><ul>
+</ul></details> <td>&cir; VZ <tr><td><details><summary>WA &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>Namibia (FIPS)</li> <li>AU-WA Western Australia</li> <li>BM-WA Warwick</li> <li>IQ-WA Wasit Province</li> <li>LY-WA Al Wahat District</li> <li>QA-WA Al Wakrah</li> <li>SR-WA Wanica District</li> <li>US-WA Washington</li>
 </ul></details> <td><details><summary>WB &#x1F6C8;</summary><ul>
 <li>IN-WB West Bengal</li>
@@ -926,7 +928,7 @@
 <li>US-WY Wyoming</li>
 </ul></details> <td><details><summary>WZ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>Swaziland (FIPS)</li>
-</ul></details></tr> <tr><td><details><summary>XA &#x1F6C8;</summary><ul>
+</ul></details> <tr><td><details><summary>XA &#x1F6C8;</summary><ul>
 <li>LA-XA Sainyabuli Province</li>
 </ul></details> <td>&cir; XB <td>&cir; XC <td>&cir; XD <td><details><summary>XE &#x1F6C8;</summary><ul>
 <li>LA-XE Sekong Province</li>
@@ -936,7 +938,7 @@
 <li>UZ-XO Xorazm Province</li>
 </ul></details> <td>&cir; XP <td>&cir; XQ <td>&cir; XR <td><details><summary>XS &#x1F6C8;</summary><ul>
 <li>LA-XS Xais&#244;mboun</li>
-</ul></details> <td>&cir; XT <td>&cir; XU <td>&cir; XV <td>&cir; XW <td>&cir; XX <td>&cir; XY <td>&cir; XZ</tr> <tr><td>&cir; YA <td>&cir; YB <td>&cir; YC <td>&cir; YD <td><details><summary>YE &#x1F310;</summary><ul>
+</ul></details> <td>&cir; XT <td>&cir; XU <td>&cir; XV <td>&cir; XW <td>&cir; XX <td>&cir; XY <td>&cir; XZ <tr><td>&cir; YA <td>&cir; YB <td>&cir; YC <td>&cir; YD <td><details><summary>YE &#x1F310;</summary><ul>
 <li>Yemen (ISO)</li>
 </ul></details> <td>&cir; YF <td>&cir; YG <td>&cir; YH <td>&cir; YI <td>&cir; YJ <td>&cir; YK <td>&cir; YL <td><details><summary>YM &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>Yemen (FIPS)</li> <li>CI-YM Yamoussoukro</li>
@@ -944,7 +946,7 @@
 <li>HN-YO Yoro Department</li> <li>ID-YO Special Region of Yogyakarta</li> <li>NG-YO Yobe State</li>
 </ul></details> <td>&cir; YP <td>&cir; YQ <td>&cir; YR <td>&cir; YS <td><details><summary>YT &#x1F310;</summary><ul>
 <li>Mayotte (ISO)</li> <li>CA-YT Yukon</li>
-</ul></details> <td>&cir; YU <td>&cir; YV <td>&cir; YW <td>&cir; YX <td>&cir; YY <td>&cir; YZ</tr> <tr><td><details><summary>ZA &#x26A0;</summary><ul>
+</ul></details> <td>&cir; YU <td>&cir; YV <td>&cir; YW <td>&cir; YX <td>&cir; YY <td>&cir; YZ <tr><td><details><summary>ZA &#x26A0;</summary><ul>
 <li>South Africa (ISO)</li> <li>Zambia (FIPS)</li> <li>GT-ZA Zacapa Department</li> <li>HU-ZA Zala County</li> <li>LY-ZA Zawiya District</li> <li>NG-ZA Zamfara State</li> <li>OM-ZA Ad Dhahirah Governorate</li> <li>QA-ZA Al Daayen</li>
 </ul></details> <td>&cir; ZB <td>&cir; ZC <td>&cir; ZD <td><details><summary>ZE &#x1F6C8;</summary><ul>
 <li>NL-ZE Zeeland</li>
@@ -968,5 +970,15 @@
 <li>Zimbabwe (ISO)</li>
 </ul></details> <td>&cir; ZX <td>&cir; ZY <td><details><summary>ZZ &#x1F6C8;</summary><ul>
 <li>CI-ZZ Zanzan</li>
-</ul></details></tr>
-</tbody></table>
+</ul></details>
+</table>
+
+Legend
+------
+- &#x26A0; ISO and FIPS codes do not agree, though the code is valid in both
+- &#x1F310; ISO defines this code, but it is an invalid FIPS code
+- &#x1F1FA;&#x1F1F8; FIPS defines this code, but it is an invalid ISO code
+- &#x1F6C8; neither ISO nor FIPS define this as a country code,
+  though it is a valid subregion (state/province/&c) ISO code
+- &cir; not a valid country in either standard or ISO subregion code
+
