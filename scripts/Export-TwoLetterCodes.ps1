@@ -100,19 +100,19 @@ function Format-HtmlTableCell([Parameter(ValueFromPipeline=$true)][ValidatePatte
     else {@"
 <td><details><summary>$code $(Get-CodeIndicator $code)</summary><ul>
 $($details |% {"<li>$([Net.WebUtility]::HtmlEncode($_))</li>"})
-</ul></details>
+</ul></details></td>
 "@
 }}}
 
 function Format-HtmlTableRow([Parameter(ValueFromPipeline=$true)][char]$letter)
-{Process{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)"}}
+{Process{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)</tr>"}}
 
 function Format-Markdown
 {@"
 Two Letter Country Codes
 ========================
 
-<table style="min-width:150em;white-space:nowrap;font-size:9pt;margin:0 -8% 1em"><caption></caption>
+<table style="min-width:150em;white-space:nowrap;font-size:9pt;margin:0 -8% 1em"><caption>ISO/FIPS Country Codes</caption>
 $(0x41..0x5A |% {[char]$_} |Format-HtmlTableRow)
 </table>
 
