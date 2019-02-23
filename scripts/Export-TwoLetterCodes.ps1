@@ -33,10 +33,12 @@ function Read-Codes
     foreach($entry in ($codes |% {$isodata.$_}))
     {
         Write-Progress "Reading $json" $entry.names.en -CurrentOperation $entry.iso -PercentComplete ($i++/$max)
-        [void]$iso.Add($entry.iso,$entry.names.en)
+        $flag = '&#x{0:X};&#x{1:X};' -f (0x1F1A5+[int]$entry.iso[0]),(0x1F1A5+[int]$entry.iso[1])
+        $name = $flag + ' ' + $entry.names.en
+        [void]$iso.Add($entry.iso,$name)
         if($entry.fips)
         {
-            [void]$fips.Add($entry.fips,$entry.names.en)
+            [void]$fips.Add($entry.fips,$name)
         }
         if($entry.regions -and $entry.regions[0].iso -like '[A-Z][A-Z]')
         {
@@ -98,25 +100,35 @@ function Format-HtmlTableCell([Parameter(ValueFromPipeline=$true)][ValidatePatte
     [string[]]$details = Get-CodeDetails $code
     if(!$details) {"<td>&cir; $code"}
     else {@"
-<td><details><summary>$code $(Get-CodeIndicator $code)</summary><ul>
-$($details |% {"<li>$([Net.WebUtility]::HtmlEncode($_))</li>"})
-</ul></details></td>
+<td>
+<details>
+<summary>$code $(Get-CodeIndicator $code)</summary>
+<ul>
+$($details |% {"<li>$([Net.WebUtility]::HtmlEncode($_) -replace '&amp;(#?\w+;)','&$1')</li>"})
+</ul>
+</details>
+</td>
 "@
 }}}
 
 function Format-HtmlTableRow([Parameter(ValueFromPipeline=$true)][char]$letter)
-{Process{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)</tr>"}}
+{Process{@"
+<tr>
+$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)
+</tr>
+"@}}
 
 function Format-Markdown
 {@"
 Two Letter Country Codes
 ========================
 
-<table style="min-width:150em;white-space:nowrap;font-size:9pt;margin:0 -8% 1em"><caption>ISO/FIPS Country Codes</caption>
+<div>
+<table style="min-width:150em;white-space:nowrap;font-size:9pt">
+<caption>ISO/FIPS Country Codes</caption>
 $(0x41..0x5A |% {[char]$_} |Format-HtmlTableRow)
 </table>
-
-<!-- ... -->
+</div>
 
 Legend
 ------
@@ -127,6 +139,7 @@ Legend
   though it is a valid subregion (state/province/&c) ISO code
 - $($icon.not_a_code) not a valid country in either standard or ISO subregion code
 
+<style>div.container {margin:0 !important}</style>
 "@}
 
 Read-Codes
