@@ -6,51 +6,65 @@
     https://www.iso.org/iso-3166-country-codes.html
 
 .Link
-    https://github.com/esosedi/3166
+    https://en.wikipedia.org/wiki/ISO4217
+
+.Link
+    https://github.com/olahol/iso-3166-2.json
+
+.Link
+    https://github.com/datasets/fips-10-4
 #>
 
 #Requires -Version 3
 [CmdletBinding()] Param(
-[uri] $CountryCodesUrl = 'https://raw.githubusercontent.com/esosedi/3166/master/data/iso3166-2.json'
+[uri] $IsoCountryCodesUrl = 'https://raw.githubusercontent.com/olahol/iso-3166-2.json/master/iso-3166-2.json',
+[uri] $FipsCountryCodesUrl = 'https://raw.githubusercontent.com/datasets/fips-10-4/master/data/data.csv',
+[uri] $CurrencyCodesUrl = 'https://www.currency-iso.org/dam/downloads/lists/list_one.xml'
 )
 
-$Script:iso,$Script:fips,$Script:subregion = @{},@{},@{}
+if(!(Test-Path data -PathType Container)) {mkdir data |Out-Null}
+function Save-Data([Parameter(Mandatory=$true)][uri]$Url,[string]$Filename,[int]$MaxAgeInDays=100)
+{
+    $path = Join-Path data $(if(!$Filename) {$Url.Segments[-1]} else {$Filename})
+    if(!(Test-Path $path -PathType Leaf) -or (Get-Item $path).LastWriteTime -lt [datetime]::Today.AddDays(-$MaxAgeInDays))
+    {
+        Invoke-WebRequest $Url -OutFile $path
+    }
+    return $path
+}
+
+$Script:iso,$Script:fips,$Script:currency,$Script:subregion = @{},@{},@{},@{}
 function Read-Codes
 {
-    $json = 'data\iso3166-2.json'
-    if(!(Test-Path $json -PathType Leaf) -or (Get-Item $json).LastWriteTime -lt [datetime]::Today.AddDays(-100))
+    $isodata = Get-Content (Save-Data $IsoCountryCodesUrl iso3166-2.json) -Encoding utf8 |ConvertFrom-Json
+    foreach($entry in $isodata.PSObject.Properties)
     {
-        if(!($json |Split-Path |Test-Path -PathType Container)) {mkdir data |Out-Null}
-        Invoke-WebRequest $CountryCodesUrl -OutFile $json
-    }
-    Write-Verbose "Reading $json"
-    $isodata = Get-Content $json -Encoding utf8 |? {$_ -notlike '*"":*'} |ConvertFrom-Json
-    [string[]]$codes = $isodata |Get-Member -MemberType NoteProperty |% Name
-    Write-Verbose "Read $($codes.Length) codes"
-    $i,$max = 0,($codes.Length/100)
-    foreach($entry in ($codes |% {$isodata.$_}))
-    {
-        Write-Progress "Reading $json" $entry.names.en -CurrentOperation $entry.iso -PercentComplete ($i++/$max)
-        $flag = '&#x{0:X};&#x{1:X};' -f (0x1F1A5+[int]$entry.iso[0]),(0x1F1A5+[int]$entry.iso[1])
-        $name = $flag + ' ' + $entry.names.en
-        [void]$Script:iso.Add($entry.iso,$name)
-        if($entry.fips)
+        $code,$value,$name = $entry.Name,$entry.Value,$entry.Value.name
+#            ('&#x{0:X};&#x{1:X}; {2}' -f (0x1F1A5+[int]$entry.Name[0]),(0x1F1A5+[int]$entry.Name[1]),$entry.Value.name)
+        [void]$Script:iso.Add($code,$name)
+        foreach($division in $value.divisions.PSObject.Properties)
         {
-            [void]$Script:fips.Add($entry.fips,$name)
-        }
-        if($entry.regions -and $entry.regions[0].iso -like '[A-Z][A-Z]')
-        {
-            foreach($region in $entry.regions)
-            {
-                $name = $entry.iso + '-' + $region.iso + ' ' + $region.names.en
-                if($Script:subregion.ContainsKey($region.iso)) {$Script:subregion[$region.iso] += $name}
-                else {[void]$Script:subregion.Add($region.iso,@($name))}
-            }
+            $subcode = ($division.Name -split '-',2)[1]
+            $name = $division.Name + ' ' + $division.Value
+            if($Script:subregion.ContainsKey($subcode)) {$Script:subregion[$subcode] += $name}
+            else {[void]$Script:subregion.Add($subcode,@($name))}
         }
     }
-    Write-Progress "Reading $json" -Completed
-    if(!$Script:iso.Count) {throw "No codes read."}
-    Write-Verbose "Read $($Script:iso.Count) ISO and $($Script:fips.Count) FIPS codes"
+    if(!$Script:iso.Count) {throw 'No ISO codes read.'}
+    Write-Verbose "Read $($Script:iso.Count) ISO codes"
+    Import-Csv (Save-Data $FipsCountryCodesUrl fips-10-4.csv) |
+        ? region_division -eq 'country' |
+        % {[void]$Script:fips.Add($_.region_code.Substring(0,2),$_.region_name)}
+    if(!$Script:fips.Count) {throw 'No FIPS codes read.'}
+    Write-Verbose "Read $($Script:fips.Count) FIPS codes"
+    Select-Xml '//CcyNtry[Ccy]' (Save-Data $CurrencyCodesUrl iso4217.xml) |
+        % {
+            $c,$n = $_.Node.Ccy.Substring(0,2),($_.Node.Ccy + ' ' + $_.Node.CcyNm)
+            if($Script:currency.ContainsKey($c)) {$Script:currency[$c] += $n}
+            else {[void]$Script:currency.Add($c,@($n))}
+        }
+    if(!$Script:currency.Count) {throw 'No currency codes read.'}
+    Write-Verbose "Read $($Script:currency.Count) currency codes"
 }
 
 $icon = @{
@@ -71,44 +85,29 @@ function Get-CodeIndicator([Parameter(ValueFromPipeline=$true)][ValidatePattern(
     else {$icon.fips_only}
 }
 
-$Script:matched,$Script:mismatched,$Script:iso_only,$Script:fips_only,$Script:subregion_only = 0,0,0,0,0
+$count = @{
+    matched        = 0
+    mismatched     = 0
+    iso_only       = 0
+    fips_only      = 0
+    subregion_only = 0
+}
 function Get-CodeDetails([Parameter(ValueFromPipeline=$true)][ValidatePattern('(?-i)\A[A-Z]{2}\z')][string]$code)
 {Process{
     if($Script:iso.ContainsKey($code))
     {
-        if(!$Script:fips.ContainsKey($code))
-        {
-            $Script:iso[$code] + ' (ISO)'
-            [void]$Script:iso_only++
-        }
+        $flag = '&#x{0:X};&#x{1:X}; ' -f (0x1F1A5+[int]$code[0]),(0x1F1A5+[int]$code[1])
+        if(!$Script:fips.ContainsKey($code)) {$flag + $Script:iso[$code] + ' (ISO)';[void]$count.iso_only++}
         else
         {
-            if($Script:iso[$code] -eq $Script:fips[$code])
-            {
-                $Script:iso[$code]
-                [void]$Script:matched++
-            }
-            else
-            {
-                $Script:iso[$code] + ' (ISO)'
-                $Script:fips[$code] + ' (FIPS)'
-                [void]$Script:mismatched++
-            }
+            if($Script:iso[$code] -eq $Script:fips[$code]) {$flag + $Script:iso[$code];[void]$count.matched++}
+            else {$flag + $Script:iso[$code] + ' (ISO)';$Script:fips[$code] + ' (FIPS)';[void]$count.mismatched++}
         }
+        if($Script:currency.ContainsKey($code)) {$Script:currency[$code]}
     }
-    elseif($Script:fips.ContainsKey($code))
-    {
-        $Script:fips[$code] + ' (FIPS)'
-        [void]$Script:fips_only++
-    }
-    elseif($Script:subregion.ContainsKey($code))
-    {
-        [void]$Script:subregion_only++
-    }
-    if($Script:subregion.ContainsKey($code))
-    {
-        $Script:subregion[$code]
-    }
+    elseif($Script:fips.ContainsKey($code)) {$Script:fips[$code] + ' (FIPS)';[void]$count.fips_only++}
+    elseif($Script:subregion.ContainsKey($code)) {[void]$count.subregion_only++}
+    if($Script:subregion.ContainsKey($code)) {$Script:subregion[$code]}
 }}
 
 function Format-HtmlTableCell([Parameter(ValueFromPipeline=$true)][ValidatePattern('(?-i)\A[A-Z]{2}\z')][string]$code)
@@ -134,6 +133,9 @@ This summarizes [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_al
 and [FIPS PUB 10-4](https://en.wikipedia.org/wiki/FIPS_10-4) country codes,
 with some attention to where they differ.
 
+It includes [ISO 4217](https://en.wikipedia.org/wiki/ISO4217) alpha-3 currency codes that start with
+the ISO 3166-1 alpha-2 code of each currency's country.
+
 It also annotates [ISO 3166-2 subregion codes](https://en.wikipedia.org/wiki/ISO_3166-2)
 that overlap with country codes.
 
@@ -149,13 +151,13 @@ $(0x41..0x5A |% {[char]$_} |Format-HtmlTableRow)
     though it is a valid subregion (state/province/&c) ISO code</li>
 <li>$($icon.not_a_code) not a valid country in either standard or ISO subregion code</li>
 </ul></td><td colspan="6" style="vertical-align:top"><h2>Totals</h2><ul>
-<li>&equiv; $matched matched codes</li>
-<li>$($icon.mismatch) $mismatched mismatched codes</li>
-<li>$($icon.iso_only) $iso_only ISO-only codes</li>
+<li>&equiv; $($count.matched) matched codes</li>
+<li>$($icon.mismatch) $($count.mismatched) mismatched codes</li>
+<li>$($icon.iso_only) $($count.iso_only) ISO-only codes</li>
 <li>$($icon.iso_only) $($Script:iso.Count) ISO codes total</li>
-<li>$($icon.fips_only) $fips_only FIPS-only codes</li>
+<li>$($icon.fips_only) $($count.fips_only) FIPS-only codes</li>
 <li>$($icon.fips_only) $($Script:fips.Count) FIPS codes total</li>
-<li>$($icon.subregion_only) $subregion_only subregion-only codes</li>
+<li>$($icon.subregion_only) $($count.subregion_only) subregion-only codes</li>
 <li>$($icon.subregion_only) $($Script:subregion.Count) subregion codes total</li>
 </ul></td>
 
