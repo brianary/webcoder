@@ -94,7 +94,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>BN &#x26A0;</summary><ul>
 <li>&#x1F1E7;&#x1F1F3; Brunei Darussalam (ISO)</li> <li>BENIN (FIPS)</li> <li>BND Brunei Dollar</li> <li>CD-BN Bandundu</li> <li>GQ-BN Bioko Norte</li> <li>IT-BN Benevento</li> <li>RO-BN Bistriţa-Năsăud</li> <li>SO-BN Banaadir</li>
 </ul></details></td> <td><details><summary>BO &#x26A0;</summary><ul>
-<li>&#x1F1E7;&#x1F1F4; Bolivia (ISO)</li> <li>BELARUS (FIPS)</li> <li>BOB Boliviano</li> <li>BOV System.Xml.XmlElement</li> <li>BJ-BO Borgou</li> <li>IT-BO Bologna</li> <li>NI-BO Boaco</li> <li>NG-BO Borno</li>
+<li>&#x1F1E7;&#x1F1F4; Bolivia (ISO)</li> <li>BELARUS (FIPS)</li> <li>BOB Boliviano</li> <li>BOV Mvdol</li> <li>BJ-BO Borgou</li> <li>IT-BO Bologna</li> <li>NI-BO Boaco</li> <li>NG-BO Borno</li>
 </ul></details></td> <td><details><summary>BP &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>SOLOMON ISLANDS (FIPS)</li> <li>PL-BP Biała Podlaska</li>
 </ul></details></td> <td><details><summary>BQ &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -132,7 +132,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>CG &#x26A0;</summary><ul>
 <li>&#x1F1E8;&#x1F1EC; Congo (ISO)</li> <li>CONGO (DEMOCRATIC REPUBLIC OF THE) (FIPS)</li> <li>YU-CG Crna Gora</li>
 </ul></details></td> <td><details><summary>CH &#x26A0;</summary><ul>
-<li>&#x1F1E8;&#x1F1ED; Switzerland (ISO)</li> <li>CHINA (FIPS)</li> <li>CHF Swiss Franc</li> <li>CHF Swiss Franc</li> <li>CHE System.Xml.XmlElement</li> <li>CHW System.Xml.XmlElement</li> <li>BW-CH Chobe</li> <li>SV-CH Chalatenango</li> <li>HN-CH Choluteca</li> <li>IN-CH Chandigarh</li> <li>IT-CH Chieti</li> <li>LA-CH Champasak [Champassak]</li> <li>PL-CH Chełm</li>
+<li>&#x1F1E8;&#x1F1ED; Switzerland (ISO)</li> <li>CHINA (FIPS)</li> <li>CHF Swiss Franc</li> <li>CHF Swiss Franc</li> <li>CHE WIR Euro</li> <li>CHW WIR Franc</li> <li>BW-CH Chobe</li> <li>SV-CH Chalatenango</li> <li>HN-CH Choluteca</li> <li>IN-CH Chandigarh</li> <li>IT-CH Chieti</li> <li>LA-CH Champasak [Champassak]</li> <li>PL-CH Chełm</li>
 </ul></details></td> <td><details><summary>CI &#x26A0;</summary><ul>
 <li>&#x1F1E8;&#x1F1EE; Cote D&#39;ivoire (Ivory Coast) (ISO)</li> <li>CHILE (FIPS)</li> <li>BS-CI Cat Island</li> <li>BI-CI Cibitoke</li> <li>NI-CI Chinandega</li> <li>PL-CI Ciechan&#243;w</li>
 </ul></details></td> <td><details><summary>CJ &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -140,13 +140,13 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>CK &#x26A0;</summary><ul>
 <li>&#x1F1E8;&#x1F1F0; Cook Islands (ISO)</li> <li>COCOS (KEELING) ISLANDS (FIPS)</li> <li>CK-CK Cook Islands</li> <li>MW-CK Chikwawa</li>
 </ul></details></td> <td><details><summary>CL &#x1F310;</summary><ul>
-<li>&#x1F1E8;&#x1F1F1; Chile (ISO)</li> <li>CLP Chilean Peso</li> <li>CLF System.Xml.XmlElement</li> <li>HN-CL Col&#243;n</li> <li>IT-CL Caltanissetta</li> <li>RO-CL Călăraşi</li> <li>ES-CL Castilla y Le&#243;n</li> <li>UY-CL Cerro Largo</li>
+<li>&#x1F1E8;&#x1F1F1; Chile (ISO)</li> <li>CLP Chilean Peso</li> <li>CLF Unidad de Fomento</li> <li>HN-CL Col&#243;n</li> <li>IT-CL Caltanissetta</li> <li>RO-CL Călăraşi</li> <li>ES-CL Castilla y Le&#243;n</li> <li>UY-CL Cerro Largo</li>
 </ul></details></td> <td><details><summary>CM </summary><ul>
 <li>&#x1F1E8;&#x1F1F2; Cameroon</li> <li>GT-CM Chimaltenango</li> <li>HN-CM Comayagua</li> <li>LR-CM Grand Cape Mount</li> <li>ES-CM Castilla-La Mancha</li> <li>SR-CM Commewijne</li>
 </ul></details></td> <td><details><summary>CN &#x26A0;</summary><ul>
 <li>&#x1F1E8;&#x1F1F3; China (ISO)</li> <li>COMOROS (FIPS)</li> <li>CNY Yuan Renminbi</li> <li>IE-CN Cavan (An Cabh&#225;n)</li> <li>IT-CN Cuneo</li> <li>MA-CN Centre-Nord</li> <li>ES-CN Canarias</li>
 </ul></details></td> <td><details><summary>CO </summary><ul>
-<li>&#x1F1E8;&#x1F1F4; Colombia</li> <li>COP Colombian Peso</li> <li>COU System.Xml.XmlElement</li> <li>CL-CO Coquimbo</li> <li>GN-CO Coyah</li> <li>IT-CO Como</li> <li>NI-CO Chontales</li> <li>ES-CO C&#243;rdoba</li> <li>US-CO Colorado</li> <li>UY-CO Colonia</li>
+<li>&#x1F1E8;&#x1F1F4; Colombia</li> <li>COP Colombian Peso</li> <li>COU Unidad de Valor Real</li> <li>CL-CO Coquimbo</li> <li>GN-CO Coyah</li> <li>IT-CO Como</li> <li>NI-CO Chontales</li> <li>ES-CO C&#243;rdoba</li> <li>US-CO Colorado</li> <li>UY-CO Colonia</li>
 </ul></details></td> <td><details><summary>CP &#x1F6C8;</summary><ul>
 <li>GH-CP Central</li> <li>HN-CP Cop&#225;n</li> <li>IE-CP Connaught (Connacht)</li>
 </ul></details></td> <td><details><summary>CQ &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -578,7 +578,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>MW &#x1F310;</summary><ul>
 <li>&#x1F1F2;&#x1F1FC; Malawi (ISO)</li> <li>MWK Malawi Kwacha</li> <li>MW-MW Mwanza</li> <li>YE-MW Al Maḩwit</li> <li>ZW-MW Mashonaland West</li>
 </ul></details></td> <td><details><summary>MX </summary><ul>
-<li>&#x1F1F2;&#x1F1FD; Mexico</li> <li>MXN Mexican Peso</li> <li>MXV System.Xml.XmlElement</li>
+<li>&#x1F1F2;&#x1F1FD; Mexico</li> <li>MXN Mexican Peso</li> <li>MXV Mexican Unidad de Inversion (UDI)</li>
 </ul></details></td> <td><details><summary>MY </summary><ul>
 <li>&#x1F1F2;&#x1F1FE; Malaysia</li> <li>MYR Malaysian Ringgit</li> <li>BI-MY Muyinga</li> <li>LR-MY Maryland</li>
 </ul></details></td> <td><details><summary>MZ </summary><ul>
@@ -890,7 +890,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>UR &#x1F6C8;</summary><ul>
 <li>CH-UR Uri</li>
 </ul></details></td> <td><details><summary>US </summary><ul>
-<li>&#x1F1FA;&#x1F1F8; United States</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USN System.Xml.XmlElement</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>QA-US Umm Şalāl</li>
+<li>&#x1F1FA;&#x1F1F8; United States</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USN US Dollar (Next day)</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>QA-US Umm Şalāl</li>
 </ul></details></td> <td><details><summary>UT &#x1F6C8;</summary><ul>
 <li>GY-UT Upper Takutu-Upper Essequibo</li> <li>LT-UT Utenos Apskritis</li> <li>NL-UT Utrecht</li> <li>US-UT Utah</li>
 </ul></details></td> <td><details><summary>UU &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -900,7 +900,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>UW &#x1F6C8;</summary><ul>
 <li>GH-UW Upper West</li>
 </ul></details></td> <td>&cir; UX <td><details><summary>UY </summary><ul>
-<li>&#x1F1FA;&#x1F1FE; Uruguay</li> <li>UYU Peso Uruguayo</li> <li>UYI System.Xml.XmlElement</li> <li>UYW Unidad Previsional</li>
+<li>&#x1F1FA;&#x1F1FE; Uruguay</li> <li>UYU Peso Uruguayo</li> <li>UYI Uruguay Peso en Unidades Indexadas (UI)</li> <li>UYW Unidad Previsional</li>
 </ul></details></td> <td><details><summary>UZ </summary><ul>
 <li>&#x1F1FA;&#x1F1FF; Uzbekistan</li> <li>UZS Uzbekistan Sum</li>
 </ul></details></td> <tr><td><details><summary>VA &#x1F310;</summary><ul>

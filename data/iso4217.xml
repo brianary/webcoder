@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ISO_4217 Pblshd="2018-08-29">
 	<CcyTbl>
 		<CcyNtry>
@@ -196,7 +196,7 @@
 		</CcyNtry>
 		<CcyNtry>
 			<CtryNm>BOLIVIA (PLURINATIONAL STATE OF)</CtryNm>
-			<CcyNm IsFund="true">Mvdol</CcyNm>
+			<CcyNm>Mvdol</CcyNm>
 			<Ccy>BOV</Ccy>
 			<CcyNbr>984</CcyNbr>
 			<CcyMnrUnts>2</CcyMnrUnts>
@@ -329,7 +329,7 @@
 		</CcyNtry>
 		<CcyNtry>
 			<CtryNm>CHILE</CtryNm>
-			<CcyNm IsFund="true">Unidad de Fomento</CcyNm>
+			<CcyNm>Unidad de Fomento</CcyNm>
 			<Ccy>CLF</Ccy>
 			<CcyNbr>990</CcyNbr>
 			<CcyMnrUnts>4</CcyMnrUnts>
@@ -364,7 +364,7 @@
 		</CcyNtry>
 		<CcyNtry>
 			<CtryNm>COLOMBIA</CtryNm>
-			<CcyNm IsFund="true">Unidad de Valor Real</CcyNm>
+			<CcyNm>Unidad de Valor Real</CcyNm>
 			<Ccy>COU</Ccy>
 			<CcyNbr>970</CcyNbr>
 			<CcyMnrUnts>2</CcyMnrUnts>
@@ -1085,7 +1085,7 @@
 		</CcyNtry>
 		<CcyNtry>
 			<CtryNm>MEXICO</CtryNm>
-			<CcyNm IsFund="true">Mexican Unidad de Inversion (UDI)</CcyNm>
+			<CcyNm>Mexican Unidad de Inversion (UDI)</CcyNm>
 			<Ccy>MXV</Ccy>
 			<CcyNbr>979</CcyNbr>
 			<CcyMnrUnts>2</CcyMnrUnts>
@@ -1611,14 +1611,14 @@
 		</CcyNtry>
 		<CcyNtry>
 			<CtryNm>SWITZERLAND</CtryNm>
-			<CcyNm IsFund="true">WIR Euro</CcyNm>
+			<CcyNm>WIR Euro</CcyNm>
 			<Ccy>CHE</Ccy>
 			<CcyNbr>947</CcyNbr>
 			<CcyMnrUnts>2</CcyMnrUnts>
 		</CcyNtry>
 		<CcyNtry>
 			<CtryNm>SWITZERLAND</CtryNm>
-			<CcyNm IsFund="true">WIR Franc</CcyNm>
+			<CcyNm>WIR Franc</CcyNm>
 			<Ccy>CHW</Ccy>
 			<CcyNbr>948</CcyNbr>
 			<CcyMnrUnts>2</CcyMnrUnts>
@@ -1772,7 +1772,7 @@
 		</CcyNtry>
 		<CcyNtry>
 			<CtryNm>UNITED STATES OF AMERICA (THE)</CtryNm>
-			<CcyNm IsFund="true">US Dollar (Next day)</CcyNm>
+			<CcyNm>US Dollar (Next day)</CcyNm>
 			<Ccy>USN</Ccy>
 			<CcyNbr>997</CcyNbr>
 			<CcyMnrUnts>2</CcyMnrUnts>
@@ -1786,7 +1786,7 @@
 		</CcyNtry>
 		<CcyNtry>
 			<CtryNm>URUGUAY</CtryNm>
-			<CcyNm IsFund="true">Uruguay Peso en Unidades Indexadas (UI)</CcyNm>
+			<CcyNm>Uruguay Peso en Unidades Indexadas (UI)</CcyNm>
 			<Ccy>UYI</Ccy>
 			<CcyNbr>940</CcyNbr>
 			<CcyMnrUnts>0</CcyMnrUnts>

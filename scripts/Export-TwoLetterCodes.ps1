@@ -23,12 +23,13 @@
 )
 
 if(!(Test-Path data -PathType Container)) {mkdir data |Out-Null}
-function Save-Data([Parameter(Mandatory=$true)][uri]$Url,[string]$Filename,[int]$MaxAgeInDays=100)
+function Save-Data([Parameter(Mandatory=$true)][uri]$Url,[string]$Filename,[int]$MaxAgeInDays=100,[string]$Search,[string]$Replace)
 {
     $path = Join-Path data $(if(!$Filename) {$Url.Segments[-1]} else {$Filename})
     if(!(Test-Path $path -PathType Leaf) -or (Get-Item $path).LastWriteTime -lt [datetime]::Today.AddDays(-$MaxAgeInDays))
     {
         Invoke-WebRequest $Url -OutFile $path
+        if($Search) {(Get-Content $path -Encoding utf8 -Raw) -replace $Search,$Replace |Out-File $path utf8}
     }
     return $path
 }
@@ -57,7 +58,7 @@ function Read-Codes
         % {[void]$Script:fips.Add($_.region_code.Substring(0,2),$_.region_name)}
     if(!$Script:fips.Count) {throw 'No FIPS codes read.'}
     Write-Verbose "Read $($Script:fips.Count) FIPS codes"
-    Select-Xml '//CcyNtry[Ccy]' (Save-Data $CurrencyCodesUrl iso4217.xml) |
+    Select-Xml '//CcyNtry[Ccy]' (Save-Data $CurrencyCodesUrl iso4217.xml -Search '<CcyNm IsFund="true">' -Replace '<CcyNm>') |
         % {
             $c,$n = $_.Node.Ccy.Substring(0,2),($_.Node.Ccy + ' ' + $_.Node.CcyNm)
             if($Script:currency.ContainsKey($c)) {$Script:currency[$c] += $n}
