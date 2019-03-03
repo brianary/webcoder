@@ -166,7 +166,9 @@ and [FIPS PUB 10-4](https://en.wikipedia.org/wiki/FIPS_10-4) country codes,
 with some attention to where they differ.
 
 It includes [ISO 4217](https://en.wikipedia.org/wiki/ISO4217) alpha-3 currency codes that start with
-the ISO 3166-1 alpha-2 code of each currency's country.
+the ISO 3166-1 alpha-2 code of each currency's country, as well as the
+[ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) language codes ending with the ISO 3166-1 alpha-2
+codes for the country they apply to (as well as any coincidental match between country and language code).
 
 It also annotates [ISO 3166-2 subregion codes](https://en.wikipedia.org/wiki/ISO_3166-2)
 that overlap with country codes.
