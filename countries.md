@@ -22,9 +22,9 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>AD &#x1F310;</summary><ul>
 <li>&#x1F1E6;&#x1F1E9; Andorra (ISO)</li> <li>AD-AD Andorra</li> <li>CM-AD Adamaoua</li> <li>NG-AD Adamawa</li> <li>RU-AD Adygeya, Respublika</li> <li>YE-AD ‘Adan</li>
 </ul></details></td> <td><details><summary>AE </summary><ul>
-<li>&#x1F1E6;&#x1F1EA; United Arab Emirates</li> <li>AED UAE Dirham</li>
+<li>&#x1F1E6;&#x1F1EA; United Arab Emirates</li> <li>AED UAE Dirham</li> <li>&#x1F4AC; ar-AE Arabic</li>
 </ul></details></td> <td><details><summary>AF </summary><ul>
-<li>&#x1F1E6;&#x1F1EB; Afghanistan</li> <li>AFN Afghani</li> <li>ET-AF Afar</li>
+<li>&#x1F1E6;&#x1F1EB; Afghanistan</li> <li>AFN Afghani</li> <li>ET-AF Afar</li> <li>&#x1F4AC; af Afrikaans</li> <li>&#x1F4AC; af-ZA Afrikaans</li>
 </ul></details></td> <td><details><summary>AG &#x26A0;</summary><ul>
 <li>&#x1F1E6;&#x1F1EC; Antigua &amp; Barbuda (ISO)</li> <li>ALGERIA (FIPS)</li> <li>AG-AG Antigua &amp; Barbuda</li> <li>AM-AG Aragacotn</li> <li>ER-AG Akele Guzai [Akal&#228; Guzay]</li> <li>IT-AG Agrigento</li> <li>MU-AG Agalega Islands</li> <li>RO-AG Argeş</li> <li>CH-AG Aargau</li>
 </ul></details></td> <td><details><summary>AH &#x1F6C8;</summary><ul>
@@ -36,9 +36,9 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>AK &#x1F6C8;</summary><ul>
 <li>BJ-AK Atakora</li> <li>NG-AK Akwa Ibom</li> <li>US-AK Alaska</li>
 </ul></details></td> <td><details><summary>AL </summary><ul>
-<li>&#x1F1E6;&#x1F1F1; Albania</li> <li>ALL Lek</li> <li>BR-AL Alagoas</li> <li>DO-AL La Altagracia</li> <li>FI-AL Ahvenanmaan l&#228;&#228;ni</li> <li>IT-AL Alessandria</li> <li>LV-AL Alūksnes Aprinkis</li> <li>LT-AL Alytaus Apskritis</li> <li>RU-AL Altay, Respublika</li> <li>WS-AL Aiga-i-le-Tai</li> <li>ES-AL Almer&#237;a</li> <li>US-AL Alabama</li>
+<li>&#x1F1E6;&#x1F1F1; Albania</li> <li>ALL Lek</li> <li>BR-AL Alagoas</li> <li>DO-AL La Altagracia</li> <li>FI-AL Ahvenanmaan l&#228;&#228;ni</li> <li>IT-AL Alessandria</li> <li>LV-AL Alūksnes Aprinkis</li> <li>LT-AL Alytaus Apskritis</li> <li>RU-AL Altay, Respublika</li> <li>WS-AL Aiga-i-le-Tai</li> <li>ES-AL Almer&#237;a</li> <li>US-AL Alabama</li> <li>&#x1F4AC; sq-AL Albanian</li>
 </ul></details></td> <td><details><summary>AM </summary><ul>
-<li>&#x1F1E6;&#x1F1F2; Armenia</li> <li>AMD Armenian Dram</li> <li>BR-AM Amazonas</li> <li>ET-AM Amara [Amhara]</li> <li>JO-AM ‘Ammān</li>
+<li>&#x1F1E6;&#x1F1F2; Armenia</li> <li>AMD Armenian Dram</li> <li>BR-AM Amazonas</li> <li>ET-AM Amara [Amhara]</li> <li>JO-AM ‘Ammān</li> <li>&#x1F4AC; hy-AM Armenian</li>
 </ul></details></td> <td><details><summary>AN &#x26A0;</summary><ul>
 <li>&#x1F1E6;&#x1F1F3; Netherlands Antilles (ISO)</li> <li>ANDORRA (FIPS)</li> <li>ANG Netherlands Antillean Guilder</li> <li>ANG Netherlands Antillean Guilder</li> <li>CL-AN Antofagasta</li> <li>GQ-AN Annob&#243;n</li> <li>IN-AN Andaman and Nicobar Islands</li> <li>IQ-AN Al Anbār</li> <li>IT-AN Ancona</li> <li>AN-AN Netherlands Antilles</li> <li>NG-AN Anambra</li> <li>ES-AN Andaluc&#237;a</li> <li>UZ-AN Andijon (Andizhan)</li>
 </ul></details></td> <td><details><summary>AO </summary><ul>
@@ -48,13 +48,13 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>AQ &#x26A0;</summary><ul>
 <li>&#x1F1E6;&#x1F1F6; Antarctica (ISO)</li> <li>AMERICAN SAMOA (FIPS)</li> <li>AQ-AQ Antarctica</li> <li>BJ-AQ Atlantique</li> <li>IT-AQ L&#39;Aquila</li> <li>JO-AQ Al &#39;Aqaba</li>
 </ul></details></td> <td><details><summary>AR </summary><ul>
-<li>&#x1F1E6;&#x1F1F7; Argentina</li> <li>ARS Argentine Peso</li> <li>AM-AR Ararat</li> <li>CL-AR Araucan&#237;a</li> <li>HT-AR Artibonite</li> <li>IN-AR Arunachal Pradesh</li> <li>IQ-AR Arbīl</li> <li>IT-AR Arezzo</li> <li>RO-AR Arad</li> <li>ES-AR Arag&#243;n</li> <li>CH-AR Appenzell Ausser-Rhoden</li> <li>US-AR Arkansas</li> <li>UY-AR Artigas</li>
+<li>&#x1F1E6;&#x1F1F7; Argentina</li> <li>ARS Argentine Peso</li> <li>AM-AR Ararat</li> <li>CL-AR Araucan&#237;a</li> <li>HT-AR Artibonite</li> <li>IN-AR Arunachal Pradesh</li> <li>IQ-AR Arbīl</li> <li>IT-AR Arezzo</li> <li>RO-AR Arad</li> <li>ES-AR Arag&#243;n</li> <li>CH-AR Appenzell Ausser-Rhoden</li> <li>US-AR Arkansas</li> <li>UY-AR Artigas</li> <li>&#x1F4AC; ar Arabic</li> <li>&#x1F4AC; ar-AE Arabic</li> <li>&#x1F4AC; ar-BH Arabic</li> <li>&#x1F4AC; ar-DZ Arabic</li> <li>&#x1F4AC; ar-EG Arabic</li> <li>&#x1F4AC; ar-IQ Arabic</li> <li>&#x1F4AC; ar-JO Arabic</li> <li>&#x1F4AC; ar-KW Arabic</li> <li>&#x1F4AC; ar-LB Arabic</li> <li>&#x1F4AC; ar-LY Arabic</li> <li>&#x1F4AC; ar-MA Arabic</li> <li>&#x1F4AC; ar-OM Arabic</li> <li>&#x1F4AC; ar-QA Arabic</li> <li>&#x1F4AC; ar-SA Arabic</li> <li>&#x1F4AC; ar-SY Arabic</li> <li>&#x1F4AC; ar-TN Arabic</li> <li>&#x1F4AC; ar-YE Arabic</li> <li>&#x1F4AC; es-AR Spanish</li> <li>&#x1F4AC; ps-AR Pashto</li>
 </ul></details></td> <td><details><summary>AS &#x26A0;</summary><ul>
 <li>&#x1F1E6;&#x1F1F8; American Samoa (ISO)</li> <li>AUSTRALIA (FIPS)</li> <li>AS-AS American Samoa</li> <li>DJ-AS Ali Sabieh</li> <li>ER-AS Asmara [Asm&#228;ra]</li> <li>IN-AS Assam</li> <li>LB-AS Loubn&#226;ne ech Chem&#226;li (Ash Shamāl)</li> <li>US-AS American Samoa</li>
 </ul></details></td> <td><details><summary>AT &#x26A0;</summary><ul>
-<li>&#x1F1E6;&#x1F1F9; Austria (ISO)</li> <li>ASHMORE AND CARTIER ISLANDS (FIPS)</li> <li>CL-AT Atacama</li> <li>HN-AT Atl&#225;ntida</li> <li>IT-AT Asti</li> <li>JO-AT Aţ Ţafīlah</li> <li>LA-AT Attapu [Attopeu]</li> <li>WS-AT Atua</li>
+<li>&#x1F1E6;&#x1F1F9; Austria (ISO)</li> <li>ASHMORE AND CARTIER ISLANDS (FIPS)</li> <li>CL-AT Atacama</li> <li>HN-AT Atl&#225;ntida</li> <li>IT-AT Asti</li> <li>JO-AT Aţ Ţafīlah</li> <li>LA-AT Attapu [Attopeu]</li> <li>WS-AT Atua</li> <li>&#x1F4AC; de-AT German</li>
 </ul></details></td> <td><details><summary>AU &#x26A0;</summary><ul>
-<li>&#x1F1E6;&#x1F1FA; Australia (ISO)</li> <li>AUSTRIA (FIPS)</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li>
+<li>&#x1F1E6;&#x1F1FA; Australia (ISO)</li> <li>AUSTRIA (FIPS)</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>AUD Australian Dollar</li> <li>&#x1F4AC; en-AU English</li>
 </ul></details></td> <td><details><summary>AV &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>ANGUILLA (FIPS)</li> <li>AM-AV Armavir</li> <li>GT-AV Alta Verapaz</li> <li>IT-AV Avellino</li> <li>ES-AV &#193;vila</li>
 </ul></details></td> <td><details><summary>AW &#x1F310;</summary><ul>
@@ -64,9 +64,9 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>AY &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>ANTARCTICA (FIPS)</li>
 </ul></details></td> <td><details><summary>AZ &#x1F310;</summary><ul>
-<li>&#x1F1E6;&#x1F1FF; Azerbaijan (ISO)</li> <li>AZN Azerbaijan Manat</li> <li>DO-AZ Azua</li> <li>JO-AZ Az Zarqā&#39;</li> <li>AE-AZ Abū Zaby (Abu Dhabi)</li> <li>US-AZ Arizona</li>
+<li>&#x1F1E6;&#x1F1FF; Azerbaijan (ISO)</li> <li>AZN Azerbaijan Manat</li> <li>DO-AZ Azua</li> <li>JO-AZ Az Zarqā&#39;</li> <li>AE-AZ Abū Zaby (Abu Dhabi)</li> <li>US-AZ Arizona</li> <li>&#x1F4AC; az Azeri</li> <li>&#x1F4AC; az-AZ Azeri</li> <li>&#x1F4AC; az-AZ Azeri</li>
 </ul></details></td> <tr><td><details><summary>BA &#x26A0;</summary><ul>
-<li>&#x1F1E7;&#x1F1E6; Bosnia &amp; Herzegovina (ISO)</li> <li>BAHRAIN (FIPS)</li> <li>BAM Convertible Mark</li> <li>AZ-BA Baki</li> <li>BR-BA Bahia</li> <li>TD-BA Batha</li> <li>EG-BA Al Baḩr al Aḩmar</li> <li>ER-BA Barka</li> <li>GH-BA Brong-Ahafo</li> <li>GW-BA Bafat&#225;</li> <li>GY-BA Barima-Waini</li> <li>HU-BA Baranya</li> <li>ID-BA Bali</li> <li>IQ-BA Al Başrah</li> <li>IT-BA Bari</li> <li>JO-BA Al Balqā&#39;</li> <li>LB-BA Beiro&#251;t (Bayrūt)</li> <li>LY-BA Banghāzī</li> <li>NP-BA Bagmati</li> <li>NG-BA Bauchi</li> <li>OM-BA Al Bāţinah</li> <li>PK-BA Baluchistan (Balochistān)</li> <li>RU-BA Bashkortostan, Respublika</li> <li>ES-BA Badajoz</li> <li>YE-BA Al Bayḑā&#39;</li>
+<li>&#x1F1E7;&#x1F1E6; Bosnia &amp; Herzegovina (ISO)</li> <li>BAHRAIN (FIPS)</li> <li>BAM Convertible Mark</li> <li>AZ-BA Baki</li> <li>BR-BA Bahia</li> <li>TD-BA Batha</li> <li>EG-BA Al Baḩr al Aḩmar</li> <li>ER-BA Barka</li> <li>GH-BA Brong-Ahafo</li> <li>GW-BA Bafat&#225;</li> <li>GY-BA Barima-Waini</li> <li>HU-BA Baranya</li> <li>ID-BA Bali</li> <li>IQ-BA Al Başrah</li> <li>IT-BA Bari</li> <li>JO-BA Al Balqā&#39;</li> <li>LB-BA Beiro&#251;t (Bayrūt)</li> <li>LY-BA Banghāzī</li> <li>NP-BA Bagmati</li> <li>NG-BA Bauchi</li> <li>OM-BA Al Bāţinah</li> <li>PK-BA Baluchistan (Balochistān)</li> <li>RU-BA Bashkortostan, Respublika</li> <li>ES-BA Badajoz</li> <li>YE-BA Al Bayḑā&#39;</li> <li>&#x1F4AC; bs-BA Bosnian</li> <li>&#x1F4AC; hr-BA Croatian</li> <li>&#x1F4AC; sr-BA Serbian</li>
 </ul></details></td> <td><details><summary>BB </summary><ul>
 <li>&#x1F1E7;&#x1F1E7; Barbados</li> <li>BBD Barbados Dollar</li> <li>BB-BB Barbados</li> <li>BI-BB Bubanza</li> <li>CF-BB Bamingui-Bangoran</li> <li>DE-BB Brandenburg</li> <li>IQ-BB Bābil</li> <li>PL-BB Bielsko</li>
 </ul></details></td> <td><details><summary>BC &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -74,13 +74,13 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>BD &#x26A0;</summary><ul>
 <li>&#x1F1E7;&#x1F1E9; Bangladesh (ISO)</li> <li>BERMUDA (FIPS)</li> <li>BDT Taka</li> <li>SE-BD Norrbottens l&#228;n</li>
 </ul></details></td> <td><details><summary>BE </summary><ul>
-<li>&#x1F1E7;&#x1F1EA; Belgium</li> <li>BN-BE Belait</li> <li>ET-BE Benshangul-Gumaz [B&#233;nishangul]</li> <li>DE-BE Berlin</li> <li>GN-BE Beyla</li> <li>HU-BE B&#233;k&#233;s</li> <li>ID-BE Bengkulu</li> <li>NG-BE Benue</li> <li>CH-BE Bern</li>
+<li>&#x1F1E7;&#x1F1EA; Belgium</li> <li>BN-BE Belait</li> <li>ET-BE Benshangul-Gumaz [B&#233;nishangul]</li> <li>DE-BE Berlin</li> <li>GN-BE Beyla</li> <li>HU-BE B&#233;k&#233;s</li> <li>ID-BE Bengkulu</li> <li>NG-BE Benue</li> <li>CH-BE Bern</li> <li>&#x1F4AC; be Belarusian</li> <li>&#x1F4AC; be-BY Belarusian</li> <li>&#x1F4AC; fr-BE French</li> <li>&#x1F4AC; nl-BE Dutch</li>
 </ul></details></td> <td><details><summary>BF &#x26A0;</summary><ul>
 <li>&#x1F1E7;&#x1F1EB; Burkina Faso (ISO)</li> <li>BAHAMAS THE (FIPS)</li> <li>GN-BF Boffa</li>
 </ul></details></td> <td><details><summary>BG &#x26A0;</summary><ul>
-<li>&#x1F1E7;&#x1F1EC; Bulgaria (ISO)</li> <li>BANGLADESH (FIPS)</li> <li>BGN Bulgarian Lev</li> <li>IQ-BG Baghdād</li> <li>IT-BG Bergamo</li> <li>LR-BG Bong</li>
+<li>&#x1F1E7;&#x1F1EC; Bulgaria (ISO)</li> <li>BANGLADESH (FIPS)</li> <li>BGN Bulgarian Lev</li> <li>IQ-BG Baghdād</li> <li>IT-BG Bergamo</li> <li>LR-BG Bong</li> <li>&#x1F4AC; bg Bulgarian</li> <li>&#x1F4AC; bg-BG Bulgarian</li> <li>&#x1F4AC; bg-BG Bulgarian</li>
 </ul></details></td> <td><details><summary>BH &#x26A0;</summary><ul>
-<li>&#x1F1E7;&#x1F1ED; Bahrain (ISO)</li> <li>BELIZE (FIPS)</li> <li>BHD Bahraini Dinar</li> <li>DO-BH Barahona</li> <li>EG-BH Al Buḩayrah</li> <li>NP-BH Bheri</li> <li>RO-BH Bihor</li>
+<li>&#x1F1E7;&#x1F1ED; Bahrain (ISO)</li> <li>BELIZE (FIPS)</li> <li>BHD Bahraini Dinar</li> <li>DO-BH Barahona</li> <li>EG-BH Al Buḩayrah</li> <li>NP-BH Bheri</li> <li>RO-BH Bihor</li> <li>&#x1F4AC; ar-BH Arabic</li>
 </ul></details></td> <td><details><summary>BI &#x1F310;</summary><ul>
 <li>&#x1F1E7;&#x1F1EE; Burundi (ISO)</li> <li>BIF Burundi Franc</li> <li>BS-BI Bimini</li> <li>TD-BI Biltine</li> <li>CL-BI B&#237;o-B&#237;o</li> <li>IT-BI Biella</li> <li>LB-BI El B&#233;qaa (Al Biqā&#39;)</li> <li>ES-BI Vizcaya</li>
 </ul></details></td> <td><details><summary>BJ &#x1F310;</summary><ul>
@@ -92,17 +92,17 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>BM &#x26A0;</summary><ul>
 <li>&#x1F1E7;&#x1F1F2; Bermuda (ISO)</li> <li>BURMA (FIPS)</li> <li>BMD Bermudian Dollar</li> <li>BM-BM Bermuda</li> <li>BN-BM Brunei-Muara</li> <li>GW-BM Biombo</li> <li>LR-BM Bomi</li>
 </ul></details></td> <td><details><summary>BN &#x26A0;</summary><ul>
-<li>&#x1F1E7;&#x1F1F3; Brunei Darussalam (ISO)</li> <li>BENIN (FIPS)</li> <li>BND Brunei Dollar</li> <li>CD-BN Bandundu</li> <li>GQ-BN Bioko Norte</li> <li>IT-BN Benevento</li> <li>RO-BN Bistriţa-Năsăud</li> <li>SO-BN Banaadir</li>
+<li>&#x1F1E7;&#x1F1F3; Brunei Darussalam (ISO)</li> <li>BENIN (FIPS)</li> <li>BND Brunei Dollar</li> <li>CD-BN Bandundu</li> <li>GQ-BN Bioko Norte</li> <li>IT-BN Benevento</li> <li>RO-BN Bistriţa-Năsăud</li> <li>SO-BN Banaadir</li> <li>&#x1F4AC; ms-BN Malay</li>
 </ul></details></td> <td><details><summary>BO &#x26A0;</summary><ul>
-<li>&#x1F1E7;&#x1F1F4; Bolivia (ISO)</li> <li>BELARUS (FIPS)</li> <li>BOB Boliviano</li> <li>BOV Mvdol</li> <li>BJ-BO Borgou</li> <li>IT-BO Bologna</li> <li>NI-BO Boaco</li> <li>NG-BO Borno</li>
+<li>&#x1F1E7;&#x1F1F4; Bolivia (ISO)</li> <li>BELARUS (FIPS)</li> <li>BOB Boliviano</li> <li>BOV Mvdol</li> <li>BJ-BO Borgou</li> <li>IT-BO Bologna</li> <li>NI-BO Boaco</li> <li>NG-BO Borno</li> <li>&#x1F4AC; es-BO Spanish</li> <li>&#x1F4AC; qu-BO Quechua</li>
 </ul></details></td> <td><details><summary>BP &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>SOLOMON ISLANDS (FIPS)</li> <li>PL-BP Biała Podlaska</li>
 </ul></details></td> <td><details><summary>BQ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>NAVASSA ISLAND (FIPS)</li>
 </ul></details></td> <td><details><summary>BR </summary><ul>
-<li>&#x1F1E7;&#x1F1F7; Brazil</li> <li>BRL Brazilian Real</li> <li>AL-BR Berat</li> <li>BY-BR Brestskaya voblasts&#39;</li> <li>BI-BR Bururi</li> <li>CV-BR Brava</li> <li>DO-BR Bahoruco</li> <li>IN-BR Bihar</li> <li>IT-BR Brindisi</li> <li>MU-BR Beau Bassin-Rose Hill</li> <li>RO-BR Brăila</li> <li>SO-BR Bari</li> <li>SR-BR Brokopondo</li>
+<li>&#x1F1E7;&#x1F1F7; Brazil</li> <li>BRL Brazilian Real</li> <li>AL-BR Berat</li> <li>BY-BR Brestskaya voblasts&#39;</li> <li>BI-BR Bururi</li> <li>CV-BR Brava</li> <li>DO-BR Bahoruco</li> <li>IN-BR Bihar</li> <li>IT-BR Brindisi</li> <li>MU-BR Beau Bassin-Rose Hill</li> <li>RO-BR Brăila</li> <li>SO-BR Bari</li> <li>SR-BR Brokopondo</li> <li>&#x1F4AC; pt-BR Portuguese</li>
 </ul></details></td> <td><details><summary>BS &#x26A0;</summary><ul>
-<li>&#x1F1E7;&#x1F1F8; Bahamas (ISO)</li> <li>BASSAS DA INDIA (FIPS)</li> <li>BSD Bahamian Dollar</li> <li>GQ-BS Bioko Sur</li> <li>GW-BS Bissau</li> <li>IT-BS Brescia</li> <li>CH-BS Basel-Stadt</li>
+<li>&#x1F1E7;&#x1F1F8; Bahamas (ISO)</li> <li>BASSAS DA INDIA (FIPS)</li> <li>BSD Bahamian Dollar</li> <li>GQ-BS Bioko Sur</li> <li>GW-BS Bissau</li> <li>IT-BS Brescia</li> <li>CH-BS Basel-Stadt</li> <li>&#x1F4AC; bs-BA Bosnian</li>
 </ul></details></td> <td><details><summary>BT </summary><ul>
 <li>&#x1F1E7;&#x1F1F9; Bhutan</li> <li>BTN Ngultrum</li> <li>RO-BT Botoşani</li>
 </ul></details></td> <td><details><summary>BU &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -114,13 +114,13 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>BX &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>BRUNEI (FIPS)</li>
 </ul></details></td> <td><details><summary>BY &#x26A0;</summary><ul>
-<li>&#x1F1E7;&#x1F1FE; Belarus (ISO)</li> <li>BURUNDI (FIPS)</li> <li>BYN Belarusian Ruble</li> <li>DE-BY Bayern</li> <li>PL-BY Bydgoszcz</li> <li>SO-BY BaY</li>
+<li>&#x1F1E7;&#x1F1FE; Belarus (ISO)</li> <li>BURUNDI (FIPS)</li> <li>BYN Belarusian Ruble</li> <li>DE-BY Bayern</li> <li>PL-BY Bydgoszcz</li> <li>SO-BY BaY</li> <li>&#x1F4AC; be-BY Belarusian</li>
 </ul></details></td> <td><details><summary>BZ &#x1F310;</summary><ul>
-<li>&#x1F1E7;&#x1F1FF; Belize (ISO)</li> <li>BZD Belize Dollar</li> <li>BZ-BZ Belize</li> <li>HU-BZ Borsod-Aba&#250;j-Zempl&#233;n</li> <li>IT-BZ Bolzano (Bozen)</li> <li>RO-BZ Buzău</li>
+<li>&#x1F1E7;&#x1F1FF; Belize (ISO)</li> <li>BZD Belize Dollar</li> <li>BZ-BZ Belize</li> <li>HU-BZ Borsod-Aba&#250;j-Zempl&#233;n</li> <li>IT-BZ Bolzano (Bozen)</li> <li>RO-BZ Buzău</li> <li>&#x1F4AC; en-BZ English</li>
 </ul></details></td> <tr><td><details><summary>CA </summary><ul>
-<li>&#x1F1E8;&#x1F1E6; Canada</li> <li>CAD Canadian Dollar</li> <li>BI-CA Cankuzo</li> <li>CV-CA Santa Catarina</li> <li>SV-CA Caba&#241;as</li> <li>GW-CA Cacheu</li> <li>IT-CA Cagliari</li> <li>NA-CA Caprivi</li> <li>NI-CA Carazo</li> <li>ES-CA C&#225;diz</li> <li>US-CA California</li> <li>UY-CA Canelones</li>
+<li>&#x1F1E8;&#x1F1E6; Canada</li> <li>CAD Canadian Dollar</li> <li>BI-CA Cankuzo</li> <li>CV-CA Santa Catarina</li> <li>SV-CA Caba&#241;as</li> <li>GW-CA Cacheu</li> <li>IT-CA Cagliari</li> <li>NA-CA Caprivi</li> <li>NI-CA Carazo</li> <li>ES-CA C&#225;diz</li> <li>US-CA California</li> <li>UY-CA Canelones</li> <li>&#x1F4AC; ca Catalan</li> <li>&#x1F4AC; ca-ES Catalan</li> <li>&#x1F4AC; en-CA English</li> <li>&#x1F4AC; fr-CA French</li>
 </ul></details></td> <td><details><summary>CB &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>CAMBODIA (FIPS)</li> <li>TD-CB Chari-Baguirmi</li> <li>IT-CB Campobasso</li>
+<li>CAMBODIA (FIPS)</li> <li>TD-CB Chari-Baguirmi</li> <li>IT-CB Campobasso</li> <li>&#x1F4AC; en-CB English</li>
 </ul></details></td> <td><details><summary>CC &#x1F310;</summary><ul>
 <li>&#x1F1E8;&#x1F1E8; Cocos (Keeling) Islands (ISO)</li> <li>CC-CC Cocos (Keeling) Islands</li> <li>MU-CC Cargados Carajos Shoals [Saint Brandon Islands]</li> <li>ES-CC C&#225;ceres</li>
 </ul></details></td> <td><details><summary>CD &#x26A0;</summary><ul>
@@ -130,9 +130,9 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>CF &#x26A0;</summary><ul>
 <li>&#x1F1E8;&#x1F1EB; Central African Republic (ISO)</li> <li>CONGO (FIPS)</li>
 </ul></details></td> <td><details><summary>CG &#x26A0;</summary><ul>
-<li>&#x1F1E8;&#x1F1EC; Congo (ISO)</li> <li>CONGO (DEMOCRATIC REPUBLIC OF THE) (FIPS)</li> <li>YU-CG Crna Gora</li>
+<li>&#x1F1E8;&#x1F1EC; Congo</li> <li>YU-CG Crna Gora</li>
 </ul></details></td> <td><details><summary>CH &#x26A0;</summary><ul>
-<li>&#x1F1E8;&#x1F1ED; Switzerland (ISO)</li> <li>CHINA (FIPS)</li> <li>CHF Swiss Franc</li> <li>CHF Swiss Franc</li> <li>CHE WIR Euro</li> <li>CHW WIR Franc</li> <li>BW-CH Chobe</li> <li>SV-CH Chalatenango</li> <li>HN-CH Choluteca</li> <li>IN-CH Chandigarh</li> <li>IT-CH Chieti</li> <li>LA-CH Champasak [Champassak]</li> <li>PL-CH Chełm</li>
+<li>&#x1F1E8;&#x1F1ED; Switzerland (ISO)</li> <li>CHINA (FIPS)</li> <li>CHF Swiss Franc</li> <li>CHF Swiss Franc</li> <li>CHE WIR Euro</li> <li>CHW WIR Franc</li> <li>BW-CH Chobe</li> <li>SV-CH Chalatenango</li> <li>HN-CH Choluteca</li> <li>IN-CH Chandigarh</li> <li>IT-CH Chieti</li> <li>LA-CH Champasak [Champassak]</li> <li>PL-CH Chełm</li> <li>&#x1F4AC; de-CH German</li> <li>&#x1F4AC; fr-CH French</li> <li>&#x1F4AC; it-CH Italian</li>
 </ul></details></td> <td><details><summary>CI &#x26A0;</summary><ul>
 <li>&#x1F1E8;&#x1F1EE; Cote D&#39;ivoire (Ivory Coast) (ISO)</li> <li>CHILE (FIPS)</li> <li>BS-CI Cat Island</li> <li>BI-CI Cibitoke</li> <li>NI-CI Chinandega</li> <li>PL-CI Ciechan&#243;w</li>
 </ul></details></td> <td><details><summary>CJ &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -140,21 +140,21 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>CK &#x26A0;</summary><ul>
 <li>&#x1F1E8;&#x1F1F0; Cook Islands (ISO)</li> <li>COCOS (KEELING) ISLANDS (FIPS)</li> <li>CK-CK Cook Islands</li> <li>MW-CK Chikwawa</li>
 </ul></details></td> <td><details><summary>CL &#x1F310;</summary><ul>
-<li>&#x1F1E8;&#x1F1F1; Chile (ISO)</li> <li>CLP Chilean Peso</li> <li>CLF Unidad de Fomento</li> <li>HN-CL Col&#243;n</li> <li>IT-CL Caltanissetta</li> <li>RO-CL Călăraşi</li> <li>ES-CL Castilla y Le&#243;n</li> <li>UY-CL Cerro Largo</li>
+<li>&#x1F1E8;&#x1F1F1; Chile (ISO)</li> <li>CLP Chilean Peso</li> <li>CLF Unidad de Fomento</li> <li>HN-CL Col&#243;n</li> <li>IT-CL Caltanissetta</li> <li>RO-CL Călăraşi</li> <li>ES-CL Castilla y Le&#243;n</li> <li>UY-CL Cerro Largo</li> <li>&#x1F4AC; es-CL Spanish</li>
 </ul></details></td> <td><details><summary>CM </summary><ul>
 <li>&#x1F1E8;&#x1F1F2; Cameroon</li> <li>GT-CM Chimaltenango</li> <li>HN-CM Comayagua</li> <li>LR-CM Grand Cape Mount</li> <li>ES-CM Castilla-La Mancha</li> <li>SR-CM Commewijne</li>
 </ul></details></td> <td><details><summary>CN &#x26A0;</summary><ul>
-<li>&#x1F1E8;&#x1F1F3; China (ISO)</li> <li>COMOROS (FIPS)</li> <li>CNY Yuan Renminbi</li> <li>IE-CN Cavan (An Cabh&#225;n)</li> <li>IT-CN Cuneo</li> <li>MA-CN Centre-Nord</li> <li>ES-CN Canarias</li>
+<li>&#x1F1E8;&#x1F1F3; China (ISO)</li> <li>COMOROS (FIPS)</li> <li>CNY Yuan Renminbi</li> <li>IE-CN Cavan (An Cabh&#225;n)</li> <li>IT-CN Cuneo</li> <li>MA-CN Centre-Nord</li> <li>ES-CN Canarias</li> <li>&#x1F4AC; zh-CN Chinese</li>
 </ul></details></td> <td><details><summary>CO </summary><ul>
-<li>&#x1F1E8;&#x1F1F4; Colombia</li> <li>COP Colombian Peso</li> <li>COU Unidad de Valor Real</li> <li>CL-CO Coquimbo</li> <li>GN-CO Coyah</li> <li>IT-CO Como</li> <li>NI-CO Chontales</li> <li>ES-CO C&#243;rdoba</li> <li>US-CO Colorado</li> <li>UY-CO Colonia</li>
+<li>&#x1F1E8;&#x1F1F4; Colombia</li> <li>COP Colombian Peso</li> <li>COU Unidad de Valor Real</li> <li>CL-CO Coquimbo</li> <li>GN-CO Coyah</li> <li>IT-CO Como</li> <li>NI-CO Chontales</li> <li>ES-CO C&#243;rdoba</li> <li>US-CO Colorado</li> <li>UY-CO Colonia</li> <li>&#x1F4AC; es-CO Spanish</li>
 </ul></details></td> <td><details><summary>CP &#x1F6C8;</summary><ul>
 <li>GH-CP Central</li> <li>HN-CP Cop&#225;n</li> <li>IE-CP Connaught (Connacht)</li>
 </ul></details></td> <td><details><summary>CQ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>NORTHERN MARIANA ISLANDS (FIPS)</li> <li>GT-CQ Chiquimula</li>
 </ul></details></td> <td><details><summary>CR &#x26A0;</summary><ul>
-<li>&#x1F1E8;&#x1F1F7; Costa Rica (ISO)</li> <li>CORAL SEA ISLANDS (FIPS)</li> <li>CRC Costa Rican Colon</li> <li>CV-CR Santa Cruz</li> <li>DO-CR San Crist&#243;bal</li> <li>HN-CR Cort&#233;s</li> <li>IT-CR Cremona</li> <li>MW-CR Chiradzulu</li> <li>NG-CR Cross River</li> <li>ES-CR Ciudad Real</li> <li>SR-CR Coronie</li>
+<li>&#x1F1E8;&#x1F1F7; Costa Rica (ISO)</li> <li>CORAL SEA ISLANDS (FIPS)</li> <li>CRC Costa Rican Colon</li> <li>CV-CR Santa Cruz</li> <li>DO-CR San Crist&#243;bal</li> <li>HN-CR Cort&#233;s</li> <li>IT-CR Cremona</li> <li>MW-CR Chiradzulu</li> <li>NG-CR Cross River</li> <li>ES-CR Ciudad Real</li> <li>SR-CR Coronie</li> <li>&#x1F4AC; es-CR Spanish</li>
 </ul></details></td> <td><details><summary>CS &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>COSTA RICA (FIPS)</li> <li>GQ-CS Centro Sur</li> <li>HU-CS Csongr&#225;d</li> <li>IT-CS Cosenza</li> <li>MA-CS Centre-Sud</li> <li>RO-CS Caraş-Severin</li> <li>ES-CS Castell&#243;n</li>
+<li>COSTA RICA (FIPS)</li> <li>GQ-CS Centro Sur</li> <li>HU-CS Csongr&#225;d</li> <li>IT-CS Cosenza</li> <li>MA-CS Centre-Sud</li> <li>RO-CS Caraş-Severin</li> <li>ES-CS Castell&#243;n</li> <li>&#x1F4AC; cs Czech</li> <li>&#x1F4AC; cs-CZ Czech</li>
 </ul></details></td> <td><details><summary>CT &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>CENTRAL AFRICAN REPUBLIC (FIPS)</li> <li>IT-CT Catania</li> <li>MW-CT Chitipa</li> <li>RO-CT Constanţa</li> <li>SB-CT Capital Territory (Honiara)</li> <li>ES-CT Catalu&#241;a</li> <li>US-CT Connecticut</li>
 </ul></details></td> <td><details><summary>CU </summary><ul>
@@ -166,11 +166,11 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>CX &#x1F310;</summary><ul>
 <li>&#x1F1E8;&#x1F1FD; Christmas Island (ISO)</li> <li>CX-CX Christmas Island</li>
 </ul></details></td> <td><details><summary>CY </summary><ul>
-<li>&#x1F1E8;&#x1F1FE; Cyprus</li> <li>BZ-CY Cayo</li>
+<li>&#x1F1E8;&#x1F1FE; Cyprus</li> <li>BZ-CY Cayo</li> <li>&#x1F4AC; cy Welsh</li> <li>&#x1F4AC; cy-GB Welsh</li>
 </ul></details></td> <td><details><summary>CZ &#x1F310;</summary><ul>
-<li>&#x1F1E8;&#x1F1FF; Czech Republic (ISO)</li> <li>CZK Czech Koruna</li> <li>IT-CZ Catanzaro</li> <li>PL-CZ Czestochowa</li>
+<li>&#x1F1E8;&#x1F1FF; Czech Republic (ISO)</li> <li>CZK Czech Koruna</li> <li>IT-CZ Catanzaro</li> <li>PL-CZ Czestochowa</li> <li>&#x1F4AC; cs-CZ Czech</li>
 </ul></details></td> <tr><td><details><summary>DA &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>DENMARK (FIPS)</li> <li>DO-DA Dajab&#243;n</li> <li>IQ-DA Dahūk</li> <li>LV-DA Daugavpils Aprinkis</li> <li>OM-DA Ad Dākhilīyah</li> <li>QA-DA Ad Dawḩah</li> <li>RU-DA Dagestan, Respublika</li>
+<li>DENMARK (FIPS)</li> <li>DO-DA Dajab&#243;n</li> <li>IQ-DA Dahūk</li> <li>LV-DA Daugavpils Aprinkis</li> <li>OM-DA Ad Dākhilīyah</li> <li>QA-DA Ad Dawḩah</li> <li>RU-DA Dagestan, Respublika</li> <li>&#x1F4AC; da Danish</li> <li>&#x1F4AC; da-DK Danish</li>
 </ul></details></td> <td><details><summary>DB &#x1F6C8;</summary><ul>
 <li>GN-DB Dabola</li> <li>RO-DB D&#226;mboviţa</li> <li>SN-DB Diourbel</li>
 </ul></details></td> <td><details><summary>DC &#x1F6C8;</summary><ul>
@@ -178,7 +178,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>DD &#x1F6C8;</summary><ul>
 <li>IN-DD Daman and Diu</li>
 </ul></details></td> <td><details><summary>DE &#x1F310;</summary><ul>
-<li>&#x1F1E9;&#x1F1EA; Germany (ISO)</li> <li>ER-DE Denkalia [D&#228;nkali]</li> <li>GY-DE Demerara-Mahaica</li> <li>HU-DE Debrecen</li> <li>MW-DE Dedza</li> <li>NG-DE Delta</li> <li>US-DE Delaware</li>
+<li>&#x1F1E9;&#x1F1EA; Germany (ISO)</li> <li>ER-DE Denkalia [D&#228;nkali]</li> <li>GY-DE Demerara-Mahaica</li> <li>HU-DE Debrecen</li> <li>MW-DE Dedza</li> <li>NG-DE Delta</li> <li>US-DE Delaware</li> <li>&#x1F4AC; de German</li> <li>&#x1F4AC; de-AT German</li> <li>&#x1F4AC; de-CH German</li> <li>&#x1F4AC; de-DE German</li> <li>&#x1F4AC; de-DE German</li> <li>&#x1F4AC; de-LI German</li> <li>&#x1F4AC; de-LU German</li>
 </ul></details></td> <td><details><summary>DF &#x1F6C8;</summary><ul>
 <li>BR-DF Distrito Federal</li>
 </ul></details></td> <td>&cir; DG <td><details><summary>DH &#x1F6C8;</summary><ul>
@@ -188,7 +188,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>DJ </summary><ul>
 <li>&#x1F1E9;&#x1F1EF; Djibouti</li> <li>DJF Djibouti Franc</li> <li>DJ-DJ Djibouti</li> <li>RO-DJ Dolj</li>
 </ul></details></td> <td><details><summary>DK &#x1F310;</summary><ul>
-<li>&#x1F1E9;&#x1F1F0; Denmark (ISO)</li> <li>DKK Danish Krone</li> <li>DKK Danish Krone</li> <li>DKK Danish Krone</li> <li>EG-DK Ad Daqahlīyah</li> <li>SN-DK Dakar</li>
+<li>&#x1F1E9;&#x1F1F0; Denmark (ISO)</li> <li>DKK Danish Krone</li> <li>DKK Danish Krone</li> <li>DKK Danish Krone</li> <li>EG-DK Ad Daqahlīyah</li> <li>SN-DK Dakar</li> <li>&#x1F4AC; da-DK Danish</li>
 </ul></details></td> <td><details><summary>DL &#x1F6C8;</summary><ul>
 <li>AL-DL Delvin&#235;</li> <li>GN-DL Dalaba</li> <li>IN-DL Delhi</li> <li>IE-DL Donegal (D&#250;n na nGall)</li>
 </ul></details></td> <td><details><summary>DM &#x1F310;</summary><ul>
@@ -196,7 +196,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>DN &#x1F6C8;</summary><ul>
 <li>DO-DN Distrito National (Santo Domingo)</li> <li>IN-DN Dadra and Nagar Haveli</li>
 </ul></details></td> <td><details><summary>DO &#x26A0;</summary><ul>
-<li>&#x1F1E9;&#x1F1F4; Dominican Republic (ISO)</li> <li>DOMINICA (FIPS)</li> <li>DOP Dominican Peso</li> <li>LV-DO Dobeles Aprinkis</li> <li>MW-DO Dowa</li>
+<li>&#x1F1E9;&#x1F1F4; Dominican Republic (ISO)</li> <li>DOMINICA (FIPS)</li> <li>DOP Dominican Peso</li> <li>LV-DO Dobeles Aprinkis</li> <li>MW-DO Dowa</li> <li>&#x1F4AC; es-DO Spanish</li>
 </ul></details></td> <td>&cir; DP <td><details><summary>DQ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>JARVIS ISLAND (FIPS)</li> <li>IQ-DQ Dhī Qār</li>
 </ul></details></td> <td><details><summary>DR &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -206,23 +206,23 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>DU &#x1F6C8;</summary><ul>
 <li>DO-DU Duarte</li> <li>GN-DU Dubr&#233;ka</li> <li>HU-DU Duna&#250;jv&#225;ros</li> <li>AE-DU Dubayy (Dubai)</li> <li>UY-DU Durazno</li>
 </ul></details></td> <td><details><summary>DV &#x1F6C8;</summary><ul>
-<li>AL-DV Devoll</li>
+<li>AL-DV Devoll</li> <li>&#x1F4AC; dv Divehi</li> <li>&#x1F4AC; dv-MV Divehi</li>
 </ul></details></td> <td>&cir; DW <td><details><summary>DX &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>DHEKELIA SOVEREIGN BASE AREA (FIPS)</li>
 </ul></details></td> <td><details><summary>DY &#x1F6C8;</summary><ul>
 <li>SY-DY Dayr az Zawr</li>
 </ul></details></td> <td><details><summary>DZ &#x1F310;</summary><ul>
-<li>&#x1F1E9;&#x1F1FF; Algeria (ISO)</li> <li>DZD Algerian Dinar</li>
+<li>&#x1F1E9;&#x1F1FF; Algeria (ISO)</li> <li>DZD Algerian Dinar</li> <li>&#x1F4AC; ar-DZ Arabic</li>
 </ul></details></td> <tr><td>&cir; EA <td><details><summary>EB &#x1F6C8;</summary><ul>
 <li>GY-EB East Berbice-Corentyne</li>
 </ul></details></td> <td><details><summary>EC </summary><ul>
-<li>&#x1F1EA;&#x1F1E8; Ecuador</li> <li>ZA-EC Eastern Cape (Oos-Kaap)</li>
+<li>&#x1F1EA;&#x1F1E8; Ecuador</li> <li>ZA-EC Eastern Cape (Oos-Kaap)</li> <li>&#x1F4AC; es-EC Spanish</li> <li>&#x1F4AC; qu-EC Quechua</li>
 </ul></details></td> <td><details><summary>ED &#x1F6C8;</summary><ul>
 <li>NG-ED Edo</li>
 </ul></details></td> <td><details><summary>EE &#x1F310;</summary><ul>
-<li>&#x1F1EA;&#x1F1EA; Estonia (ISO)</li>
+<li>&#x1F1EA;&#x1F1EA; Estonia (ISO)</li> <li>&#x1F4AC; et-EE Estonian</li>
 </ul></details></td> <td>&cir; EF <td><details><summary>EG </summary><ul>
-<li>&#x1F1EA;&#x1F1EC; Egypt</li> <li>EGP Egyptian Pound</li> <li>HU-EG Eger</li>
+<li>&#x1F1EA;&#x1F1EC; Egypt</li> <li>EGP Egyptian Pound</li> <li>HU-EG Eger</li> <li>&#x1F4AC; ar-EG Arabic</li>
 </ul></details></td> <td><details><summary>EH &#x1F310;</summary><ul>
 <li>&#x1F1EA;&#x1F1ED; Western Sahara (ISO)</li> <li>EH-EH Western Sahara</li>
 </ul></details></td> <td><details><summary>EI &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -230,27 +230,29 @@ that overlap with country codes.
 </ul></details></td> <td>&cir; EJ <td><details><summary>EK &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>EQUATORIAL GUINEA (FIPS)</li>
 </ul></details></td> <td><details><summary>EL &#x1F6C8;</summary><ul>
-<li>AL-EL Elbasan</li> <li>PL-EL Elblag</li>
+<li>AL-EL Elbasan</li> <li>PL-EL Elblag</li> <li>&#x1F4AC; el Greek</li> <li>&#x1F4AC; el-GR Greek</li>
 </ul></details></td> <td>&cir; EM <td><details><summary>EN &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>ESTONIA (FIPS)</li> <li>CM-EN Far North</li> <li>IT-EN Enna</li> <li>NG-EN Enugu</li>
-</ul></details></td> <td>&cir; EO <td><details><summary>EP &#x1F6C8;</summary><ul>
+<li>ESTONIA (FIPS)</li> <li>CM-EN Far North</li> <li>IT-EN Enna</li> <li>NG-EN Enugu</li> <li>&#x1F4AC; en English</li> <li>&#x1F4AC; en-AU English</li> <li>&#x1F4AC; en-BZ English</li> <li>&#x1F4AC; en-CA English</li> <li>&#x1F4AC; en-CB English</li> <li>&#x1F4AC; en-GB English</li> <li>&#x1F4AC; en-IE English</li> <li>&#x1F4AC; en-JM English</li> <li>&#x1F4AC; en-NZ English</li> <li>&#x1F4AC; en-PH English</li> <li>&#x1F4AC; en-TT English</li> <li>&#x1F4AC; en-US English</li> <li>&#x1F4AC; en-ZA English</li> <li>&#x1F4AC; en-ZW English</li>
+</ul></details></td> <td><details><summary>EO &#x1F6C8;</summary><ul>
+<li>&#x1F4AC; eo Esperanto</li>
+</ul></details></td> <td><details><summary>EP &#x1F6C8;</summary><ul>
 <li>DO-EP La Estrelleta [El&#237;as Pi&#241;a]</li> <li>GH-EP Eastern</li> <li>HN-EP El Para&#237;so</li>
 </ul></details></td> <td><details><summary>EQ &#x1F6C8;</summary><ul>
 <li>CD-EQ &#201;quateur</li>
 </ul></details></td> <td><details><summary>ER </summary><ul>
 <li>&#x1F1EA;&#x1F1F7; Eritrea</li> <li>ERN Nakfa</li> <li>AL-ER Kolonj&#235;</li> <li>AM-ER Erevan</li> <li>NA-ER Erongo</li>
 </ul></details></td> <td><details><summary>ES &#x26A0;</summary><ul>
-<li>&#x1F1EA;&#x1F1F8; Spain (ISO)</li> <li>EL SALVADOR (FIPS)</li> <li>BR-ES Esp&#237;rito Santo</li> <li>CM-ES Est</li> <li>FI-ES Etel&#228;-Suomen l&#228;&#228;ni</li> <li>GT-ES Escuintla</li> <li>GY-ES Essequibo Islands-West Demerara</li> <li>MA-ES Est</li> <li>NI-ES Estel&#237;</li>
+<li>&#x1F1EA;&#x1F1F8; Spain (ISO)</li> <li>EL SALVADOR (FIPS)</li> <li>BR-ES Esp&#237;rito Santo</li> <li>CM-ES Est</li> <li>FI-ES Etel&#228;-Suomen l&#228;&#228;ni</li> <li>GT-ES Escuintla</li> <li>GY-ES Essequibo Islands-West Demerara</li> <li>MA-ES Est</li> <li>NI-ES Estel&#237;</li> <li>&#x1F4AC; ca-ES Catalan</li> <li>&#x1F4AC; es Spanish</li> <li>&#x1F4AC; es-AR Spanish</li> <li>&#x1F4AC; es-BO Spanish</li> <li>&#x1F4AC; es-CL Spanish</li> <li>&#x1F4AC; es-CO Spanish</li> <li>&#x1F4AC; es-CR Spanish</li> <li>&#x1F4AC; es-DO Spanish</li> <li>&#x1F4AC; es-EC Spanish</li> <li>&#x1F4AC; es-ES Spanish</li> <li>&#x1F4AC; es-ES Spanish</li> <li>&#x1F4AC; es-GT Spanish</li> <li>&#x1F4AC; es-HN Spanish</li> <li>&#x1F4AC; es-MX Spanish</li> <li>&#x1F4AC; es-NI Spanish</li> <li>&#x1F4AC; es-PA Spanish</li> <li>&#x1F4AC; es-PE Spanish</li> <li>&#x1F4AC; es-PR Spanish</li> <li>&#x1F4AC; es-PY Spanish</li> <li>&#x1F4AC; es-SV Spanish</li> <li>&#x1F4AC; es-UY Spanish</li> <li>&#x1F4AC; es-VE Spanish</li> <li>&#x1F4AC; eu-ES Basque</li> <li>&#x1F4AC; gl-ES Galician</li>
 </ul></details></td> <td><details><summary>ET </summary><ul>
-<li>&#x1F1EA;&#x1F1F9; Ethiopia</li> <li>ETB Ethiopian Birr</li>
+<li>&#x1F1EA;&#x1F1F9; Ethiopia</li> <li>ETB Ethiopian Birr</li> <li>&#x1F4AC; et Estonian</li> <li>&#x1F4AC; et-EE Estonian</li>
 </ul></details></td> <td><details><summary>EU &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>EUROPA ISLAND (FIPS)</li>
+<li>EUROPA ISLAND (FIPS)</li> <li>&#x1F4AC; eu Basque</li> <li>&#x1F4AC; eu-ES Basque</li>
 </ul></details></td> <td>&cir; EV <td>&cir; EW <td><details><summary>EX &#x1F6C8;</summary><ul>
 <li>BS-EX Exuma</li> <li>ES-EX Extremadura</li>
 </ul></details></td> <td>&cir; EY <td><details><summary>EZ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>CZECH REPUBLIC (FIPS)</li>
 </ul></details></td> <tr><td><details><summary>FA &#x1F6C8;</summary><ul>
-<li>GN-FA Faranah</li> <li>KW-FA Al Farwānīyah</li> <li>LY-FA Fazzān</li> <li>WS-FA Fa&#39;asaleleaga</li> <li>UZ-FA Farghona (Fergana)</li>
+<li>GN-FA Faranah</li> <li>KW-FA Al Farwānīyah</li> <li>LY-FA Fazzān</li> <li>WS-FA Fa&#39;asaleleaga</li> <li>UZ-FA Farghona (Fergana)</li> <li>&#x1F4AC; fa Farsi</li> <li>&#x1F4AC; fa-IR Farsi</li>
 </ul></details></td> <td>&cir; FB <td><details><summary>FC &#x1F6C8;</summary><ul>
 <li>BS-FC Fresh Creek</li> <li>NG-FC Abuja Capital Territory</li>
 </ul></details></td> <td><details><summary>FD &#x1F6C8;</summary><ul>
@@ -260,23 +262,23 @@ that overlap with country codes.
 </ul></details></td> <td>&cir; FF <td><details><summary>FG &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>FRENCH GUIANA (FIPS)</li> <li>IT-FG Foggia</li>
 </ul></details></td> <td>&cir; FH <td><details><summary>FI </summary><ul>
-<li>&#x1F1EB;&#x1F1EE; Finland</li> <li>IT-FI Firenze</li>
+<li>&#x1F1EB;&#x1F1EE; Finland</li> <li>IT-FI Firenze</li> <li>&#x1F4AC; fi Finnish</li> <li>&#x1F4AC; fi-FI Finnish</li> <li>&#x1F4AC; fi-FI Finnish</li> <li>&#x1F4AC; se-FI Sami</li> <li>&#x1F4AC; sv-FI Swedish</li>
 </ul></details></td> <td><details><summary>FJ </summary><ul>
 <li>&#x1F1EB;&#x1F1EF; Fiji</li> <li>FJD Fiji Dollar</li>
 </ul></details></td> <td><details><summary>FK &#x26A0;</summary><ul>
-<li>&#x1F1EB;&#x1F1F0; Falkland Islands (Malvinas) (ISO)</li> <li>FALKLAND ISLANDS (ISLAS MALVINAS) (FIPS)</li> <li>FKP Falkland Islands Pound</li> <li>FK-FK Falkland Islands (Malvinas)</li> <li>SN-FK Fatick</li>
+<li>&#x1F1EB;&#x1F1F0; Falkland Islands (Malvinas)</li> <li>FKP Falkland Islands Pound</li> <li>FK-FK Falkland Islands (Malvinas)</li> <li>SN-FK Fatick</li>
 </ul></details></td> <td><details><summary>FL &#x1F6C8;</summary><ul>
 <li>MU-FL Flacq</li> <li>NL-FL Flevoland</li> <li>US-FL Florida</li>
 </ul></details></td> <td><details><summary>FM &#x26A0;</summary><ul>
-<li>&#x1F1EB;&#x1F1F2; Micronesia (ISO)</li> <li>FEDERATED STATES OF MICRONESIA (FIPS)</li> <li>HN-FM Francisco Moraz&#225;n</li>
+<li>&#x1F1EB;&#x1F1F2; Micronesia</li> <li>HN-FM Francisco Moraz&#225;n</li>
 </ul></details></td> <td>&cir; FN <td><details><summary>FO </summary><ul>
-<li>&#x1F1EB;&#x1F1F4; Faroe Islands</li> <li>CV-FO Fogo</li> <li>FO-FO Faroe Islands</li> <li>GN-FO For&#233;cariah</li> <li>IT-FO Forl&#236;</li>
+<li>&#x1F1EB;&#x1F1F4; Faroe Islands</li> <li>CV-FO Fogo</li> <li>FO-FO Faroe Islands</li> <li>GN-FO For&#233;cariah</li> <li>IT-FO Forl&#236;</li> <li>&#x1F4AC; fo Faroese</li> <li>&#x1F4AC; fo-FO Faroese</li> <li>&#x1F4AC; fo-FO Faroese</li>
 </ul></details></td> <td><details><summary>FP &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>FRENCH POLYNESIA (FIPS)</li> <li>BS-FP Freeport</li>
 </ul></details></td> <td><details><summary>FQ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>BAKER ISLAND (FIPS)</li>
 </ul></details></td> <td><details><summary>FR </summary><ul>
-<li>&#x1F1EB;&#x1F1F7; France</li> <li>AL-FR Fier</li> <li>GN-FR Fria</li> <li>IT-FR Frosinone</li> <li>NL-FR Friesland</li> <li>CH-FR Freiburg</li>
+<li>&#x1F1EB;&#x1F1F7; France</li> <li>AL-FR Fier</li> <li>GN-FR Fria</li> <li>IT-FR Frosinone</li> <li>NL-FR Friesland</li> <li>CH-FR Freiburg</li> <li>&#x1F4AC; fr French</li> <li>&#x1F4AC; fr-BE French</li> <li>&#x1F4AC; fr-CA French</li> <li>&#x1F4AC; fr-CH French</li> <li>&#x1F4AC; fr-FR French</li> <li>&#x1F4AC; fr-FR French</li> <li>&#x1F4AC; fr-LU French</li> <li>&#x1F4AC; fr-MC French</li>
 </ul></details></td> <td><details><summary>FS &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>FRENCH SOUTHERN AND ANTARCTIC LANDS (FIPS)</li> <li>ZA-FS Free State (Vrystaat)</li> <li>UY-FS Flores</li>
 </ul></details></td> <td>&cir; FT <td><details><summary>FU &#x1F6C8;</summary><ul>
@@ -284,13 +286,13 @@ that overlap with country codes.
 </ul></details></td> <td>&cir; FV <td>&cir; FW <td>&cir; FX <td>&cir; FY <td>&cir; FZ <tr><td><details><summary>GA &#x26A0;</summary><ul>
 <li>&#x1F1EC;&#x1F1E6; Gabon (ISO)</li> <li>GAMBIA THE (FIPS)</li> <li>AZ-GA G&#228;nc&#228;</li> <li>BT-GA Gasa</li> <li>ET-GA Gambela Peoples [Gamb&#233;la]</li> <li>GN-GA Gaoual</li> <li>GW-GA Gab&#250;</li> <li>HT-GA Grande-Anse</li> <li>IN-GA Goa</li> <li>NP-GA Gandaki</li> <li>SO-GA Galguduud</li> <li>ES-GA Galicia</li> <li>US-GA Georgia</li>
 </ul></details></td> <td><details><summary>GB &#x26A0;</summary><ul>
-<li>&#x1F1EC;&#x1F1E7; United Kingdom (ISO)</li> <li>GABON (FIPS)</li> <li>GBP Pound Sterling</li> <li>GBP Pound Sterling</li> <li>GBP Pound Sterling</li> <li>GBP Pound Sterling</li> <li>LR-GB Grand Bassa</li> <li>TJ-GB Gorno-Badakhshan</li>
+<li>&#x1F1EC;&#x1F1E7; United Kingdom (ISO)</li> <li>GABON (FIPS)</li> <li>GBP Pound Sterling</li> <li>GBP Pound Sterling</li> <li>GBP Pound Sterling</li> <li>GBP Pound Sterling</li> <li>LR-GB Grand Bassa</li> <li>TJ-GB Gorno-Badakhshan</li> <li>&#x1F4AC; cy-GB Welsh</li> <li>&#x1F4AC; en-GB English</li>
 </ul></details></td> <td><details><summary>GC &#x1F6C8;</summary><ul>
 <li>ES-GC Las Palmas</li>
 </ul></details></td> <td><details><summary>GD &#x1F310;</summary><ul>
 <li>&#x1F1EC;&#x1F1E9; Grenada (ISO)</li> <li>GD-GD Grenada</li> <li>HN-GD Gracias a Dios</li> <li>PL-GD Gdańsk</li>
 </ul></details></td> <td><details><summary>GE &#x1F310;</summary><ul>
-<li>&#x1F1EC;&#x1F1EA; Georgia (ISO)</li> <li>GEL Lari</li> <li>IT-GE Genova</li> <li>NL-GE Gelderland</li> <li>WS-GE Gaga&#39;emauga</li> <li>SO-GE Gedo</li> <li>ES-GE Gerona</li> <li>CH-GE Geneve</li>
+<li>&#x1F1EC;&#x1F1EA; Georgia (ISO)</li> <li>GEL Lari</li> <li>IT-GE Genova</li> <li>NL-GE Gelderland</li> <li>WS-GE Gaga&#39;emauga</li> <li>SO-GE Gedo</li> <li>ES-GE Gerona</li> <li>CH-GE Geneve</li> <li>&#x1F4AC; ka-GE Georgian</li>
 </ul></details></td> <td><details><summary>GF &#x1F310;</summary><ul>
 <li>&#x1F1EC;&#x1F1EB; French Guiana (ISO)</li> <li>FR-GF Guyane (francaise)</li> <li>GF-GF French Guiana</li>
 </ul></details></td> <td><details><summary>GG &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -304,7 +306,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>GK &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>GUERNSEY (FIPS)</li> <li>LR-GK Grand Kru</li>
 </ul></details></td> <td><details><summary>GL </summary><ul>
-<li>&#x1F1EC;&#x1F1F1; Greenland</li> <li>GL-GL Greenland</li> <li>RO-GL Galaţi</li> <li>CH-GL Glarus</li>
+<li>&#x1F1EC;&#x1F1F1; Greenland</li> <li>GL-GL Greenland</li> <li>RO-GL Galaţi</li> <li>CH-GL Glarus</li> <li>&#x1F4AC; gl Galician</li> <li>&#x1F4AC; gl-ES Galician</li>
 </ul></details></td> <td><details><summary>GM &#x26A0;</summary><ul>
 <li>&#x1F1EC;&#x1F1F2; Gambia (ISO)</li> <li>GERMANY (FIPS)</li> <li>GMD Dalasi</li>
 </ul></details></td> <td><details><summary>GN &#x1F310;</summary><ul>
@@ -316,13 +318,13 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>GQ &#x26A0;</summary><ul>
 <li>&#x1F1EC;&#x1F1F6; Equatorial Guinea (ISO)</li> <li>GUAM (FIPS)</li>
 </ul></details></td> <td><details><summary>GR </summary><ul>
-<li>&#x1F1EC;&#x1F1F7; Greece</li> <li>AL-GR Gramsh</li> <li>AM-GR Geģark&#39;unik&#39;</li> <li>TD-GR Gu&#233;ra</li> <li>IT-GR Grosseto</li> <li>NL-GR Groningen</li> <li>NI-GR Granada</li> <li>RO-GR Giurgiu</li> <li>ES-GR Granada</li> <li>CH-GR Graub&#252;nden</li>
+<li>&#x1F1EC;&#x1F1F7; Greece</li> <li>AL-GR Gramsh</li> <li>AM-GR Geģark&#39;unik&#39;</li> <li>TD-GR Gu&#233;ra</li> <li>IT-GR Grosseto</li> <li>NL-GR Groningen</li> <li>NI-GR Granada</li> <li>RO-GR Giurgiu</li> <li>ES-GR Granada</li> <li>CH-GR Graub&#252;nden</li> <li>&#x1F4AC; el-GR Greek</li>
 </ul></details></td> <td><details><summary>GS &#x1F310;</summary><ul>
 <li>&#x1F1EC;&#x1F1F8; S.Georgia &amp; S.Sandwich Islands (ISO)</li> <li>ER-GS Gash-Setit [Gaš enna S&#228;tit]</li> <li>HU-GS Gy&#243;r-Moson-Sopron</li> <li>GS-GS S.Georgia &amp; S.Sandwich Islands</li>
 </ul></details></td> <td><details><summary>GT </summary><ul>
-<li>&#x1F1EC;&#x1F1F9; Guatemala</li> <li>GTQ Quetzal</li> <li>BS-GT Green Turtle Cay</li> <li>ZA-GT Gauteng</li>
+<li>&#x1F1EC;&#x1F1F9; Guatemala</li> <li>GTQ Quetzal</li> <li>BS-GT Green Turtle Cay</li> <li>ZA-GT Gauteng</li> <li>&#x1F4AC; es-GT Spanish</li>
 </ul></details></td> <td><details><summary>GU &#x1F310;</summary><ul>
-<li>&#x1F1EC;&#x1F1FA; Guam (ISO)</li> <li>GU-GU Guam</li> <li>GT-GU Guatemala</li> <li>GN-GU Gu&#233;k&#233;dou</li> <li>LV-GU Gulbenes Aprinkis</li> <li>SB-GU Guadalcanal</li> <li>ES-GU Guadalajara</li> <li>US-GU Guam</li>
+<li>&#x1F1EC;&#x1F1FA; Guam (ISO)</li> <li>GU-GU Guam</li> <li>GT-GU Guatemala</li> <li>GN-GU Gu&#233;k&#233;dou</li> <li>LV-GU Gulbenes Aprinkis</li> <li>SB-GU Guadalcanal</li> <li>ES-GU Guadalajara</li> <li>US-GU Guam</li> <li>&#x1F4AC; gu Gujarati</li> <li>&#x1F4AC; gu-IN Gujarati</li>
 </ul></details></td> <td><details><summary>GV &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>GUINEA (FIPS)</li>
 </ul></details></td> <td><details><summary>GW &#x1F310;</summary><ul>
@@ -340,21 +342,21 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>HD &#x1F6C8;</summary><ul>
 <li>RO-HD Hunedoara</li> <li>YE-HD Ḩaḑramawt</li>
 </ul></details></td> <td><details><summary>HE &#x1F6C8;</summary><ul>
-<li>DE-HE Hessen</li> <li>HU-HE Heves</li>
+<li>DE-HE Hessen</li> <li>HU-HE Heves</li> <li>&#x1F4AC; he Hebrew</li> <li>&#x1F4AC; he-IL Hebrew</li>
 </ul></details></td> <td>&cir; HF <td>&cir; HG <td><details><summary>HH &#x1F6C8;</summary><ul>
 <li>DE-HH Hamburg</li> <li>SZ-HH Hhohho</li>
 </ul></details></td> <td><details><summary>HI &#x1F6C8;</summary><ul>
-<li>BS-HI Harbour Island</li> <li>SO-HI Hiiraan</li> <li>SY-HI Ḩimş</li> <li>US-HI Hawaii</li>
+<li>BS-HI Harbour Island</li> <li>SO-HI Hiiraan</li> <li>SY-HI Ḩimş</li> <li>US-HI Hawaii</li> <li>&#x1F4AC; hi Hindi</li> <li>&#x1F4AC; hi-IN Hindi</li>
 </ul></details></td> <td><details><summary>HJ &#x1F6C8;</summary><ul>
 <li>YE-HJ Ḩajjah</li>
 </ul></details></td> <td><details><summary>HK </summary><ul>
-<li>&#x1F1ED;&#x1F1F0; Hong Kong</li> <li>HKD Hong Kong Dollar</li> <li>CF-HK Haute-Kotto</li> <li>HK-HK Hong Kong</li>
+<li>&#x1F1ED;&#x1F1F0; Hong Kong</li> <li>HKD Hong Kong Dollar</li> <li>CF-HK Haute-Kotto</li> <li>HK-HK Hong Kong</li> <li>&#x1F4AC; zh-HK Chinese</li>
 </ul></details></td> <td><details><summary>HL &#x1F6C8;</summary><ul>
 <li>SY-HL Ḩalab</li>
 </ul></details></td> <td><details><summary>HM &#x26A0;</summary><ul>
-<li>&#x1F1ED;&#x1F1F2; Heard &amp; McDonald Islands (ISO)</li> <li>HEARD ISLAND AND MCDONALD ISLANDS (FIPS)</li> <li>CF-HM Haut-Mbomou</li> <li>DO-HM Hato Mayor</li> <li>HM-HM Heard &amp; McDonald Islands</li> <li>SY-HM Ḩamāh</li>
+<li>&#x1F1ED;&#x1F1F2; Heard &amp; McDonald Islands</li> <li>CF-HM Haut-Mbomou</li> <li>DO-HM Hato Mayor</li> <li>HM-HM Heard &amp; McDonald Islands</li> <li>SY-HM Ḩamāh</li>
 </ul></details></td> <td><details><summary>HN &#x1F310;</summary><ul>
-<li>&#x1F1ED;&#x1F1F3; Honduras (ISO)</li> <li>HNL Lempira</li>
+<li>&#x1F1ED;&#x1F1F3; Honduras (ISO)</li> <li>HNL Lempira</li> <li>&#x1F4AC; es-HN Spanish</li>
 </ul></details></td> <td><details><summary>HO &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>HONDURAS (FIPS)</li> <li>BY-HO Homyel&#39;skaya voblasts’</li> <li>LA-HO Houaphan</li>
 </ul></details></td> <td><details><summary>HP &#x1F6C8;</summary><ul>
@@ -362,47 +364,49 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>HQ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>HOWLAND ISLAND (FIPS)</li>
 </ul></details></td> <td><details><summary>HR &#x26A0;</summary><ul>
-<li>&#x1F1ED;&#x1F1F7; Croatia (Hrvatska) (ISO)</li> <li>CROATIA (FIPS)</li> <li>HRK Kuna</li> <li>BS-HR High Rock</li> <li>BY-HR Hrodnenskaya voblasts&#39;</li> <li>IN-HR Haryana</li> <li>RO-HR Harghita</li>
+<li>&#x1F1ED;&#x1F1F7; Croatia (Hrvatska)</li> <li>HRK Kuna</li> <li>BS-HR High Rock</li> <li>BY-HR Hrodnenskaya voblasts&#39;</li> <li>IN-HR Haryana</li> <li>RO-HR Harghita</li> <li>&#x1F4AC; hr Croatian</li> <li>&#x1F4AC; hr-BA Croatian</li> <li>&#x1F4AC; hr-HR Croatian</li> <li>&#x1F4AC; hr-HR Croatian</li>
 </ul></details></td> <td><details><summary>HS &#x1F6C8;</summary><ul>
 <li>CF-HS Mamb&#233;r&#233;-Kad&#233;&#239;</li>
 </ul></details></td> <td><details><summary>HT &#x1F310;</summary><ul>
 <li>&#x1F1ED;&#x1F1F9; Haiti (ISO)</li> <li>HTG Gourde</li>
 </ul></details></td> <td><details><summary>HU </summary><ul>
-<li>&#x1F1ED;&#x1F1FA; Hungary</li> <li>HUF Forint</li> <li>GT-HU Huehuetenango</li> <li>ES-HU Huesca</li> <li>YE-HU Al Ḩudaydah</li>
+<li>&#x1F1ED;&#x1F1FA; Hungary</li> <li>HUF Forint</li> <li>GT-HU Huehuetenango</li> <li>ES-HU Huesca</li> <li>YE-HU Al Ḩudaydah</li> <li>&#x1F4AC; hu Hungarian</li> <li>&#x1F4AC; hu-HU Hungarian</li> <li>&#x1F4AC; hu-HU Hungarian</li>
 </ul></details></td> <td><details><summary>HV &#x1F6C8;</summary><ul>
 <li>HU-HV H&#243;dmez&#243;v&#225;s&#225;rhely</li>
-</ul></details></td> <td>&cir; HW <td>&cir; HX <td>&cir; HY <td>&cir; HZ <tr><td><details><summary>IA &#x1F6C8;</summary><ul>
+</ul></details></td> <td>&cir; HW <td>&cir; HX <td><details><summary>HY &#x1F6C8;</summary><ul>
+<li>&#x1F4AC; hy Armenian</li> <li>&#x1F4AC; hy-AM Armenian</li>
+</ul></details></td> <td>&cir; HZ <tr><td><details><summary>IA &#x1F6C8;</summary><ul>
 <li>US-IA Iowa</li>
 </ul></details></td> <td><details><summary>IB &#x1F6C8;</summary><ul>
 <li>HN-IB Islas de la Bah&#237;a</li> <li>YE-IB Ibb</li>
 </ul></details></td> <td><details><summary>IC &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>ICELAND (FIPS)</li>
 </ul></details></td> <td><details><summary>ID </summary><ul>
-<li>&#x1F1EE;&#x1F1E9; Indonesia</li> <li>IDR Rupiah</li> <li>SY-ID Idlib</li> <li>US-ID Idaho</li>
+<li>&#x1F1EE;&#x1F1E9; Indonesia</li> <li>IDR Rupiah</li> <li>SY-ID Idlib</li> <li>US-ID Idaho</li> <li>&#x1F4AC; id Indonesian</li> <li>&#x1F4AC; id-ID Indonesian</li> <li>&#x1F4AC; id-ID Indonesian</li>
 </ul></details></td> <td><details><summary>IE &#x1F310;</summary><ul>
-<li>&#x1F1EE;&#x1F1EA; Ireland (ISO)</li>
+<li>&#x1F1EE;&#x1F1EA; Ireland (ISO)</li> <li>&#x1F4AC; en-IE English</li>
 </ul></details></td> <td>&cir; IF <td>&cir; IG <td>&cir; IH <td><details><summary>II &#x1F6C8;</summary><ul>
 <li>GR-II Kentriki Makedonia</li>
 </ul></details></td> <td><details><summary>IJ &#x1F6C8;</summary><ul>
 <li>ID-IJ Irian Jaya</li>
 </ul></details></td> <td>&cir; IK <td><details><summary>IL &#x1F310;</summary><ul>
-<li>&#x1F1EE;&#x1F1F1; Israel (ISO)</li> <li>ILS New Israeli Sheqel</li> <li>RO-IL Ialomiţa</li> <li>US-IL Illinois</li>
+<li>&#x1F1EE;&#x1F1F1; Israel (ISO)</li> <li>ILS New Israeli Sheqel</li> <li>RO-IL Ialomiţa</li> <li>US-IL Illinois</li> <li>&#x1F4AC; he-IL Hebrew</li>
 </ul></details></td> <td><details><summary>IM &#x1F6C8;</summary><ul>
 <li>IT-IM Imperia</li> <li>NG-IM Imo</li>
 </ul></details></td> <td><details><summary>IN </summary><ul>
-<li>&#x1F1EE;&#x1F1F3; India</li> <li>INR Indian Rupee</li> <li>INR Indian Rupee</li> <li>BS-IN Inagua</li> <li>DO-IN Independencia</li> <li>HN-IN Intibuc&#225;</li> <li>RU-IN Ingushskaya Respublika</li> <li>US-IN Indiana</li>
+<li>&#x1F1EE;&#x1F1F3; India</li> <li>INR Indian Rupee</li> <li>INR Indian Rupee</li> <li>BS-IN Inagua</li> <li>DO-IN Independencia</li> <li>HN-IN Intibuc&#225;</li> <li>RU-IN Ingushskaya Respublika</li> <li>US-IN Indiana</li> <li>&#x1F4AC; gu-IN Gujarati</li> <li>&#x1F4AC; hi-IN Hindi</li> <li>&#x1F4AC; kn-IN Kannada</li> <li>&#x1F4AC; kok-IN Konkani</li> <li>&#x1F4AC; mr-IN Marathi</li> <li>&#x1F4AC; pa-IN Punjabi</li> <li>&#x1F4AC; sa-IN Sanskrit</li> <li>&#x1F4AC; ta-IN Tamil</li> <li>&#x1F4AC; te-IN Telugu</li>
 </ul></details></td> <td><details><summary>IO </summary><ul>
 <li>&#x1F1EE;&#x1F1F4; British Indian Ocean Territory</li> <li>IO-IO British Indian Ocean Territory</li>
 </ul></details></td> <td><details><summary>IP &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>CLIPPERTON ISLAND (FIPS)</li>
 </ul></details></td> <td><details><summary>IQ &#x1F310;</summary><ul>
-<li>&#x1F1EE;&#x1F1F6; Iraq (ISO)</li> <li>IQD Iraqi Dinar</li>
+<li>&#x1F1EE;&#x1F1F6; Iraq (ISO)</li> <li>IQD Iraqi Dinar</li> <li>&#x1F4AC; ar-IQ Arabic</li>
 </ul></details></td> <td><details><summary>IR </summary><ul>
-<li>&#x1F1EE;&#x1F1F7; Iran</li> <li>IRR Iranian Rial</li> <li>JO-IR Irbid</li>
+<li>&#x1F1EE;&#x1F1F7; Iran</li> <li>IRR Iranian Rial</li> <li>JO-IR Irbid</li> <li>&#x1F4AC; fa-IR Farsi</li>
 </ul></details></td> <td><details><summary>IS &#x26A0;</summary><ul>
-<li>&#x1F1EE;&#x1F1F8; Iceland (ISO)</li> <li>ISRAEL (FIPS)</li> <li>ISK Iceland Krona</li> <li>EG-IS Al Ismā‘īlīyah</li> <li>FI-IS It&#228;-Suomen l&#228;&#228;ni</li> <li>IT-IS Isernia</li> <li>PK-IS Islamabad</li> <li>RO-IS Iaşi</li> <li>SB-IS Isabel</li>
+<li>&#x1F1EE;&#x1F1F8; Iceland (ISO)</li> <li>ISRAEL (FIPS)</li> <li>ISK Iceland Krona</li> <li>EG-IS Al Ismā‘īlīyah</li> <li>FI-IS It&#228;-Suomen l&#228;&#228;ni</li> <li>IT-IS Isernia</li> <li>PK-IS Islamabad</li> <li>RO-IS Iaşi</li> <li>SB-IS Isabel</li> <li>&#x1F4AC; is Icelandic</li> <li>&#x1F4AC; is-IS Icelandic</li> <li>&#x1F4AC; is-IS Icelandic</li>
 </ul></details></td> <td><details><summary>IT </summary><ul>
-<li>&#x1F1EE;&#x1F1F9; Italy</li>
+<li>&#x1F1EE;&#x1F1F9; Italy</li> <li>&#x1F4AC; it Italian</li> <li>&#x1F4AC; it-CH Italian</li> <li>&#x1F4AC; it-IT Italian</li> <li>&#x1F4AC; it-IT Italian</li>
 </ul></details></td> <td>&cir; IU <td><details><summary>IV &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>COTE D&#39;IVOIRE (FIPS)</li> <li>GR-IV Ipeiros</li>
 </ul></details></td> <td>&cir; IW <td><details><summary>IX &#x1F6C8;</summary><ul>
@@ -410,7 +414,7 @@ that overlap with country codes.
 </ul></details></td> <td>&cir; IY <td><details><summary>IZ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>IRAQ (FIPS)</li> <li>GT-IZ Izabal</li>
 </ul></details></td> <tr><td><details><summary>JA &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>JAPAN (FIPS)</li> <li>GT-JA Jalapa</li> <li>ID-JA Jambi</li> <li>JO-JA Jarash</li> <li>KW-JA Al Jahrah</li> <li>LB-JA Loubn&#226;ne ej Jno&#251;bi (Al Janūb)</li> <li>LY-JA Al Jabal al Akhḑar</li> <li>NP-JA Janakpur</li> <li>OM-JA Al Janūbīyah [Zufār]</li> <li>YE-JA Al Jawf</li>
+<li>JAPAN (FIPS)</li> <li>GT-JA Jalapa</li> <li>ID-JA Jambi</li> <li>JO-JA Jarash</li> <li>KW-JA Al Jahrah</li> <li>LB-JA Loubn&#226;ne ej Jno&#251;bi (Al Janūb)</li> <li>LY-JA Al Jabal al Akhḑar</li> <li>NP-JA Janakpur</li> <li>OM-JA Al Janūbīyah [Zufār]</li> <li>YE-JA Al Jawf</li> <li>&#x1F4AC; ja Japanese</li> <li>&#x1F4AC; ja-JP Japanese</li>
 </ul></details></td> <td><details><summary>JB &#x1F6C8;</summary><ul>
 <li>ID-JB Jawa Barat</li> <li>QA-JB Jarīyān al Bāţnah</li>
 </ul></details></td> <td>&cir; JC <td><details><summary>JD &#x1F6C8;</summary><ul>
@@ -428,13 +432,13 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>JL &#x1F6C8;</summary><ul>
 <li>LV-JL Jelgavas Aprinkis</li> <li>LB-JL Jabal Loubn&#226;ne (Jabal Lubnān)</li>
 </ul></details></td> <td><details><summary>JM </summary><ul>
-<li>&#x1F1EF;&#x1F1F2; Jamaica</li> <li>JMD Jamaican Dollar</li> <li>IL-JM Yerushalayim (Al Quds)</li>
+<li>&#x1F1EF;&#x1F1F2; Jamaica</li> <li>JMD Jamaican Dollar</li> <li>IL-JM Yerushalayim (Al Quds)</li> <li>&#x1F4AC; en-JM English</li>
 </ul></details></td> <td><details><summary>JN &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>JAN MAYEN (FIPS)</li> <li>HU-JN Jasz-Nagykun-Szolnok</li>
 </ul></details></td> <td><details><summary>JO </summary><ul>
-<li>&#x1F1EF;&#x1F1F4; Jordan</li> <li>JOD Jordanian Dinar</li>
+<li>&#x1F1EF;&#x1F1F4; Jordan</li> <li>JOD Jordanian Dinar</li> <li>&#x1F4AC; ar-JO Arabic</li>
 </ul></details></td> <td><details><summary>JP &#x1F310;</summary><ul>
-<li>&#x1F1EF;&#x1F1F5; Japan (ISO)</li> <li>JPY Yen</li>
+<li>&#x1F1EF;&#x1F1F5; Japan (ISO)</li> <li>JPY Yen</li> <li>&#x1F4AC; ja-JP Japanese</li>
 </ul></details></td> <td><details><summary>JQ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>JOHNSTON ATOLL (FIPS)</li>
 </ul></details></td> <td>&cir; JR <td><details><summary>JS &#x1F6C8;</summary><ul>
@@ -444,7 +448,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>JU &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>JUAN DE NOVA ISLAND (FIPS)</li> <li>DO-JU San Juan</li> <li>GT-JU Jutiapa</li> <li>LY-Ju Al Jufrah</li> <li>QA-JU Al Jumaylīyah</li> <li>CH-JU Jura</li>
 </ul></details></td> <td>&cir; JV <td>&cir; JW <td>&cir; JX <td>&cir; JY <td>&cir; JZ <tr><td><details><summary>KA &#x1F6C8;</summary><ul>
-<li>AL-KA Kavaj&#235;</li> <li>TD-KA Kanem</li> <li>CD-KA Katanga</li> <li>GN-KA Kankan</li> <li>IN-KA Karnataka</li> <li>IQ-KA Karbalā&#39;</li> <li>JO-KA Al Karak</li> <li>NA-KA Karas</li> <li>NP-KA Karnali</li> <li>PL-KA Katowice</li>
+<li>AL-KA Kavaj&#235;</li> <li>TD-KA Kanem</li> <li>CD-KA Katanga</li> <li>GN-KA Kankan</li> <li>IN-KA Karnataka</li> <li>IQ-KA Karbalā&#39;</li> <li>JO-KA Al Karak</li> <li>NA-KA Karas</li> <li>NP-KA Karnali</li> <li>PL-KA Katowice</li> <li>&#x1F4AC; ka Georgian</li> <li>&#x1F4AC; ka-GE Georgian</li>
 </ul></details></td> <td><details><summary>KB &#x1F6C8;</summary><ul>
 <li>BS-KB Kemps Bay</li> <li>CF-KB Nana-Gr&#233;bizi</li> <li>EG-KB Al Qalyūbīyah</li> <li>GN-KB Koubia</li> <li>ID-KB Kalimantan Barat</li> <li>RU-KB Kabardino-Balkarskaya Respublika</li>
 </ul></details></td> <td><details><summary>KC &#x1F6C8;</summary><ul>
@@ -452,29 +456,29 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>KD &#x1F6C8;</summary><ul>
 <li>GN-KD Kindia</li> <li>NG-KD Kaduna</li> <li>SN-KD Kolda</li>
 </ul></details></td> <td><details><summary>KE </summary><ul>
-<li>&#x1F1F0;&#x1F1EA; Kenya</li> <li>KES Kenyan Shilling</li> <li>CD-KE Kasai-Oriental</li> <li>GN-KE K&#233;rouan&#233;</li> <li>HU-KE Kom&#225;rom-Esztergom</li> <li>IE-KE Kildare (Cill Dara)</li> <li>NG-KE Kebbi</li>
+<li>&#x1F1F0;&#x1F1EA; Kenya</li> <li>KES Kenyan Shilling</li> <li>CD-KE Kasai-Oriental</li> <li>GN-KE K&#233;rouan&#233;</li> <li>HU-KE Kom&#225;rom-Esztergom</li> <li>IE-KE Kildare (Cill Dara)</li> <li>NG-KE Kebbi</li> <li>&#x1F4AC; sw-KE Swahili</li>
 </ul></details></td> <td>&cir; KF <td><details><summary>KG </summary><ul>
-<li>&#x1F1F0;&#x1F1EC; Kyrgyzstan</li> <li>KGS Som</li> <li>BW-KG Kgalagadi</li> <li>CF-KG K&#233;mo</li>
+<li>&#x1F1F0;&#x1F1EC; Kyrgyzstan</li> <li>KGS Som</li> <li>BW-KG Kgalagadi</li> <li>CF-KG K&#233;mo</li> <li>&#x1F4AC; ky-KG Kyrgyz</li>
 </ul></details></td> <td><details><summary>KH &#x1F310;</summary><ul>
 <li>&#x1F1F0;&#x1F1ED; Cambodia (ISO)</li> <li>KHR Riel</li> <li>LA-KH Khammouan</li> <li>NA-KH Khomas</li> <li>QA-KH Al Khawr</li> <li>UZ-KH Khorazm (Khorezm)</li>
 </ul></details></td> <td><details><summary>KI &#x1F310;</summary><ul>
 <li>&#x1F1F0;&#x1F1EE; Kiribati (ISO)</li> <li>BI-KI Kirundo</li> <li>ID-KI Kalimantan Timur</li> <li>PL-KI Kielce</li> <li>SK-KI Košick&#253; kraj</li>
 </ul></details></td> <td>&cir; KJ <td><details><summary>KK &#x1F6C8;</summary><ul>
-<li>IE-KK Kilkenny (Cill Chainnigh)</li> <li>RU-KK Khakasiya, Respublika</li>
+<li>IE-KK Kilkenny (Cill Chainnigh)</li> <li>RU-KK Khakasiya, Respublika</li> <li>&#x1F4AC; kk Kazakh</li> <li>&#x1F4AC; kk-KZ Kazakh</li>
 </ul></details></td> <td><details><summary>KL &#x1F6C8;</summary><ul>
 <li>BW-KL Kgatleng</li> <li>IN-KL Kerala</li> <li>LT-KL Klaipėdos Apskritis</li> <li>PL-KL Kalisz</li> <li>RU-KL Kalmykiya, Respublika</li> <li>SN-KL Kaolack</li>
 </ul></details></td> <td><details><summary>KM &#x1F310;</summary><ul>
 <li>&#x1F1F0;&#x1F1F2; Comoros (ISO)</li> <li>KMF Comorian Franc </li> <li>HU-KM Kecskem&#233;t</li> <li>YU-KM Kosovo-Metohija</li>
 </ul></details></td> <td><details><summary>KN &#x26A0;</summary><ul>
-<li>&#x1F1F0;&#x1F1F3; Saint Kitts &amp; Nevis (ISO)</li> <li>KOREA DEMOCRATIC PEOPLE&#39;S REPUBLIC OF (FIPS)</li> <li>CD-KN Kinshasa</li> <li>EG-KN Qinā</li> <li>GQ-KN Kie-Ntem</li> <li>NG-KN Kano</li> <li>PL-KN Konin</li> <li>KN-KN Saint Kitts &amp; Nevis</li>
+<li>&#x1F1F0;&#x1F1F3; Saint Kitts &amp; Nevis (ISO)</li> <li>KOREA DEMOCRATIC PEOPLE&#39;S REPUBLIC OF (FIPS)</li> <li>CD-KN Kinshasa</li> <li>EG-KN Qinā</li> <li>GQ-KN Kie-Ntem</li> <li>NG-KN Kano</li> <li>PL-KN Konin</li> <li>KN-KN Saint Kitts &amp; Nevis</li> <li>&#x1F4AC; kn Kannada</li> <li>&#x1F4AC; kn-IN Kannada</li>
 </ul></details></td> <td><details><summary>KO &#x1F6C8;</summary><ul>
-<li>AL-KO Korc&#235;</li> <li>GN-KO Kouroussa</li> <li>NP-KO Kosi [Koshi]</li> <li>NG-KO Kogi</li> <li>PL-KO Koszalin</li> <li>RU-KO Komi, Respublika</li>
+<li>AL-KO Korc&#235;</li> <li>GN-KO Kouroussa</li> <li>NP-KO Kosi [Koshi]</li> <li>NG-KO Kogi</li> <li>PL-KO Koszalin</li> <li>RU-KO Komi, Respublika</li> <li>&#x1F4AC; ko Korean</li> <li>&#x1F4AC; ko-KR Korean</li>
 </ul></details></td> <td><details><summary>KP &#x1F310;</summary><ul>
 <li>&#x1F1F0;&#x1F1F5; Korea (North) (ISO)</li> <li>KPW North Korean Won</li>
 </ul></details></td> <td><details><summary>KQ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>KINGMAN REEF (FIPS)</li>
 </ul></details></td> <td><details><summary>KR &#x26A0;</summary><ul>
-<li>&#x1F1F0;&#x1F1F7; Korea (South) (ISO)</li> <li>KIRIBATI (FIPS)</li> <li>KRW Won</li> <li>AL-KR Kruj&#235;</li> <li>BI-KR Karuzi</li> <li>IT-KR Crotone</li> <li>LV-KR Krāslavas Aprinkis</li> <li>MW-KR Karonga</li> <li>PL-KR Krak&#243;w</li> <li>RU-KR Kareliya, Respublika</li> <li>TJ-KR Karategin</li>
+<li>&#x1F1F0;&#x1F1F7; Korea (South) (ISO)</li> <li>KIRIBATI (FIPS)</li> <li>KRW Won</li> <li>AL-KR Kruj&#235;</li> <li>BI-KR Karuzi</li> <li>IT-KR Crotone</li> <li>LV-KR Krāslavas Aprinkis</li> <li>MW-KR Karonga</li> <li>PL-KR Krak&#243;w</li> <li>RU-KR Kareliya, Respublika</li> <li>TJ-KR Karategin</li> <li>&#x1F4AC; ko-KR Korean</li>
 </ul></details></td> <td><details><summary>KS &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>KOREA REPUBLIC OF (FIPS)</li> <li>GN-KS Kissidougou</li> <li>ID-KS Kalimantan Selatan</li> <li>MW-KS Kasungu</li> <li>PL-KS Krosno</li> <li>US-KS Kansas</li>
 </ul></details></td> <td><details><summary>KT &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -484,15 +488,15 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>KV &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>KOSOVO (FIPS)</li> <li>HU-KV Kaposv&#225;r</li>
 </ul></details></td> <td><details><summary>KW &#x1F310;</summary><ul>
-<li>&#x1F1F0;&#x1F1FC; Kuwait (ISO)</li> <li>KWD Kuwaiti Dinar</li> <li>BW-KW Kweneng</li> <li>CD-KW Kasai-Occidental</li> <li>NG-KW Kwara</li>
+<li>&#x1F1F0;&#x1F1FC; Kuwait (ISO)</li> <li>KWD Kuwaiti Dinar</li> <li>BW-KW Kweneng</li> <li>CD-KW Kasai-Occidental</li> <li>NG-KW Kwara</li> <li>&#x1F4AC; ar-KW Arabic</li>
 </ul></details></td> <td>&cir; KX <td><details><summary>KY &#x1F310;</summary><ul>
-<li>&#x1F1F0;&#x1F1FE; Cayman Islands (ISO)</li> <li>KYD Cayman Islands Dollar</li> <li>BI-KY Kayanza</li> <li>KY-KY Cayman Islands</li> <li>US-KY Kentucky</li>
+<li>&#x1F1F0;&#x1F1FE; Cayman Islands (ISO)</li> <li>KYD Cayman Islands Dollar</li> <li>BI-KY Kayanza</li> <li>KY-KY Cayman Islands</li> <li>US-KY Kentucky</li> <li>&#x1F4AC; ky Kyrgyz</li> <li>&#x1F4AC; ky-KG Kyrgyz</li>
 </ul></details></td> <td><details><summary>KZ </summary><ul>
-<li>&#x1F1F0;&#x1F1FF; Kazakhstan</li> <li>KZT Tenge</li>
+<li>&#x1F1F0;&#x1F1FF; Kazakhstan</li> <li>KZT Tenge</li> <li>&#x1F4AC; kk-KZ Kazakh</li>
 </ul></details></td> <tr><td><details><summary>LA </summary><ul>
 <li>&#x1F1F1;&#x1F1E6; Laos</li> <li>LAK Lao Kip</li> <li>AL-LA La&#231;</li> <li>AZ-LA L&#228;nk&#228;ran</li> <li>GN-LA Lab&#233;</li> <li>ID-LA Lampung</li> <li>NG-LA Lagos</li> <li>SY-LA Al Lādhiqīyah</li> <li>US-LA Louisiana</li> <li>UY-LA Lavalleja</li> <li>YE-LA Laḩij</li>
 </ul></details></td> <td><details><summary>LB &#x1F310;</summary><ul>
-<li>&#x1F1F1;&#x1F1E7; Lebanon (ISO)</li> <li>LBP Lebanese Pound</li> <li>AL-LB Librazhd</li> <li>CF-LB Lobaye</li>
+<li>&#x1F1F1;&#x1F1E7; Lebanon (ISO)</li> <li>LBP Lebanese Pound</li> <li>AL-LB Librazhd</li> <li>CF-LB Lobaye</li> <li>&#x1F4AC; ar-LB Arabic</li>
 </ul></details></td> <td><details><summary>LC &#x1F310;</summary><ul>
 <li>&#x1F1F1;&#x1F1E8; Saint Lucia (ISO)</li> <li>TD-LC Lac</li> <li>IT-LC Lecco</li> <li>LC-LC Saint Lucia</li>
 </ul></details></td> <td><details><summary>LD &#x1F6C8;</summary><ul>
@@ -504,7 +508,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>LH &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>LITHUANIA (FIPS)</li> <li>IE-LH Louth (L&#250;)</li>
 </ul></details></td> <td><details><summary>LI &#x26A0;</summary><ul>
-<li>&#x1F1F1;&#x1F1EE; Liechtenstein (ISO)</li> <li>LIBERIA (FIPS)</li> <li>BS-LI Long Island</li> <li>CL-LI Libertador General Bernardo O&#39;Higgins</li> <li>SV-LI La Libertad</li> <li>GQ-LI Litoral</li> <li>IT-LI Livorno</li> <li>LI-LI Liechtenstein</li> <li>MW-LI Lilongwe</li> <li>NL-LI Limburg</li>
+<li>&#x1F1F1;&#x1F1EE; Liechtenstein (ISO)</li> <li>LIBERIA (FIPS)</li> <li>BS-LI Long Island</li> <li>CL-LI Libertador General Bernardo O&#39;Higgins</li> <li>SV-LI La Libertad</li> <li>GQ-LI Litoral</li> <li>IT-LI Livorno</li> <li>LI-LI Liechtenstein</li> <li>MW-LI Lilongwe</li> <li>NL-LI Limburg</li> <li>&#x1F4AC; de-LI German</li>
 </ul></details></td> <td>&cir; LJ <td><details><summary>LK &#x1F310;</summary><ul>
 <li>&#x1F1F1;&#x1F1F0; Sri Lanka (ISO)</li> <li>LKR Sri Lanka Rupee</li>
 </ul></details></td> <td><details><summary>LL &#x1F6C8;</summary><ul>
@@ -524,19 +528,19 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>LS &#x26A0;</summary><ul>
 <li>&#x1F1F1;&#x1F1F8; Lesotho (ISO)</li> <li>LIECHTENSTEIN (FIPS)</li> <li>LSL Loti</li> <li>FI-LS L&#228;nsi-Suomen l&#228;&#228;ni</li> <li>IE-LS Laois (Laois)</li>
 </ul></details></td> <td><details><summary>LT &#x26A0;</summary><ul>
-<li>&#x1F1F1;&#x1F1F9; Lithuania (ISO)</li> <li>LESOTHO (FIPS)</li> <li>CM-LT Littoral</li> <li>IT-LT Latina</li>
+<li>&#x1F1F1;&#x1F1F9; Lithuania (ISO)</li> <li>LESOTHO (FIPS)</li> <li>CM-LT Littoral</li> <li>IT-LT Latina</li> <li>&#x1F4AC; lt Lithuanian</li> <li>&#x1F4AC; lt-LT Lithuanian</li> <li>&#x1F4AC; lt-LT Lithuanian</li>
 </ul></details></td> <td><details><summary>LU </summary><ul>
-<li>&#x1F1F1;&#x1F1FA; Luxembourg</li> <li>AL-LU Lushnj&#235;</li> <li>IT-LU Lucca</li> <li>LV-LU Ludzas Aprinkis</li> <li>NP-LU Lumbini</li> <li>PL-LU Lublin</li> <li>ES-LU Lugo</li> <li>SZ-LU Lubombo</li> <li>CH-LU Luzern</li>
+<li>&#x1F1F1;&#x1F1FA; Luxembourg</li> <li>AL-LU Lushnj&#235;</li> <li>IT-LU Lucca</li> <li>LV-LU Ludzas Aprinkis</li> <li>NP-LU Lumbini</li> <li>PL-LU Lublin</li> <li>ES-LU Lugo</li> <li>SZ-LU Lubombo</li> <li>CH-LU Luzern</li> <li>&#x1F4AC; de-LU German</li> <li>&#x1F4AC; fr-LU French</li>
 </ul></details></td> <td><details><summary>LV &#x1F310;</summary><ul>
-<li>&#x1F1F1;&#x1F1FB; Latvia (ISO)</li>
+<li>&#x1F1F1;&#x1F1FB; Latvia (ISO)</li> <li>&#x1F4AC; lv Latvian</li> <li>&#x1F4AC; lv-LV Latvian</li> <li>&#x1F4AC; lv-LV Latvian</li>
 </ul></details></td> <td>&cir; LW <td>&cir; LX <td><details><summary>LY </summary><ul>
-<li>&#x1F1F1;&#x1F1FE; Libya</li> <li>LYD Libyan Dinar</li>
+<li>&#x1F1F1;&#x1F1FE; Libya</li> <li>LYD Libyan Dinar</li> <li>&#x1F4AC; ar-LY Arabic</li>
 </ul></details></td> <td>&cir; LZ <tr><td><details><summary>MA &#x26A0;</summary><ul>
-<li>&#x1F1F2;&#x1F1E6; Morocco (ISO)</li> <li>MADAGASCAR (FIPS)</li> <li>MAD Moroccan Dirham</li> <li>MAD Moroccan Dirham</li> <li>BY-MA Mahilyowskaya voblasts&#39;</li> <li>BR-MA Maranhāo</li> <li>BI-MA Makamba</li> <li>CV-MA Maio</li> <li>CL-MA Magallanes</li> <li>CD-MA Maniema</li> <li>GY-MA Mahaica-Berbice</li> <li>ID-MA Maluku</li> <li>IQ-MA Maysān</li> <li>JO-MA Al Mafraq</li> <li>LV-MA Madonas Aprinkis</li> <li>NP-MA Mahakali</li> <li>OM-MA Masqaţ</li> <li>ES-MA M&#225;laga</li> <li>SR-MA Marowijne</li> <li>SZ-MA Manzini</li> <li>US-MA Massachusetts</li> <li>UY-MA Maldonado</li> <li>YE-MA Ma&#39;rib</li> <li>ZW-MA Manicaland</li>
+<li>&#x1F1F2;&#x1F1E6; Morocco (ISO)</li> <li>MADAGASCAR (FIPS)</li> <li>MAD Moroccan Dirham</li> <li>MAD Moroccan Dirham</li> <li>BY-MA Mahilyowskaya voblasts&#39;</li> <li>BR-MA Maranhāo</li> <li>BI-MA Makamba</li> <li>CV-MA Maio</li> <li>CL-MA Magallanes</li> <li>CD-MA Maniema</li> <li>GY-MA Mahaica-Berbice</li> <li>ID-MA Maluku</li> <li>IQ-MA Maysān</li> <li>JO-MA Al Mafraq</li> <li>LV-MA Madonas Aprinkis</li> <li>NP-MA Mahakali</li> <li>OM-MA Masqaţ</li> <li>ES-MA M&#225;laga</li> <li>SR-MA Marowijne</li> <li>SZ-MA Manzini</li> <li>US-MA Massachusetts</li> <li>UY-MA Maldonado</li> <li>YE-MA Ma&#39;rib</li> <li>ZW-MA Manicaland</li> <li>&#x1F4AC; ar-MA Arabic</li>
 </ul></details></td> <td><details><summary>MB &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>MARTINIQUE (FIPS)</li> <li>CA-MB Manitoba</li> <li>CF-MB Mbomou</li>
 </ul></details></td> <td><details><summary>MC &#x26A0;</summary><ul>
-<li>&#x1F1F2;&#x1F1E8; Monaco (ISO)</li> <li>MACAU (FIPS)</li> <li>TD-MC Moyen-Chari</li> <li>DO-MC Monte Cristi</li> <li>GN-MC Macenta</li> <li>IT-MC Macerata</li> <li>MW-MC Mchinji</li> <li>MC-MC Monaco</li> <li>ZW-MC Mashonaland Central</li>
+<li>&#x1F1F2;&#x1F1E8; Monaco (ISO)</li> <li>MACAU (FIPS)</li> <li>TD-MC Moyen-Chari</li> <li>DO-MC Monte Cristi</li> <li>GN-MC Macenta</li> <li>IT-MC Macerata</li> <li>MW-MC Mchinji</li> <li>MC-MC Monaco</li> <li>ZW-MC Mashonaland Central</li> <li>&#x1F4AC; fr-MC French</li>
 </ul></details></td> <td><details><summary>MD </summary><ul>
 <li>&#x1F1F2;&#x1F1E9; Moldova</li> <li>MDL Moldovan Leu</li> <li>GN-MD Mandiana</li> <li>JO-MD Mādaba</li> <li>NI-MD Madriz</li> <li>US-MD Maryland</li>
 </ul></details></td> <td><details><summary>ME &#x1F6C8;</summary><ul>
@@ -548,45 +552,45 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>MH &#x26A0;</summary><ul>
 <li>&#x1F1F2;&#x1F1ED; Marshall Islands (ISO)</li> <li>MONTSERRAT (FIPS)</li> <li>BS-MH Marsh Harbour</li> <li>IN-MH Maharashtra</li> <li>IE-MH Meath (An Mh&#237;)</li> <li>MW-MH Machinga</li> <li>RO-MH Mehedinţi</li>
 </ul></details></td> <td><details><summary>MI &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>MALAWI (FIPS)</li> <li>AZ-MI Ming&#228;&#231;evir</li> <li>BY-MI Minskaya voblasts&#39;</li> <li>HU-MI Miskolc</li> <li>IT-MI Milano</li> <li>LY-MI Mişrātah</li> <li>US-MI Michigan</li> <li>ZW-MI Midlands</li>
+<li>MALAWI (FIPS)</li> <li>AZ-MI Ming&#228;&#231;evir</li> <li>BY-MI Minskaya voblasts&#39;</li> <li>HU-MI Miskolc</li> <li>IT-MI Milano</li> <li>LY-MI Mişrātah</li> <li>US-MI Michigan</li> <li>ZW-MI Midlands</li> <li>&#x1F4AC; mi Maori</li> <li>&#x1F4AC; mi-NZ Maori</li>
 </ul></details></td> <td><details><summary>MJ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>MONTENEGRO (FIPS)</li>
 </ul></details></td> <td><details><summary>MK </summary><ul>
-<li>&#x1F1F2;&#x1F1F0; Macedonia</li> <li>MKD Denar</li> <li>AL-MK Mallakast&#235;r</li> <li>TD-MK Mayo-K&#233;bbi</li> <li>MK-MK Macedonia</li> <li>SB-MK Makira</li>
+<li>&#x1F1F2;&#x1F1F0; Macedonia</li> <li>MKD Denar</li> <li>AL-MK Mallakast&#235;r</li> <li>TD-MK Mayo-K&#233;bbi</li> <li>MK-MK Macedonia</li> <li>SB-MK Makira</li> <li>&#x1F4AC; mk FYRO Macedonian</li> <li>&#x1F4AC; mk-MK FYRO Macedonian</li> <li>&#x1F4AC; mk-MK FYRO Macedonian</li>
 </ul></details></td> <td><details><summary>ML </summary><ul>
 <li>&#x1F1F2;&#x1F1F1; Mali</li> <li>CL-ML Maule</li> <li>GN-ML Mali</li> <li>IN-ML Meghalaya</li> <li>SB-ML Malaita</li>
 </ul></details></td> <td><details><summary>MM &#x1F310;</summary><ul>
 <li>&#x1F1F2;&#x1F1F2; Myanmar (ISO)</li> <li>MMK Kyat</li> <li>AL-MM Mal&#235;sia e Madhe</li> <li>AZ-MM Nax&#231;ivan</li> <li>GN-MM Mamou</li> <li>RO-MM Maramureş</li>
 </ul></details></td> <td><details><summary>MN &#x26A0;</summary><ul>
-<li>&#x1F1F2;&#x1F1F3; Mongolia (ISO)</li> <li>MONACO (FIPS)</li> <li>MNT Tugrik</li> <li>DO-MN Monse&#241;or Nouel</li> <li>EG-MN Al Minyā</li> <li>IN-MN Manipur</li> <li>IE-MN Monaghan (Muineach&#225;n)</li> <li>IT-MN Mantova</li> <li>JO-MN Ma‘ān</li> <li>NI-MN Manaqua</li> <li>US-MN Minnesota</li> <li>ZW-MN Matabeleland North</li>
+<li>&#x1F1F2;&#x1F1F3; Mongolia (ISO)</li> <li>MONACO (FIPS)</li> <li>MNT Tugrik</li> <li>DO-MN Monse&#241;or Nouel</li> <li>EG-MN Al Minyā</li> <li>IN-MN Manipur</li> <li>IE-MN Monaghan (Muineach&#225;n)</li> <li>IT-MN Mantova</li> <li>JO-MN Ma‘ān</li> <li>NI-MN Manaqua</li> <li>US-MN Minnesota</li> <li>ZW-MN Matabeleland North</li> <li>&#x1F4AC; mn Mongolian</li> <li>&#x1F4AC; mn-MN Mongolian</li> <li>&#x1F4AC; mn-MN Mongolian</li>
 </ul></details></td> <td><details><summary>MO &#x26A0;</summary><ul>
-<li>&#x1F1F2;&#x1F1F4; Macau (ISO)</li> <li>MOROCCO (FIPS)</li> <li>MOP Pataca</li> <li>BJ-MO Mono</li> <li>SV-MO Moraz&#225;n</li> <li>IE-MO Mayo (Maigh Eo)</li> <li>IT-MO Modena</li> <li>LR-MO Montserrado</li> <li>MO-MO Macau</li> <li>MU-MO Moka</li> <li>RU-MO Mordoviya, Respublika</li> <li>US-MO Missouri</li> <li>UY-MO Montevideo</li>
+<li>&#x1F1F2;&#x1F1F4; Macau (ISO)</li> <li>MOROCCO (FIPS)</li> <li>MOP Pataca</li> <li>BJ-MO Mono</li> <li>SV-MO Moraz&#225;n</li> <li>IE-MO Mayo (Maigh Eo)</li> <li>IT-MO Modena</li> <li>LR-MO Montserrado</li> <li>MO-MO Macau</li> <li>MU-MO Moka</li> <li>RU-MO Mordoviya, Respublika</li> <li>US-MO Missouri</li> <li>UY-MO Montevideo</li> <li>&#x1F4AC; zh-MO Chinese</li>
 </ul></details></td> <td><details><summary>MP &#x26A0;</summary><ul>
 <li>&#x1F1F2;&#x1F1F5; Northern Mariana Islands (ISO)</li> <li>MAURITIUS (FIPS)</li> <li>CF-MP Ombella-Mpoko</li> <li>DO-MP Monte Plata</li> <li>IN-MP Madhya Pradesh</li> <li>MP-MP Northern Mariana Islands</li> <li>ZA-MP Mpumalanga</li> <li>US-MP Northern Mariana Islands</li>
 </ul></details></td> <td><details><summary>MQ &#x26A0;</summary><ul>
 <li>&#x1F1F2;&#x1F1F6; Martinique (ISO)</li> <li>MIDWAY ISLANDS (FIPS)</li> <li>FR-MQ Martinique</li> <li>MQ-MQ Martinique</li>
 </ul></details></td> <td><details><summary>MR </summary><ul>
-<li>&#x1F1F2;&#x1F1F7; Mauritania</li> <li>MRU Ouguiya</li> <li>AL-MR Mirdit&#235;</li> <li>LT-MR Marijampolės Apskritis</li> <li>YE-MR Al Mahrah</li>
+<li>&#x1F1F2;&#x1F1F7; Mauritania</li> <li>MRU Ouguiya</li> <li>AL-MR Mirdit&#235;</li> <li>LT-MR Marijampolės Apskritis</li> <li>YE-MR Al Mahrah</li> <li>&#x1F4AC; mr Marathi</li> <li>&#x1F4AC; mr-IN Marathi</li>
 </ul></details></td> <td><details><summary>MS &#x1F310;</summary><ul>
-<li>&#x1F1F2;&#x1F1F8; Montserrat (ISO)</li> <li>BR-MS Mato Grosso do Sul</li> <li>IT-MS Massa</li> <li>MS-MS Montserrat</li> <li>NI-MS Masaya</li> <li>QA-MS Madīnat ash Shamāl</li> <li>RO-MS Mureş</li> <li>US-MS Mississippi</li> <li>ZW-MS Matabeleland South</li>
+<li>&#x1F1F2;&#x1F1F8; Montserrat (ISO)</li> <li>BR-MS Mato Grosso do Sul</li> <li>IT-MS Massa</li> <li>MS-MS Montserrat</li> <li>NI-MS Masaya</li> <li>QA-MS Madīnat ash Shamāl</li> <li>RO-MS Mureş</li> <li>US-MS Mississippi</li> <li>ZW-MS Matabeleland South</li> <li>&#x1F4AC; ms Malay</li> <li>&#x1F4AC; ms-BN Malay</li> <li>&#x1F4AC; ms-MY Malay</li>
 </ul></details></td> <td><details><summary>MT </summary><ul>
-<li>&#x1F1F2;&#x1F1F9; Malta</li> <li>AL-MT Mat</li> <li>BR-MT Mato Grosso</li> <li>DO-MT Mar&#237;a Trinidad S&#225;nchez</li> <li>EG-MT Maţrūḩ</li> <li>IT-MT Matera</li> <li>MT-MT Malta</li> <li>NI-MT Matagalpa</li> <li>US-MT Montana</li>
+<li>&#x1F1F2;&#x1F1F9; Malta</li> <li>AL-MT Mat</li> <li>BR-MT Mato Grosso</li> <li>DO-MT Mar&#237;a Trinidad S&#225;nchez</li> <li>EG-MT Maţrūḩ</li> <li>IT-MT Matera</li> <li>MT-MT Malta</li> <li>NI-MT Matagalpa</li> <li>US-MT Montana</li> <li>&#x1F4AC; mt Maltese</li> <li>&#x1F4AC; mt-MT Maltese</li> <li>&#x1F4AC; mt-MT Maltese</li>
 </ul></details></td> <td><details><summary>MU &#x26A0;</summary><ul>
 <li>&#x1F1F2;&#x1F1FA; Mauritius (ISO)</li> <li>OMAN (FIPS)</li> <li>MUR Mauritius Rupee</li> <li>BI-MU Muramvya</li> <li>IQ-MU Al Muthann&#225;</li> <li>MW-MU Mulanje</li> <li>OM-MU Musandam</li> <li>SO-MU Mudug</li> <li>ES-MU Murcia</li>
 </ul></details></td> <td><details><summary>MV </summary><ul>
-<li>&#x1F1F2;&#x1F1FB; Maldives</li> <li>MVR Rufiyaa</li> <li>DE-MV Mecklenburg-Vorpommern</li> <li>ZW-MV Masvingo</li>
+<li>&#x1F1F2;&#x1F1FB; Maldives</li> <li>MVR Rufiyaa</li> <li>DE-MV Mecklenburg-Vorpommern</li> <li>ZW-MV Masvingo</li> <li>&#x1F4AC; dv-MV Divehi</li>
 </ul></details></td> <td><details><summary>MW &#x1F310;</summary><ul>
 <li>&#x1F1F2;&#x1F1FC; Malawi (ISO)</li> <li>MWK Malawi Kwacha</li> <li>MW-MW Mwanza</li> <li>YE-MW Al Maḩwit</li> <li>ZW-MW Mashonaland West</li>
 </ul></details></td> <td><details><summary>MX </summary><ul>
-<li>&#x1F1F2;&#x1F1FD; Mexico</li> <li>MXN Mexican Peso</li> <li>MXV Mexican Unidad de Inversion (UDI)</li>
+<li>&#x1F1F2;&#x1F1FD; Mexico</li> <li>MXN Mexican Peso</li> <li>MXV Mexican Unidad de Inversion (UDI)</li> <li>&#x1F4AC; es-MX Spanish</li>
 </ul></details></td> <td><details><summary>MY </summary><ul>
-<li>&#x1F1F2;&#x1F1FE; Malaysia</li> <li>MYR Malaysian Ringgit</li> <li>BI-MY Muyinga</li> <li>LR-MY Maryland</li>
+<li>&#x1F1F2;&#x1F1FE; Malaysia</li> <li>MYR Malaysian Ringgit</li> <li>BI-MY Muyinga</li> <li>LR-MY Maryland</li> <li>&#x1F4AC; ms-MY Malay</li>
 </ul></details></td> <td><details><summary>MZ </summary><ul>
 <li>&#x1F1F2;&#x1F1FF; Mozambique</li> <li>MZN Mozambique Metical</li> <li>IN-MZ Mizoram</li> <li>MW-MZ Mzimba</li>
 </ul></details></td> <tr><td><details><summary>NA &#x1F310;</summary><ul>
 <li>&#x1F1F3;&#x1F1E6; Namibia (ISO)</li> <li>NAD Namibia Dollar</li> <li>AZ-NA Naftalan</li> <li>IQ-NA An Najaf</li> <li>IT-NA Napoli</li> <li>LB-NA Nabat&#238;y&#233; (An Nabaţīyah</li> <li>LY-NA Naggaza</li> <li>NP-NA Narayani</li> <li>PK-NA Northern Areas</li> <li>ES-NA Navarra</li>
 </ul></details></td> <td><details><summary>NB &#x1F6C8;</summary><ul>
-<li>BS-NB Nicholls Town and Berry Islands</li> <li>CA-NB New Brunswick (Nouveau-Brunswick)</li> <li>ID-NB Nusa Tenggara Barat</li> <li>MW-NB Nkhata Bay</li> <li>NL-NB Noord-Brabant</li>
+<li>BS-NB Nicholls Town and Berry Islands</li> <li>CA-NB New Brunswick (Nouveau-Brunswick)</li> <li>ID-NB Nusa Tenggara Barat</li> <li>MW-NB Nkhata Bay</li> <li>NL-NB Noord-Brabant</li> <li>&#x1F4AC; nb Norwegian</li> <li>&#x1F4AC; nb-NO Norwegian</li>
 </ul></details></td> <td><details><summary>NC </summary><ul>
 <li>&#x1F1F3;&#x1F1E8; New Caledonia</li> <li>FR-NC Nouvelle-Cal&#233;donie</li> <li>NC-NC New Caledonia</li> <li>ZA-NC Northern Cape (Noord-Kaap)</li> <li>US-NC North Carolina</li>
 </ul></details></td> <td><details><summary>ND &#x1F6C8;</summary><ul>
@@ -600,23 +604,25 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>NH &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>VANUATU (FIPS)</li> <li>NL-NH Noord-Holland</li> <li>US-NH New Hampshire</li>
 </ul></details></td> <td><details><summary>NI &#x26A0;</summary><ul>
-<li>&#x1F1F3;&#x1F1EE; Nicaragua (ISO)</li> <li>NIGERIA (FIPS)</li> <li>NIO Cordoba Oro</li> <li>DE-NI Niedersachsen</li> <li>IQ-NI Nīnaw&#225;</li> <li>LR-NI Nimba</li> <li>MW-NI Ntchisi</li> <li>NG-NI Niger</li> <li>SK-NI Nitriansky kraj</li> <li>SR-NI Nickerie</li>
+<li>&#x1F1F3;&#x1F1EE; Nicaragua (ISO)</li> <li>NIGERIA (FIPS)</li> <li>NIO Cordoba Oro</li> <li>DE-NI Niedersachsen</li> <li>IQ-NI Nīnaw&#225;</li> <li>LR-NI Nimba</li> <li>MW-NI Ntchisi</li> <li>NG-NI Niger</li> <li>SK-NI Nitriansky kraj</li> <li>SR-NI Nickerie</li> <li>&#x1F4AC; es-NI Spanish</li>
 </ul></details></td> <td><details><summary>NJ &#x1F6C8;</summary><ul>
 <li>US-NJ New Jersey</li>
 </ul></details></td> <td><details><summary>NK &#x1F6C8;</summary><ul>
 <li>CD-NK Nord-Kivu</li> <li>HU-NK Nagykanizsa</li> <li>MW-NK Nkhotakota</li>
 </ul></details></td> <td><details><summary>NL </summary><ul>
-<li>&#x1F1F3;&#x1F1F1; Netherlands</li> <li>CA-NL Newfoundland and Labrador (Terre-Neuve)</li> <li>IN-NL Nagaland</li> <li>ZA-NL Kwazulu-Natal</li>
+<li>&#x1F1F3;&#x1F1F1; Netherlands</li> <li>CA-NL Newfoundland and Labrador (Terre-Neuve)</li> <li>IN-NL Nagaland</li> <li>ZA-NL Kwazulu-Natal</li> <li>&#x1F4AC; nl Dutch</li> <li>&#x1F4AC; nl-BE Dutch</li> <li>&#x1F4AC; nl-NL Dutch</li> <li>&#x1F4AC; nl-NL Dutch</li>
 </ul></details></td> <td><details><summary>NM &#x1F6C8;</summary><ul>
 <li>CF-NM Nana-Mamb&#233;r&#233;</li> <li>US-NM New Mexico</li>
-</ul></details></td> <td>&cir; NN <td><details><summary>NO </summary><ul>
-<li>&#x1F1F3;&#x1F1F4; Norway</li> <li>NOK Norwegian Krone</li> <li>NOK Norwegian Krone</li> <li>NOK Norwegian Krone</li> <li>CM-NO North</li> <li>HT-NO Nord-Ouest</li> <li>HU-NO N&#243;gr&#225;d</li> <li>IT-NO Novara</li> <li>MA-NO Nord-Ouest</li>
+</ul></details></td> <td><details><summary>NN &#x1F6C8;</summary><ul>
+<li>&#x1F4AC; nn-NO Norwegian</li>
+</ul></details></td> <td><details><summary>NO </summary><ul>
+<li>&#x1F1F3;&#x1F1F4; Norway</li> <li>NOK Norwegian Krone</li> <li>NOK Norwegian Krone</li> <li>NOK Norwegian Krone</li> <li>CM-NO North</li> <li>HT-NO Nord-Ouest</li> <li>HU-NO N&#243;gr&#225;d</li> <li>IT-NO Novara</li> <li>MA-NO Nord-Ouest</li> <li>&#x1F4AC; nb-NO Norwegian</li> <li>&#x1F4AC; nn-NO Norwegian</li> <li>&#x1F4AC; se-NO Sami</li>
 </ul></details></td> <td><details><summary>NP </summary><ul>
 <li>&#x1F1F3;&#x1F1F5; Nepal</li> <li>NPR Nepalese Rupee</li> <li>BS-NP New Providence</li> <li>GH-NP Northern</li> <li>ZA-NP Northern Province (Noordelike Provinsie)</li>
 </ul></details></td> <td>&cir; NQ <td><details><summary>NR </summary><ul>
 <li>&#x1F1F3;&#x1F1F7; Nauru</li> <li>NR-NR Nauru</li>
 </ul></details></td> <td><details><summary>NS &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>SURINAME (FIPS)</li> <li>CA-NS Nova Scotia (Nouvelle-&#201;cosse)</li> <li>MW-NS Nsanje</li> <li>NI-NS Nueva Segovia</li> <li>PL-NS Nowy Sacz</li>
+<li>SURINAME (FIPS)</li> <li>CA-NS Nova Scotia (Nouvelle-&#201;cosse)</li> <li>MW-NS Nsanje</li> <li>NI-NS Nueva Segovia</li> <li>PL-NS Nowy Sacz</li> <li>&#x1F4AC; ns Northern Sotho</li> <li>&#x1F4AC; ns-ZA Northern Sotho</li>
 </ul></details></td> <td><details><summary>NT &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>NETHERLANDS ANTILLES (FIPS)</li> <li>AU-NT Northern Territory</li> <li>CA-NT Northwest Territories (Territoires du Nord-Ouest)</li> <li>ID-NT Nusa Tenggara Timur</li> <li>RO-NT Neamţ</li>
 </ul></details></td> <td><details><summary>NU &#x26A0;</summary><ul>
@@ -628,7 +634,7 @@ that overlap with country codes.
 </ul></details></td> <td>&cir; NX <td><details><summary>NY &#x1F6C8;</summary><ul>
 <li>HU-NY Ny&#237;regyh&#225;za</li> <li>US-NY New York</li>
 </ul></details></td> <td><details><summary>NZ </summary><ul>
-<li>&#x1F1F3;&#x1F1FF; New Zealand</li> <li>NZD New Zealand Dollar</li> <li>NZD New Zealand Dollar</li> <li>NZD New Zealand Dollar</li> <li>NZD New Zealand Dollar</li> <li>NZD New Zealand Dollar</li> <li>GN-NZ Nz&#233;r&#233;kor&#233;</li>
+<li>&#x1F1F3;&#x1F1FF; New Zealand</li> <li>NZD New Zealand Dollar</li> <li>NZD New Zealand Dollar</li> <li>NZD New Zealand Dollar</li> <li>NZD New Zealand Dollar</li> <li>NZD New Zealand Dollar</li> <li>GN-NZ Nz&#233;r&#233;kor&#233;</li> <li>&#x1F4AC; en-NZ English</li> <li>&#x1F4AC; mi-NZ Maori</li>
 </ul></details></td> <tr><td>&cir; OA <td><details><summary>OB &#x1F6C8;</summary><ul>
 <li>DJ-OB Obock</li>
 </ul></details></td> <td><details><summary>OC &#x1F6C8;</summary><ul>
@@ -646,7 +652,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>OL &#x1F6C8;</summary><ul>
 <li>FI-OL Oulun l&#228;&#228;ni</li> <li>HN-OL Olancho</li> <li>PL-OL Olsztyn</li>
 </ul></details></td> <td><details><summary>OM &#x1F310;</summary><ul>
-<li>&#x1F1F4;&#x1F1F2; Oman (ISO)</li> <li>OMR Rial Omani</li>
+<li>&#x1F1F4;&#x1F1F2; Oman (ISO)</li> <li>OMR Rial Omani</li> <li>&#x1F4AC; ar-OM Arabic</li>
 </ul></details></td> <td><details><summary>ON &#x1F6C8;</summary><ul>
 <li>CA-ON Ontario</li> <li>NA-ON Oshana</li> <li>NG-ON Ondo</li>
 </ul></details></td> <td>&cir; OO <td><details><summary>OP &#x1F6C8;</summary><ul>
@@ -666,7 +672,7 @@ that overlap with country codes.
 </ul></details></td> <td>&cir; OX <td><details><summary>OY &#x1F6C8;</summary><ul>
 <li>IE-OY Offaly (U&#237;bh Fhail&#237;)</li> <li>NG-OY Oyo</li>
 </ul></details></td> <td>&cir; OZ <tr><td><details><summary>PA &#x26A0;</summary><ul>
-<li>&#x1F1F5;&#x1F1E6; Panama (ISO)</li> <li>PARAGUAY (FIPS)</li> <li>PAB Balboa</li> <li>BR-PA Par&#225;</li> <li>CV-PA Paul</li> <li>SV-PA La Paz</li> <li>IT-PA Palermo</li> <li>MU-PA Pamplemousses</li> <li>WS-PA Palauli</li> <li>US-PA Pennsylvania</li> <li>UY-PA Paysand&#250;</li>
+<li>&#x1F1F5;&#x1F1E6; Panama (ISO)</li> <li>PARAGUAY (FIPS)</li> <li>PAB Balboa</li> <li>BR-PA Par&#225;</li> <li>CV-PA Paul</li> <li>SV-PA La Paz</li> <li>IT-PA Palermo</li> <li>MU-PA Pamplemousses</li> <li>WS-PA Palauli</li> <li>US-PA Pennsylvania</li> <li>UY-PA Paysand&#250;</li> <li>&#x1F4AC; es-PA Spanish</li> <li>&#x1F4AC; pa Punjabi</li> <li>&#x1F4AC; pa-IN Punjabi</li>
 </ul></details></td> <td><details><summary>PB &#x1F6C8;</summary><ul>
 <li>BR-PB Para&#237;ba</li> <li>IN-PB Punjab</li> <li>PK-PB Punjab</li>
 </ul></details></td> <td><details><summary>PC &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -674,21 +680,21 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>PD &#x1F6C8;</summary><ul>
 <li>IT-PD Padova</li>
 </ul></details></td> <td><details><summary>PE </summary><ul>
-<li>&#x1F1F5;&#x1F1EA; Peru</li> <li>PEN Sol</li> <li>BR-PE Pernambuco</li> <li>CA-PE Prince Edward Island (&#206;le-du-Prince-&#201;douard)</li> <li>GT-PE Pet&#233;n</li> <li>HU-PE Pest</li> <li>IT-PE Pescara</li>
+<li>&#x1F1F5;&#x1F1EA; Peru</li> <li>PEN Sol</li> <li>BR-PE Pernambuco</li> <li>CA-PE Prince Edward Island (&#206;le-du-Prince-&#201;douard)</li> <li>GT-PE Pet&#233;n</li> <li>HU-PE Pest</li> <li>IT-PE Pescara</li> <li>&#x1F4AC; es-PE Spanish</li> <li>&#x1F4AC; qu-PE Quechua</li>
 </ul></details></td> <td><details><summary>PF &#x26A0;</summary><ul>
 <li>&#x1F1F5;&#x1F1EB; French Polynesia (ISO)</li> <li>PARACEL ISLANDS (FIPS)</li> <li>FR-PF Polyn&#233;sie fran&#231;aise</li> <li>PF-PF French Polynesia</li>
 </ul></details></td> <td><details><summary>PG &#x26A0;</summary><ul>
 <li>&#x1F1F5;&#x1F1EC; Papua New Guinea (ISO)</li> <li>SPRATLY ISLANDS (FIPS)</li> <li>PGK Kina</li> <li>AL-PG Pogradec</li> <li>IT-PG Perugia</li>
 </ul></details></td> <td><details><summary>PH &#x1F310;</summary><ul>
-<li>&#x1F1F5;&#x1F1ED; Philippines (ISO)</li> <li>PHP Philippine Peso</li> <li>LA-PH Ph&#244;ngsali [Phong Saly]</li> <li>PH-PH Philippines</li> <li>RO-PH Prahova</li>
+<li>&#x1F1F5;&#x1F1ED; Philippines (ISO)</li> <li>PHP Philippine Peso</li> <li>LA-PH Ph&#244;ngsali [Phong Saly]</li> <li>PH-PH Philippines</li> <li>RO-PH Prahova</li> <li>&#x1F4AC; en-PH English</li> <li>&#x1F4AC; tl-PH Tagalog</li>
 </ul></details></td> <td><details><summary>PI &#x1F6C8;</summary><ul>
 <li>BR-PI Piau&#237;</li> <li>GN-PI Pita</li> <li>IT-PI Pisa</li> <li>PL-PI Piła</li>
 </ul></details></td> <td><details><summary>PJ &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>ETOROFU HABOMAI KUNASHIRI AND SHIKOTAN ISLANDS (FIPS)</li>
 </ul></details></td> <td><details><summary>PK </summary><ul>
-<li>&#x1F1F5;&#x1F1F0; Pakistan</li> <li>PKR Pakistan Rupee</li>
+<li>&#x1F1F5;&#x1F1F0; Pakistan</li> <li>PKR Pakistan Rupee</li> <li>&#x1F4AC; ur-PK Urdu</li>
 </ul></details></td> <td><details><summary>PL </summary><ul>
-<li>&#x1F1F5;&#x1F1F1; Poland</li> <li>PLN Zloty</li> <li>MU-PL Port Louis</li> <li>NG-PL Plateau</li> <li>PL-PL Płock</li>
+<li>&#x1F1F5;&#x1F1F1; Poland</li> <li>PLN Zloty</li> <li>MU-PL Port Louis</li> <li>NG-PL Plateau</li> <li>PL-PL Płock</li> <li>&#x1F4AC; pl Polish</li> <li>&#x1F4AC; pl-PL Polish</li> <li>&#x1F4AC; pl-PL Polish</li>
 </ul></details></td> <td><details><summary>PM &#x26A0;</summary><ul>
 <li>&#x1F1F5;&#x1F1F2; St. Pierre &amp; Miquelon (ISO)</li> <li>PANAMA (FIPS)</li> <li>DO-PM San Pedro de Macor&#237;s</li> <li>FR-PM Saint-Pierre-et-Miquelon</li> <li>GY-PM Pomeroon-Supenaam</li> <li>PM-PM St. Pierre &amp; Miquelon</li> <li>ES-PM Baleares</li> <li>SR-PM Paramaribo</li>
 </ul></details></td> <td><details><summary>PN &#x1F310;</summary><ul>
@@ -700,11 +706,11 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>PQ &#x1F6C8;</summary><ul>
 <li>AL-PQ Peqin</li>
 </ul></details></td> <td><details><summary>PR &#x1F310;</summary><ul>
-<li>&#x1F1F5;&#x1F1F7; Puerto Rico (ISO)</li> <li>AL-PR P&#235;rmet</li> <li>BR-PR Paran&#225;</li> <li>CV-PR Praia</li> <li>DO-PR Peravia</li> <li>GT-PR El Progreso</li> <li>IT-PR Parma</li> <li>LV-PR Preilu Aprinkis</li> <li>PL-PR Przemyśl</li> <li>PR-PR Puerto Rico</li> <li>SR-PR Para</li> <li>US-PR Puerto Rico</li>
+<li>&#x1F1F5;&#x1F1F7; Puerto Rico (ISO)</li> <li>AL-PR P&#235;rmet</li> <li>BR-PR Paran&#225;</li> <li>CV-PR Praia</li> <li>DO-PR Peravia</li> <li>GT-PR El Progreso</li> <li>IT-PR Parma</li> <li>LV-PR Preilu Aprinkis</li> <li>PL-PR Przemyśl</li> <li>PR-PR Puerto Rico</li> <li>SR-PR Para</li> <li>US-PR Puerto Rico</li> <li>&#x1F4AC; es-PR Spanish</li>
 </ul></details></td> <td><details><summary>PS &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>PALAU (FIPS)</li> <li>HU-PS P&#233;cs</li> <li>IT-PS Pesaro</li>
+<li>PALAU (FIPS)</li> <li>HU-PS P&#233;cs</li> <li>IT-PS Pesaro</li> <li>&#x1F4AC; ps Pashto</li> <li>&#x1F4AC; ps-AR Pashto</li>
 </ul></details></td> <td><details><summary>PT &#x1F310;</summary><ul>
-<li>&#x1F1F5;&#x1F1F9; Portugal (ISO)</li> <li>GY-PT Potaro-Siparuni</li> <li>IT-PT Pistoia</li> <li>PL-PT Piotrk&#243;w</li>
+<li>&#x1F1F5;&#x1F1F9; Portugal (ISO)</li> <li>GY-PT Potaro-Siparuni</li> <li>IT-PT Pistoia</li> <li>PL-PT Piotrk&#243;w</li> <li>&#x1F4AC; pt Portuguese</li> <li>&#x1F4AC; pt-BR Portuguese</li> <li>&#x1F4AC; pt-PT Portuguese</li> <li>&#x1F4AC; pt-PT Portuguese</li>
 </ul></details></td> <td><details><summary>PU &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>GUINEA-BISSAU (FIPS)</li> <li>AL-PU Puk&#235;</li>
 </ul></details></td> <td><details><summary>PV &#x1F6C8;</summary><ul>
@@ -712,11 +718,11 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>PW &#x1F310;</summary><ul>
 <li>&#x1F1F5;&#x1F1FC; Palau (ISO)</li> <li>MU-PW Plaines Wilhems</li> <li>PW-PW Palau</li>
 </ul></details></td> <td>&cir; PX <td><details><summary>PY &#x1F310;</summary><ul>
-<li>&#x1F1F5;&#x1F1FE; Paraguay (ISO)</li> <li>PYG Guarani</li> <li>IN-PY Pondicherry</li>
+<li>&#x1F1F5;&#x1F1FE; Paraguay (ISO)</li> <li>PYG Guarani</li> <li>IN-PY Pondicherry</li> <li>&#x1F4AC; es-PY Spanish</li>
 </ul></details></td> <td><details><summary>PZ &#x1F6C8;</summary><ul>
 <li>IT-PZ Potenza</li>
 </ul></details></td> <tr><td><details><summary>QA </summary><ul>
-<li>&#x1F1F6;&#x1F1E6; Qatar</li> <li>QAR Qatari Rial</li> <li>IQ-QA Al Qādisīyah</li> <li>UZ-QA Qashqadaryo (Kashkadar&#39;ya)</li>
+<li>&#x1F1F6;&#x1F1E6; Qatar</li> <li>QAR Qatari Rial</li> <li>IQ-QA Al Qādisīyah</li> <li>UZ-QA Qashqadaryo (Kashkadar&#39;ya)</li> <li>&#x1F4AC; ar-QA Arabic</li>
 </ul></details></td> <td><details><summary>QB &#x1F6C8;</summary><ul>
 <li>MU-QB Quatre Bornes</li>
 </ul></details></td> <td><details><summary>QC &#x1F6C8;</summary><ul>
@@ -724,7 +730,7 @@ that overlap with country codes.
 </ul></details></td> <td>&cir; QD <td>&cir; QE <td>&cir; QF <td>&cir; QG <td>&cir; QH <td>&cir; QI <td>&cir; QJ <td>&cir; QK <td>&cir; QL <td>&cir; QM <td>&cir; QN <td>&cir; QO <td>&cir; QP <td>&cir; QQ <td><details><summary>QR &#x1F6C8;</summary><ul>
 <li>UZ-QR Qoraqalpoghiston Respublikasi (Karakalpakstan, Respublika)</li>
 </ul></details></td> <td>&cir; QS <td>&cir; QT <td><details><summary>QU &#x1F6C8;</summary><ul>
-<li>GW-QU Quinara</li> <li>SY-QU Al Qunayţirah</li>
+<li>GW-QU Quinara</li> <li>SY-QU Al Qunayţirah</li> <li>&#x1F4AC; qu Quechua</li> <li>&#x1F4AC; qu-BO Quechua</li> <li>&#x1F4AC; qu-EC Quechua</li> <li>&#x1F4AC; qu-PE Quechua</li>
 </ul></details></td> <td>&cir; QV <td>&cir; QW <td>&cir; QX <td>&cir; QY <td><details><summary>QZ &#x1F6C8;</summary><ul>
 <li>GT-QZ Quezaltenango</li>
 </ul></details></td> <tr><td><details><summary>RA &#x1F6C8;</summary><ul>
@@ -748,7 +754,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>RN &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>SAINT MARTIN (FIPS)</li> <li>BR-RN Rio Grande do Norte</li> <li>IE-RN Roscommon (Ros Com&#225;in)</li> <li>IT-RN Rimini</li> <li>UY-RN R&#237;o Negro</li>
 </ul></details></td> <td><details><summary>RO </summary><ul>
-<li>&#x1F1F7;&#x1F1F4; Romania</li> <li>RON Romanian Leu</li> <li>DO-RO La Romana</li> <li>IT-RO Rovigo</li> <li>MU-RO Rodrigues Island</li> <li>UY-RO Rocha</li>
+<li>&#x1F1F7;&#x1F1F4; Romania</li> <li>RON Romanian Leu</li> <li>DO-RO La Romana</li> <li>IT-RO Rovigo</li> <li>MU-RO Rodrigues Island</li> <li>UY-RO Rocha</li> <li>&#x1F4AC; ro Romanian</li> <li>&#x1F4AC; ro-RO Romanian</li> <li>&#x1F4AC; ro-RO Romanian</li>
 </ul></details></td> <td><details><summary>RP &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>PHILIPPINES (FIPS)</li> <li>DE-RP Rheinland-Pfalz</li>
 </ul></details></td> <td><details><summary>RQ &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -760,7 +766,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>RT &#x1F6C8;</summary><ul>
 <li>BI-RT Rutana</li>
 </ul></details></td> <td><details><summary>RU &#x1F310;</summary><ul>
-<li>&#x1F1F7;&#x1F1FA; Russian Federation (ISO)</li> <li>RUB Russian Ruble</li> <li>MW-RU Rumphi</li>
+<li>&#x1F1F7;&#x1F1FA; Russian Federation (ISO)</li> <li>RUB Russian Ruble</li> <li>MW-RU Rumphi</li> <li>&#x1F4AC; ru Russian</li> <li>&#x1F4AC; ru-RU Russian</li> <li>&#x1F4AC; ru-RU Russian</li> <li>&#x1F4AC; tt-RU Tatar</li>
 </ul></details></td> <td><details><summary>RV &#x1F6C8;</summary><ul>
 <li>UY-RV Rivera</li>
 </ul></details></td> <td><details><summary>RW </summary><ul>
@@ -770,7 +776,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>RZ &#x1F6C8;</summary><ul>
 <li>PL-RZ Rzesz&#243;w</li>
 </ul></details></td> <tr><td><details><summary>SA </summary><ul>
-<li>&#x1F1F8;&#x1F1E6; Saudi Arabia</li> <li>SAR Saudi Riyal</li> <li>AU-SA South Australia</li> <li>AZ-SA Ş&#228;ki</li> <li>TD-SA Salamat</li> <li>SV-SA Santa Ana</li> <li>ER-SA Sahel</li> <li>GT-SA Sacatep&#233;quez</li> <li>ID-SA Sulawesi Utara</li> <li>IT-SA Salerno</li> <li>LV-SA Saldus Aprinkis</li> <li>LT-SA Šiauliu Apskritis</li> <li>MW-SA Salima</li> <li>MY-SA Sabah</li> <li>MU-SA Savanne</li> <li>NP-SA Sagarmatha</li> <li>RU-SA Sakha, Respublika [Yakutiya]</li> <li>WS-SA Satupa&#39;itea</li> <li>SO-SA Sanaag</li> <li>ES-SA Salamanca</li> <li>SR-SA Saramacca</li> <li>UY-SA Salto</li> <li>UZ-SA Samarqand (Samarkand)</li>
+<li>&#x1F1F8;&#x1F1E6; Saudi Arabia</li> <li>SAR Saudi Riyal</li> <li>AU-SA South Australia</li> <li>AZ-SA Ş&#228;ki</li> <li>TD-SA Salamat</li> <li>SV-SA Santa Ana</li> <li>ER-SA Sahel</li> <li>GT-SA Sacatep&#233;quez</li> <li>ID-SA Sulawesi Utara</li> <li>IT-SA Salerno</li> <li>LV-SA Saldus Aprinkis</li> <li>LT-SA Šiauliu Apskritis</li> <li>MW-SA Salima</li> <li>MY-SA Sabah</li> <li>MU-SA Savanne</li> <li>NP-SA Sagarmatha</li> <li>RU-SA Sakha, Respublika [Yakutiya]</li> <li>WS-SA Satupa&#39;itea</li> <li>SO-SA Sanaag</li> <li>ES-SA Salamanca</li> <li>SR-SA Saramacca</li> <li>UY-SA Salto</li> <li>UZ-SA Samarqand (Samarkand)</li> <li>&#x1F4AC; ar-SA Arabic</li> <li>&#x1F4AC; sa Sanskrit</li> <li>&#x1F4AC; sa-IN Sanskrit</li>
 </ul></details></td> <td><details><summary>SB &#x26A0;</summary><ul>
 <li>&#x1F1F8;&#x1F1E7; Solomon Islands (ISO)</li> <li>ST. PIERRE AND MIQUELON (FIPS)</li> <li>SBD Solomon Islands Dollar</li> <li>HN-SB Santa B&#225;rbara</li> <li>ID-SB Sumatera Barat</li> <li>RO-SB Sibiu</li>
 </ul></details></td> <td><details><summary>SC &#x26A0;</summary><ul>
@@ -778,21 +784,21 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>SD &#x1F310;</summary><ul>
 <li>&#x1F1F8;&#x1F1E9; Sudan (ISO)</li> <li>SDG Sudanese Pound</li> <li>HT-SD Sud</li> <li>HU-SD Szeged</li> <li>IQ-SD Şalāḩ ad Dīn</li> <li>PK-SD Sind (Sindh)</li> <li>SO-SD Shabeellaha Dhexe</li> <li>US-SD South Dakota</li> <li>YE-SD Şa&#39;dah</li>
 </ul></details></td> <td><details><summary>SE &#x26A0;</summary><ul>
-<li>&#x1F1F8;&#x1F1EA; Sweden (ISO)</li> <li>SEYCHELLES (FIPS)</li> <li>SEK Swedish Krona</li> <li>BW-SE South-East</li> <li>BR-SE Sergipe</li> <li>CF-SE Sangha-Mba&#233;r&#233;</li> <li>DO-SE El Seibo</li> <li>HT-SE Sud-Est</li> <li>NP-SE Seti</li> <li>PL-SE Siedlce</li> <li>RU-SE Severnaya Osetiya, Respublika [Alaniya]</li> <li>ES-SE Sevilla</li>
+<li>&#x1F1F8;&#x1F1EA; Sweden (ISO)</li> <li>SEYCHELLES (FIPS)</li> <li>SEK Swedish Krona</li> <li>BW-SE South-East</li> <li>BR-SE Sergipe</li> <li>CF-SE Sangha-Mba&#233;r&#233;</li> <li>DO-SE El Seibo</li> <li>HT-SE Sud-Est</li> <li>NP-SE Seti</li> <li>PL-SE Siedlce</li> <li>RU-SE Severnaya Osetiya, Respublika [Alaniya]</li> <li>ES-SE Sevilla</li> <li>&#x1F4AC; se Sami</li> <li>&#x1F4AC; se-FI Sami</li> <li>&#x1F4AC; se-NO Sami</li> <li>&#x1F4AC; se-SE Sami</li> <li>&#x1F4AC; se-SE Sami</li> <li>&#x1F4AC; sv-SE Swedish</li>
 </ul></details></td> <td><details><summary>SF &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>SOUTH AFRICA (FIPS)</li> <li>HU-SF Sz&#233;kesfeh&#233;rv&#225;r</li> <li>LY-SF Sawfajjin</li>
 </ul></details></td> <td><details><summary>SG &#x26A0;</summary><ul>
-<li>&#x1F1F8;&#x1F1EC; Singapore (ISO)</li> <li>SENEGAL (FIPS)</li> <li>SGD Singapore Dollar</li> <li>ID-SG Sulawesi Tenggara</li> <li>SG-SG Singapore</li> <li>ES-SG Segovia</li> <li>CH-SG Sankt Gallen</li>
+<li>&#x1F1F8;&#x1F1EC; Singapore (ISO)</li> <li>SENEGAL (FIPS)</li> <li>SGD Singapore Dollar</li> <li>ID-SG Sulawesi Tenggara</li> <li>SG-SG Singapore</li> <li>ES-SG Segovia</li> <li>CH-SG Sankt Gallen</li> <li>&#x1F4AC; zh-SG Chinese</li>
 </ul></details></td> <td><details><summary>SH </summary><ul>
 <li>&#x1F1F8;&#x1F1ED; St. Helena</li> <li>SHP Saint Helena Pound</li> <li>AL-SH Shkod&#235;r</li> <li>AM-SH Širak</li> <li>DE-SH Schleswig-Holstein</li> <li>HU-SH Szombathely</li> <li>OM-SH Ash Sharqīyah</li> <li>SH-SH Saint Helena</li> <li>SO-SH Shabeellaha Hoose</li> <li>SZ-SH Shiselweni</li> <li>CH-SH Schaffhausen</li> <li>AE-SH Ash Shāriqah (Sharjah)</li> <li>YE-SH Shabwah</li>
 </ul></details></td> <td><details><summary>SI </summary><ul>
-<li>&#x1F1F8;&#x1F1EE; Slovenia</li> <li>GN-SI Siguiri</li> <li>IT-SI Siena</li> <li>LR-SI Sinoe</li> <li>PL-SI Sieradz</li> <li>SR-SI Sipaliwini</li> <li>UZ-SI Sirdaryo (Syrdar&#39;ya)</li>
+<li>&#x1F1F8;&#x1F1EE; Slovenia</li> <li>GN-SI Siguiri</li> <li>IT-SI Siena</li> <li>LR-SI Sinoe</li> <li>PL-SI Sieradz</li> <li>SR-SI Sipaliwini</li> <li>UZ-SI Sirdaryo (Syrdar&#39;ya)</li> <li>&#x1F4AC; sl-SI Slovenian</li>
 </ul></details></td> <td><details><summary>SJ &#x1F310;</summary><ul>
 <li>&#x1F1F8;&#x1F1EF; Svalbard &amp; Jan Mayen Islands (ISO)</li> <li>CR-SJ San Jos&#233;</li> <li>NI-SJ R&#237;o San Juan</li> <li>RO-SJ Sălaj</li> <li>SJ-SJ Svalbard &amp; Jan Mayen Islands</li> <li>UY-SJ San Jos&#233;</li>
 </ul></details></td> <td><details><summary>SK &#x1F310;</summary><ul>
-<li>&#x1F1F8;&#x1F1F0; Slovak Republic (ISO)</li> <li>AL-SK Skrapar</li> <li>CA-SK Saskatchewan</li> <li>CD-SK Sud-Kivu</li> <li>HU-SK Szolnok</li> <li>IN-SK Sikkim</li> <li>MY-SK Sarawak</li> <li>PL-SK Skierniewice</li>
+<li>&#x1F1F8;&#x1F1F0; Slovak Republic (ISO)</li> <li>AL-SK Skrapar</li> <li>CA-SK Saskatchewan</li> <li>CD-SK Sud-Kivu</li> <li>HU-SK Szolnok</li> <li>IN-SK Sikkim</li> <li>MY-SK Sarawak</li> <li>PL-SK Skierniewice</li> <li>&#x1F4AC; sk Slovak</li> <li>&#x1F4AC; sk-SK Slovak</li> <li>&#x1F4AC; sk-SK Slovak</li>
 </ul></details></td> <td><details><summary>SL </summary><ul>
-<li>&#x1F1F8;&#x1F1F1; Sierra Leone</li> <li>SLL Leone</li> <li>CV-SL Sal</li> <li>DE-SL Saarland</li> <li>LA-SL Salavan [Saravane]</li> <li>PL-SL Słupsk</li> <li>SN-SL Saint-Louis</li>
+<li>&#x1F1F8;&#x1F1F1; Sierra Leone</li> <li>SLL Leone</li> <li>CV-SL Sal</li> <li>DE-SL Saarland</li> <li>LA-SL Salavan [Saravane]</li> <li>PL-SL Słupsk</li> <li>SN-SL Saint-Louis</li> <li>&#x1F4AC; sl Slovenian</li> <li>&#x1F4AC; sl-SI Slovenian</li>
 </ul></details></td> <td><details><summary>SM </summary><ul>
 <li>&#x1F1F8;&#x1F1F2; San Marino</li> <li>AZ-SM Sumqayit</li> <li>DO-SM Saman&#225;</li> <li>SV-SM San Miguel</li> <li>ER-SM Semhar [S&#228;mhar]</li> <li>GT-SM San Marcos</li> <li>RO-SM Satu Mare</li> <li>SM-SM San Marino</li>
 </ul></details></td> <td><details><summary>SN &#x26A0;</summary><ul>
@@ -800,9 +806,11 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>SO </summary><ul>
 <li>&#x1F1F8;&#x1F1F4; Somalia</li> <li>SOS Somali Shilling</li> <li>BW-SO Southern [Ngwaketse]</li> <li>SV-SO Sonsonate</li> <li>ET-SO Somali</li> <li>GT-SO Solol&#225;</li> <li>HU-SO Somogy</li> <li>IE-SO Sligo (Sligeach)</li> <li>IT-SO Sondrio</li> <li>NG-SO Sokoto</li> <li>SO-SO Sool</li> <li>ES-SO Soria</li> <li>CH-SO Solothurn</li> <li>TR-SO Nevşehir</li> <li>UY-SO Soriano</li>
 </ul></details></td> <td><details><summary>SP &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>SPAIN (FIPS)</li> <li>BS-SP Sandy Point</li> <li>BR-SP S&#227;o Paulo</li> <li>IT-SP La Spezia</li>
-</ul></details></td> <td>&cir; SQ <td><details><summary>SR &#x1F310;</summary><ul>
-<li>&#x1F1F8;&#x1F1F7; Suriname (ISO)</li> <li>SRD Surinam Dollar</li> <li>AL-SR Sarand&#235;</li> <li>BS-SR San Salvador and Rum Cay</li> <li>DO-SR Santiago Rodr&#237;guez</li> <li>ER-SR Seraye [S&#228;ray&#233;]</li> <li>GT-SR Santa Rosa</li> <li>IT-SR Siracusa</li> <li>YU-SR Srbija</li>
+<li>SPAIN (FIPS)</li> <li>BS-SP Sandy Point</li> <li>BR-SP S&#227;o Paulo</li> <li>IT-SP La Spezia</li> <li>&#x1F4AC; sr-SP Serbian</li>
+</ul></details></td> <td><details><summary>SQ &#x1F6C8;</summary><ul>
+<li>&#x1F4AC; sq Albanian</li> <li>&#x1F4AC; sq-AL Albanian</li>
+</ul></details></td> <td><details><summary>SR &#x1F310;</summary><ul>
+<li>&#x1F1F8;&#x1F1F7; Suriname (ISO)</li> <li>SRD Surinam Dollar</li> <li>AL-SR Sarand&#235;</li> <li>BS-SR San Salvador and Rum Cay</li> <li>DO-SR Santiago Rodr&#237;guez</li> <li>ER-SR Seraye [S&#228;ray&#233;]</li> <li>GT-SR Santa Rosa</li> <li>IT-SR Siracusa</li> <li>YU-SR Srbija</li> <li>&#x1F4AC; sr-BA Serbian</li> <li>&#x1F4AC; sr-SP Serbian</li>
 </ul></details></td> <td><details><summary>SS &#x1F6C8;</summary><ul>
 <li>AZ-SS Şuşa</li> <li>SV-SS San Salvador</li> <li>HU-SS Szeksz&#225;rd</li> <li>ID-SS Sumatera Selatan</li> <li>IT-SS Sassari</li> <li>ES-SS Guip&#250;zcoa</li> <li>TR-SS Samsun</li>
 </ul></details></td> <td><details><summary>ST &#x26A0;</summary><ul>
@@ -810,17 +818,17 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>SU &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>SUDAN (FIPS)</li> <li>AM-SU Syunik&#39;</li> <li>CM-SU South</li> <li>SV-SU Usulut&#225;n</li> <li>GT-SU Suchitep&#233;quez</li> <li>ID-SU Sumatera Utara</li> <li>IQ-SU As Sulaymānīyah</li> <li>MA-SU Sud</li> <li>PL-SU Suwałki</li> <li>SY-SU As Suwaydā&#39;</li> <li>UZ-SU Surkhondaryo (Surkhandar&#39;ya)</li>
 </ul></details></td> <td><details><summary>SV &#x26A0;</summary><ul>
-<li>&#x1F1F8;&#x1F1FB; El Salvador (ISO)</li> <li>SVALBARD (FIPS)</li> <li>SVC El Salvador Colon</li> <li>CV-SV Sāo Vicente</li> <li>SV-SV San Vicente</li> <li>IT-SV Savona</li> <li>LA-SV Savannakh&#233;t</li> <li>RO-SV Suceava</li>
+<li>&#x1F1F8;&#x1F1FB; El Salvador (ISO)</li> <li>SVALBARD (FIPS)</li> <li>SVC El Salvador Colon</li> <li>CV-SV Sāo Vicente</li> <li>SV-SV San Vicente</li> <li>IT-SV Savona</li> <li>LA-SV Savannakh&#233;t</li> <li>RO-SV Suceava</li> <li>&#x1F4AC; es-SV Spanish</li> <li>&#x1F4AC; sv Swedish</li> <li>&#x1F4AC; sv-FI Swedish</li> <li>&#x1F4AC; sv-SE Swedish</li>
 </ul></details></td> <td><details><summary>SW &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>SWEDEN (FIPS)</li> <li>CM-SW South-West</li>
+<li>SWEDEN (FIPS)</li> <li>CM-SW South-West</li> <li>&#x1F4AC; sw Swahili</li> <li>&#x1F4AC; sw-KE Swahili</li>
 </ul></details></td> <td><details><summary>SX &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS (FIPS)</li>
 </ul></details></td> <td><details><summary>SY </summary><ul>
-<li>&#x1F1F8;&#x1F1FE; Syria</li> <li>SYP Syrian Pound</li>
+<li>&#x1F1F8;&#x1F1FE; Syria</li> <li>SYP Syrian Pound</li> <li>&#x1F4AC; ar-SY Arabic</li> <li>&#x1F4AC; syr-SY Syriac</li>
 </ul></details></td> <td><details><summary>SZ &#x26A0;</summary><ul>
 <li>&#x1F1F8;&#x1F1FF; Swaziland (ISO)</li> <li>SWITZERLAND (FIPS)</li> <li>SZL Lilangeni</li> <li>DO-SZ Sanchez Ram&#237;rez</li> <li>HU-SZ Szabolcs-Szatm&#225;r-Bereg</li> <li>PL-SZ Szczecin</li> <li>CH-SZ Schwyz</li>
 </ul></details></td> <tr><td><details><summary>TA &#x1F6C8;</summary><ul>
-<li>CV-TA Tarrafal</li> <li>TD-TA Tandjil&#233;</li> <li>CL-TA Tarapac&#225;</li> <li>DJ-TA Tadjoura</li> <li>IL-TA Tel-Aviv (Tell Abīb)</li> <li>IT-TA Taranto</li> <li>LV-TA Talsu Aprinkis</li> <li>LT-TA Tauragės Apskritis</li> <li>NG-TA Taraba</li> <li>PK-TA Federally Administered Tribal Areas</li> <li>PL-TA Tarn&#243;w</li> <li>RU-TA Tatarstan, Respublika</li> <li>SH-TA Tristan da Cunha</li> <li>SK-TA Trnavsk&#253; kraj</li> <li>SY-TA Ţarţūs</li> <li>UY-TA Tacuaremb&#243;</li> <li>YE-TA Ta‘izz</li>
+<li>CV-TA Tarrafal</li> <li>TD-TA Tandjil&#233;</li> <li>CL-TA Tarapac&#225;</li> <li>DJ-TA Tadjoura</li> <li>IL-TA Tel-Aviv (Tell Abīb)</li> <li>IT-TA Taranto</li> <li>LV-TA Talsu Aprinkis</li> <li>LT-TA Tauragės Apskritis</li> <li>NG-TA Taraba</li> <li>PK-TA Federally Administered Tribal Areas</li> <li>PL-TA Tarn&#243;w</li> <li>RU-TA Tatarstan, Respublika</li> <li>SH-TA Tristan da Cunha</li> <li>SK-TA Trnavsk&#253; kraj</li> <li>SY-TA Ţarţūs</li> <li>UY-TA Tacuaremb&#243;</li> <li>YE-TA Ta‘izz</li> <li>&#x1F4AC; ta Tamil</li> <li>&#x1F4AC; ta-IN Tamil</li>
 </ul></details></td> <td><details><summary>TB &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>SAINT BARTHELEMY (FIPS)</li> <li>HU-TB Tatab&#225;nya</li> <li>LY-TB Ţarābulus</li>
 </ul></details></td> <td><details><summary>TC &#x1F310;</summary><ul>
@@ -828,13 +836,13 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>TD &#x26A0;</summary><ul>
 <li>&#x1F1F9;&#x1F1E9; Chad (ISO)</li> <li>TRINIDAD (FIPS)</li>
 </ul></details></td> <td><details><summary>TE &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>TROMELIN ISLAND (FIPS)</li> <li>AL-TE Tepelen&#235;</li> <li>BN-TE Temburong</li> <li>GN-TE T&#233;lim&#233;l&#233;</li> <li>IT-TE Teramo</li> <li>LT-TE Telšiu Apskritis</li> <li>SB-TE Temotu</li> <li>ES-TE Teruel</li>
+<li>TROMELIN ISLAND (FIPS)</li> <li>AL-TE Tepelen&#235;</li> <li>BN-TE Temburong</li> <li>GN-TE T&#233;lim&#233;l&#233;</li> <li>IT-TE Teramo</li> <li>LT-TE Telšiu Apskritis</li> <li>SB-TE Temotu</li> <li>ES-TE Teruel</li> <li>&#x1F4AC; te Telugu</li> <li>&#x1F4AC; te-IN Telugu</li>
 </ul></details></td> <td><details><summary>TF &#x1F310;</summary><ul>
 <li>&#x1F1F9;&#x1F1EB; French Southern Territories (ISO)</li> <li>FR-TF Terres Australes</li> <li>TF-TF French Southern Territories</li> <li>ES-TF Santa Cruz De Tenerife</li>
 </ul></details></td> <td><details><summary>TG &#x1F310;</summary><ul>
 <li>&#x1F1F9;&#x1F1EC; Togo (ISO)</li> <li>PL-TG Tarnobrzeg</li> <li>CH-TG Thurgau</li>
 </ul></details></td> <td><details><summary>TH </summary><ul>
-<li>&#x1F1F9;&#x1F1ED; Thailand</li> <li>THB Baht</li> <li>DE-TH Th&#252;ringen</li> <li>MW-TH Thyolo</li> <li>SN-TH Thi&#232;s</li>
+<li>&#x1F1F9;&#x1F1ED; Thailand</li> <li>THB Baht</li> <li>DE-TH Th&#252;ringen</li> <li>MW-TH Thyolo</li> <li>SN-TH Thi&#232;s</li> <li>&#x1F4AC; th Thai</li> <li>&#x1F4AC; th-TH Thai</li> <li>&#x1F4AC; th-TH Thai</li>
 </ul></details></td> <td><details><summary>TI &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>TAJIKISTAN (FIPS)</li> <li>ET-TI Tigrai [Tegr&#233;]</li> <li>CH-TI Ticino</li>
 </ul></details></td> <td><details><summary>TJ &#x1F310;</summary><ul>
@@ -842,27 +850,27 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>TK &#x26A0;</summary><ul>
 <li>&#x1F1F9;&#x1F1F0; Tokelau (ISO)</li> <li>TURKS AND CAICOS ISLANDS (FIPS)</li> <li>TK-TK Tokelau</li>
 </ul></details></td> <td><details><summary>TL &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>TOKELAU (FIPS)</li> <li>RO-TL Tulcea</li>
+<li>TOKELAU (FIPS)</li> <li>RO-TL Tulcea</li> <li>&#x1F4AC; tl Tagalog</li> <li>&#x1F4AC; tl-PH Tagalog</li>
 </ul></details></td> <td><details><summary>TM &#x1F310;</summary><ul>
 <li>&#x1F1F9;&#x1F1F2; Turkmenistan (ISO)</li> <li>TMT Turkmenistan New Manat</li> <li>RO-TM Timiş</li>
 </ul></details></td> <td><details><summary>TN &#x26A0;</summary><ul>
-<li>&#x1F1F9;&#x1F1F3; Tunisia (ISO)</li> <li>TONGA (FIPS)</li> <li>TND Tunisian Dinar</li> <li>IN-TN Tamil Nadu</li> <li>IT-TN Trento</li> <li>US-TN Tennessee</li>
+<li>&#x1F1F9;&#x1F1F3; Tunisia (ISO)</li> <li>TONGA (FIPS)</li> <li>TND Tunisian Dinar</li> <li>IN-TN Tamil Nadu</li> <li>IT-TN Trento</li> <li>US-TN Tennessee</li> <li>&#x1F4AC; ar-TN Arabic</li> <li>&#x1F4AC; tn Tswana</li> <li>&#x1F4AC; tn-ZA Tswana</li>
 </ul></details></td> <td><details><summary>TO &#x26A0;</summary><ul>
 <li>&#x1F1F9;&#x1F1F4; Tonga (ISO)</li> <li>TOGO (FIPS)</li> <li>TOP Pa’anga</li> <li>BR-TO Tocantins</li> <li>GT-TO Totonicap&#225;n</li> <li>GN-TO Tougu&#233;</li> <li>HU-TO Tolna</li> <li>IT-TO Torino</li> <li>PL-TO Toruń</li> <li>SO-TO Togdheer</li> <li>ES-TO Toledo</li> <li>TO-TO Tonga</li> <li>UZ-TO Toshkent (Tashkent)</li>
 </ul></details></td> <td><details><summary>TP &#x26A0;</summary><ul>
 <li>&#x1F1F9;&#x1F1F5; East Timor (ISO)</li> <li>SAO TOME AND PRINCIPE (FIPS)</li> <li>AL-TP Tropoj&#235;</li> <li>TP-TP East Timor</li> <li>IT-TP Trapani</li>
 </ul></details></td> <td>&cir; TQ <td><details><summary>TR &#x1F310;</summary><ul>
-<li>&#x1F1F9;&#x1F1F7; Turkey (ISO)</li> <li>TRY Turkish Lira</li> <li>AL-TR Tiran&#235;</li> <li>IN-TR Tripura</li> <li>IT-TR Terni</li> <li>RO-TR Teleorman</li>
+<li>&#x1F1F9;&#x1F1F7; Turkey (ISO)</li> <li>TRY Turkish Lira</li> <li>AL-TR Tiran&#235;</li> <li>IN-TR Tripura</li> <li>IT-TR Terni</li> <li>RO-TR Teleorman</li> <li>&#x1F4AC; tr Turkish</li> <li>&#x1F4AC; tr-TR Turkish</li> <li>&#x1F4AC; tr-TR Turkish</li>
 </ul></details></td> <td><details><summary>TS &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>TUNISIA (FIPS)</li> <li>IQ-TS At Ta&#39;mīm</li> <li>IT-TS Trieste</li> <li>MA-TS Tensift</li>
+<li>TUNISIA (FIPS)</li> <li>IQ-TS At Ta&#39;mīm</li> <li>IT-TS Trieste</li> <li>MA-TS Tensift</li> <li>&#x1F4AC; ts Tsonga</li>
 </ul></details></td> <td><details><summary>TT &#x26A0;</summary><ul>
-<li>&#x1F1F9;&#x1F1F9; Trinidad &amp; Tobago (ISO)</li> <li>TIMOR-LESTE (FIPS)</li> <li>TTD Trinidad and Tobago Dollar</li> <li>ID-TT Timor Timur</li> <li>UY-TT Treinta y Tres</li>
+<li>&#x1F1F9;&#x1F1F9; Trinidad &amp; Tobago (ISO)</li> <li>TIMOR-LESTE (FIPS)</li> <li>TTD Trinidad and Tobago Dollar</li> <li>ID-TT Timor Timur</li> <li>UY-TT Treinta y Tres</li> <li>&#x1F4AC; en-TT English</li> <li>&#x1F4AC; tt Tatar</li> <li>&#x1F4AC; tt-RU Tatar</li>
 </ul></details></td> <td><details><summary>TU &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>TURKEY (FIPS)</li> <li>BN-TU Tutong</li> <li>LV-TU Tukuma Aprinkis</li> <li>WS-TU Tuamasaga</li>
 </ul></details></td> <td><details><summary>TV </summary><ul>
 <li>&#x1F1F9;&#x1F1FB; Tuvalu</li> <li>AM-TV Tavuš</li> <li>GH-TV Volta</li> <li>IT-TV Treviso</li> <li>TV-TV Tuvalu</li>
 </ul></details></td> <td><details><summary>TW </summary><ul>
-<li>&#x1F1F9;&#x1F1FC; Taiwan</li> <li>TWD New Taiwan Dollar</li>
+<li>&#x1F1F9;&#x1F1FC; Taiwan</li> <li>TWD New Taiwan Dollar</li> <li>&#x1F4AC; zh-TW Chinese</li>
 </ul></details></td> <td><details><summary>TX &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>TURKMENISTAN (FIPS)</li> <li>US-TX Texas</li>
 </ul></details></td> <td><details><summary>TY &#x1F6C8;</summary><ul>
@@ -870,7 +878,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>TZ </summary><ul>
 <li>&#x1F1F9;&#x1F1FF; Tanzania</li> <li>TZS Tanzanian Shilling</li>
 </ul></details></td> <tr><td><details><summary>UA &#x1F310;</summary><ul>
-<li>&#x1F1FA;&#x1F1E6; Ukraine (ISO)</li> <li>UAH Hryvnia</li>
+<li>&#x1F1FA;&#x1F1E6; Ukraine (ISO)</li> <li>UAH Hryvnia</li> <li>&#x1F4AC; uk-UA Ukrainian</li>
 </ul></details></td> <td>&cir; UB <td>&cir; UC <td><details><summary>UD &#x1F6C8;</summary><ul>
 <li>GY-UD Upper Demerara-Berbice</li> <li>IT-UD Udine</li> <li>RU-UD Udmurtskaya Respublika</li>
 </ul></details></td> <td><details><summary>UE &#x1F6C8;</summary><ul>
@@ -878,7 +886,7 @@ that overlap with country codes.
 </ul></details></td> <td>&cir; UF <td><details><summary>UG </summary><ul>
 <li>&#x1F1FA;&#x1F1EC; Uganda</li> <li>UGX Uganda Shilling</li>
 </ul></details></td> <td>&cir; UH <td>&cir; UI <td>&cir; UJ <td><details><summary>UK &#x1F1FA;&#x1F1F8;</summary><ul>
-<li>UNITED KINGDOM (FIPS)</li> <li>CF-UK Ouaka</li>
+<li>UNITED KINGDOM (FIPS)</li> <li>CF-UK Ouaka</li> <li>&#x1F4AC; uk Ukrainian</li> <li>&#x1F4AC; uk-UA Ukrainian</li>
 </ul></details></td> <td>&cir; UL <td><details><summary>UM &#x1F6C8;</summary><ul>
 <li>US-UM United States Minor Outlying Islands</li>
 </ul></details></td> <td><details><summary>UN &#x1F6C8;</summary><ul>
@@ -888,9 +896,9 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>UQ &#x1F6C8;</summary><ul>
 <li>AE-UQ Umm al Qaywayn</li>
 </ul></details></td> <td><details><summary>UR &#x1F6C8;</summary><ul>
-<li>CH-UR Uri</li>
+<li>CH-UR Uri</li> <li>&#x1F4AC; ur Urdu</li> <li>&#x1F4AC; ur-PK Urdu</li>
 </ul></details></td> <td><details><summary>US </summary><ul>
-<li>&#x1F1FA;&#x1F1F8; United States</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USN US Dollar (Next day)</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>QA-US Umm Şalāl</li>
+<li>&#x1F1FA;&#x1F1F8; United States</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>USN US Dollar (Next day)</li> <li>USD US Dollar</li> <li>USD US Dollar</li> <li>QA-US Umm Şalāl</li> <li>&#x1F4AC; en-US English</li>
 </ul></details></td> <td><details><summary>UT &#x1F6C8;</summary><ul>
 <li>GY-UT Upper Takutu-Upper Essequibo</li> <li>LT-UT Utenos Apskritis</li> <li>NL-UT Utrecht</li> <li>US-UT Utah</li>
 </ul></details></td> <td><details><summary>UU &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -900,25 +908,25 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>UW &#x1F6C8;</summary><ul>
 <li>GH-UW Upper West</li>
 </ul></details></td> <td>&cir; UX <td><details><summary>UY </summary><ul>
-<li>&#x1F1FA;&#x1F1FE; Uruguay</li> <li>UYU Peso Uruguayo</li> <li>UYI Uruguay Peso en Unidades Indexadas (UI)</li> <li>UYW Unidad Previsional</li>
+<li>&#x1F1FA;&#x1F1FE; Uruguay</li> <li>UYU Peso Uruguayo</li> <li>UYI Uruguay Peso en Unidades Indexadas (UI)</li> <li>UYW Unidad Previsional</li> <li>&#x1F4AC; es-UY Spanish</li>
 </ul></details></td> <td><details><summary>UZ </summary><ul>
-<li>&#x1F1FA;&#x1F1FF; Uzbekistan</li> <li>UZS Uzbekistan Sum</li>
+<li>&#x1F1FA;&#x1F1FF; Uzbekistan</li> <li>UZS Uzbekistan Sum</li> <li>&#x1F4AC; uz Uzbek</li> <li>&#x1F4AC; uz-UZ Uzbek</li> <li>&#x1F4AC; uz-UZ Uzbek</li>
 </ul></details></td> <tr><td><details><summary>VA &#x1F310;</summary><ul>
 <li>&#x1F1FB;&#x1F1E6; Vatican City (Holy See) (ISO)</li> <li>DO-VA Valverde</li> <li>VA-VA Vatican City (Holy See)</li> <li>HN-VA Valle</li> <li>HU-VA Vas</li> <li>IT-VA Varese</li> <li>ES-VA Valladolid</li> <li>US-VA Virginia</li>
 </ul></details></td> <td><details><summary>VB &#x1F6C8;</summary><ul>
 <li>IT-VB Verbano-Cusio-Ossola</li>
 </ul></details></td> <td><details><summary>VC &#x26A0;</summary><ul>
-<li>&#x1F1FB;&#x1F1E8; St. Vincent &amp; the Grenadines (ISO)</li> <li>ST. VINCENT AND THE GRENADINES (FIPS)</li> <li>IT-VC Vercelli</li> <li>VC-VC St. Vincent &amp; the Grenadines</li> <li>ES-VC Valenciana, Comunidad</li>
+<li>&#x1F1FB;&#x1F1E8; St. Vincent &amp; the Grenadines</li> <li>IT-VC Vercelli</li> <li>VC-VC St. Vincent &amp; the Grenadines</li> <li>ES-VC Valenciana, Comunidad</li>
 </ul></details></td> <td><details><summary>VD &#x1F6C8;</summary><ul>
 <li>AM-VD Vayoc Jor</li> <li>CH-VD Vaud</li>
 </ul></details></td> <td><details><summary>VE </summary><ul>
-<li>&#x1F1FB;&#x1F1EA; Venezuela</li> <li>VES Bol&#237;var Soberano</li> <li>DO-VE La Vega</li> <li>HU-VE Veszpr&#233;m</li> <li>IT-VE Venezia</li> <li>LV-VE Ventspils Aprinkis</li>
+<li>&#x1F1FB;&#x1F1EA; Venezuela</li> <li>VES Bol&#237;var Soberano</li> <li>DO-VE La Vega</li> <li>HU-VE Veszpr&#233;m</li> <li>IT-VE Venezia</li> <li>LV-VE Ventspils Aprinkis</li> <li>&#x1F4AC; es-VE Spanish</li>
 </ul></details></td> <td><details><summary>VF &#x1F6C8;</summary><ul>
 <li>WS-VF Va&#39;a-o-Fonoti</li>
 </ul></details></td> <td><details><summary>VG &#x1F310;</summary><ul>
 <li>&#x1F1FB;&#x1F1EC; Virgin Islands (British) (ISO)</li> <li>VG-VG Virgin Islands (British)</li>
 </ul></details></td> <td>&cir; VH <td><details><summary>VI &#x26A0;</summary><ul>
-<li>&#x1F1FB;&#x1F1EE; Virgin Islands (U.S.) (ISO)</li> <li>BRITISH VIRGIN ISLANDS (FIPS)</li> <li>BY-VI Vitsyebskaya voblasts&#39;</li> <li>GR-VI Ionioi Nisoi</li> <li>IT-VI Vicenza</li> <li>LA-VI Vientiane</li> <li>ES-VI &#193;lava</li> <li>US-VI Virgin Islands, U.S.</li> <li>VI-VI Virgin Islands (U.S.)</li>
+<li>&#x1F1FB;&#x1F1EE; Virgin Islands (U.S.) (ISO)</li> <li>BRITISH VIRGIN ISLANDS (FIPS)</li> <li>BY-VI Vitsyebskaya voblasts&#39;</li> <li>GR-VI Ionioi Nisoi</li> <li>IT-VI Vicenza</li> <li>LA-VI Vientiane</li> <li>ES-VI &#193;lava</li> <li>US-VI Virgin Islands, U.S.</li> <li>VI-VI Virgin Islands (U.S.)</li> <li>&#x1F4AC; vi Vietnamese</li> <li>&#x1F4AC; vi-VN Vietnamese</li>
 </ul></details></td> <td>&cir; VJ <td><details><summary>VK &#x1F6C8;</summary><ul>
 <li>CF-VK Vakaga</li> <li>LV-VK Valkas Aprinkis</li>
 </ul></details></td> <td><details><summary>VL &#x1F6C8;</summary><ul>
@@ -926,7 +934,7 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>VM &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>VIETNAM (FIPS)</li> <li>HU-VM Veszpr&#233;m</li> <li>LV-VM Valmieras Aprinkis</li>
 </ul></details></td> <td><details><summary>VN &#x1F310;</summary><ul>
-<li>&#x1F1FB;&#x1F1F3; Viet Nam (ISO)</li> <li>VND Dong</li> <li>RO-VN Vrancea</li>
+<li>&#x1F1FB;&#x1F1F3; Viet Nam (ISO)</li> <li>VND Dong</li> <li>RO-VN Vrancea</li> <li>&#x1F4AC; vi-VN Vietnamese</li>
 </ul></details></td> <td><details><summary>VO &#x1F6C8;</summary><ul>
 <li>YU-VO Vojvodina</li>
 </ul></details></td> <td><details><summary>VP &#x1F6C8;</summary><ul>
@@ -950,7 +958,7 @@ that overlap with country codes.
 </ul></details></td> <td>&cir; WD <td><details><summary>WE &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>WEST BANK (FIPS)</li> <li>SB-WE Western</li>
 </ul></details></td> <td><details><summary>WF &#x26A0;</summary><ul>
-<li>&#x1F1FC;&#x1F1EB; Wallis &amp; Futuna Islands (ISO)</li> <li>WALLIS AND FUTUNA (FIPS)</li> <li>FR-WF Wallis et Futuna</li> <li>WF-WF Wallis &amp; Futuna Islands</li>
+<li>&#x1F1FC;&#x1F1EB; Wallis &amp; Futuna Islands</li> <li>FR-WF Wallis et Futuna</li> <li>WF-WF Wallis &amp; Futuna Islands</li>
 </ul></details></td> <td>&cir; WG <td><details><summary>WH &#x1F6C8;</summary><ul>
 <li>IE-WH Westmeath (An Iarmh&#237;)</li>
 </ul></details></td> <td><details><summary>WI &#x1F1FA;&#x1F1F8;</summary><ul>
@@ -985,10 +993,12 @@ that overlap with country codes.
 <li>AZ-XA Xank&#228;ndi</li> <li>LA-XA Xaignabouli [Sayaboury]</li>
 </ul></details></td> <td>&cir; XB <td>&cir; XC <td>&cir; XD <td><details><summary>XE &#x1F6C8;</summary><ul>
 <li>LA-XE X&#233;kong [S&#233;kong]</li>
-</ul></details></td> <td>&cir; XF <td>&cir; XG <td>&cir; XH <td><details><summary>XI &#x1F6C8;</summary><ul>
+</ul></details></td> <td>&cir; XF <td>&cir; XG <td><details><summary>XH &#x1F6C8;</summary><ul>
+<li>&#x1F4AC; xh Xhosa</li> <li>&#x1F4AC; xh-ZA Xhosa</li>
+</ul></details></td> <td><details><summary>XI &#x1F6C8;</summary><ul>
 <li>GR-XI Voreio Aigaio</li> <li>LA-XI Xiangkhoang [Xieng Khouang]</li>
 </ul></details></td> <td>&cir; XJ <td>&cir; XK <td>&cir; XL <td>&cir; XM <td>&cir; XN <td>&cir; XO <td>&cir; XP <td>&cir; XQ <td>&cir; XR <td>&cir; XS <td>&cir; XT <td>&cir; XU <td>&cir; XV <td>&cir; XW <td>&cir; XX <td>&cir; XY <td>&cir; XZ <tr><td>&cir; YA <td>&cir; YB <td>&cir; YC <td>&cir; YD <td><details><summary>YE &#x1F310;</summary><ul>
-<li>&#x1F1FE;&#x1F1EA; Yemen (ISO)</li> <li>YER Yemeni Rial</li> <li>AZ-YE Yevlax</li>
+<li>&#x1F1FE;&#x1F1EA; Yemen (ISO)</li> <li>YER Yemeni Rial</li> <li>AZ-YE Yevlax</li> <li>&#x1F4AC; ar-YE Arabic</li>
 </ul></details></td> <td>&cir; YF <td>&cir; YG <td>&cir; YH <td>&cir; YI <td>&cir; YJ <td>&cir; YK <td>&cir; YL <td><details><summary>YM &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>YEMEN (FIPS)</li>
 </ul></details></td> <td>&cir; YN <td><details><summary>YO &#x1F6C8;</summary><ul>
@@ -998,21 +1008,23 @@ that overlap with country codes.
 </ul></details></td> <td><details><summary>YU &#x1F310;</summary><ul>
 <li>&#x1F1FE;&#x1F1FA; Yugoslavia (ISO)</li>
 </ul></details></td> <td>&cir; YV <td>&cir; YW <td>&cir; YX <td>&cir; YY <td>&cir; YZ <tr><td><details><summary>ZA &#x26A0;</summary><ul>
-<li>&#x1F1FF;&#x1F1E6; South Africa (ISO)</li> <li>ZAMBIA (FIPS)</li> <li>ZAR Rand</li> <li>ZAR Rand</li> <li>ZAR Rand</li> <li>GT-ZA Zacapa</li> <li>HU-ZA Zala</li> <li>LY-ZA Az Zāwiyah</li> <li>OM-ZA Az Zāhirah</li> <li>PL-ZA Zamość</li> <li>ES-ZA Zamora</li>
+<li>&#x1F1FF;&#x1F1E6; South Africa (ISO)</li> <li>ZAMBIA (FIPS)</li> <li>ZAR Rand</li> <li>ZAR Rand</li> <li>ZAR Rand</li> <li>GT-ZA Zacapa</li> <li>HU-ZA Zala</li> <li>LY-ZA Az Zāwiyah</li> <li>OM-ZA Az Zāhirah</li> <li>PL-ZA Zamość</li> <li>ES-ZA Zamora</li> <li>&#x1F4AC; af-ZA Afrikaans</li> <li>&#x1F4AC; en-ZA English</li> <li>&#x1F4AC; ns-ZA Northern Sotho</li> <li>&#x1F4AC; tn-ZA Tswana</li> <li>&#x1F4AC; xh-ZA Xhosa</li> <li>&#x1F4AC; zu-ZA Zulu</li>
 </ul></details></td> <td>&cir; ZB <td>&cir; ZC <td>&cir; ZD <td><details><summary>ZE &#x1F6C8;</summary><ul>
 <li>HU-ZE Zalaegerszeg</li> <li>NL-ZE Zeeland</li> <li>NI-ZE Zelaya</li>
 </ul></details></td> <td>&cir; ZF <td><details><summary>ZG &#x1F6C8;</summary><ul>
 <li>PL-ZG Zielona G&#243;ra</li> <li>SN-ZG Ziguinchor</li> <li>CH-ZG Zug</li>
 </ul></details></td> <td><details><summary>ZH &#x1F6C8;</summary><ul>
-<li>NL-ZH Zuid-Holland</li> <li>CH-ZH Z&#252;rich</li>
+<li>NL-ZH Zuid-Holland</li> <li>CH-ZH Z&#252;rich</li> <li>&#x1F4AC; zh Chinese</li> <li>&#x1F4AC; zh-CN Chinese</li> <li>&#x1F4AC; zh-HK Chinese</li> <li>&#x1F4AC; zh-MO Chinese</li> <li>&#x1F4AC; zh-SG Chinese</li> <li>&#x1F4AC; zh-TW Chinese</li>
 </ul></details></td> <td><details><summary>ZI &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>ZIMBABWE (FIPS)</li> <li>SK-ZI Žilinsk&#253; kraj</li>
 </ul></details></td> <td>&cir; ZJ <td>&cir; ZK <td>&cir; ZL <td><details><summary>ZM &#x1F310;</summary><ul>
 <li>&#x1F1FF;&#x1F1F2; Zambia (ISO)</li> <li>ZMW Zambian Kwacha</li>
 </ul></details></td> <td>&cir; ZN <td><details><summary>ZO &#x1F6C8;</summary><ul>
 <li>BJ-ZO Zou</li> <li>MW-ZO Zomba</li>
-</ul></details></td> <td>&cir; ZP <td>&cir; ZQ <td>&cir; ZR <td>&cir; ZS <td>&cir; ZT <td>&cir; ZU <td>&cir; ZV <td><details><summary>ZW &#x1F310;</summary><ul>
-<li>&#x1F1FF;&#x1F1FC; Zimbabwe (ISO)</li> <li>ZWL Zimbabwe Dollar</li>
+</ul></details></td> <td>&cir; ZP <td>&cir; ZQ <td>&cir; ZR <td>&cir; ZS <td>&cir; ZT <td><details><summary>ZU &#x1F6C8;</summary><ul>
+<li>&#x1F4AC; zu Zulu</li> <li>&#x1F4AC; zu-ZA Zulu</li>
+</ul></details></td> <td>&cir; ZV <td><details><summary>ZW &#x1F310;</summary><ul>
+<li>&#x1F1FF;&#x1F1FC; Zimbabwe (ISO)</li> <li>ZWL Zimbabwe Dollar</li> <li>&#x1F4AC; en-ZW English</li>
 </ul></details></td> <td>&cir; ZX <td>&cir; ZY <td>&cir; ZZ
 <tfoot><tr>
 <td colspan="20" style="vertical-align:top"><h2>Legend</h2><ul>
@@ -1023,13 +1035,13 @@ that overlap with country codes.
     though it is a valid subregion (state/province/&c) ISO code</li>
 <li>&cir; not a valid country in either standard or ISO subregion code</li>
 </ul></td><td colspan="6" style="vertical-align:top"><h2>Totals</h2><ul>
-<li>&equiv; 88 matched codes</li>
-<li>&#x26A0; 75 mismatched codes</li>
+<li>&equiv; 95 matched codes</li>
+<li>&#x26A0; 68 mismatched codes</li>
 <li>&#x1F310; 74 ISO-only codes</li>
 <li>&#x1F310; 237 ISO codes total</li>
 <li>&#x1F1FA;&#x1F1F8; 106 FIPS-only codes</li>
 <li>&#x1F1FA;&#x1F1F8; 269 FIPS codes total</li>
-<li>&#x1F6C8; 157 subregion-only codes</li>
+<li>&#x1F6C8; 163 other codes only</li>
 <li>&#x1F6C8; 1439 subregion codes total</li>
 </ul></td>
 
