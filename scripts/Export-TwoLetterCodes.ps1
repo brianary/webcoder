@@ -195,7 +195,7 @@ $(0x41..0x5A |% {[char]$_} |Format-HtmlTableRow)
 <li>$($icon.subregion_only) $($Script:subregion.Count) subregion codes total</li>
 </ul></td>
 
-<style>div.container {margin:0 !important}</style>
+<style>div.container {margin:0 !important} td {vertical-align:top}</style>
 "@}
 
 Read-Codes
