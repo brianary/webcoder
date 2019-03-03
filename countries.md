@@ -13,7 +13,7 @@ codes for the country they apply to (as well as any coincidental match between c
 It also annotates [ISO 3166-2 subregion codes](https://en.wikipedia.org/wiki/ISO_3166-2)
 that overlap with country codes.
 
-<table style="white-space:nowrap;font-size:9pt;vertical-align:top">
+<table style="white-space:nowrap;font-size:9pt">
 <caption>ISO/FIPS Country Codes</caption><tbody>
 <tr><td><details><summary>AA &#x1F1FA;&#x1F1F8;</summary><ul>
 <li>ARUBA (FIPS)</li> <li>ET-AA Addis Ababa [Addis Abeba]</li> <li>GH-AA Greater Accra</li> <li>WS-AA A&#39;ana</li>
@@ -1047,4 +1047,4 @@ that overlap with country codes.
 <li>&#x1F6C8; 1439 subregion codes total</li>
 </ul></td>
 
-<style>div.container {margin:0 !important}</style>
+<style>div.container {margin:0 !important} td {vertical-align:top}</style>
