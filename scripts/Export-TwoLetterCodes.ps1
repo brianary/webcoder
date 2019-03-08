@@ -44,7 +44,12 @@ $icon = @{
     language       = '&#x1F4AC;'          # SPEECH BALLOON
 }
 
-$Script:iso,$Script:fips,$Script:currency,$Script:subregion,$Script:lang = @{},@{},@{},@{},@{}
+$Script:iso,$Script:fips,$Script:currency,$Script:lang,$Script:subregion = @{},@{},@{},@{},@{
+    UK = @('UK United Kingdom (NUTS)')
+    GB = @('GB See UK for United Kingdom (NUTS)')
+    EL = @('EL Greece (NUTS)')
+    GR = @('GR See EL for Greece (NUTS)')
+}
 function Read-Codes
 {
     $isodata = Get-Content (Save-Data $IsoCountryCodesUrl iso3166-2.json) -Encoding utf8 |ConvertFrom-Json
@@ -154,29 +159,19 @@ $($details |% {"<li>$([Net.WebUtility]::HtmlEncode($_) -replace '&amp;(#?\w+;)',
 "@}}}
 
 function Format-HtmlTableRow([Parameter(ValueFromPipeline=$true)][char]$letter)
-{Process{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)"}}
+{Process{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)</tr>"}}
 
 function Format-Markdown
 {@"
-Two Letter Country Codes
-========================
-
-This summarizes [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Decoding_table)
-and [FIPS PUB 10-4](https://en.wikipedia.org/wiki/FIPS_10-4) country codes,
-with some attention to where they differ.
-
-It includes [ISO 4217](https://en.wikipedia.org/wiki/ISO4217) alpha-3 currency codes that start with
-the ISO 3166-1 alpha-2 code of each currency's country, as well as the
-[ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) language codes ending with the ISO 3166-1 alpha-2
-codes for the country they apply to (as well as any coincidental match between country and language code).
-
-It also annotates [ISO 3166-2 subregion codes](https://en.wikipedia.org/wiki/ISO_3166-2)
-that overlap with country codes.
+<html><head><title>Two Letter ISO/FIPS/NUTS Country Codes with Currency, Language, and Subregion Codes</title>
+<link rel="stylesheet" href="http://webcoder.info/assets/css/style.css">
+<style>div.container {margin:0 !important} td {vertical-align:top}</style>
+</head><body>
 
 <table style="white-space:nowrap;font-size:9pt">
-<caption>ISO/FIPS Country Codes</caption><tbody>
+<caption><h1>ISO/FIPS/NUTS Country Codes with Currency, Language, and Subregion Codes</h1></caption><tbody>
 $(0x41..0x5A |% {[char]$_} |Format-HtmlTableRow)
-<tfoot><tr>
+</tbody><tfoot><tr>
 <td colspan="20" style="vertical-align:top"><h2>Legend</h2><ul>
 <li>$($icon.mismatch) ISO and FIPS codes do not agree, though the code is valid in both</li>
 <li>$($icon.iso_only) ISO defines this code, but it is an invalid FIPS code</li>
@@ -193,10 +188,35 @@ $(0x41..0x5A |% {[char]$_} |Format-HtmlTableRow)
 <li>$($icon.fips_only) $($Script:fips.Count) FIPS codes total</li>
 <li>$($icon.subregion_only) $($count.other_only) other codes only</li>
 <li>$($icon.subregion_only) $($Script:subregion.Count) subregion codes total</li>
-</ul></td>
+</ul></td></tr></tfoot></table>
 
-<style>div.container {margin:0 !important} td {vertical-align:top}</style>
+<section class="container">
+
+<p>This table summarizes <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Decoding_table"><dfn
+title="International Organization for Standardization Codes for the representation of names of countries and their subdivisions"
+>ISO 3166-1 alpha-2</dfn></a>
+and <a href="https://en.wikipedia.org/wiki/FIPS_10-4"><dfn
+title="Federal Information Processing Standards for Countries, Dependencies, Areas of Special Sovereignty, and Their Principal Administrative Divisions"
+>FIPS PUB 10-4</dfn></a> country codes, with some attention to where they differ. It also annotates the two countries
+(<abbr title="United Kingdom">&#x1F1EC;&#x1F1E7;</abbr> & <abbr title="Greece">&#x1F1EC;&#x1F1F7;</abbr>) whose codes
+differ between the ISO standard and the <a href="https://en.wikipedia.org/wiki/Nomenclature_of_Territorial_Units_for_Statistics"><dfn
+title="Nomenclature of Territorial Units for Statistics">NUTS</dfn></a>.</p>
+
+<p>It includes <a href="https://en.wikipedia.org/wiki/ISO4217"><dfn
+title="International Organization for Standardization Current currency & funds code list"
+>ISO 4217 alpha-3</dfn></a> currency codes that start with
+the ISO 3166-1 alpha-2 code of each currency's country, as well as the
+<a href="https://en.wikipedia.org/wiki/ISO_639-1"><dfn
+title="International Organization for Standardization Codes for the representation of names of languages"
+>ISO 639-1</dfn></a> language codes ending with the ISO 3166-1 alpha-2
+codes for the country they apply to (as well as any coincidental match between country and language code).</p>
+
+<p>It also annotates two-letter <a href="https://en.wikipedia.org/wiki/ISO_3166-2"><dfn
+title="International Organization for Standardization Country subdivision code">ISO 3166-2</dfn></a> subregion codes
+that overlap with country codes.</p>
+
+</section></html>
 "@}
 
 Read-Codes
-Format-Markdown |Out-File countries.md utf8
+Format-Markdown |Out-File countries.html utf8

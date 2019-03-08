@@ -4,6 +4,8 @@
 I contribute a little to several projects.
 My most active repo is [scripts](https://github.com/brianary/scripts), which is mostly PowerShell, but also some F# and other (primarily Windows) stuff.
 
+You may find my [table of two-letter country/subregion/currency/language codes](countries.html) useful.
+
 Some Old Perl Modules
 ---------------------
 - [Lingua-EN-Nickname](https://github.com/brianary/Lingua-EN-Nickname)
