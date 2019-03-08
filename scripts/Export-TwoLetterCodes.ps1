@@ -74,7 +74,7 @@ function Read-Codes
     Write-Verbose "Read $($Script:fips.Count) FIPS codes"
     Select-Xml '//CcyNtry[Ccy]' (Save-Data $CurrencyCodesUrl iso4217.xml -Search '<CcyNm IsFund="true">' -Replace '<CcyNm>') |
         % {
-            $c,$n = $_.Node.Ccy.Substring(0,2),($_.Node.Ccy + ' ' + $_.Node.CcyNm)
+            $c,$n = $_.Node.Ccy.Substring(0,2),("$($_.Node.Ccy) $($_.Node.CcyNm) ($($_.Node.CtryNm))")
             if($Script:currency.ContainsKey($c)) {$Script:currency[$c] += $n}
             else {[void]$Script:currency.Add($c,@($n))}
         }
