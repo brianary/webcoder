@@ -1,0 +1,4 @@
+{
+    "MD013": { "line_length": 128 },
+    "MD033": { "allowed_elements": ["kbd","samp"] }
+}
