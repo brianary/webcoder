@@ -46,8 +46,8 @@ Hold down the [Windows Key](https://en.wikipedia.org/wiki/Windows_Key) and press
 | <kbd>Ctrl</kbd> |                |              | <kbd>←</kbd>       | Switch to virtual desktop to the left
 | <kbd>Ctrl</kbd> |                |              | <kbd>→</kbd>       | Switch to virtual desktop to the right
 |                 |                |              | <kbd>↓</kbd>       | Minimize/Unmaximize
-|                 |                |              | <kbd>←</kbd>       | Cycle Maximize Leftward
-|                 |                |              | <kbd>→</kbd>       | Cycle Maximize Rightward
+|                 |                |              | <kbd>←</kbd>       | Cycle Maximize Leftward (disabled by multiple desktops)
+|                 |                |              | <kbd>→</kbd>       | Cycle Maximize Rightward (disabled by multiple desktops)
 |                 |                |              | <kbd>↑</kbd>       | Maximize/Unminimize
 |                 |                | <kbd>⇧</kbd> | <kbd>←</kbd>       | Move To Monitor Left
 |                 |                | <kbd>⇧</kbd> | <kbd>→</kbd>       | Move To Monitor Right
