@@ -67,6 +67,10 @@ I'd gradually built a pretty decent script for rerunning clean builds, though.
 
 I found a what seemed to be [a pretty definitive article][corever] on all of this, but it didn't help either.
 
+I decided that I'd made a pretty thorough effort, so I filed [an issue][issue].
+I was a little surprised when a fix was promised in .NET Core 3.1.
+It made me wonder if I could use an older feature of an older .NET Core toolset to work around the problem while I waited for the fix.
+
 I uninstalled the .NET Core SDK 3.0.100, then installed 2.2.402, and even 2.1.802, but it didn't seem to
 be a problem with the version of the tooling. One or more of these methods should have worked in 2.x.
 
@@ -87,3 +91,4 @@ _[…to be concluded soon…]_
 [Directory.Build.props]: https://docs.microsoft.com/visualstudio/msbuild/customize-your-build
 [unanswered]: https://stackoverflow.com/questions/56236610/net-core-publish-as-exe-how-to-put-assembly-infos-into-exe
 [corever]: https://andrewlock.net/version-vs-versionsuffix-vs-packageversion-what-do-they-all-mean/
+[issue]: https://github.com/dotnet/cli/issues/12910
