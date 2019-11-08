@@ -99,6 +99,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
   LibCS -> C:\temp\LibCS\bin\Debug\netstandard2.0\publish\
 C:\temp\LibCS> (ls -r -fi LibCS.dll).VersionInfo
 
+ProductVersion   FileVersion      FileName
 --------------   -----------      --------
 1.0.0            1.0.0.0          C:\temp\LibCS\bin\Debug\netstandard2.0\LibCS.dll
 1.0.0            1.0.0.0          C:\temp\LibCS\bin\Debug\netstandard2.0\publish\LibCS.dll
