@@ -76,11 +76,7 @@ be a problem with the version of the tooling. One or more of these methods shoul
 
 Then I decided to try one more thing.
 
-<details>
-
-<summary>What finally worked?</summary>
-
-Well, nothing _yet_. But now I know that I'll have to wait for a fix.
+It didn't work. But now I know that I'll have to wait for a fix.
 
 ```samp
 C:\temp> pushd (mkdir LibCS).FullName
@@ -141,11 +137,9 @@ ProductVersion   FileVersion      FileName
 
 ```
 
-With this broken for _so long_, on top of the lack of F# support in [Add-Type][] and [xsd.exe],
+With this broken for _so long_, on top of the lack of F# support in tools like [Add-Type][] and [xsd.exe],
 Microsoft has to earn back a lot of credibility before claiming F# as a first-class language
 with full support again.
-
-</details>
 
 [xproj]: https://stackoverflow.com/questions/37409168/whys-are-assemby-attributes-like-assemblyversion-missing-in-xproj ".net - Whys are Assemby Attributes like AssemblyVersion missing in xproj? - Stack Overflow"
 [project.json]: https://stackoverflow.com/questions/39163558/do-i-need-assemblyinfo-while-working-with-net-core "Do I need AssemblyInfo while working with .NET Core? - Stack Overflow"
