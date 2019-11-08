@@ -77,9 +77,70 @@ be a problem with the version of the tooling. One or more of these methods shoul
 Then I decided to try one more thing.
 
 <details><summary>What finally worked?</summary>
+<p>Well, nothing <em>yet</em>.
+But now I know that I'll have to wait for a fix.</p>
+<samp>
+C:\temp> pushd (mkdir LibCS).FullName
+C:\temp\LibCS> dotnet new sln
+The template "Solution File" was created successfully.
+C:\temp\LibCS> dotnet new classlib
+The template "Class library" was created successfully.
+Processing post-creation actions...
+  Restore completed in 194.91 ms for C:\temp\LibCS\LibCS.csproj.
 
-_[…to be concluded soon…]_
+Restore succeeded.
 
+C:\temp\LibCS> dotnet sln add LibCS.csproj
+Project `LibCS.csproj` added to the solution.
+Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 27.99 ms for C:\temp\LibCS\LibCS.csproj.
+  LibCS -> C:\temp\LibCS\bin\Debug\netstandard2.0\LibCS.dll
+  LibCS -> C:\temp\LibCS\bin\Debug\netstandard2.0\publish\
+C:\temp\LibCS> (ls -r -fi LibCS.dll).VersionInfo
+
+--------------   -----------      --------
+1.0.0            1.0.0.0          C:\temp\LibCS\bin\Debug\netstandard2.0\LibCS.dll
+1.0.0            1.0.0.0          C:\temp\LibCS\bin\Debug\netstandard2.0\publish\LibCS.dll
+1.0.0            1.0.0.0          C:\temp\LibCS\obj\Debug\netstandard2.0\LibCS.dll
+
+
+C:\temp\LibCS> popd
+C:\temp> pushd (mkdir LibFS).FullName
+C:\temp\LibFS> dotnet new sln
+The template "Solution File" was created successfully.
+C:\temp\LibFS> dotnet new classlib -lang 'F#'
+The template "Class library" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\temp\LibFS\LibFS.fsproj...
+  Restore completed in 210.12 ms for C:\temp\LibFS\LibFS.fsproj.
+
+Restore succeeded.
+
+C:\temp\LibFS> dotnet sln add LibFS.fsproj
+Project `LibFS.fsproj` added to the solution.
+C:\temp\LibFS> dotnet publish
+Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 45.47 ms for C:\temp\LibFS\LibFS.fsproj.
+  LibFS -> C:\temp\LibFS\bin\Debug\netstandard2.0\LibFS.dll
+  LibFS -> C:\temp\LibFS\bin\Debug\netstandard2.0\publish\
+C:\temp\LibFS> (ls -r -fi LibFS.dll).VersionInfo
+
+ProductVersion   FileVersion      FileName
+--------------   -----------      --------
+                                  C:\temp\LibFS\bin\Debug\netstandard2.0\LibFS.dll
+                                  C:\temp\LibFS\bin\Debug\netstandard2.0\publish\LibFS.dll
+                                  C:\temp\LibFS\obj\Debug\netstandard2.0\LibFS.dll
+
+</samp>
+<p>With this broken for <em>so long</em>, on top of the lack of F# support in
+<a href="https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/add-type"><code>Add-Type</code>
+and <a href="https://docs.microsoft.com/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe#xsd-file-options">xsd.exe</a>,
+Microsoft has to earn back a lot of credibility before claiming F# as a first-class language with full support again.</p>
 </details>
 
 [xproj]: https://stackoverflow.com/questions/37409168/whys-are-assemby-attributes-like-assemblyversion-missing-in-xproj
