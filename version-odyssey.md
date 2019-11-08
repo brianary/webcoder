@@ -76,7 +76,8 @@ be a problem with the version of the tooling. One or more of these methods shoul
 
 Then I decided to try one more thing.
 
-It didn't work. But now I know that I'll have to wait for a fix.
+It didn't work. But now I know that I'll have to wait for a fix, or manually add version info
+with some kind of [external tool][].
 
 ```samp
 C:\temp> pushd (mkdir LibCS).FullName
@@ -154,3 +155,4 @@ with full support again.
 [issue]: https://github.com/dotnet/cli/issues/12910 "Can't find any way to set version · Issue #12910 · dotnet/cli"
 [Add-Type]: https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/add-type "Adds a Microsoft .NET Core class to a PowerShell session."
 [xsd.exe]: https://docs.microsoft.com/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe#xsd-file-options "XML Schema Definition Tool (Xsd.exe) | Microsoft Docs"
+[external tool]: https://stackoverflow.com/questions/284258/how-do-i-set-the-version-information-for-an-existing-exe-dll "windows - How do I set the version information for an existing .exe, .dll? - Stack Overflow"
