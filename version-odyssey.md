@@ -76,10 +76,13 @@ be a problem with the version of the tooling. One or more of these methods shoul
 
 Then I decided to try one more thing.
 
-<details><summary>What finally worked?</summary>
-<p>Well, nothing <em>yet</em>.
-But now I know that I'll have to wait for a fix.</p>
-<samp>
+<details>
+
+<summary>What finally worked?</summary>
+
+Well, nothing _yet_. But now I know that I'll have to wait for a fix.
+
+```samp
 C:\temp> pushd (mkdir LibCS).FullName
 C:\temp\LibCS> dotnet new sln
 The template "Solution File" was created successfully.
@@ -136,20 +139,23 @@ ProductVersion   FileVersion      FileName
                                   C:\temp\LibFS\bin\Debug\netstandard2.0\publish\LibFS.dll
                                   C:\temp\LibFS\obj\Debug\netstandard2.0\LibFS.dll
 
-</samp>
-<p>With this broken for <em>so long</em>, on top of the lack of F# support in
-<a href="https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/add-type"><code>Add-Type</code>
-and <a href="https://docs.microsoft.com/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe#xsd-file-options">xsd.exe</a>,
-Microsoft has to earn back a lot of credibility before claiming F# as a first-class language with full support again.</p>
+```
+
+With this broken for _so long_, on top of the lack of F# support in [Add-Type][] and [xsd.exe],
+Microsoft has to earn back a lot of credibility before claiming F# as a first-class language
+with full support again.
+
 </details>
 
-[xproj]: https://stackoverflow.com/questions/37409168/whys-are-assemby-attributes-like-assemblyversion-missing-in-xproj
-[project.json]: https://stackoverflow.com/questions/39163558/do-i-need-assemblyinfo-while-working-with-net-core
-[#967]: https://github.com/dotnet/sdk/issues/967
-[#1098]: https://github.com/dotnet/sdk/issues/1098
-[more]: https://stackoverflow.com/questions/42138418/equivalent-to-assemblyinfo-in-dotnet-core-csproj
-[suggestions]: https://stackoverflow.com/questions/43274254/setting-the-version-number-for-net-core-projects-csproj-not-json-projects
-[Directory.Build.props]: https://docs.microsoft.com/visualstudio/msbuild/customize-your-build
-[unanswered]: https://stackoverflow.com/questions/56236610/net-core-publish-as-exe-how-to-put-assembly-infos-into-exe
-[corever]: https://andrewlock.net/version-vs-versionsuffix-vs-packageversion-what-do-they-all-mean/
-[issue]: https://github.com/dotnet/cli/issues/12910
+[xproj]: https://stackoverflow.com/questions/37409168/whys-are-assemby-attributes-like-assemblyversion-missing-in-xproj ".net - Whys are Assemby Attributes like AssemblyVersion missing in xproj? - Stack Overflow"
+[project.json]: https://stackoverflow.com/questions/39163558/do-i-need-assemblyinfo-while-working-with-net-core "Do I need AssemblyInfo while working with .NET Core? - Stack Overflow"
+[#967]: https://github.com/dotnet/sdk/issues/967 "AssemblyInfo generation skipped on incremental build even if Version/VersionSuffix changes · Issue #967 · dotnet/sdk"
+[#1098]: https://github.com/dotnet/sdk/issues/1098 "Question: How to version dotnet core assemblies · Issue #1098 · dotnet/sdk"
+[more]: https://stackoverflow.com/questions/42138418/equivalent-to-assemblyinfo-in-dotnet-core-csproj "visual studio - Equivalent to AssemblyInfo in dotnet core/csproj - Stack Overflow"
+[suggestions]: https://stackoverflow.com/questions/43274254/setting-the-version-number-for-net-core-projects-csproj-not-json-projects "continuous integration - Setting the version number for .NET Core projects - CSPROJ - not JSON projects - Stack Overflow"
+[Directory.Build.props]: https://docs.microsoft.com/visualstudio/msbuild/customize-your-build "Customize your build - Visual Studio | Microsoft Docs"
+[unanswered]: https://stackoverflow.com/questions/56236610/net-core-publish-as-exe-how-to-put-assembly-infos-into-exe "c# - .NET Core publish as exe: How to put assembly infos into exe - Stack Overflow"
+[corever]: https://andrewlock.net/version-vs-versionsuffix-vs-packageversion-what-do-they-all-mean/ "Version vs VersionSuffix vs PackageVersion: What do they all mean?"
+[issue]: https://github.com/dotnet/cli/issues/12910 "Can't find any way to set version · Issue #12910 · dotnet/cli"
+[Add-Type]: https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/add-type "Adds a Microsoft .NET Core class to a PowerShell session."
+[xsd.exe]: https://docs.microsoft.com/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe#xsd-file-options "XML Schema Definition Tool (Xsd.exe) | Microsoft Docs"
