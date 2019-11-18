@@ -236,6 +236,8 @@ Import-Module $ModuleName
 Publish-Module -Name $ModuleName -NuGetApiKey $key
 ```
 
+[PowerShellGallery]: https://www.powershellgallery.com/ "The central repository for PowerShell content"
+
 Future Development
 ------------------
 
