@@ -92,6 +92,7 @@ You may need to include more values in the manifest for certain dependencies and
 
 [@natelehman]: https://medium.com/@natelehman/writing-powershell-modules-in-f-ed52704d97ed
 [version]: https://webcoder.info/version-odyssey.html
+[paket]: https://fsprojects.github.io/Paket/
 [platyPS]: https://github.com/PowerShell/platyPS
 [manifest]: https://docs.microsoft.com/powershell/scripting/developer/module/how-to-write-a-powershell-module-manifest
 
