@@ -147,7 +147,7 @@ Create [Pester][] tests for each cmdlet as needed.
 Describe 'ModuleName' {
     Context 'ModuleName module' {
         It "Given the ModuleName module, it should have a nonzero version" {
-            $m = Get-Module SelectXmlExtensions
+            $m = Get-Module ModuleName
             $m.Version |Should -Not -Be $null
             $m.Version.Major |Should -BeGreaterThan 0
         }
@@ -196,7 +196,7 @@ Anytime you add cmdlets to your module, or change parameters in your cmdlets, ru
 
 ```powershell
 $envPath,$env:Path = $env:Path,'' # avoid pulling duplicate cmdlets into documentation
-New-MarkdownHelp -Module SelectXmlExtensions -OutputFolder .\docs -ErrorAction SilentlyContinue
+New-MarkdownHelp -Module ModuleName -OutputFolder .\docs -ErrorAction SilentlyContinue
 $env:Path = $envPath
 Update-MarkdownHelp docs
 ```
