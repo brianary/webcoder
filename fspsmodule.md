@@ -32,7 +32,8 @@ In PowerShell, set `$ModuleName` to the name of your module, and run these comma
 
 ```powershell
 cd (mkdir $ModuleName)
-dotnet new classlib -lang 'F#' -f netstandard2.1 -o src/$ModuleName
+dotnet new sln
+dotnet new classlib -lang 'F#' -f netcoreapp2.1 -o src/$ModuleName
 dotnet sln add src/$ModuleName/$ModuleName.fsproj
 pushd src/$ModuleName
 dotnet add package PowerShellStandard.Library
@@ -64,7 +65,7 @@ Then fill in the _ModuleName_.psd1 [module manifest file][manifest] with some ba
 @{
 RootModule = 'ModuleName.dll'
 ModuleVersion = '1.0.0'
-CompatiblePSVersions = @('Core')
+CompatiblePSEditions = @('Core')
 # https://guidgen.com/
 GUID = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
 Author = 'Your name'
@@ -98,6 +99,9 @@ You may need to include more values in the manifest for certain dependencies and
 
 Writing Cmdlets
 ---------------
+
+You can delete _Library.fs_ and the reference to it in your _.fsproj_ file, which is where you'll add
+references to your cmdlets.
 
 For each cmdlet you want to include in the module, create a class file and add it to the project.
 
