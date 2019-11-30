@@ -1,6 +1,8 @@
 Writing a PowerShell Core Module With F#, A Complete Guide
 ==========================================================
 
+🆕 Updated with MSBuild automation recipes for your .fsproj file.
+
 Preparation
 -----------
 
@@ -145,7 +147,8 @@ type GetFooCommand () =
         base.EndProcessing ()
 ```
 
-Create [Pester][] tests for each cmdlet as needed.
+Create [Pester][] tests for each cmdlet as needed, probably named _ModuleName_.Tests.ps1 if you intend to keep your
+tests in a single file, but Pester test files need to at least end with ".Tests.ps1".
 
 ```powershell
 Describe 'ModuleName' {
@@ -169,16 +172,18 @@ Describe 'ModuleName' {
 ```
 
 You may also set up your GitHub repo at this point with a license and readme, maybe setting up a .NET Core [action][]
-for CI, and maybe add a _.gitignore_ and an _[.editorconfig][]_ file.
+for CI, and maybe add an _[.editorconfig][]_ file, maybe also _.gitconfig_, _.gitattributes_ for [Linguist][] and other
+settings, _CODEOWNERS_, _LICENSE_, _CONTRIBUTING_, and issue/PR templates.
 
 [Pester]: https://github.com/Pester/Pester/wiki
 [action]: https://github.com/features/actions "GitHub Actions"
 [.editorconfig]: https://editorconfig.org/
+[Linguist]: https://github.com/github/linguist#overrides
 
 Building the Module, Debug and Test Phase
 -----------------------------------------
 
-In PowerShell again:
+In PowerShell, you can do this:
 
 ```powershell
 $ModuleName = Resolve-Path ./src/* |Split-Path -Leaf
@@ -191,6 +196,34 @@ rm (Resolve-Path ./src/*/bin/Debug/*/) -Recurse -Force -vb
 Import-Module (Resolve-Path ./src/*/bin/Debug/*/*.psd1)
 Invoke-Pester
 ```
+
+You can also modify your .fsproj file to do this automatically when you run `dotnet publish`, after removing
+`<Version>1.0.0</Version>` first:
+
+```xml
+  <Target Name="GetVersion" BeforeTargets="CoreCompile">
+    <Exec Command='pwsh -nol -noni -nop -c "&amp; { Import-LocalizedData -BindingVariable m -FileName $(MSBuildProjectName); (gv m -va).ModuleVersion }"'
+      ConsoleToMSBuild="true" IgnoreExitCode="true" IgnoreStandardErrorWarningFormat="true">
+      <Output TaskParameter="ConsoleOutput" PropertyName="Version" />
+    </Exec>
+  </Target>
+
+  <Target Name="Pester" DependsOnTargets="Publish" Condition="'$(Configuration)' == 'Debug'">
+    <Copy SourceFiles="$(OutputPath)\publish\FSharp.Core.dll"
+      DestinationFolder="$(OutputPath)" />
+    <Exec Command='pwsh -nol -noni -nop -c "&amp; { cd ..\..; Invoke-Pester }"'
+      IgnoreExitCode="true" IgnoreStandardErrorWarningFormat="true" />
+  </Target>
+```
+
+Instead of specifying the version in both the module manifest and the project file, the **GetVersion** target reads
+the manifest and uses that version in the project file. The **Pester** target runs your tests automatically,
+but it may need some additional integration work for your CI/build system to properly interpret the results.
+
+> **📝 Note**
+>
+> Since `$` can be interpolated by the shell on some systems, it should be avoided when calling PowerShell one-liners this way.
+> The **GetVersion** target does this by using `(gv m -va)` (`Get-Variable -Name m -ValueOnly`) instead of `$m`.
 
 Update platyPS Documentation
 ----------------------------
@@ -212,6 +245,15 @@ and examples. Run this PowerShell cmdlet anytime the templates change:
 New-ExternalHelp docs -OutputPath (Resolve-Path ./src/*/)
 ```
 
+You can do all of this automatically by adding this to your .fsproj file:
+
+```xml
+  <Target Name="Documentation" DependsOnTargets="Publish">
+    <Exec Command='pwsh -nol -noni -nop -c "&amp; { Import-Module (Resolve-Path $(OutputPath)*.psd1); New-MarkdownHelp -Module $(MSBuildProjectName) -OutputFolder ..\..\docs -ea 0; Update-MarkdownHelp ..\..\docs; New-ExternalHelp ..\..\docs -OutputPath . -Force }"'
+      IgnoreExitCode="true" IgnoreStandardErrorWarningFormat="true" />
+  </Target>
+```
+
 In your repo's readme, you can link to each Markdown template, since they are perfectly legible.
 
 If your logo/icon is ready, add that near the top of your readme, too.
@@ -222,11 +264,17 @@ Building the Module, Release and Publish Phase
 Before you can publish to the [PowerShellGallery][], you'll have to create an account and set up
 and copy your API key, which can have very narrowly defined permissions.
 
+To save an encrypted file with your API key using the Windows [DPAPI][], run this PowerShell:
+
+```powershell
+(Get-Credential API-key -Message 'Enter your API key as the password').Password |
+    ConvertFrom-SecureString |Out-File ./.apikey utf8
+```
+
 Once your tests pass and you are ready to publish, close all PowerShell sessions, then start a new one
 and run this PowerShell:
 
 ```powershell
-$key = '<< your API key goes here >>'
 $ModuleName = Resolve-Path ./src/* |Split-Path -Leaf
 Import-LocalizedData module -BaseDirectory (Resolve-Path ./src/*) -FileName "$ModuleName.psd1"
 $err = 'Module manifest (.psd1) version does not match project (.fsproj) version.'
@@ -237,10 +285,36 @@ rm (Resolve-Path ./src/*/bin/Release/*/) -Recurse -Force -vb
 $installpath = Join-Path ($env:PSModulePath -split ';' -like '*\Users\*') $ModuleName -add $module.ModuleVersion
 cp (Resolve-Path ./src/*/bin/Release/*/*) $installpath -vb
 Import-Module $ModuleName
+$key = (New-Object PSCredential apikey,
+    (Get-Content ./.apikey |ConvertTo-SecureString)).GetNetworkCredential().Password
 Publish-Module -Name $ModuleName -NuGetApiKey $key
 ```
 
+To make all this automatic when you run `dotnet publish -c Release`, add this to your .fsproj file.
+
+```xml
+  <ItemGroup>
+    <PSModulePath Include="$(PSModulePath)" Exclude="C:\Program Files\**;C:\Windows\**" />
+  </ItemGroup>
+
+  <Target Name="PublishModule" DependsOnTargets="Publish" Condition="'$(Configuration)' == 'Release'">
+    <RemoveDir Directories="@(PSModulePath->'%(FullPath)\$(MSBuildProjectName)')" />
+    <Copy SourceFiles="$(OutputPath)\publish\FSharp.Core.dll" DestinationFolder="$(OutputPath)" />
+    <ItemGroup><ModuleFiles Include="$(OutputPath)\*" /></ItemGroup>
+    <Copy SourceFiles="@(ModuleFiles)" DestinationFolder="@(PSModulePath->'%(FullPath)\$(MSBuildProjectName)\$(Version)')" />
+    <Error Text="To publish, first run: (Get-Credential API-key -Message &#x27;Enter your API key&#x27;).Password |ConvertFrom-SecureString |Out-File .\.apikey utf8"
+      Condition="!Exists('..\..\.apikey')" />
+    <Exec Command='pwsh -nol -noni -nop -c "&amp; { (New-Object PSCredential apikey,(Get-Content ..\..\.apikey |ConvertTo-SecureString)).GetNetworkCredential().Password }"'
+      ConsoleToMSBuild="true" IgnoreExitCode="true" IgnoreStandardErrorWarningFormat="true" Condition="Exists('..\..\.apikey')">
+      <Output TaskParameter="ConsoleOutput" PropertyName="ApiKey" />
+    </Exec>
+    <Exec Command='pwsh -nol -noni -nop -c "&amp; { Import-Module $(MSBuildProjectName); Publish-Module -Name $(MSBuildProjectName) -NuGetApiKey $(ApiKey) }"'
+      IgnoreExitCode="true" IgnoreStandardErrorWarningFormat="true" Condition="Exists('..\..\.apikey')" />
+  </Target>
+```
+
 [PowerShellGallery]: https://www.powershellgallery.com/ "The central repository for PowerShell content"
+[DPAPI]: https://wikipedia.org/wiki/Data_Protection_API "Data Protection Application Programming Interface"
 
 Future Development
 ------------------
