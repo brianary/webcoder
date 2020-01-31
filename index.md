@@ -11,7 +11,7 @@ References
 - [Writing a PowerShell Core Module With F#, A Complete Guide](fspsmodule.md) fully explains how to create a binary
   PowerShell module in F#, considering branding, source control, tests, documentation, and publication.
 - [A .NET Core/Standard Versioning Odyssey](version-odyssey.md) describes my process for one very difficult part of that module.
-- ["Else if" in multiple languages](else.md) explores differences in syntax across languages for the "else if" construct.
+- ["Else if" in multiple languages](else.md) enumerates differences in syntax across languages for the "else if" construct.
 
 PowerShell & F#
 ---------------
