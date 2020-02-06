@@ -2,6 +2,6 @@
     "markdownlint.config": {
         "default": true,
         "header-style": { "style": "setext_with_atx" },
-        "no-inline-html": { "allowed_elements": ["style","kbd"] }
+        "no-inline-html": { "allowed_elements": ["style","kbd","br"] }
     }
 }
