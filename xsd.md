@@ -45,6 +45,8 @@ XML Schema
         - [xs:notation][] 📝
         - [xs:annotation][]
 
+* * *
+
 - 📝 accepts an optional [xs:annotation][] as the first child
 - ✅ optionally contains one of the following
 - 🔁 optionally contains any combination of the following
