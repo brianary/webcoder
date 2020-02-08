@@ -3,8 +3,10 @@ XML Schema
 
 [xs:schema][]🏷️
 
-Part Ⅰ Declarations 🔁
-----------------------
+<!-- markdownlint-disable ul-indent -->
+
+Ⅰ. Inheritance of existing schema content 🔁
+--------------------------------------------
 
 - [xs:include][]
 - [xs:import][]
@@ -18,8 +20,8 @@ Part Ⅰ Declarations 🔁
     - [xs:appinfo][xs:annotation]🏷️
     - [xs:documentation][xs:annotation]🏷️
 
-Part Ⅱ Definitions 🔁
-----------------------
+Ⅱ. Definitions 🔁
+------------------
 
 - [xs:simpleType][] 🔂
     - [xs:restriction][]
@@ -58,7 +60,8 @@ Part Ⅱ Definitions 🔁
 
 * * *
 
-- 🏷️ No optional [xs:annotation][] as the first child (all others immediately start with an optional [xs:annotation][]).
+- 🏷️ No optional [xs:annotation][] as only the first child (all others immediately start with an optional [xs:annotation][]
+  as the only place that is allowed).
 - ✅ Optionally contains one of the following.
 - 🔁 Optionally contains any combination of the following.
 - 🔂 Contains one of the following choices.

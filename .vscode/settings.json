@@ -1,7 +1,6 @@
 {
     "markdownlint.config": {
         "default": true,
-        "ul-indent": {"indent": 4},
         "header-style": { "style": "setext_with_atx" },
         "no-inline-html": { "allowed_elements": ["style","kbd","br"] }
     }
