@@ -60,8 +60,8 @@ XML Schema
 
 * * *
 
-- 🏷️ No optional [xs:annotation][] as only the first child (all others immediately start with an optional [xs:annotation][]
-  as the only place that is allowed).
+- 🏷️ No optional [xs:annotation][] as the first child only (all others immediately start with an optional [xs:annotation][]
+  as its only allowed position).
 - ✅ Optionally contains one of the following.
 - 🔁 Optionally contains any combination of the following.
 - 🔂 Contains one of the following choices.
