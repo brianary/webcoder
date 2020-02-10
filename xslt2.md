@@ -1,34 +1,32 @@
-[XSLT 2.0][] QuickRef
-=====================
-
-[XSLT 2.0]: http://www.w3.org/TR/xslt20/
+XSLT 2.0 QuickRef
+=================
 
 - [XSLT 2.0 QuickRef](#xslt-20-quickref)
   - [Declarations](#declarations)
   - [Instructions](#instructions)
   - [Functions](#functions)
   - [Namespaces](#namespaces)
-- [XPath 2.0](#xpath-20)
-  - [Paths](#paths)
+- [[XPath 2.0][]](#xpath-20)
+  - [[Paths][]](#paths)
     - [Axes](#axes)
     - [Node Tests](#node-tests)
   - [Accessors](#accessors)
   - [Nodes](#nodes)
-  - [Sequences](#sequences)
+  - [[Sequences][]](#sequences)
   - [Context](#context)
-  - [Numeric](#numeric)
+  - [[Numeric][]](#numeric)
   - [String](#string)
-  - [Durations, Dates &amp; Times](#durationsbrdates--times)
+  - [Durations,<br/>Dates &amp; Times](#durationsbrdates--times)
     - [Arithmetic Operators](#arithmetic-operators)
     - [Comparison Operators](#comparison-operators)
     - [Functions](#functions-1)
-  - [Boolean](#boolean)
+  - [[Boolean][]](#boolean)
   - [anyURI](#anyuri)
   - [QNames](#qnames)
   - [Other eq ne](#other-eq-ne)
   - [Error &amp; Trace](#error--trace)
-  - [Type Expressions](#type-expressions)
-  - [Constructors/Casts](#constructorsbrcasts)
+  - [[Type Expressions][]](#type-expressions)
+  - [[Constructors][]/<br/>[Casts][]](#constructorsbrcasts)
 
 Declarations
 ------------
