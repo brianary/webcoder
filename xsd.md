@@ -37,7 +37,11 @@ XML Schema
     - [xs:union][] 🔁[xs:simpleType][]
 - [xs:complexType][] 🔂
     - [xs:simpleContent][]
-    - [xs:complexContent][]
+        - [xs:restriction][] contains the construct below
+        - [xs:extension][] contains the construct below
+    - [xs:complexContent][] 🔂
+        - [xs:restriction][] contains the construct below
+        - [xs:extension][] contains the construct below
     - this construct:
         1. ✅ [xs:group][], [xs:all][], [xs:choice][], or [xs:sequence][]
         2. 🔁 [xs:attribute][] and/or [xs:attributeGroup][]
@@ -77,6 +81,7 @@ XML Schema
 [xs:complexType]: https://www.w3.org/TR/xmlschema-1/#declare-type
 [xs:element]: https://www.w3.org/TR/xmlschema-1/#declare-element
 [xs:enumeration]: https://www.w3.org/TR/xmlschema-2/#element-enumeration
+[xs:extension]: https://www.w3.org/TR/xmlschema-1/#element-complexContent..extension
 [xs:field]: https://www.w3.org/TR/xmlschema-1/#element-field
 [xs:fractionDigits]: https://www.w3.org/TR/xmlschema-2/#element-fractionDigits
 [xs:group]: https://www.w3.org/TR/xmlschema-1/#declare-namedModelGroup
