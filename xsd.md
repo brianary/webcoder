@@ -68,6 +68,7 @@ XML Schema
 
 [xs:all]: https://www.w3.org/TR/xmlschema-1/#element-all
 [xs:annotation]: https://www.w3.org/TR/xmlschema-1/#declare-annotation
+[xs:any]: https://www.w3.org/TR/xmlschema-1/#element-any
 [xs:anyAttribute]: https://www.w3.org/TR/xmlschema-1/#element-anyAttribute
 [xs:attribute]: https://www.w3.org/TR/xmlschema-1/#declare-attribute
 [xs:attributeGroup]: https://www.w3.org/TR/xmlschema-1/#declare-attributeGroup
