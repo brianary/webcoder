@@ -1,7 +1,7 @@
 PowerShell Encoding
 ===================
 
-In versions prior to [PowerShell Core 6's cleanup][PSC6enc], PowerShell encoding is kind of a mess.
+In versions prior to [PowerShell Core 6's cleanup][PSC6enc], PowerShell encoding was kind of a mess.
 
 [PSC6enc]: https://docs.microsoft.com/powershell/scripting/whats-new/what-s-new-in-powershell-core-60#default-encoding-is-utf-8-without-a-bom "Default encoding is UTF-8 without a BOM"
 
@@ -14,7 +14,7 @@ gcm |
     % {[pscustomobject]@{
         CommandName  = $_.Name
         EncodingType = ([type]$_.Parameters.Encoding.ParameterType).Name # for brevity
-        Default      = (help $_.Name -par encoding |sls 'the default') -replace 
+        Default      = (help $_.Name -par encoding |sls 'the default') -replace
             'The default(?: value)? is | is the default|Specifies.*\. |[ .]','' -join ''
     }} |
     sort CommandName |
@@ -73,4 +73,6 @@ Value Name
    11 BigEndianUTF32
 ```
 
-Will the new PowerShell Core 6 `UTF8NoBOM` encoding default mean all these cmdlets use a string parameter value now?
+The new PowerShell Core uses the [`Encoding`][] type for all these cmdlet parameters, with a default value of the new `UTF8NoBOM`.
+
+[`Encoding`]: https://docs.microsoft.com/dotnet/api/system.text.encoding "Represents a character encoding."
