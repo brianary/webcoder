@@ -7,7 +7,7 @@ References
 - [Windows Key Shortcuts for Windows 10](windowskey.md) has all the Windows Key shortcuts.
 - [Two Letter ISO/FIPS/NUTS Country Codes with Currency, Language, and Subregion Codes](countries.html) puts all the
   two-letter internationalization codes from several standards on the same grid.
-- [XSLT 2.0/XPath 2.0 QuickRef](xslt2.md) and [XML Schema QuickRef][xsd.md] for those of us that still have to work with
+- [XSLT 2.0/XPath 2.0 QuickRef](xslt2.md) and [XML Schema QuickRef](xsd.md) for those of us that still have to work with
   a lot of XML.
 - [SQL Server Datatypes QuickRef](mssqldatatypes.html) is something I put together in the '90s.
 - [Writing a PowerShell Core Module With F#, A Complete Guide](fspsmodule.md) fully explains how to create a binary
