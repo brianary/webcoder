@@ -18,7 +18,7 @@ References
 PowerShell & F#
 ---------------
 
-My [SelectXmlExtensions][], [CertAdmin][], or [Pretendpoint][] PowerShell module can be installed by runnning
+My [SelectXmlExtensions][], [CertAdmin][], or [Pretendpoint][] PowerShell modules can be installed by runnning
 `Install-Module SelectXmlExtensions` (for example).
 
 I contribute a little to several projects.
