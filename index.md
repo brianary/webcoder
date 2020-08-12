@@ -18,13 +18,16 @@ References
 PowerShell & F#
 ---------------
 
-My [SelectXmlExtensions][] PowerShell module can be installed by runnning `Install-Module SelectXmlExtensions`.
+My [SelectXmlExtensions][], [CertAdmin][], or [Pretendpoint][] PowerShell module can be installed by runnning
+`Install-Module SelectXmlExtensions` (for example).
 
 I contribute a little to several projects.
 My most active repo is [scripts](https://github.com/brianary/scripts), which is mostly PowerShell, but also some F# and other
 (primarily Windows) stuff.
 
 [SelectXmlExtensions]: https://powershellgallery.com/packages/SelectXmlExtensions/ "PowerShell cmdlets that Select-Xml can compose into pipelines"
+[CertAdmin]: https://www.powershellgallery.com/packages/CertAdmin/ "Manage certificates and their permissions on a Windows server."
+[Pretendpoint]: https://www.powershellgallery.com/packages/Pretendpoint/ "Pretend Endpoint, the disposable web server."
 
 Some Old Perl Modules
 ---------------------
