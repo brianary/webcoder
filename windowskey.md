@@ -7,9 +7,8 @@ Hold down the [Windows Key](https://en.wikipedia.org/wiki/Windows_Key) and press
 | --------------- | -------------- | ------------ |:------------------:| -----------------------------------
 |                 |                |              | <kbd>A</kbd>       | [Action Center][]
 |                 |                |              | <kbd>B</kbd>       | Notifications (Tool Tray)
-| <kbd>Ctrl</kbd> |                |              | <kbd>B</kbd>       | Open Last Notification
-| <kbd>Ctrl</kbd> |                | <kbd>⇧</kbd> | <kbd>B</kbd>       | Force screen refresh
-|                 |                |              | <kbd>C</kbd>       | 🎤 [Cortana][] listens _(if enabled)_
+| <kbd>Ctrl</kbd> |                | <kbd>⇧</kbd> | <kbd>B</kbd>       | Restart video driver (and others)
+|                 |                |              | <kbd>C</kbd>       | [Cortana][] _(if enabled)_
 |                 |                |              | <kbd>D</kbd>       | Toggle Minimize All
 | <kbd>Ctrl</kbd> |                |              | <kbd>D</kbd>       | New virtual desktop
 |                 | <kbd>Alt</kbd> |              | <kbd>D</kbd>       | Calendar
@@ -24,24 +23,33 @@ Hold down the [Windows Key](https://en.wikipedia.org/wiki/Windows_Key) and press
 |                 |                |              | <kbd>M</kbd>       | Minimize All
 |                 |                | <kbd>⇧</kbd> | <kbd>M</kbd>       | Restore All
 | <kbd>Ctrl</kbd> |                |              | <kbd>M</kbd>       | [Magnifier][]
+| <kbd>Ctrl</kbd> |                |              | <kbd>N</kbd>       | Narrator Settings
 |                 |                |              | <kbd>P</kbd>       | Presentation Display Mode
-|                 |                |              | <kbd>Q</kbd>       | ⌨ [Cortana][] (keyboard)
+|                 |                |              | <kbd>Q</kbd>       | Search
+| <kbd>Ctrl</kbd> |                |              | <kbd>Q</kbd>       | Quick Assist
 |                 |                |              | <kbd>R</kbd>       | Run
 |                 |                |              | <kbd>S</kbd>       | Search
+|                 |                | <kbd>⇧</kbd> | <kbd>S</kbd>       | Screenshot Tool
 |                 |                |              | <kbd>T</kbd>       | Taskbar Cycle
 |                 |                |              | <kbd>U</kbd>       | [Ease of Access][]
+|                 |                |              | <kbd>V</kbd>       | Clipboard History
 |                 |                |              | <kbd>W</kbd>       | [Windows Ink][]
-|                 |                |              | <kbd>X</kbd>       | Power Menu
+|                 |                |              | <kbd>X</kbd>       | Quick Link Menu
+|                 |                |              | <kbd>,</kbd>       | Desktop Peek
 |                 |                |              | <kbd>.</kbd>       | Emoji Input
 |                 |                |              | <kbd>;</kbd>       | Emoji Input
+|                 |                |              | <kbd>+</kbd>       | Zoom In
+|                 |                |              | <kbd>-</kbd>       | Zoom Out
 |                 |                |              | **#**              | Taskbar #
 |                 |                | <kbd>⇧</kbd> | **#**              | New Taskbar #
 |                 | <kbd>Alt</kbd> |              | **#**              | Taskbar Jump Menu #
 |                 |                |              | <kbd>↹</kbd>       | [Task View][]
 |                 |                |              | <kbd>Space</kbd>   | Cycle Input Method (keyboard layouts, &c)
+|                 |                |              | <kbd>Esc</kbd>     | Close Magnifier
 |                 |                |              | <kbd>Home</kbd>    | Minimize all but the active window
 |                 |                |              | <kbd>Pause</kbd>   | Display the System Properties dialog box
 |                 |                |              | <kbd>PrtScrn</kbd> | Screenshot PNG to _Pictures\Screenshots_
+| <kbd>Ctrl</kbd> |                |              | <kbd>Enter</kbd>   | Open Narrator
 | <kbd>Ctrl</kbd> |                |              | <kbd>F4</kbd>      | Close active virtual desktop
 | <kbd>Ctrl</kbd> |                |              | <kbd>←</kbd>       | Switch to virtual desktop to the left
 | <kbd>Ctrl</kbd> |                |              | <kbd>→</kbd>       | Switch to virtual desktop to the right
