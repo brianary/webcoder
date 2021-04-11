@@ -4,6 +4,11 @@
 [crontab][]
 -----------
 
+```txt
+0 3 * * SUN
+0 12 ? 1 MON#3
+```
+
 Crontab is a flexible syntax for specifying a recurring schedule that has a lot of implementation variation.
 
 The crontab file uses five space-separated fields to specify minutes, hours, day of month, month, and day of week,
@@ -24,22 +29,34 @@ Since this allows matching at varous fields, irregular intervals are supported.
 [ISO8601 Recurrence][ISO8601]
 -----------------------------
 
+```txt
+R/2021-01-03T03:00:00/P1W
+R/2000-W03-1T12:00:00/P1Y
+```
+
 ISO8601 defines a recurrence format that starts with an `R` with an optional number of iterations (infinite by default),
 followed by two times or a combination of a time and a duration, all separated by `/`.
 
 The point in time is specified either as the starting or ending point for a duration, or both a start and end
-time can be used. The time uses the familiar ISO8601 `2000-01-01T00:00:00Z` format. A duration can specify any
-time unit, and uses the ISO8601 duration format `P9Y9M9DT9H9M9S` or `P9W` for weeks.
+time can be used. The time uses the familiar ISO8601 `2000-01-01T00:00:00Z` format, or the less-well-known
+[ISO Week Date][] `2000-W01-1T00:00:00Z` format for some limited day-of-week-driven scheduling.
+A duration can specify any time unit, and uses the ISO8601 duration format `P9Y9M9DT9H9M9S` or `P9W` for weeks.
 
-This format support specifying a time zone offset, though not a geographic time zone, so no automatic daylight
+This format supports specifying a time zone offset, though not a geographic time zone, so no automatic daylight
 saving time adjustment is done if a time zone is specified. Assuming a local time is up to the system handling
 the recurrence if time zone data is omitted. This format also only allows specifying a single duration per
 recurrence, a regular interval.
 
 [ISO8601]: https://en.wikipedia.org/wiki/ISO_8601#Repeating_intervals
+[ISO Week Date]: https://en.wikipedia.org/wiki/ISO_week_date
 
 [iCalendar][] Recurrence Rule
 -----------------------------
+
+```txt
+RRULE:FREQ=WEEKLY;BYDAY=SU;BYHOUR=3;BYMINUTE=0
+RRULE:FREQ=YEARLY;BYDAY=3MO;BYHOUR=12;BYMINUTE=0
+```
 
 The iCalendar format widely supported by calendar software defines a recurrence format that is used with
 a specified starting time.
