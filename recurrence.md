@@ -115,7 +115,7 @@ Comparison
 | ISO8601 (week date) | `R/2000-W03-1T12:00:00/P1Y`                        |
 | RFC5545             | `RRULE:FREQ=YEARLY;BYDAY=3MO;BYHOUR=12;BYMINUTE=0` |
 
-### Monday leap days, breakfast
+### Leap Mondays, breakfast
 
 Since this is an irregular interval, the ISO8601 format has to combine 15 separate recurrences.
 
