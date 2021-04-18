@@ -113,7 +113,7 @@ Comparison
 | ------------------- | -------------------------------------------------- |
 | Cron                | `0 12 ? 1 MON#3`                                   |
 | ISO8601 (week date) | `R/2000-W03-1T12:00:00/P1Y`                        |
-| RFC5545             | `RRULE:FREQ=YEARLY;BYDAY=3MO;BYHOUR=12;BYMINUTE=0` |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=1;BYDAY=3MO;BYHOUR=12;BYMINUTE=0` |
 
 ### Leap Mondays, breakfast
 
@@ -137,7 +137,7 @@ Since this is an irregular interval, the ISO8601 format has to combine 15 separa
 | +       | `R/2332-02-29T07:00:00/P400Y`                                            |
 | +       | `R/2360-02-29T07:00:00/P400Y`                                            |
 | +       | `R/2388-02-29T07:00:00/P400Y`                                            |
-| RFC5545 | `RRULE:FREQ=YEARLY;BYDAY=MO;BYMONTHDAY=29;BYMONTH=2;BYHOUR=7;BYMINUTE=0` |
+| RFC5545 | `RRULE:FREQ=YEARLY;BYMONTH=2;BYDAY=MO;BYMONTHDAY=29;BYHOUR=7;BYMINUTE=0` |
 
 ### Thanksgiving dinner
 
@@ -164,7 +164,7 @@ Another irregular interval, the ISO8601 format has to combine 400 separate recur
 | +                   | `R/2027-W47-4T18:00:00/P400Y`                       |
 | +                   | &vellip;                                            |
 | +                   | _(400 entries total)_                               |
-| RFC5545             | `RRULE:FREQ=YEARLY;BYDAY=-1TH;BYHOUR=18;BYMINUTE=0` |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=-1TH;BYHOUR=18;BYMINUTE=0` |
 
 ### Antepenultimate Fridays, at 17:30
 
