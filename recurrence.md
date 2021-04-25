@@ -82,9 +82,12 @@ The [RFC5545][] [RRULE][] syntax consists of semicolon-separated key-value pairs
 - 🧮 = an integer value
 - 🔁 = comma-separated list of values
 
+The [`rrule.js` demo][rrule.js] page allows you to design and test `RRULE` values.
+
 [iCalendar]: https://en.wikipedia.org/wiki/ICalendar "Internet Calendaring and Scheduling Core Object Specification"
 [RFC5545]: https://tools.ietf.org/html/rfc5545#section-3.8.5.3 "RFC5545 &sect; 3.8.5.3: iCalendar: Properties: Recurrence Rule"
 [RRULE]: https://tools.ietf.org/html/rfc5545#section-3.3.10 "RFC5545 &sect; 3.3.10: iCalendar: Data Types: Recurrence Rule"
+[rrule.js]: https://jakubroztocil.github.io/rrule/ "This is a demo and test app for rrule.js, a JavaScript library for working with recurrence rules for calendar dates."
 
 Comparison
 ----------
