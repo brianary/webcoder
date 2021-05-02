@@ -51,7 +51,7 @@ Some Old Windows Projects
 Favorite Specs & Standards
 --------------------------
 
-- [Unicode][] Unicode; see [&amp;what;][]
+- [Unicode][]; see [&amp;what;][]
 - [ISO639-1 alpha-2][] Common language codes
 - [ISO3166-1 alpha-2][] Common country codes
 - [ISO4217][] Common currency codes
@@ -77,10 +77,10 @@ Favorite Specs & Standards
 - [editorconfig][] for specifying coding style
 - [Fetch][] Fetch: URL schemes, redirects, CORS, CSP, referrer, &c
 - [CORS][] Cross-origin request sharing
-- [CSP][] CSP: `Content-Security-Policy: default-src 'self' *.example.org 'unsafe-inline'; report-uri https://example.com/csp-report`
-- [HTML][] HTML: `<!doctype html><title>Page</title><h1>Page</h1>`
-- [CSS][] CSS: `article {display: flex; flex-flow: column;}`
-- [DOM][] DOM for document manipulation
+- [CSP][] `Content-Security-Policy: default-src 'self' *.example.org 'unsafe-inline'; report-uri https://example.com/csp-report`
+- [HTML][] `<!doctype html><title>Page</title><h1>Page</h1>`
+- [CSS][] `article {display: flex; flex-flow: column;}`
+- [DOM][] for document manipulation
 - [ECMA262][] ECMAScript
 
 [Unicode]: https://home.unicode.org/
