@@ -123,4 +123,4 @@ Favorite Specs & Standards
 [securitytxt.org]: https://securitytxt.org/ "A proposed standard which allows websites to define security policies"
 [&amp;what;]: http://www.amp-what.com/ "Unicode character search"
 
-[🍸](Friday.ics 🏡")
+[🍸](Friday.ics "🏡")
