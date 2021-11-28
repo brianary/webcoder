@@ -5,13 +5,13 @@ Hold down the [Windows Key](https://en.wikipedia.org/wiki/Windows_Key) and press
 
 | <kbd>Ctrl</kbd> | <kbd>Alt</kbd> | <kbd>⇧</kbd> | Key                | Action
 | --------------- | -------------- | ------------ |:------------------:| -----------------------------------
-|                 |                |              | <kbd>A</kbd>       | [Action Center][]
+|                 |                |              | <kbd>A</kbd>       | *Win11:* Quick Settings; *Win10:* [Action Center][]
 |                 |                |              | <kbd>B</kbd>       | Notifications (Tool Tray)
 | <kbd>Ctrl</kbd> |                | <kbd>⇧</kbd> | <kbd>B</kbd>       | Restart video driver (and others)
-|                 |                |              | <kbd>C</kbd>       | [Cortana][] _(if enabled)_
+|                 |                |              | <kbd>C</kbd>       | *Win11:* [Teams][]; *Win10:* [Cortana][] _(if enabled)_
 |                 |                |              | <kbd>D</kbd>       | Toggle Minimize All
 | <kbd>Ctrl</kbd> |                |              | <kbd>D</kbd>       | New virtual desktop
-|                 | <kbd>Alt</kbd> |              | <kbd>D</kbd>       | Calendar
+|                 | <kbd>Alt</kbd> |              | <kbd>D</kbd>       | Calendar *(missing in Win11)*
 |                 |                |              | <kbd>E</kbd>       | [File Explorer][]
 |                 |                |              | <kbd>F</kbd>       | [Feedback Hub][]
 | <kbd>Ctrl</kbd> |                |              | <kbd>F</kbd>       | Computer Search
@@ -23,7 +23,7 @@ Hold down the [Windows Key](https://en.wikipedia.org/wiki/Windows_Key) and press
 |                 |                |              | <kbd>M</kbd>       | Minimize All
 |                 |                | <kbd>⇧</kbd> | <kbd>M</kbd>       | Restore All
 | <kbd>Ctrl</kbd> |                |              | <kbd>M</kbd>       | [Magnifier][]
-| <kbd>Ctrl</kbd> |                |              | <kbd>N</kbd>       | Narrator Settings
+| <kbd>Ctrl</kbd> |                |              | <kbd>N</kbd>       | *Win11:* Notifications; *Win10:* Narrator Settings
 |                 |                |              | <kbd>P</kbd>       | Presentation Display Mode
 |                 |                |              | <kbd>Q</kbd>       | Search
 | <kbd>Ctrl</kbd> |                |              | <kbd>Q</kbd>       | Quick Assist
@@ -33,8 +33,9 @@ Hold down the [Windows Key](https://en.wikipedia.org/wiki/Windows_Key) and press
 |                 |                |              | <kbd>T</kbd>       | Taskbar Cycle
 |                 |                |              | <kbd>U</kbd>       | [Ease of Access][]
 |                 |                |              | <kbd>V</kbd>       | Clipboard History
-|                 |                |              | <kbd>W</kbd>       | [Windows Ink][]
+|                 |                |              | <kbd>W</kbd>       | *Win11:* Widgets; *Win10:* [Windows Ink][]
 |                 |                |              | <kbd>X</kbd>       | Quick Link Menu
+|                 |                |              | <kbd>Z</kbd>       | *Win11:* Snap Layouts
 |                 |                |              | <kbd>,</kbd>       | Desktop Peek
 |                 |                |              | <kbd>.</kbd>       | Emoji Input
 |                 |                |              | <kbd>;</kbd>       | Emoji Input
@@ -62,6 +63,7 @@ Hold down the [Windows Key](https://en.wikipedia.org/wiki/Windows_Key) and press
 |                 |                | <kbd>⇧</kbd> | <kbd>↑</kbd>       | Maximize vertically
 
 [Action Center]: https://en.wikipedia.org/wiki/Action_Center
+[Teams]: https://teams.microsoft.com/ "Microsoft Teams"
 [Cortana]: https://en.wikipedia.org/wiki/Cortana
 [Ease of Access]: https://en.wikipedia.org/wiki/Ease_of_Access
 [Feedback Hub]: https://en.wikipedia.org/wiki/Feedback_Hub
