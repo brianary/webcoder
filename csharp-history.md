@@ -12,7 +12,8 @@ C# has added many new keywords, syntax elements, and features since its introduc
 | Auto properties                            | *Property `{ get; set; }`*                                                                       | 3.0     | 2007-11-19 |
 | Auto properties: Initializers              | *Property `{ get; set; } =` value`;`*                                                            | 6.0     | 2014-11-12 |
 | Binary literals                            | `0b`*10011*                                                                                      | 7.0     | 2017-04-05 |
-| Caller info attributes                     | `CallerFilePathAttribute`, `CallerLineNumberAttribute`,<br /> `CallerMemberNameAttribute`, `CallerArgumentExpressionAttribute`                                          | 5.0     | 2012-08-15 |
+| Caller info attributes                     | `CallerFilePathAttribute`, `CallerLineNumberAttribute`, `CallerMemberNameAttribute`              | 5.0     | 2012-08-15 |
+| Caller info attributes: Expression         | `CallerArgumentExpressionAttribute`                                                              | 10.0    | 2021-11-08 |
 | Default interface methods                  | provide interface method implementations to inherit                                              | 8.0     | 2019-09-23 |
 | Default literals                           | `default`                                                                                        | 7.1     | 2017-08-14 |
 | Digit separators                           | *7*`_`*000*`_`*000*                                                                              | 7.0     | 2017-04-05 |
