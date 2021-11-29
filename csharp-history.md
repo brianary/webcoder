@@ -10,7 +10,7 @@ C# has added many new keywords, syntax elements, and features since its introduc
 | Asynchronous members                       | `async` and `await`                                                                              | 5.0     | 2012-08-15 |
 | Asynchronous streams                       | `async IAsyncEnumerable<T>` *Method( … )*                                                        | 8.0     | 2019-09-23 |
 | Auto properties                            | *Property `{ get; set; }`*                                                                       | 3.0     | 2007-11-19 |
-| Auto property initializers                 | *Property `{ get; set; } =` value`;`*                                                            | 6.0     | 2014-11-12 |
+| Auto properties: Initializers              | *Property `{ get; set; } =` value`;`*                                                            | 6.0     | 2014-11-12 |
 | Binary literals                            | `0b`*10011*                                                                                      | 7.0     | 2017-04-05 |
 | Caller info attributes                     | `CallerFilePathAttribute`, `CallerLineNumberAttribute`,<br /> `CallerMemberNameAttribute`, `CallerArgumentExpressionAttribute`                                          | 5.0     | 2012-08-15 |
 | Default interface methods                  | provide interface method implementations to inherit                                              | 8.0     | 2019-09-23 |
@@ -42,7 +42,7 @@ C# has added many new keywords, syntax elements, and features since its introduc
 | Local functions: Extern                    | local functions may be marked as `extern`                                                        | 9.0     | 2020-11-10 |
 | Local functions: Static                    | local functions can now be `static`                                                              | 8.0     | 2019-09-23 |
 | Module initializers                        | `[System.Runtime.CompilerServices.ModuleInitializer]` *Method() { … }*                           | 9.0     | 2020-11-10 |
-| Named argumentst                           | *Method`(` paramName`:` value`)`*                                                                | 4.0     | 2010-04-12 |
+| Named arguments                            | *Method`(` paramName`:` value`)`*                                                                | 4.0     | 2010-04-12 |
 | Nameof operator                            | `nameof()`                                                                                       | 6.0     | 2014-11-12 |
 | Native sized integers                      | `nint` (`System.IntPtr`) and `nuint` (`System.UIntPtr`)                                          | 9.0     | 2020-11-10 |
 | Non-trailing named arguments               | named params can precede unnamed ones that are in the right position                             | 7.2     | 2017-12-04 |
