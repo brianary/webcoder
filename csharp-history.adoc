@@ -21,7 +21,7 @@ C# has added many new keywords, syntax elements, and features since its introduc
 | Exceptions: Exception filters  | catch (_ExceptionType e_) *when _expression_*  | 6.0  | 2014-11-12
 
 | Exceptions: Throw expressions
-| _expr_ ? _expr_ : throw _exception_ 〰️ _x_ ?? throw _exception_ 〰️ _Member_ => throw _exception_
+| _expr_ ? _expr_ : throw _exception_ 🔹 _x_ ?? throw _exception_ 🔹 _Member_ => throw _exception_
 | 7.0
 | 2017-04-05
 
@@ -49,7 +49,7 @@ C# has added many new keywords, syntax elements, and features since its introduc
 
 | Initialization: Implicitly typed local variables  | ⌨️ *var*  | 3.0  | 2007-11-19
 
-| Initialization: Initializers  | new Type *{ … }* 〰️ new CollectionType *{ item, item, item, … }*  | 3.0  | 2007-11-19
+| Initialization: Initializers  | new Type *{ … }* 🔹 new CollectionType *{ item, item, item, … }*  | 3.0  | 2007-11-19
 
 | Initialization: Target typed new  | _// *new()* doesn't require a type name when inferrable_  | 9.0  | 2020-11-10
 
@@ -133,7 +133,7 @@ C# has added many new keywords, syntax elements, and features since its introduc
 | Partial Methods  | ⌨️ *partial* _type_ _Method_( … );  | 3.0  | 2007-11-19
 
 | Pattern matching
-| _expression_ is _**pattern**_ _// or **is not**_ 〰️ switch(_expression_) { case _**pattern**_: … }
+| _expression_ is _**pattern**_ _// or **is not**_ 🔹 switch(_expression_) { case _**pattern**_: … }
 | 7.0
 | 2017-04-05
 
