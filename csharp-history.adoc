@@ -2,7 +2,7 @@
 
 C# has added many new keywords, syntax elements, and features since its introduction.
 
-[cols="5,7m,^1,^2" frame="none" grid="none" stripes="even"]
+[cols="25,60m,^5,^10" frame="none" grid="none" stripes="even"]
 |===
 | Feature | Keyword/Syntax | Version | Released
 
