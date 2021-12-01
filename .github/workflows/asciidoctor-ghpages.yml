@@ -30,4 +30,4 @@ jobs:
         # source_dir: docs/ # default is .
         # slides_build: true
         # pre_build:
-        # post_build:
+        post_build: "sed -i 's/max-width:62[.]5em;//' csharp-history.html"
