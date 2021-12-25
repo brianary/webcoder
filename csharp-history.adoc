@@ -176,7 +176,7 @@ C# has added many new keywords, syntax elements, and features since its introduc
 
 | Records: Record structs  | *record struct*  | 10.0  | 2021-11-08
 
-| Static imports  | *using static* _Namespace_ ;  | 6.0  | 2014-11-12
+| Static imports  | *using static* _Namespace.StaticClassName_ ;  | 6.0  | 2014-11-12
 
 | Static lambdas and anonymous funcions  | _// lambdas and anonymous functions may be **static**_  | 9.0  | 2020-11-10
 
@@ -199,4 +199,4 @@ C# has added many new keywords, syntax elements, and features since its introduc
 |===
 
 Source: https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-version-history[Microsoft Docs: C# Guide: The history of C#]
-and https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10[What's new in C# 10].
+and https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10[What's new in C# 10]
