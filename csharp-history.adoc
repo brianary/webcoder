@@ -49,6 +49,8 @@ C# has added many new keywords, syntax elements, and features since its introduc
 
 | Initialization: Implicitly typed local variables  | ⌨️ *var*  | 3.0  | 2007-11-19
 
+| Initialization: Index initializers  | ❇️ new Dictionary<_type_,_type_> **{ [_value_] = _value_, }**  | 6.0  | 2014-11-12
+
 | Initialization: Initializers  | new Type *{ … }* 🔹 new CollectionType *{ item, item, item, … }*  | 3.0  | 2007-11-19
 
 | Initialization: Target typed new  | _// *new()* doesn't require a type name when inferrable_  | 9.0  | 2020-11-10
