@@ -4,9 +4,11 @@
 References
 ----------
 
+- [Windows PowerShell to PowerShell Core](wps-to-psc.md) is how to deal with breaking changes in the new PowerShell.
 - [Windows Key Shortcuts for Windows 10](windowskey.md) has all the Windows Key shortcuts.
 - [Two Letter ISO/FIPS/NUTS Country Codes with Currency, Language, and Subregion Codes](countries.html) puts all the
   two-letter internationalization codes from several standards on the same grid.
+- [C# History](csharp-history.adoc) helps to determine what version of C# is required for specific language features.
 - [XSLT 2.0/XPath 2.0 QuickRef](xslt2.md) and [XML Schema QuickRef](xsd.md) for those of us that still have to work with
   a lot of XML.
 - [SQL Server Datatypes QuickRef](mssqldatatypes.html) is something I put together in the '90s.
