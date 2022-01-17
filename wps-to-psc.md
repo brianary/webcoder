@@ -15,7 +15,7 @@ future development efforts will be focused on PSC.
 In WPS, you could create a proxy class with only a WSDL URL that described a SOAP service, and you'd have access
 to that web service's calls as methods on that class.
 
-In PSC, you'll have to use `Invoke-WebRequest` for each call, manually creating the SOAP envelope and serializing
+In PSC, you'll have to use `Invoke-RestMethod` for each call, manually creating the SOAP envelope and serializing
 the parameters into it before sending it as the request body (be sure to XML-encode any strings!).
 You can often see [what the SOAP envelope looks like][soap] from the WSDL.
 
@@ -53,11 +53,36 @@ See [SOAP support in all platforms · Issue #9838 · PowerShell/PowerShell][issu
 [soap]: https://www.w3schools.com/xml/tempconvert.asmx?op=FahrenheitToCelsius "FahrenheitToCelsius"
 [issue9838]: https://github.com/PowerShell/PowerShell/issues/9838
 
-Windows Management Instrumentation
-----------------------------------
+`Get-WmiObject`
+---------------
 
-WMI allows querying system details like hardware info, but it uses an old Windows-specific protocol that has been
-supplanted by the newer Common Information Model (CIM). PSC no longer supports WMI, in favor of CIM.
+Windows Management Instrumentation (WMI) allows querying system details like hardware info, but it uses
+an old Windows-specific protocol that has been supplanted by the newer Common Information Model (CIM).
+PSC no longer supports WMI, in favor of CIM.
+
+### WMI in WPS
+
+```powershell
+Get-WmiObject Win32_PhysicalMemory |
+    foreach {"$($_.BankLabel) $($_.Tag) $($_.Capacity / 1GB)GB"}
+```
+
+```txt
+BANK 0 Physical Memory 0 16GB
+BANK 0 Physical Memory 1 16GB
+```
+
+### CIM in PSC
+
+```powershell
+Get-CimInstance CIM_PhysicalMemory |
+    foreach {"$($_.BankLabel) $($_.Tag) $($_.Capacity / 1GB)GB"}
+```
+
+```txt
+BANK 0 Physical Memory 0 16GB
+BANK 0 Physical Memory 1 16GB
+```
 
 Many WMI "classes" have direct analogs, a few do not.
 
