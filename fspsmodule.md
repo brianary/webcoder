@@ -327,3 +327,5 @@ Make sure the tags in your manifest continue to accurately reflect the functiona
 You might want to refine that icon over time, too.
 
 HTH :)
+
+See also [A .NET Core/Standard Versioning Odyssey](version-odyssey.md) describes my process for one very difficult part of that module.
