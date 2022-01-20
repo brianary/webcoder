@@ -189,19 +189,20 @@ Power* Processes
 Unless this file is intended purely for output directly to the terminal, you probably don't want those ANSI
 escape codes there.
 
-Perhaps the best way to disable ANSI codes is with the [`NO_COLOR`][] environment variable, which can be set
-for the scope of the running process, is cross-platform, and applies to several external apps as well.
+<!--
+Perhaps the best way to disable ANSI codes would be with the [`NO_COLOR`][] environment variable, which can
+be set for the scope of the running process, is cross-platform, and applies to several external apps as well.
 You can also use the `TERM` environment variable:
 
 ```powershell
 $env:NO_COLOR = $true
 $env:TERM = 'xterm-mono' # equivalent for PowerShell, but may differ for external programs
 ```
+-->
 
 PSC supports other ways of suppressing ANSI codes by directly setting `$PSStyle.OutputRendering = 'PlainText'`,
-but `$PSStyle` doesn't seem to be scoped as locally (it's a global singleton), so this could potentially affect
-parallel processes in your session. You'd also want to save the previous value and restore it when you're done,
-which adds extra steps, and also doesn't work well with parallel processes.
+but `$PSStyle` doesn't seem to be scoped as locally (it's a global singleton). Setting it to `Host` will disable
+colors only for piped or redirected text.
 
 See [about_ANSI_Terminals: Disabling ANSI output][disable-ansi]
 
