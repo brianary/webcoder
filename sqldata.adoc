@@ -15,7 +15,8 @@ Types
 | 1753-01-01 00:00:00.000
 | 9999-12-31 23:59:59.997
 
-| datetime2[(s)] | 2008 | s < 3/5/8 = 6/7/8
+| datetime2[(s)] | 2008
+a| [.small]#s < 3/5/8 = 6/7/8#
 | 0001-01-01 00:00:00.0…
 | 9999-12-31 23:59:59.9…
 
@@ -53,54 +54,64 @@ a| [.small]#9999-12-31 23:59:59.9999999 +14:00#
 | real |  | 4
 
 .2+s| Exact Numeric | decimal[(p[,s])] |
-.2+| p < 9/19/28/38 = 5/9/13/17
+.2+a| [.small]#p < 9/19/28/38 = 5/9/13/17#
 
 | numeric[(p[,s])] |
 
-.2+s| Binary | binary[(n)] |  | n ≤ 8,000
+.2+s| Binary | binary[(n)] |
+a| [.small]#n ≤ 8,000#
 
-| varbinary[(n)] |  | ≤ n ≤ 8,000
+| varbinary[(n)] |
+a| [.small]#≤ n ≤ 8,000#
 
-.4+s| Character | char[(n)] |  | n ≤ 8,000
+.4+s| Character | char[(n)] |
+a| [.small]#n ≤ 8,000#
 
-| nchar[(n)] | 7 | n × 2 ≤ 8,000
+| nchar[(n)] | 7
+a| [.small]#n × 2 ≤ 8,000#
 
-| nvarchar[(n)] | 7 | ≤ n × 2 ≤ 8,000
+| nvarchar[(n)] | 7
+a| [.small]#≤ n × 2 ≤ 8,000#
 
-| varchar[(n)] |  | ≤ n ≤ 8,000
+| varchar[(n)] |
+a| [.small]#≤ n ≤ 8,000#
 
-.6+s| Long Text and Binary | image | dep. 2005
+.6+s| Long Text and Binary | image
+a| [.small]#dep. 2005#
 3.6+a|
 * 16 byte in-row pointer to ≤ 2,147,483,647 bytes data.
 * Max types are stored in-row up to 8,000 bytes.
 * n(var)char/ntext are stored as UCS-2, two bytes per character.
 
 
-| ntext | 7, dep. 2005
+| ntext
+a| [.small]#7, dep. 2005#
 
 | nvarchar(max) | 2005
 
-| text | dep. 2005
+| text
+a| [.small]#dep. 2005#
 
 | varbinary(max) | 2005
 
 | varchar(max) | 2005
 
 .6+s| Special | hierarchyid | 2008
-3+| A slash-separated path: /1/3/
+3+a| [.small]#A slash-separated path: /1/3/#
 
 | rowversion |  | 8 | |
 
 | sql_variant | 2000
-3+| Stores any datatype except long text, long binary, or special types (max 8016 bytes).
+3+a| [.small]#Stores any datatype except long text, long binary, or special types (max 8016 bytes).#
 
 | table | 2000
-3+| Sometimes faster than temporary tables. declare @name table ( … table definition … )
+3+a| [.small]#Sometimes faster than temporary tables. declare @name table ( … table definition … )#
 
 | uniqueidentifier | 7 | 16 | |
 
-| xml | 2005 | 16 (in-row pointer)
-2+| XML data with a schema is stored as a parsed tree.
+| xml | 2005
+a| [.small]#16 (in-row pointer)#
+2+a| [.small]#XML data with a schema is stored as a parsed tree.#
 |===
 
 Date Formats
