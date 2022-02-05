@@ -228,3 +228,135 @@ $PSStyle.Progress.View = 'Classic'
 See [about_ANSI_Terminals][], under `$PSStyle.Progress`
 
 [about_ANSI_Terminals]: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_ansi_terminals "PowerShell has many features that support the use of ANSI escape sequences to control the rendering of output in the terminal application that is hosting PowerShell."
+
+`System.Configuration.ConfigurationManager`
+-------------------------------------------
+
+The old XML-based config files that drove the .NET Framework Configuration system aren't really used anymore after .NET Core.
+
+### Windows PowerShell ConfigurationManager
+
+The _machine.config_ has to exist, and could be relied on for looking up `system.net` info, or system-width definitions of
+database connection strings.
+
+```ps1
+Add-Type -AN System.Configuration
+${machine.config} = [Configuration.ConfigurationManager]::OpenMachineConfiguration().FilePath
+${exe.config~none} = [Configuration.ConfigurationManager]::OpenExeConfiguration([Configuration.ConfigurationUserLevel]::None).FilePath
+${exe.config~local} = [Configuration.ConfigurationManager]::OpenExeConfiguration([Configuration.ConfigurationUserLevel]::PerUserRoamingAndLocal).FilePath
+${exe.config~roaming} = [Configuration.ConfigurationManager]::OpenExeConfiguration([Configuration.ConfigurationUserLevel]::PerUserRoaming).FilePath
+Get-Variable *.config* |
+    select Name,
+        @{n='FilePath';e={(Compress-EnvironmentVariables.ps1 $_.Value) -replace 'DefaultDomain_Path_\w+','DefaultDomain_Path_*'}},
+        @{n='Exists';e={Test-Path $_.Value -Type Leaf}}
+```
+
+```txt
+Name               FilePath                                                                           Exists
+----               --------                                                                           ------
+exe.config~local   %LOCALAPPDATA%\Microsoft_Corporation\DefaultDomain_Path_*\10.0.19041.1\user.config   True
+exe.config~none    %SystemRoot%\system32\windowspowershell\v1.0\powershell.exe.Config                   True
+exe.config~roaming %APPDATA%\Microsoft_Corporation\DefaultDomain_Path_*\10.0.19041.1\user.config       False
+machine.config     %SystemRoot%\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config              True
+```
+
+You can grab some system-width settings.
+
+```ps1
+[System.Configuration.ConfigurationManager]::GetSection('system.net/mailSettings/smtp') -eq $null
+```
+
+```txt
+DeliveryMethod           : SpecifiedPickupDirectory
+DeliveryFormat           : SevenBit
+From                     : nobody@example.org
+Network                  : System.Net.Configuration.SmtpNetworkElement
+SpecifiedPickupDirectory : System.Net.Configuration.SmtpSpecifiedPickupDirectoryElement
+SectionInformation       : System.Configuration.SectionInformation
+LockAttributes           : {}
+LockAllAttributesExcept  : {}
+LockElements             : {}
+LockAllElementsExcept    : {}
+LockItem                 : False
+ElementInformation       : System.Configuration.ElementInformation
+CurrentConfiguration     :
+```
+
+Including system-wide connection string definitions.
+
+```ps1
+[Configuration.ConfigurationManager]::ConnectionStrings
+```
+
+```txt
+Name                    : LocalSqlServer
+ConnectionString        : data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|aspnetdb.mdf;User Instance=true
+ProviderName            : System.Data.SqlClient
+LockAttributes          : {}
+LockAllAttributesExcept : {}
+LockElements            : {}
+LockAllElementsExcept   : {}
+LockItem                : False
+ElementInformation      : System.Configuration.ElementInformation
+CurrentConfiguration    :
+```
+
+### PowerShell Core ConfigurationManager
+
+You can't rely on the existence of the venerable _machine.config_ anymore.
+
+```ps1
+Add-Type -AN System.Configuration.ConfigurationManager # a new assembly in .NET Core and later
+using namespace System.Configuration # hey, look, PowerShell has "using" now!
+${machine.config} = [ConfigurationManager]::OpenMachineConfiguration().FilePath
+${exe.config~none} = [ConfigurationManager]::OpenExeConfiguration([ConfigurationUserLevel]::None).FilePath
+${exe.config~local} = [ConfigurationManager]::OpenExeConfiguration([ConfigurationUserLevel]::PerUserRoamingAndLocal).FilePath
+${exe.config~roaming} = [ConfigurationManager]::OpenExeConfiguration([ConfigurationUserLevel]::PerUserRoaming).FilePath
+Get-Variable *.config* |
+    select Name,
+        @{n='FilePath';e={(Compress-EnvironmentVariables.ps1 $_.Value) -replace 'pwsh_StrongName_\w+','DefaultDomain_Path_*'}},
+        @{n='Exists';e={Test-Path $_.Value -Type Leaf}}
+```
+
+```txt
+Name               FilePath                                                                        Exists
+----               --------                                                                        ------
+exe.config~local   %LOCALAPPDATA%\Microsoft_Corporation\DefaultDomain_Path_*\7.2.1.500\user.config  False
+exe.config~none    %ProgramFiles%\PowerShell\7\pwsh.dll.config                                      False
+exe.config~roaming %APPDATA%\Microsoft_Corporation\DefaultDomain_Path_*\7.2.1.500\user.config       False
+machine.config     %ProgramFiles%\PowerShell\7\Config\machine.config                                False
+```
+
+Even though it doesn't throw the promised `ConfigurationErrorsException` if the file can't be loaded.
+
+```ps1
+[System.Configuration.ConfigurationManager]::GetSection('system.net/mailSettings/smtp') -eq $null
+```
+
+```txt
+True
+```
+
+But the connection strings still seem to exist, though I'm not yet sure where this one is coming from.
+
+```ps1
+[Configuration.ConfigurationManager]::ConnectionStrings
+```
+
+```txt
+Name                    : LocalSqlServer
+ConnectionString        : data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|aspnetdb.mdf;User Instance=true
+ProviderName            : System.Data.SqlClient
+LockAttributes          : {}
+LockAllAttributesExcept : {}
+LockElements            : {}
+LockAllElementsExcept   : {}
+LockItem                : False
+ElementInformation      : System.Configuration.ElementInformation
+CurrentConfiguration    :
+```
+
+Creating the _machine.config_ file does appear to result in it getting parsed, but without the .NET Framework config classes,
+you can't just copy a `system.net` section from your .NET 4.8 _machine.config_, since the assemblies aren't available in .NET Core.
+You may be able to use a generic config parsing class, but that's going to result in a _machine.config_ that looks quite different,
+and would probably be safer in one of the _pwsh.exe.config_ classes.
