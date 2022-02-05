@@ -15,6 +15,10 @@ Windows PowerShell (WPS) to PowerShell Core (PSC)
   - [`System.Configuration.ConfigurationManager`](#systemconfigurationconfigurationmanager)
     - [Windows PowerShell ConfigurationManager](#windows-powershell-configurationmanager)
     - [PowerShell Core ConfigurationManager](#powershell-core-configurationmanager)
+      - [machine.config](#machineconfig)
+      - [exe.config (none)](#execonfig-none)
+      - [exe.config (roaming)](#execonfig-roaming)
+      - [exe.config (local)](#execonfig-local)
 
 There are certain gaps when moving from Windows PowerShell (5.x) to the new cross-platform PowerShell Core (6+),
 due to features that relied on Windows-specific infrastructure. Here are a few notable things that are no longer
@@ -254,8 +258,11 @@ The old XML-based config files that drove the .NET Framework Configuration syste
 The _machine.config_ has to exist, and could be relied on for looking up `system.net` info, or system-width definitions of
 database connection strings.
 
-```ps1
-Add-Type -AN System.Configuration
+```powershell
+Add-Type -AN Add-Type -AN System.Configuration.ConfigurationManager # a new assembly in .NET Core and later
+using namespace System.Configuration
+[ConfigurationManager]::AppSettings
+[ConfigurationManager]::ConnectionStringsSystem.Configuration
 using namespace System.Configuration
 ${machine.config} = [ConfigurationManager]::OpenMachineConfiguration().FilePath
 ${exe.config~none} = [ConfigurationManager]::OpenExeConfiguration([ConfigurationUserLevel]::None).FilePath
@@ -307,8 +314,11 @@ You can grab some system-width settings, given these mail settings in _machine.c
 
 Querying for system-wide mail settings is easy.
 
-```ps1
-[ConfigurationManager]::GetSection('system.net/mailSettings/smtp')
+```powershell
+[ConfiguratioAdd-Type -AN System.Configuration.ConfigurationManager # a new assembly in .NET Core and later
+using namespace System.Configuration
+[ConfigurationManager]::AppSettings
+[ConfigurationManager]::ConnectionStringsnManager]::GetSection('system.net/mailSettings/smtp')
 ```
 
 ```txt
@@ -329,8 +339,11 @@ CurrentConfiguration     :
 
 Including system-wide connection string definitions.
 
-```ps1
-[ConfigurationManager]::ConnectionStrings
+```powershell
+[ConfiguratioAdd-Type -AN System.Configuration.ConfigurationManager # a new assembly in .NET Core and later
+using namespace System.Configuration
+[ConfigurationManager]::AppSettings
+[ConfigurationManager]::ConnectionStringsnManager]::ConnectionStrings
 ```
 
 ```txt
@@ -354,8 +367,11 @@ practical difference between PowerShell's _machine.config_ and PowerShell's non-
 This means there's no longer any truly system-wide way of sharing settings between web apps, web APIs, scripts,
 console/desktop apps, &c.
 
-```ps1
-Add-Type -AN System.Configuration.ConfigurationManager # a new assembly in .NET Core and later
+```powershell
+Add-Type -AN Add-Type -AN System.Configuration.ConfigurationManager # a new assembly in .NET Core and later
+using namespace System.Configuration
+[ConfigurationManager]::AppSettings
+[ConfigurationManager]::ConnectionStringsSystem.Configuration.ConfigurationManager # a new assembly in .NET Core and later
 using namespace System.Configuration
 ${machine.config} = [ConfigurationManager]::OpenMachineConfiguration().FilePath
 ${exe.config~none} = [ConfigurationManager]::OpenExeConfiguration([ConfigurationUserLevel]::None).FilePath
@@ -382,8 +398,11 @@ On another machine, the `exe.config~local` file exists, but only contains some h
 
 Even though it doesn't throw the promised `ConfigurationErrorsException` if the file can't be loaded.
 
-```ps1
-[ConfigurationManager]::GetSection('system.net/mailSettings/smtp') -eq $null
+```powershell
+[ConfiguratioAdd-Type -AN System.Configuration.ConfigurationManager # a new assembly in .NET Core and later
+using namespace System.Configuration
+[ConfigurationManager]::AppSettings
+[ConfigurationManager]::ConnectionStringsnManager]::GetSection('system.net/mailSettings/smtp') -eq $null
 ```
 
 ```txt
@@ -392,8 +411,11 @@ True
 
 But the connection strings still seem to exist, though I'm not yet sure where this one is coming from.
 
-```ps1
-[ConfigurationManager]::ConnectionStrings
+```powershell
+[ConfiguratioAdd-Type -AN System.Configuration.ConfigurationManager # a new assembly in .NET Core and later
+using namespace System.Configuration
+[ConfigurationManager]::AppSettings
+[ConfigurationManager]::ConnectionStringsnManager]::ConnectionStrings
 ```
 
 ```txt
@@ -414,3 +436,102 @@ you can't just copy a `system.net` section from your .NET 4.8 _machine.config_, 
 You can nearly adapt the mail settings by defining the structure with `ConfigurationSectionGroup` and `SingleTagSectionHandler`,
 but the attributes on the `smtp` element wouldn't be parsed. There doesn't seem to be a way to provide the mail settings in the same
 structure for scripting both WPS and PSC. Sections without attributes should be fairly simple to adapt to work for either WPS or PSC.
+
+Adding values to all of the config files shows that not all of them are parsed by `ConfigurationManager`
+(though it does replace the default `LocalSqlServer` connection string).
+
+#### machine.config
+
+```xml
+<configuration>
+    <configSections>
+        <section name="appSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" restartOnExternalChanges="false" requirePermission="false" />
+        <section name="connectionStrings" type="System.Configuration.ConnectionStringsSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" requirePermission="false" />
+    </configSections>
+    <appSettings>
+        <add key="machine" value="True" />
+    </appSettings>
+    <connectionStrings>
+        <add name="machine" connectionString="Server=(localdb)\ProjectsV13;Database=AdventureWorks2016;Integrated Security=SSPI" providerName="System.Data.SqlClient"/>
+    </connectionStrings>
+</configuration>
+```
+
+#### exe.config (none)
+
+```xml
+<configuration>
+    <appSettings>
+        <add key="exe.none" value="True" />
+    </appSettings>
+    <connectionStrings>
+        <add name="exe.none" connectionString="Server=(localdb)\ProjectsV13;Database=AdventureWorks2016;Integrated Security=SSPI" providerName="System.Data.SqlClient"/>
+    </connectionStrings>
+</configuration>
+```
+
+#### exe.config (roaming)
+
+```xml
+<configuration>
+    <appSettings>
+        <add key="exe.roaming" value="True" />
+    </appSettings>
+    <connectionStrings>
+        <add name="exe.roaming" connectionString="Server=(localdb)\ProjectsV13;Database=AdventureWorks2016;Integrated Security=SSPI" providerName="System.Data.SqlClient"/>
+    </connectionStrings>
+</configuration>
+```
+
+#### exe.config (local)
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <appSettings>
+        <add key="exe.local" value="True" />
+    </appSettings>
+    <connectionStrings>
+        <add name="exe.local" connectionString="Server=(localdb)\ProjectsV13;Database=AdventureWorks2016;Integrated Security=SSPI" providerName="System.Data.SqlClient"/>
+    </connectionStrings>
+</configuration>
+```
+
+```powershell
+[ConfigurationManager]::AppSettings
+```
+
+```txt
+machine
+exe.none
+```
+
+```powershell
+[ConfigurationManager]::ConnectionStrings
+```
+
+```txt
+Name                    : machine
+ConnectionString        : Server=(localdb)\ProjectsV13;Database=AdventureWorks2016;Integrated Security=SSPI
+ProviderName            : System.Data.SqlClient
+LockAttributes          : {}
+LockAllAttributesExcept : {}
+LockElements            : {}
+LockAllElementsExcept   : {}
+LockItem                : False
+ElementInformation      : System.Configuration.ElementInformation
+CurrentConfiguration    :
+
+Name                    : exe.none
+ConnectionString        : Server=(localdb)\ProjectsV13;Database=AdventureWorks2016;Integrated Security=SSPI
+ProviderName            : System.Data.SqlClient
+LockAttributes          : {}
+LockAllAttributesExcept : {}
+LockElements            : {}
+LockAllElementsExcept   : {}
+LockItem                : False
+ElementInformation      : System.Configuration.ElementInformation
+CurrentConfiguration    :
+```
+
+By default, the user exe.config files don't seem to be included.
