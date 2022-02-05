@@ -1,6 +1,21 @@
 Windows PowerShell (WPS) to PowerShell Core (PSC)
 =================================================
 
+- [Windows PowerShell (WPS) to PowerShell Core (PSC)](#windows-powershell-wps-to-powershell-core-psc)
+  - [`New-WebServiceProxy`](#new-webserviceproxy)
+  - [`Get-WmiObject`](#get-wmiobject)
+    - [WMI in WPS](#wmi-in-wps)
+    - [CIM in PSC](#cim-in-psc)
+    - [Some examples of WMI to CIM classes](#some-examples-of-wmi-to-cim-classes)
+  - [`Set-Clipboard -AsHtml`](#set-clipboard--ashtml)
+  - [`Invoke-WebRequest -UseBasicParsing:$false`](#invoke-webrequest--usebasicparsingfalse)
+  - [ANSI colors and `Out-String`](#ansi-colors-and-out-string)
+    - [_power-proc.txt_](#power-proctxt)
+  - [`Write-Progress` and `$PSStyle`](#write-progress-and-psstyle)
+  - [`System.Configuration.ConfigurationManager`](#systemconfigurationconfigurationmanager)
+    - [Windows PowerShell ConfigurationManager](#windows-powershell-configurationmanager)
+    - [PowerShell Core ConfigurationManager](#powershell-core-configurationmanager)
+
 There are certain gaps when moving from Windows PowerShell (5.x) to the new cross-platform PowerShell Core (6+),
 due to features that relied on Windows-specific infrastructure. Here are a few notable things that are no longer
 supported, with some possible workarounds (which will mostly still work only on Windows, because they were
@@ -241,15 +256,18 @@ database connection strings.
 
 ```ps1
 Add-Type -AN System.Configuration
-${machine.config} = [Configuration.ConfigurationManager]::OpenMachineConfiguration().FilePath
-${exe.config~none} = [Configuration.ConfigurationManager]::OpenExeConfiguration([Configuration.ConfigurationUserLevel]::None).FilePath
-${exe.config~local} = [Configuration.ConfigurationManager]::OpenExeConfiguration([Configuration.ConfigurationUserLevel]::PerUserRoamingAndLocal).FilePath
-${exe.config~roaming} = [Configuration.ConfigurationManager]::OpenExeConfiguration([Configuration.ConfigurationUserLevel]::PerUserRoaming).FilePath
+using namespace System.Configuration
+${machine.config} = [ConfigurationManager]::OpenMachineConfiguration().FilePath
+${exe.config~none} = [ConfigurationManager]::OpenExeConfiguration([ConfigurationUserLevel]::None).FilePath
+${exe.config~local} = [ConfigurationManager]::OpenExeConfiguration([ConfigurationUserLevel]::PerUserRoamingAndLocal).FilePath
+${exe.config~roaming} = [ConfigurationManager]::OpenExeConfiguration([ConfigurationUserLevel]::PerUserRoaming).FilePath
 Get-Variable *.config* |
     select Name,
         @{n='FilePath';e={(Compress-EnvironmentVariables.ps1 $_.Value) -replace 'DefaultDomain_Path_\w+','DefaultDomain_Path_*'}},
         @{n='Exists';e={Test-Path $_.Value -Type Leaf}}
 ```
+
+On a Windows 10 machine:
 
 ```txt
 Name               FilePath                                                                           Exists
@@ -260,32 +278,59 @@ exe.config~roaming %APPDATA%\Microsoft_Corporation\DefaultDomain_Path_*\10.0.190
 machine.config     %SystemRoot%\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config              True
 ```
 
-You can grab some system-width settings.
+On a Windows 11 machine:
+
+```txt
+Name               FilePath                                                                           Exists
+----               --------                                                                           ------
+exe.config~local   %LOCALAPPDATA%\Microsoft_Corporation\DefaultDomain_Path_*\10.0.22000.1\user.config  False
+exe.config~none    %SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe.Config                   True
+exe.config~roaming %APPDATA%\Microsoft_Corporation\DefaultDomain_Path_*\10.0.22000.1\user.config       False
+machine.config     %SystemRoot%\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config              True
+```
+
+You can grab some system-width settings, given these mail settings in _machine.config_.
+
+```xml
+<configuration>
+    <!-- ... -->
+    <system.net>
+        <mailSettings>
+            <smtp deliveryFormat="SevenBit" deliveryMethod="Network" from="nobody@example.org">
+                <network host="smtp.example.org" port="25" enableSsl="true" />
+            </smtp>
+        </mailSettings>
+    </system.net>
+    <!-- ... -->
+</configuration>
+```
+
+Querying for system-wide mail settings is easy.
 
 ```ps1
-[System.Configuration.ConfigurationManager]::GetSection('system.net/mailSettings/smtp') -eq $null
+[ConfigurationManager]::GetSection('system.net/mailSettings/smtp')
 ```
 
 ```txt
 DeliveryMethod           : SpecifiedPickupDirectory
 DeliveryFormat           : SevenBit
 From                     : nobody@example.org
-Network                  : System.Net.Configuration.SmtpNetworkElement
-SpecifiedPickupDirectory : System.Net.Configuration.SmtpSpecifiedPickupDirectoryElement
-SectionInformation       : System.Configuration.SectionInformation
+Network                  : System.Net.SmtpNetworkElement
+SpecifiedPickupDirectory : System.Net.SmtpSpecifiedPickupDirectoryElement
+SectionInformation       : System.SectionInformation
 LockAttributes           : {}
 LockAllAttributesExcept  : {}
 LockElements             : {}
 LockAllElementsExcept    : {}
 LockItem                 : False
-ElementInformation       : System.Configuration.ElementInformation
+ElementInformation       : System.ElementInformation
 CurrentConfiguration     :
 ```
 
 Including system-wide connection string definitions.
 
 ```ps1
-[Configuration.ConfigurationManager]::ConnectionStrings
+[ConfigurationManager]::ConnectionStrings
 ```
 
 ```txt
@@ -297,17 +342,21 @@ LockAllAttributesExcept : {}
 LockElements            : {}
 LockAllElementsExcept   : {}
 LockItem                : False
-ElementInformation      : System.Configuration.ElementInformation
+ElementInformation      : System.ElementInformation
 CurrentConfiguration    :
 ```
 
 ### PowerShell Core ConfigurationManager
 
-You can't rely on the existence of the venerable _machine.config_ anymore.
+You can't rely on the existence of the venerable, system-wide _machine.config_ anymore.
+Note that below, the returned location for _machine.config_ is PowerShell-specific, so there is little
+practical difference between PowerShell's _machine.config_ and PowerShell's non-user "exe.config".
+This means there's no longer any truly system-wide way of sharing settings between web apps, web APIs, scripts,
+console/desktop apps, &c.
 
 ```ps1
 Add-Type -AN System.Configuration.ConfigurationManager # a new assembly in .NET Core and later
-using namespace System.Configuration # hey, look, PowerShell has "using" now!
+using namespace System.Configuration
 ${machine.config} = [ConfigurationManager]::OpenMachineConfiguration().FilePath
 ${exe.config~none} = [ConfigurationManager]::OpenExeConfiguration([ConfigurationUserLevel]::None).FilePath
 ${exe.config~local} = [ConfigurationManager]::OpenExeConfiguration([ConfigurationUserLevel]::PerUserRoamingAndLocal).FilePath
@@ -318,6 +367,8 @@ Get-Variable *.config* |
         @{n='Exists';e={Test-Path $_.Value -Type Leaf}}
 ```
 
+The results one Windows 10 machine:
+
 ```txt
 Name               FilePath                                                                        Exists
 ----               --------                                                                        ------
@@ -327,10 +378,12 @@ exe.config~roaming %APPDATA%\Microsoft_Corporation\DefaultDomain_Path_*\7.2.1.50
 machine.config     %ProgramFiles%\PowerShell\7\Config\machine.config                                False
 ```
 
+On another machine, the `exe.config~local` file exists, but only contains some help window geometry settings.
+
 Even though it doesn't throw the promised `ConfigurationErrorsException` if the file can't be loaded.
 
 ```ps1
-[System.Configuration.ConfigurationManager]::GetSection('system.net/mailSettings/smtp') -eq $null
+[ConfigurationManager]::GetSection('system.net/mailSettings/smtp') -eq $null
 ```
 
 ```txt
@@ -340,7 +393,7 @@ True
 But the connection strings still seem to exist, though I'm not yet sure where this one is coming from.
 
 ```ps1
-[Configuration.ConfigurationManager]::ConnectionStrings
+[ConfigurationManager]::ConnectionStrings
 ```
 
 ```txt
@@ -352,11 +405,12 @@ LockAllAttributesExcept : {}
 LockElements            : {}
 LockAllElementsExcept   : {}
 LockItem                : False
-ElementInformation      : System.Configuration.ElementInformation
+ElementInformation      : System.ElementInformation
 CurrentConfiguration    :
 ```
 
-Creating the _machine.config_ file does appear to result in it getting parsed, but without the .NET Framework config classes,
-you can't just copy a `system.net` section from your .NET 4.8 _machine.config_, since the assemblies aren't available in .NET Core.
-You may be able to use a generic config parsing class, but that's going to result in a _machine.config_ that looks quite different,
-and would probably be safer in one of the _pwsh.exe.config_ classes.
+A _machine.config_ file can be created and populated with settings, but without the .NET Framework config classes,
+you can't just copy a `system.net` section from your .NET 4.8 _machine.config_, since those assemblies aren't available in .NET Core.
+You can nearly adapt the mail settings by defining the structure with `ConfigurationSectionGroup` and `SingleTagSectionHandler`,
+but the attributes on the `smtp` element wouldn't be parsed. There doesn't seem to be a way to provide the mail settings in the same
+structure for scripting both WPS and PSC. Sections without attributes should be fairly simple to adapt to work for either WPS or PSC.
