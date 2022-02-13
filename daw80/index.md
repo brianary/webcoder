@@ -1,7 +1,7 @@
 Drinking Around the World in 80 Days
 ====================================
 
-A drinking guide to the 2021 series [_Around the World in 80 Days_][aw80d]
+A drinking guide to the 2021 series [_Around the World in 80 Days_][aw80]
 
 - [Episode 1](ep1.md)
 - [Episode 2](ep2.md)
@@ -11,3 +11,5 @@ A drinking guide to the 2021 series [_Around the World in 80 Days_][aw80d]
 - [Episode 6](ep6.md)
 - [Episode 7](ep7.md)
 - [Episode 8](ep8.md)
+
+[aw80]: https://www.imdb.com/title/tt9174578/ "IMDb: Around the World in 80 Days (2021)"
