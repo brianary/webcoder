@@ -32,3 +32,7 @@ Add coffee to make Yuanyang Tea.
 <style>details {margin-top:2cm} details>p {margin:0 1ex;font-size:36pt}</style>
 
 <details><summary>episode synopsis</summary><p>🇭🇰💷🐉👮</p></details>
+
+[← Episode 4](ep4.md)
+&emsp;
+[Episode 6 →](ep6.md)

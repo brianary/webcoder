@@ -25,3 +25,7 @@ Stir ingredients with ice, then strain into a rocks glass with ice.
 <style>details {margin-top:2cm} details>p {margin:0 1ex;font-size:36pt}</style>
 
 <details><summary>episode synopsis</summary><p>🎈🇮🇹🚂🌉🪓🔥</p></details>
+
+[← Episode 1](ep1.md)
+&emsp;
+[Episode 3 →](ep3.md)

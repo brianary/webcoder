@@ -33,3 +33,7 @@ when it was switched to a lager.
 <style>details {margin-top:2cm} details>p {margin:0 1ex;font-size:36pt}</style>
 
 <details><summary>episode synopsis</summary><p>🇮🇳💒🪖☠️💊💗</p></details>
+
+[← Episode 3](ep3.md)
+&emsp;
+[Episode 5 →](ep5.md)

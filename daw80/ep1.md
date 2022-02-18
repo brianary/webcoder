@@ -23,3 +23,5 @@ There's no time, since we're only in Paris long enough to change trains. Right?
 <style>details {margin-top:2cm} details>p {margin:0 1ex;font-size:36pt}</style>
 
 <details><summary>episode synopsis</summary><p>🇬🇧💷🇫🇷🔫🎈</p></details>
+
+[Episode 2 →](ep2.md)

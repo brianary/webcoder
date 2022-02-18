@@ -29,3 +29,7 @@ In addition, Cynar is a primarily artichoke-based liquor, which is nicely desert
 <style>details {margin-top:2cm} details>p {margin:0 1ex;font-size:36pt}</style>
 
 <details><summary>episode synopsis</summary><p>🛳️🇾🇪🐫🔫☠️</p></details>
+
+[← Episode 2](ep2.md)
+&emsp;
+[Episode 4 →](ep4.md)
