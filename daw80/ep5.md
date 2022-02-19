@@ -29,9 +29,16 @@ serve over ice.
 
 Add coffee to make Yuanyang Tea.
 
-<style>details {margin-top:2cm} details>p {margin:0 1ex;font-size:36pt}</style>
+<style>details {margin:2cm 0} details>p {margin:0 1ex;font-size:36pt}</style>
 
-<details><summary>episode synopsis</summary><p>🇭🇰💷🐉👮</p></details>
+<details><summary>episode synopsis</summary>
+
+🇭🇰💷🐉👮
+
+- [WGBH: Episode 5 recap: I read the news today; oh boy](https://www.wgbh.org/programs/2022/01/30/around-the-world-in-80-days-episode-5-recap-i-read-the-news-today-oh-boy)
+- [The Review Geek: Season 1 Episode 5 Recap & Review](https://www.thereviewgeek.com/aroundtheworldin80days-s1e5review/)
+
+</details>
 
 [← Episode 4](ep4.md)
 &emsp;

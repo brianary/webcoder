@@ -3,8 +3,14 @@ Episode 8
 
 … coming soon …
 
-<style>details {margin-top:2cm} details>p {margin:0 1ex;font-size:36pt}</style>
+<style>details {margin:2cm 0} details>p {margin:0 1ex;font-size:36pt}</style>
 
-<details><summary>episode synopsis</summary><p>❓❓❓</p></details>
+<details><summary>episode synopsis</summary>
+
+❓❓❓
+
+- 
+
+</details>
 
 [← Episode 7](ep7.md)

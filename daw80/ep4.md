@@ -30,9 +30,16 @@ when it was switched to a lager.
 ③ 🍵 Non-Alcoholic: Masala chai tea
 ------------------------------------
 
-<style>details {margin-top:2cm} details>p {margin:0 1ex;font-size:36pt}</style>
+<style>details {margin:2cm 0} details>p {margin:0 1ex;font-size:36pt}</style>
 
-<details><summary>episode synopsis</summary><p>🇮🇳💒🪖☠️💊💗</p></details>
+<details><summary>episode synopsis</summary>
+
+🇮🇳💒🪖☠️💊💗
+
+- [WGBH: Episode 4 recap: listen to your heart](https://www.wgbh.org/programs/2022/01/23/around-the-world-in-80-days-episode-4-recap-listen-to-your-heart)
+- [The Review Geek: Season 1 Episode 4 Recap & Review](https://www.thereviewgeek.com/aroundtheworldin80days-s1e4review/)
+
+</details>
 
 [← Episode 3](ep3.md)
 &emsp;
