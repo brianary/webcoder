@@ -21,8 +21,8 @@ a| [.small]#s < 3/5/8 = 6/7/8#
 | 9999-12-31 23:59:59.9…
 
 | datetimeoffset | 2008 | 10
-a| [.small]#0001-01-01 00:00:00.0000000 -14:00#
-a| [.small]#9999-12-31 23:59:59.9999999 +14:00#
+a| [.small]#0001-01-01 00:00:00.0000000 -14:00#
+a| [.small]#9999-12-31 23:59:59.9999999 +14:00#
 
 | smalldatetime |  | 4 | 1900-01-01 00:00 | 2079-12-31 23:59
 
@@ -118,7 +118,7 @@ Date Formats
 ~~~~~~~~~~~~
 
 .+convert(varchar, @datetime, CODE)+
-[options="header,footer,autowidth",frame="none",grid="none",stripes="odd",cols=">1m,>1m,>1m,8,6"]
+[options="header,footer,autowidth",frame="none",grid="none",stripes="even",cols=">1m,>1m,>1m,8,6"]
 |===
 
 2+| yyyy codes | yy code | format | name
@@ -179,7 +179,7 @@ Date Parts
 ~~~~~~~~~~
 
 .Date Parts
-[options="header,footer,autowidth",frame="none",grid="none",stripes="odd",cols="s,m,m,m"]
+[options="header,footer,autowidth",frame="none",grid="none",stripes="even",cols="s,m,m,m"]
 |===
 | date part | abbrevs | lower bound | upper bound
 
@@ -226,7 +226,7 @@ Synonyms
 ~~~~~~~~
 
 .Data type synonyms
-[format="tsv",frame="none",grid="none",stripes="odd",options="header,autowidth",cols="m,m"]
+[format="tsv",frame="none",grid="none",stripes="even",options="header,autowidth",cols="m,m"]
 |===
 synonym	datatype
 binary varying	varbinary
@@ -245,7 +245,7 @@ Current Timestamp Variants
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .Current timestamp in various datatypes (nondeterministic)
-[format="tsv",frame="none",grid="none",stripes="odd",options="header,autowidth",cols="m,m,s"]
+[format="tsv",frame="none",grid="none",stripes="even",options="header,autowidth",cols="m,m,s"]
 |===
 function	datatype	detail
 current_timestamp	datetime	ANSI SQL standard equivalent of getdate()
