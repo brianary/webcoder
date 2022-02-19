@@ -28,14 +28,10 @@ In addition, Cynar is a primarily artichoke-based liquor, which is nicely desert
 
 <style>details {margin:2cm 0} details>p {margin:0 1ex;font-size:36pt}</style>
 
-<details><summary>episode synopsis</summary>
-
-🛳️🇾🇪🐫🔫☠️
-
-- [WGBH: Episode 3 recap: truth hurts](https://www.wgbh.org/programs/2022/01/16/around-the-world-in-80-days-episode-3-recap-truth-hurts)
-- [The Review Geek: Season 1 Episode 3 Recap & Review](https://www.thereviewgeek.com/aroundtheworldin80days-s1e3review/)
-
-</details>
+<details><summary>episode synopsis</summary><p>🛳️🇾🇪🐫🔫☠️</p><ul>
+<li><a href="https://www.wgbh.org/programs/2022/01/16/around-the-world-in-80-days-episode-3-recap-truth-hurts">WGBH: Episode 3 recap: truth hurts</a></li>
+<li><a href="https://www.thereviewgeek.com/aroundtheworldin80days-s1e3review/">The Review Geek: Season 1 Episode 3 Recap & Review</a></li>
+</ul></details>
 
 [← Episode 2](ep2.md)
 &emsp;

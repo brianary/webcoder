@@ -24,14 +24,10 @@ Stir ingredients with ice, then strain into a rocks glass with ice.
 
 <style>details {margin:2cm 0} details>p {margin:0 1ex;font-size:36pt}</style>
 
-<details><summary>episode synopsis</summary>
-
-🎈🇮🇹🚂🌉🪓🔥
-
-- [WGBH: episode 2 recap: crazy train](https://www.wgbh.org/programs/2022/01/09/around-the-world-in-80-days-episode-2-recap-crazy-train)
-- [The Review Geek: Season 1 Episode 2 Recap & Review](https://www.thereviewgeek.com/aroundtheworldin80days-s1e2review/)
-
-</details>
+<details><summary>episode synopsis</summary><p>🎈🇮🇹🚂🌉🪓🔥</p><ul>
+<li><a href="https://www.wgbh.org/programs/2022/01/09/around-the-world-in-80-days-episode-2-recap-crazy-train">WGBH: episode 2 recap: crazy train</a></li>
+<li><a href="https://www.thereviewgeek.com/aroundtheworldin80days-s1e2review/">The Review Geek: Season 1 Episode 2 Recap & Review</a></li>
+</ul></details>
 
 [← Episode 1](ep1.md)
 &emsp;
