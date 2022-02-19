@@ -5,7 +5,7 @@ Types
 ~~~~~
 
 .Datatypes
-[options="header",cols="2,2,1,2,5,5"]
+[options="header,autowidth"]
 |===
 | Family | name | since SQL# | bytes | lower bound | upper bound
 
@@ -118,7 +118,7 @@ Date Formats
 ~~~~~~~~~~~~
 
 .+convert(varchar, @datetime, CODE)+
-[options="header,footer",cols="1m,1m,1m,8,6"]
+[options="header,footer,autowidth",cols="1m,1m,1m,8,6"]
 |===
 
 2+| yyyy codes | yy code | format | name
@@ -179,7 +179,7 @@ Date Parts
 ~~~~~~~~~~
 
 .Date Parts
-[options="header,footer",cols="s,m,m,m"]
+[options="header,footer,autowidth",cols="s,m,m,m"]
 |===
 | date part | abbrevs | lower bound | upper bound
 
@@ -220,4 +220,60 @@ Date Parts
 * number_diff= datediff(datepart, from_datetime, to_datetime)
 * string_name= datename(datepart, datetime)
 * number_value= datepart(datepart, datetime)
+|===
+
+Synonyms
+~~~~~~~~
+
+.Data type synonyms
+[options="header,autowidth",cols="m,m"]
+|===
+| synonym | datatype
+
+| binary varying | varbinary
+
+| [national] character[(n)] | [n]char[(n)]
+
+| [national] character varying(n) | [n]varchar(n)
+
+| [national] text | ntext
+
+| dec | decimal
+
+| integer | int
+
+| double precision | float
+
+| float(1-7) | real
+
+| float(8-15) | float
+
+| timestamp | rowversion
+|===
+
+Current Timestamp Variants
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.Current timestamp in various datatypes (nondeterministic)
+[options="header,autowidth",cols="m,m,s"]
+|===
+| function | datatype | detail
+
+| current_timestamp | datetime | ANSI SQL standard equivalent of getdate()
+
+| {fn current_date()} | varchar(10) | ODBC cannonical system date
+
+| {fn current_time()} | varchar(30) | ODBC cannonical system time
+
+| {fn now()} | datetime | ODBC cannonical equivalent of getdate()
+
+| getdate() | datetime | current system date and time
+
+| getutcdate() | datetime | current UTC date and time
+
+| sysdatetime() | datetime2(7) | current system date and time
+
+| sysdatetimeoffset() | datetimeoffset(7) | current date and time with timezone
+
+| sysutcdatetime() | datetime2 | current UTC date and time
 |===
