@@ -118,7 +118,7 @@ Date Formats
 ~~~~~~~~~~~~
 
 .+convert(varchar, @datetime, CODE)+
-[options="header,footer,autowidth",cols="1m,1m,1m,8,6"]
+[options="header,footer,autowidth",frame="none",grid="none",stripes="odd",cols=">1m,>1m,>1m,8,6"]
 |===
 
 2+| yyyy codes | yy code | format | name
@@ -165,7 +165,7 @@ Date Formats
 
 | | 131 |  | dd/MM/yyyy hh:mm:ss.fff…tt | Hijri
 
-5+a|
+5+<a|
 * MMM = Jan, …, Dec; tt = AM or PM; T = T
 * HH = 24-hour hours, fff… = all fractional seconds digits available
 * cast(datetime as varchar) ≡ convert(varchar, datetime, 0)
@@ -179,7 +179,7 @@ Date Parts
 ~~~~~~~~~~
 
 .Date Parts
-[options="header,footer,autowidth",cols="s,m,m,m"]
+[options="header,footer,autowidth",frame="none",grid="none",stripes="odd",cols="s,m,m,m"]
 |===
 | date part | abbrevs | lower bound | upper bound
 
@@ -226,54 +226,35 @@ Synonyms
 ~~~~~~~~
 
 .Data type synonyms
-[options="header,autowidth",cols="m,m"]
+[format="tsv",frame="none",grid="none",stripes="odd",options="header,autowidth",cols="m,m"]
 |===
-| synonym | datatype
-
-| binary varying | varbinary
-
-| [national] character[(n)] | [n]char[(n)]
-
-| [national] character varying(n) | [n]varchar(n)
-
-| [national] text | ntext
-
-| dec | decimal
-
-| integer | int
-
-| double precision | float
-
-| float(1-7) | real
-
-| float(8-15) | float
-
-| timestamp | rowversion
+synonym	datatype
+binary varying	varbinary
+[national] character[(n)]	[n]char[(n)]
+[national] character varying(n)	[n]varchar(n)
+[national] text	ntext
+dec	decimal
+integer	int
+double precision	float
+float(1-7)	real
+float(8-15)	float
+timestamp	rowversion
 |===
 
 Current Timestamp Variants
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .Current timestamp in various datatypes (nondeterministic)
-[options="header,autowidth",cols="m,m,s"]
+[format="tsv",frame="none",grid="none",stripes="odd",options="header,autowidth",cols="m,m,s"]
 |===
-| function | datatype | detail
-
-| current_timestamp | datetime | ANSI SQL standard equivalent of getdate()
-
-| {fn current_date()} | varchar(10) | ODBC cannonical system date
-
-| {fn current_time()} | varchar(30) | ODBC cannonical system time
-
-| {fn now()} | datetime | ODBC cannonical equivalent of getdate()
-
-| getdate() | datetime | current system date and time
-
-| getutcdate() | datetime | current UTC date and time
-
-| sysdatetime() | datetime2(7) | current system date and time
-
-| sysdatetimeoffset() | datetimeoffset(7) | current date and time with timezone
-
-| sysutcdatetime() | datetime2 | current UTC date and time
+function	datatype	detail
+current_timestamp	datetime	ANSI SQL standard equivalent of getdate()
+{fn current_date()}	varchar(10)	ODBC cannonical system date
+{fn current_time()}	varchar(30)	ODBC cannonical system time
+{fn now()}	datetime	ODBC cannonical equivalent of getdate()
+getdate()	datetime	current system date and time
+getutcdate()	datetime	current UTC date and time
+sysdatetime()	datetime2(7)	current system date and time
+sysdatetimeoffset()	datetimeoffset(7)	current date and time with timezone
+sysutcdatetime()	datetime2	current UTC date and time
 |===
