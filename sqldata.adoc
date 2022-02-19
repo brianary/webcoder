@@ -21,8 +21,8 @@ a| [.small]#s < 3/5/8 = 6/7/8#
 | 9999-12-31 23:59:59.9…
 
 | datetimeoffset | 2008 | 10
-a| [.small]#0001-01-01 00:00:00.0000000 -14:00#
-a| [.small]#9999-12-31 23:59:59.9999999 +14:00#
+a| [.small]#0001-01-01 00:00:00.0000000 -14:00#
+a| [.small]#9999-12-31 23:59:59.9999999 +14:00#
 
 | smalldatetime |  | 4 | 1900-01-01 00:00 | 2079-12-31 23:59
 
@@ -121,7 +121,7 @@ Date Formats
 [options="header,footer,autowidth",frame="none",grid="none",stripes="even",cols=">1m,>1m,>1m,8,6"]
 |===
 
-2+| yyyy codes | yy code | format | name
+2+| yyyy codes | yy code <| format | name
 
 | 0 | 100 | | MMM dd yyyy hh:mmtt | Default
 
