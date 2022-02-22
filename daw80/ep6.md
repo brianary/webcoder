@@ -1,10 +1,10 @@
 🏝️ somewhere in the North Pacific 😖
 ====================================
 
-① 🍸 Simple Drink: Musang King
+Ⓐ 🍸 Simple Drink: Musang King
 -------------------------------
 
-② 🚰 Non-Alcoholic: Mineral Water
+Ⓑ 🚰 Non-Alcoholic: Mineral Water
 ----------------------------------
 
 <style>details {margin:2cm 0} details>p {margin:0 1ex;font-size:36pt}</style>

@@ -3,7 +3,7 @@
 
 How lucky to have landed next to a train. It *is* lucky, isn't it?
 
-① 🥃 Premium Cocktail: Negroni
+Ⓐ 🥃 Premium Cocktail: Negroni
 -------------------------------
 
 - 1 oz gin
@@ -13,13 +13,13 @@ How lucky to have landed next to a train. It *is* lucky, isn't it?
 
 Stir ingredients with ice, then strain into a rocks glass with ice.
 
-② 🍷 Simple Drink: limoncello
+Ⓑ 🍷 Simple Drink: limoncello
 ------------------------------
 
-③ 🍷 Simple Drink: an Italian dessert wine
+Ⓒ 🍷 Simple Drink: an Italian dessert wine
 -------------------------------------------
 
-④ 🍷 Non-Alcoholic: Stappi bitter red soda
+Ⓓ 🍷 Non-Alcoholic: Stappi bitter red soda
 -------------------------------------------
 
 <style>details {margin:2cm 0} details>p {margin:0 1ex;font-size:36pt}</style>

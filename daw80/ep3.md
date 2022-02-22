@@ -10,7 +10,7 @@ In addition, Cynar is a primarily artichoke-based liquor, which is nicely desert
 
 [relaxed]: https://www.researchgate.net/publication/292235981_Ottomans_and_drinkers_The_consumption_of_alcohol_in_istanbul_in_the_nineteenth_century "Ottomans and drinkers: The consumption of alcohol in istanbul in the nineteenth century"
 
-① 🍹 Premium Cocktail: Midnight Marauder
+Ⓐ 🍹 Premium Cocktail: Midnight Marauder
 -----------------------------------------
 
 - 1 oz Del Maguey VIDA mezcal
@@ -18,12 +18,12 @@ In addition, Cynar is a primarily artichoke-based liquor, which is nicely desert
 - 1 oz Cynar or other carciofo amaro
 - dash Xocolatl mole bitters
 
-② 🍸 Simple Cocktail: [Raki][] and water
+Ⓑ 🍸 Simple Cocktail: [Raki][] and water
 -----------------------------------------
 
 [Raki]: https://www.totalwine.com/spirits/liqueurscordialsschnapps/herbal-spice/anise/yeni-raki/p/6677750 "Yeni Raki: 'lion's milk'"
 
-③ 🍵 Non-Alcoholic: Mint Tea
+Ⓒ 🍵 Non-Alcoholic: Mint Tea
 -----------------------------
 
 <style>details {margin:2cm 0} details>p {margin:0 1ex;font-size:36pt}</style>

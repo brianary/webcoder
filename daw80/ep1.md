@@ -3,19 +3,19 @@
 
 There's no time, since we're only in Paris long enough to change trains. Right?
 
-① 🍷 Simple Cocktail: Death in the Afternoon
+Ⓐ 🍷 Simple Cocktail: Death in the Afternoon
 ----------------------------------------------
 
 - 1½ oz absinthe
 - 4½ oz chilled Champagne
 
-② 🍷 Simple Cocktail: Kir
+Ⓑ 🍷 Simple Cocktail: Kir
 --------------------------
 
 - 4 oz Aligoté (or other dry white wine)
 - 1 oz Crème de Cassis
 
-③ 🍷 Non-Alcoholic: Ricqlès
+Ⓒ 🍷 Non-Alcoholic: Ricqlès
 ----------------------------
 
 (or add peppermint to sparkling water)

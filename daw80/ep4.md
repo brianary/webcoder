@@ -5,7 +5,7 @@ After the Rebellion of 1857 in which Allahabad participated, the British reorgan
 the Indian army to exclude Muslims and Brahmins in favor of Sikhs and Baluchis, to try
 and improve overall loyalty.
 
-① 🍹 Premium Cocktail: Aam Panna Cocktail
+Ⓐ 🍹 Premium Cocktail: Aam Panna Cocktail
 ------------------------------------------
 
 - 1 oz mango liqueur
@@ -19,7 +19,7 @@ and improve overall loyalty.
 
 Shake all but the cumin with ice, then strain into a glass and sprinkle the cumin on top.
 
-② 🍺 Simple Drink: an India Pale Ale
+Ⓑ 🍺 Simple Drink: an India Pale Ale
 -------------------------------------
 
 [Lion beer][] is Asia's first beer brand, produced since 1820, was an IPA until 1960,
@@ -27,7 +27,7 @@ when it was switched to a lager.
 
 [Lion beer]: https://en.wikipedia.org/wiki/Kasauli_Brewery#Lion
 
-③ 🍵 Non-Alcoholic: Masala chai tea
+Ⓒ 🍵 Non-Alcoholic: Masala chai tea
 ------------------------------------
 
 <style>details {margin:2cm 0} details>p {margin:0 1ex;font-size:36pt}</style>
