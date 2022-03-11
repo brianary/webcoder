@@ -1,10 +1,18 @@
 ⌨️🖥️
 ====
 
+Research/Articles
+-----------------
+
+- [Windows PowerShell to PowerShell Core](wps-to-psc.md) is how to deal with breaking changes in the new PowerShell.
+- [Writing a PowerShell Core Module With F#, A Complete Guide](fspsmodule.md) fully explains how to create a binary
+  PowerShell module in F#, considering branding, source control, tests, documentation, and publication.
+- [Setext vs atx Header Styles in Markdown](markdown-headers.md) is an even-handed analysis of the available Markdown
+  header styles.
+
 References
 ----------
 
-- [Windows PowerShell to PowerShell Core](wps-to-psc.md) is how to deal with breaking changes in the new PowerShell.
 - [Windows Key Shortcuts for Windows 10](windowskey.md) has all the Windows Key shortcuts.
 - [Two Letter ISO/FIPS/NUTS Country Codes with Currency, Language, and Subregion Codes](countries.html) puts all the
   two-letter internationalization codes from several standards on the same grid.
@@ -12,8 +20,6 @@ References
 - [XSLT 2.0/XPath 2.0 QuickRef](xslt2.md) and [XML Schema QuickRef](xsd.md) for those of us that still have to work with
   a lot of XML.
 - [SQL Server Datatypes QuickRef](mssqldatatypes.html) is something I put together in the '90s.
-- [Writing a PowerShell Core Module With F#, A Complete Guide](fspsmodule.md) fully explains how to create a binary
-  PowerShell module in F#, considering branding, source control, tests, documentation, and publication.
 - [Important Standards](standards.md) the specs and standards that make the Internet (and related stuff) work.
 
 PowerShell & F#
