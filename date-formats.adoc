@@ -1,0 +1,23 @@
+ .NET Standard Date Format Strings
+----------------------------------
+
+.expansion
+[format="dsv",separator=">",options="header,autowidth",frame="none",grid="none",stripes="even",cols="m,s,m"]
+|===
+>name>custom string
+d>short date>M/d/yyyy
+D>long date>DDDD, MMMM d, yyyy
+f>full date short time>DDDD, MMMM d, yyyy h:mm tt
+F>full date long time>DDDD, MMMM d, yyyy h:mm:ss tt
+g>general date short time>m/d/yyyy h:mm tt
+G>general date long time>m/d/yyyy h:mm:ss tt
+M/m>month/day>MMMM d
+O/o>round-trip>yyyy-MM-dd\THH:mm:ss.fffffffzzz
+R/r>RFC1123>DDD, d MMM yyyy HH:mm:sst \G\M\T
+s>sortable>yyyy-MM-dd\THH:mm:ss
+t>short time>h:mm tt
+T>long time>h:mm:ss tt
+u>universal sortable>yyyy-MM-dd\THH:mm:ss\Z
+U>universal full>DDDD, MMMM d, yyyy h:mm:ss tt
+y/Y>year month>MMMM yyyy
+|===
