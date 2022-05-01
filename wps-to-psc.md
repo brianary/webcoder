@@ -19,6 +19,7 @@ Windows PowerShell (WPS) to PowerShell Core (PSC)
       - [exe.config (none)](#execonfig-none)
       - [exe.config (roaming)](#execonfig-roaming)
       - [exe.config (local)](#execonfig-local)
+  - [`Get-EventLog` → `Get-WinEvent`](#get-eventlog--get-winevent)
 
 There are certain gaps when moving from Windows PowerShell (5.x) to the new cross-platform PowerShell Core (6+),
 due to features that relied on Windows-specific infrastructure. Here are a few notable things that are no longer
@@ -535,3 +536,11 @@ CurrentConfiguration    :
 ```
 
 By default, the user exe.config files don't seem to be included.
+
+`Get-EventLog` → `Get-WinEvent`
+-------------------------------
+
+The [`Get-EventLog`][] cmdlet has been replaced with [`Get-WinEvent`][].
+
+[`Get-EventLog`]: https://docs.microsoft.com/powershell/module/microsoft.powershell.management/get-eventlog "Gets the events in an event log, or a list of the event logs, on the local computer or remote computers."
+[`Get-WinEvent`]: https://docs.microsoft.com/powershell/module/microsoft.powershell.diagnostics/get-winevent "Gets events from event logs and event tracing log files on local and remote computers."
