@@ -4,5 +4,5 @@ google_analytics: UA-61854432-1
 show_downloads: true
 theme: jekyll-theme-slate
 
-gems:
-  - jekyll-mentions
+plugins:
+- jekyll-asciidoc
