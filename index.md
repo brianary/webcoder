@@ -59,4 +59,7 @@ Some Old Windows Projects
   [magic numbers](http://en.wikipedia.org/wiki/List_of_file_signatures) in data to determine the format of the data stream.
   (Zip data starts with "PK". Java class files start with 0xCAFEBABE.)
 
-[🍸](Friday.ics "🏡")
+<footer>
+    <a rel="me" href="https://mastodon.spotek.io/@brianary">🐘</a>
+    <a href="Friday.ics" title="#AntepenultimateFriday">🍸</a>
+</footer>
