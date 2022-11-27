@@ -12,8 +12,6 @@ C# has added many new keywords, syntax elements, and features since its introduc
 
 | Asynchronous streams  | async *IAsyncEnumerable<T>* _Method_( … )  | 8.0  | 2019-09-23
 
-| Default interface methods  | _// provide interface method implementations to inherit_  | 8.0  | 2019-09-23
-
 | Discards  | *_*  | 7.0  | 2017-04-05
 
 | Dynamic binding  | ⌨️ *dynamic*  | 4.0  | 2010-04-12
@@ -41,6 +39,8 @@ C# has added many new keywords, syntax elements, and features since its introduc
 
 | Generics  | _Type_**<T>** and 🧩 *System.Collections.Generic*  | 2.0  | 2006-01-22
 
+| Generics: INumber  | 🧩 *INumber<T>*  | 11.0  | 2022-11-08
+
 | Global usings  | *global using* _Namespace_ ;  | 10.0  | 2021-11-08
 
 | Indices and ranges  | ❇️ *^* ❇️ *..* 🧩 *System.Index* 🧩 *System.Range*  | 8.0  | 2019-09-23
@@ -53,7 +53,13 @@ C# has added many new keywords, syntax elements, and features since its introduc
 
 | Initialization: Initializers  | new Type *{ … }* 🔹 new CollectionType *{ item, item, item, … }*  | 3.0  | 2007-11-19
 
+| Initialization: Required  | ❇️ *required* _fieldOrProperty_  | 11.0  | 2022-11-08
+
 | Initialization: Target typed new  | _// *new()* doesn't require a type name when inferrable_  | 9.0  | 2020-11-10
+
+| Interfaces: Default methods  | _// provide interface method implementations to inherit_  | 8.0  | 2019-09-23
+
+| Interfaces: Static virtual  | *static virtual* _or_ *abstract virtual*  | 11.0  | 2022-11-08
 
 | Iterators  | ⌨️ *yield return*  | 2.0  | 2006-01-22
 
@@ -75,6 +81,10 @@ C# has added many new keywords, syntax elements, and features since its introduc
 | Literals: Default literals  | ⌨️ *default*  | 7.1  | 2017-08-14
 
 | Literals: Digit separators  | __7__**\_**__000__**_**__000__  | 7.0  | 2017-04-05
+
+| Literals: Raw strings  | _// multiline, multiquoted, indented string literals_  | 11.0  | 2022-11-08
+
+| Literals: UTF-8 strings  | "string literal"u8  | 11.0  | 2022-11-08
 
 | Local functions  | _type_ _Name_() { _type_ _OtherName_() { … } … _OtherName_(); }  | 7.0  | 2017-04-05
 
@@ -112,6 +122,8 @@ C# has added many new keywords, syntax elements, and features since its introduc
 | 8.0
 | 2019-09-23
 
+| Operators: Checked/unchecked  | ❇️ *checked* _or_ *unchecked*  | 11.0  | 2022-11-08
+
 | Parameters: Caller info attributes
 | 🧩 *CallerFilePathAttribute* 🧩 *CallerLineNumberAttribute* 🧩 *CallerMemberNameAttribute*
 | 5.0
@@ -139,9 +151,13 @@ C# has added many new keywords, syntax elements, and features since its introduc
 | 7.0
 | 2017-04-05
 
+| Pattern matching: Character spans  | _charSpan_ is "string literal"  | 11.0  | 2022-11-08
+
 | Pattern matching: Conjunction  | _x_ is _pattern_ *and* _pattern_  | 9.0  | 2020-11-10
 
 | Pattern matching: Disjunction  | _x_ is _pattern_ *or* _pattern_  | 9.0  | 2020-11-10
+
+| Pattern matching: Lists  | _value_ is *[1, 2, 3, _, 5, ..]*  | 11.0  | 2022-11-08
 
 | Pattern matching: Negation  | _x_ is *not* _pattern_ _// not just types_  | 9.0  | 2020-11-10
 
@@ -182,9 +198,14 @@ C# has added many new keywords, syntax elements, and features since its introduc
 
 | String interpolation  | ❇️ $"…{expression}…"  | 6.0  | 2014-11-12
 
+| String interpolation: Braces  | $$""{"value": "{{value}}"}"" _// multiple $ add extra { } for interpolation_
+| 11.0  | 2022-11-08
+
 | String interpolation: Const  | const string name = $"…{constantexpr}…";  | 10.0  | 2021-11-08
 
 | String interpolation: Custom handler  | 🧩 *InterpolatedStringHandlerAttribute*  | 10.0  | 2021-11-08
+
+| String interpolation: Newlines  | _// newlines allowed within interpolation expressions_  | 11.0  | 2022-11-08
 
 | String interpolation: Verbatim enhancement | ❇️ @$"…" (previously only $@"…" worked)  | 8.0  | 2019-09-23
 
@@ -196,7 +217,12 @@ C# has added many new keywords, syntax elements, and features since its introduc
 
 | Tuples: Inferred element names  | list.Select(x => (x.Id, x.Name)).Where(y => y.Id == 1)  | 7.1  | 2017-08-14
 
+| Types: Pointer aliases  | *nint* _or_ *nuint*  | 11.0  | 2022-11-08
+
+| Visibility: File scope  | *file* class _MyClassName_  | 11.0  | 2022-11-08
+
 |===
 
 Source: https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-version-history[Microsoft Docs: C# Guide: The history of C#]
 and https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10[What's new in C# 10]
+and https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-11[What's new in C# 11]
