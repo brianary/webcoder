@@ -4,8 +4,7 @@ google_analytics: UA-61854432-1
 show_downloads: false
 theme: jekyll-theme-slate
 
-gems:
-  - jekyll-asciidoc
-  - jekyll-mermaid
-  - jekyll-mentions
+plugins:
   - jemoji
+  - jekyll-mermaid
+  #- jekyll-asciidoc
