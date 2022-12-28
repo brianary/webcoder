@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Asciidoctor 1.5.4">
+  <title> .NET Standard Date Format Strings</title>
+  <link rel="stylesheet" href="https://asciidoclive.com/assets/asciidoctor.js/css/asciidoctor.css">
+</head>
+
+<body class="article">
+  <div id="header">
+  </div>
+  <div id="content">
+    <div class="sect1">
+      <h2 id="__net_standard_date_format_strings"> .NET Standard Date Format Strings</h2>
+      <div class="sectionbody">
+        <table class="tableblock frame-none grid-none">
+          <caption class="title">Table 1. expansion</caption>
+          <colgroup>
+            <col>
+            <col>
+            <col>
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="tableblock halign-left valign-top"></th>
+              <th class="tableblock halign-left valign-top">name</th>
+              <th class="tableblock halign-left valign-top">custom string</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>d</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>short date</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>M/d/yyyy</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>D</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>long date</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>DDDD, MMMM d, yyyy</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>f</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>full date short time</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>DDDD, MMMM d, yyyy h:mm tt</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>F</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>full date long time</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>DDDD, MMMM d, yyyy h:mm:ss tt</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>g</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>general date short time</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>m/d/yyyy h:mm tt</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>G</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>general date long time</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>m/d/yyyy h:mm:ss tt</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>M/m</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>month/day</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>MMMM d</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>O/o</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>round-trip</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>yyyy-MM-dd\THH:mm:ss.fffffffzzz</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>R/r</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>RFC1123</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>DDD, d MMM yyyy HH:mm:sst \G\M\T</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>s</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>sortable</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>yyyy-MM-dd\THH:mm:ss</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>t</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>short time</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>h:mm tt</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>T</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>long time</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>h:mm:ss tt</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>u</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>universal sortable</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>yyyy-MM-dd\THH:mm:ss\Z</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>U</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>universal full</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>DDDD, MMMM d, yyyy h:mm:ss tt</code></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>y/Y</code></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><strong>year month</strong></p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock"><code>MMMM yyyy</code></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
