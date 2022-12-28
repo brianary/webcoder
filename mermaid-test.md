@@ -1,13 +1,19 @@
 Mermaid Test
 ============
 
-{% mermaid %}
+Graph
+-----
+
+```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-{% endmermaid %}
+```
+
+Git
+---
 
 ```mermaid
 gitGraph
