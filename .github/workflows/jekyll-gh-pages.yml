@@ -29,16 +29,6 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v2
-      - name: Build with AsciiDoctor
-        uses: manoelcampos/asciidoctor-ghpages-action@v2
-        with:
-          asciidoctor_params: --attribute=nofooter
-          # pdf_build: true
-          # adoc_file_ext: .ascii # default is .adoc
-          # source_dir: docs/ # default is .
-          # slides_build: true
-          # pre_build:
-          post_build: "sed -i 's/max-width:62[.]5em;//' csharp-history.html"
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
