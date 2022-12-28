@@ -7,4 +7,4 @@ theme: jekyll-theme-slate
 plugins:
   - jemoji
   - jekyll-mermaid
-  #- jekyll-asciidoc
+  - jekyll-asciidoc
