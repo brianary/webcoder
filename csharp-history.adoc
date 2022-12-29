@@ -209,7 +209,7 @@ C# has added many new keywords, syntax elements, and features since its introduc
 
 | String interpolation: Verbatim enhancement | ❇️ @$"…" (previously only $@"…" worked)  | 8.0  | 2019-09-23
 
-| Struct initializers  | _Parameter_ { get; init; } = _value_ ; | 10.0  | 2021-11-08
+| Struct initializers  | _Property_ { get; init; } = _value_ ; | 10.0  | 2021-11-08
 
 | Suppress emitting localsinit  | 🧩 *SkipLocalsInitAttribute*  | 9.0  | 2020-11-10
 
