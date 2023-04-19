@@ -1,0 +1,6 @@
+# Linguist overrides https://github.com/github/linguist#overrides
+countries.html linguist-generated
+csharp-history.html linguist-generated
+date-formats.html linguist-generated
+sqldata.html linguist-generated
+data/* linguist-vendored
