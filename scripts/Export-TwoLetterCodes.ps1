@@ -1,18 +1,18 @@
 <#
-.Synopsis
-    Builds an HTML table of two-letter codes.
+.SYNOPSIS
+Builds an HTML table of two-letter codes.
 
-.Link
-    https://www.iso.org/iso-3166-country-codes.html
+.LINK
+https://www.iso.org/iso-3166-country-codes.html
 
-.Link
-    https://en.wikipedia.org/wiki/ISO4217
+.LINK
+https://en.wikipedia.org/wiki/ISO4217
 
-.Link
-    https://github.com/olahol/iso-3166-2.json
+.LINK
+https://github.com/olahol/iso-3166-2.json
 
-.Link
-    https://github.com/datasets/fips-10-4
+.LINK
+https://github.com/datasets/fips-10-4
 #>
 
 #Requires -Version 3
@@ -23,7 +23,6 @@
 [uri] $LanguageCodesUrl = 'http://www.lingoes.net/en/translator/langcode.htm'
 )
 
-if(!(Test-Path data -PathType Container)) {mkdir data |Out-Null}
 function Save-Data([Parameter(Mandatory=$true)][uri]$Url,[string]$Filename,[int]$MaxAgeInDays=100,[string]$Search,[string]$Replace)
 {
     $path = Join-Path data $(if(!$Filename) {$Url.Segments[-1]} else {$Filename})
@@ -119,8 +118,8 @@ $count = @{
     other_only = 0
 }
 $forcematch = @('CG','FK','FM','HM','HR','VC','WF')
-function Get-CodeDetails([Parameter(ValueFromPipeline=$true)][ValidatePattern('(?-i)\A[A-Z]{2}\z')][string]$code)
-{Process{
+filter Get-CodeDetails([Parameter(ValueFromPipeline=$true)][ValidatePattern('(?-i)\A[A-Z]{2}\z')][string]$code)
+{
     if($Script:iso.ContainsKey($code))
     {
         $flag = '&#x{0:X};&#x{1:X}; ' -f (0x1F1A5+[int]$code[0]),(0x1F1A5+[int]$code[1])
@@ -146,20 +145,20 @@ function Get-CodeDetails([Parameter(ValueFromPipeline=$true)][ValidatePattern('(
     elseif($Script:subregion.ContainsKey($code) -or $Script:lang.ContainsKey($code)) {[void]$count.other_only++}
     if($Script:subregion.ContainsKey($code)) {$Script:subregion[$code]}
     if($Script:lang.ContainsKey($code)) {$Script:lang[$code]}
-}}
+}
 
-function Format-HtmlTableCell([Parameter(ValueFromPipeline=$true)][ValidatePattern('(?-i)\A[A-Z]{2}\z')][string]$code)
-{Process{
+filter Format-HtmlTableCell([Parameter(ValueFromPipeline=$true)][ValidatePattern('(?-i)\A[A-Z]{2}\z')][string]$code)
+{
     [string[]]$details = Get-CodeDetails $code
     if(!$details) {"<td>&cir; $code"}
     else {@"
 <td><details><summary>$code $(Get-CodeIndicator $code)</summary><ul>
 $($details |% {"<li>$([Net.WebUtility]::HtmlEncode($_) -replace '&amp;(#?\w+;)','&$1')</li>"})
 </ul></details></td>
-"@}}}
+"@}}
 
-function Format-HtmlTableRow([Parameter(ValueFromPipeline=$true)][char]$letter)
-{Process{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)</tr>"}}
+filter Format-HtmlTableRow([Parameter(ValueFromPipeline=$true)][char]$letter)
+{"<tr>$(0x41..0x5A |% {"$letter$([char]$_)"} |Format-HtmlTableCell)</tr>"}
 
 function Format-Markdown
 {@"
@@ -218,5 +217,8 @@ that overlap with country codes.</p>
 </section></html>
 "@}
 
+if(!(Test-Path data -Type Container)) {New-Item data -Type Directory |Out-Null}
+Split-Path $PSScriptRoot |Join-Path -ChildPath data |Push-Location
 Read-Codes
 Format-Markdown |Out-File countries.html utf8
+Pop-Location
