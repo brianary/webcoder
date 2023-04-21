@@ -11,6 +11,10 @@ The matching Unicode categories for `Basic_Emoji` from [emoji-sequences.txt](htt
 
 ### Simple emoji
 
+Characters with a colorful rendering by default, but can be monochromatic with variation selector 15.
+
+<details><summary>Simple emoji list</summary>
+
 | code point | char | text | emoji | name |
 |------------|:----:|:----:|:-----:|------|
 | U+231A | &#x231A; | &#x231A;&#xFE0E; | &#x231A;&#xFE0F; | WATCH |
@@ -1193,6 +1197,8 @@ The matching Unicode categories for `Basic_Emoji` from [emoji-sequences.txt](htt
 | U+1FAF7 | &#x1FAF7; | &#x1FAF7;&#xFE0E; | &#x1FAF7;&#xFE0F; |  |
 | U+1FAF8 | &#x1FAF8; | &#x1FAF8;&#xFE0E; | &#x1FAF8;&#xFE0F; |  |
 
+</details>
+
 | count | category |
 |------:|----------|
 | 1119 | C |
@@ -1202,6 +1208,10 @@ The matching Unicode categories for `Basic_Emoji` from [emoji-sequences.txt](htt
 | 2 | Sm |
 
 ### Composite emoji
+
+Characters with a monochromatic rendering by default, but can be colorful with variation selector 16.
+
+<details><summary>Composite emoji list</summary>
 
 | code point | char | text | emoji | name |
 |------------|:----:|:----:|:-----:|------|
@@ -1412,6 +1422,8 @@ The matching Unicode categories for `Basic_Emoji` from [emoji-sequences.txt](htt
 | U+1F6E9 | &#x1F6E9; | &#x1F6E9;&#xFE0E; | &#x1F6E9;&#xFE0F; | SMALL AIRPLANE |
 | U+1F6F0 | &#x1F6F0; | &#x1F6F0;&#xFE0E; | &#x1F6F0;&#xFE0F; | SATELLITE |
 | U+1F6F3 | &#x1F6F3; | &#x1F6F3;&#xFE0E; | &#x1F6F3;&#xFE0F; | PASSENGER SHIP |
+
+</details>
 
 | count | category |
 |------:|----------|

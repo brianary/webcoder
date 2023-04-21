@@ -115,13 +115,25 @@ The matching Unicode categories for ``Basic_Emoji`` from [$($EmojiSequences.Segm
 
 ### Simple emoji
 
+Characters with a colorful rendering by default, but can be monochromatic with variation selector 15.
+
+<details><summary>Simple emoji list</summary>
+
 $($simple |ConvertTo-MarkdownCharacterChart)
+
+</details>
 
 $($simple |ConvertTo-MarkdownCategoryCounts)
 
 ### Composite emoji
 
+Characters with a monochromatic rendering by default, but can be colorful with variation selector 16.
+
+<details><summary>Composite emoji list</summary>
+
 $($composite |ConvertTo-MarkdownCharacterChart)
+
+</details>
 
 $($composite |ConvertTo-MarkdownCategoryCounts)
 "@ |Out-File $OutFile utf8
