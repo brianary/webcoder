@@ -4,14 +4,14 @@ Examines the official list of emoji and methods of matching them.
 
 .DESCRIPTION
 We're focusing on how to quickly match Basic_Emoji, ignoring Emoji_Keycap_Sequence,
-RGI_Emoji_Flag_Sequence, RGI_Emoji_Tag_Sequence, and RGI_Emoji_Modifier_Sequence
+RGI_Emoji_Flag_Sequence, RGI_Emoji_Tag_Sequence, and RGI_Emoji_Modifier_Sequence.
 #>
 
 #Requires -Version 7
 [CmdletBinding()] Param(
 [uri] $EmojiSequences = 'https://www.unicode.org/Public/emoji/15.0/emoji-sequences.txt',
 [string] $DataFile = ($PSScriptRoot |Split-Path |Join-Path -ChildPath data -AdditionalChildPath $EmojiSequences.Segments[-1]),
-[string] $OutFile = ($PSScriptRoot |Split-Path |Join-Path -ChildPath emoji-match-analysis.md)
+[string] $OutFile = ($PSScriptRoot |Split-Path |Join-Path -ChildPath emoji-analysis.md)
 )
 
 function Save-Data
@@ -68,23 +68,63 @@ filter Find-UnicodeCategoryClasses
         Where-Object {[char]::ConvertFromUtf32($Value) -cmatch "\p{$_}"}
 }
 
+function ConvertTo-MarkdownCharacterChart
+{
+    Param([Parameter(ValueFromPipeline)][int]$Value)
+    End
+    {
+        '| code point | char | text | emoji | name |'
+        '|------------|:----:|:----:|:-----:|------|'
+        $input |
+            ForEach-Object {'| U+{0:X4} | &#x{0:X4}; | &#x{0:X4};&#xFE0E; | &#x{0:X4};&#xFE0F; | {1} |' -f
+                $_,(Get-UnicodeName.ps1 $_)}
+    }
+}
+
+function ConvertTo-MarkdownCategoryCounts
+{
+    Param([Parameter(ValueFromPipeline)][int]$Value)
+    End
+    {
+        '| count | category |'
+        '|------:|----------|'
+        $input |
+            Find-UnicodeCategoryClasses |
+            Group-Object -NoElement |
+            Sort-Object Count -Descending |
+            ForEach-Object {"| $($_.Count) | $($_.Name) |"}
+    }
+}
+
 function Export-EmojiAnalysis
-{$Local:OFS=[Environment]::NewLine;@"
+{
+    $Local:OFS=[Environment]::NewLine
+    $simple = Get-SimpleBasicEmoji
+    $composite = Get-CompositeBasicEmoji
+    @"
 Emoji Match Analysis
 ====================
+
+<style>tbody {max-height: 20em; overflow: scroll;}</style>
 
 Emoji category matches
 ----------------------
 
 The matching Unicode categories for ``Basic_Emoji`` from [$($EmojiSequences.Segments[-1])]($EmojiSequences).
+(Ignoring ``Emoji_Keycap_Sequence``, ``RGI_Emoji_Flag_Sequence``, ``RGI_Emoji_Tag_Sequence``, and ``RGI_Emoji_Modifier_Sequence``.)
 
-| count | category |
-|------:|----------|
-$((Get-SimpleBasicEmoji)+(Get-CompositeBasicEmoji) |
-    Find-UnicodeCategoryClasses |
-    Group-Object -NoElement |
-    Sort-Object Count -Descending |
-    ForEach-Object {"| $($_.Count) | $($_.Name) |"})
-"@ |Out-File $OutFile utf8}
+### Simple emoji
+
+$($simple |ConvertTo-MarkdownCharacterChart)
+
+$($simple |ConvertTo-MarkdownCategoryCounts)
+
+### Composite emoji
+
+$($composite |ConvertTo-MarkdownCharacterChart)
+
+$($composite |ConvertTo-MarkdownCategoryCounts)
+"@ |Out-File $OutFile utf8
+}
 
 Export-EmojiAnalysis
