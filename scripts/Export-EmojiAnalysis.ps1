@@ -105,8 +105,6 @@ function Export-EmojiAnalysis
 Emoji Match Analysis
 ====================
 
-<style>tbody {max-height: 20em; overflow: scroll;}</style>
-
 Emoji category matches
 ----------------------
 
@@ -119,7 +117,8 @@ Characters with a colorful rendering by default, but can be monochromatic with v
 
 <details><summary>Simple emoji list</summary>
 
-$($simple |ConvertTo-MarkdownCharacterChart)
+$($simple |ConvertTo-MarkdownCharacterChart |Out-String |ConvertFrom-Markdown |Select-Object -ExpandProperty Html |
+    ForEach-Object {$_ -replace '<tbody>','<tbody style="max-height: 20em; overflow: scroll;">'})
 
 </details>
 
@@ -131,7 +130,8 @@ Characters with a monochromatic rendering by default, but can be colorful with v
 
 <details><summary>Composite emoji list</summary>
 
-$($composite |ConvertTo-MarkdownCharacterChart)
+$($composite |ConvertTo-MarkdownCharacterChart |Out-String |ConvertFrom-Markdown |Select-Object -ExpandProperty Html |
+    ForEach-Object {$_ -replace '<tbody>','<tbody style="max-height: 20em; overflow: scroll;">'})
 
 </details>
 
