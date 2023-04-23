@@ -1,7 +1,8 @@
 {
     "markdownlint.config": {
         "default": true,
+        "line-length": { "line_length": 128 },
         "header-style": { "style": "setext_with_atx" },
-        "no-inline-html": { "allowed_elements": ["style","kbd","br","footer"] }
+        "no-inline-html": { "allowed_elements": ["style","kbd","br","footer","table","caption","thead","tbody","tfoot","tr","th","td"] }
     }
 }

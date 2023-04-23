@@ -60,32 +60,30 @@ function Get-CompositeBasicEmoji
         ForEach-Object {[Convert]::ToInt32($_.Matches.Groups[1].Value,16)}
 }
 
-filter Find-UnicodeCategoryClasses
+filter Find-UnicodeCategoryClasses([Parameter(ValueFromPipeline)][int]$Value)
 {
-    Param([Parameter(ValueFromPipeline)][int]$Value)
-    @('Lu','Ll','Lt','Lm','Lo','L','Mn','Mc','Me','M','Nd','Nl','No','N','Pc','Pd','Ps','Pe','Pi',
+    return @('Lu','Ll','Lt','Lm','Lo','L','Mn','Mc','Me','M','Nd','Nl','No','N','Pc','Pd','Ps','Pe','Pi',
         'Pf','Po','P','Sm','Sc','Sk','So','S','Zs','Zl','Zp','Z','Cc','Cf','Cs','Co','Cn','C') |
         Where-Object {[char]::ConvertFromUtf32($Value) -cmatch "\p{$_}"}
 }
 
-function ConvertTo-MarkdownCharacterChart
-{
-    Param([Parameter(ValueFromPipeline)][int]$Value)
-    End
-    {
+function Get-CharacterClass([Parameter(ValueFromPipeline)][int]$Value)
+{End{
+    return '[{0}]' -f
+        (($input |ForEach-Object {([char]::ConvertFromUtf32($_).GetEnumerator() |ForEach-Object {'\u{0:X4}' -f ([int]$_)}) -join ''}) -join '|')
+}}
+
+function ConvertTo-MarkdownCharacterChart([Parameter(ValueFromPipeline)][int]$Value)
+{End{
         '| code point | char | text | emoji | classes | name |'
         '|------------|:----:|:----:|:-----:|:-------:|------|'
         $input |
             ForEach-Object {'| U+{0:X4} | &#x{0:X4}; | &#x{0:X4};&#xFE0E; | &#x{0:X4};&#xFE0F; | {1} | {2} |' -f
                 $_,((Find-UnicodeCategoryClasses $_) -join ', '),(Get-UnicodeName.ps1 $_)}
-    }
-}
+}}
 
-function ConvertTo-MarkdownCategoryCounts
-{
-    Param([Parameter(ValueFromPipeline)][int]$Value)
-    End
-    {
+function ConvertTo-MarkdownCategoryCounts([Parameter(ValueFromPipeline)][int]$Value)
+{End{
         '| count | category |'
         '|------:|----------|'
         $input |
@@ -93,8 +91,7 @@ function ConvertTo-MarkdownCategoryCounts
             Group-Object -NoElement |
             Sort-Object Count -Descending |
             ForEach-Object {"| $($_.Count) | $($_.Name) |"}
-    }
-}
+}}
 
 function Export-EmojiAnalysis
 {
