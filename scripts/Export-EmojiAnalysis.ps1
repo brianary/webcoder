@@ -73,11 +73,11 @@ function ConvertTo-MarkdownCharacterChart
     Param([Parameter(ValueFromPipeline)][int]$Value)
     End
     {
-        '| code point | char | text | emoji | name |'
-        '|------------|:----:|:----:|:-----:|------|'
+        '| code point | char | text | emoji | classes | name |'
+        '|------------|:----:|:----:|:-----:|:-------:|------|'
         $input |
-            ForEach-Object {'| U+{0:X4} | &#x{0:X4}; | &#x{0:X4};&#xFE0E; | &#x{0:X4};&#xFE0F; | {1} |' -f
-                $_,(Get-UnicodeName.ps1 $_)}
+            ForEach-Object {'| U+{0:X4} | &#x{0:X4}; | &#x{0:X4};&#xFE0E; | &#x{0:X4};&#xFE0F; | {1} | {2} |' -f
+                $_,((Find-UnicodeCategoryClasses $_) -join ', '),(Get-UnicodeName.ps1 $_)}
     }
 }
 
@@ -99,8 +99,8 @@ function ConvertTo-MarkdownCategoryCounts
 function Export-EmojiAnalysis
 {
     $Local:OFS=[Environment]::NewLine
-    $simple = Get-SimpleBasicEmoji
-    $composite = Get-CompositeBasicEmoji
+    [int[]] $simple = Get-SimpleBasicEmoji
+    [int[]] $composite = Get-CompositeBasicEmoji
     @"
 Emoji Match Analysis
 ====================
@@ -111,14 +111,19 @@ Emoji category matches
 The matching Unicode categories for ``Basic_Emoji`` from [$($EmojiSequences.Segments[-1])]($EmojiSequences).
 (Ignoring ``Emoji_Keycap_Sequence``, ``RGI_Emoji_Flag_Sequence``, ``RGI_Emoji_Tag_Sequence``, and ``RGI_Emoji_Modifier_Sequence``.)
 
+Unfortunately, `C` matches any control character and `Cs` will match the entire [Supplementary Multilingual Plane][]
+and maybe more, so both are too broad to be useful.
+
+[Supplementary Multilingual Plane]: https://en.wikipedia.org/wiki/Plane_%28Unicode%29#Supplementary_Multilingual_Plane
+
 ### Simple emoji
 
-Characters with a colorful rendering by default, but can be monochromatic with variation selector 15.
+Characters expected to have a colorful rendering by default, but can be monochromatic with variation selector 15.
 
-<details><summary>Simple emoji list</summary>
+<details><summary>Simple emoji list ($($simple.Count))</summary>
 
 $($simple |ConvertTo-MarkdownCharacterChart |Out-String |ConvertFrom-Markdown |Select-Object -ExpandProperty Html |
-    ForEach-Object {$_ -replace '<tbody>','<tbody style="max-height: 20em; overflow: scroll;">'})
+    ForEach-Object {$_ -replace '<table>','<table style="display:block; max-height: 20em; overflow: scroll;">'})
 
 </details>
 
@@ -126,12 +131,12 @@ $($simple |ConvertTo-MarkdownCategoryCounts)
 
 ### Composite emoji
 
-Characters with a monochromatic rendering by default, but can be colorful with variation selector 16.
+Characters expected to have a monochromatic rendering by default, but can be colorful with variation selector 16.
 
-<details><summary>Composite emoji list</summary>
+<details><summary>Composite emoji list ($($composite.Count))</summary>
 
 $($composite |ConvertTo-MarkdownCharacterChart |Out-String |ConvertFrom-Markdown |Select-Object -ExpandProperty Html |
-    ForEach-Object {$_ -replace '<tbody>','<tbody style="max-height: 20em; overflow: scroll;">'})
+    ForEach-Object {$_ -replace '<table>','<table style="display: block; max-height: 20em; overflow: scroll;">'})
 
 </details>
 
