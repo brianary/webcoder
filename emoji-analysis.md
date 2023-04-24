@@ -7,7 +7,7 @@ Emoji category matches
 The matching Unicode categories for `Basic_Emoji` from [emoji-sequences.txt](https://www.unicode.org/Public/emoji/15.0/emoji-sequences.txt).
 (Ignoring `Emoji_Keycap_Sequence`, `RGI_Emoji_Flag_Sequence`, `RGI_Emoji_Tag_Sequence`, and `RGI_Emoji_Modifier_Sequence`.)
 
-Unfortunately, `C` matches any control character and `Cs` will match the entire [Supplementary Multilingual Plane][]
+Unfortunately, C matches any control character and Cs will match the entire [Supplementary Multilingual Plane][]
 and maybe more, so both are too broad to be useful.
 
 [Supplementary Multilingual Plane]: https://en.wikipedia.org/wiki/Plane_%28Unicode%29#Supplementary_Multilingual_Plane
@@ -9476,6 +9476,12 @@ Characters expected to have a colorful rendering by default, but can be monochro
 | 58 | So |
 | 2 | Sm |
 
+#### Exhaustive regex
+
+```regex
+(?:[\u231A\u231B\u23E9-\u23EC\u23F0\u23F3\u25FD\u25FE\u2614\u2615\u2648-\u2653\u267F\u2693\u26A1\u26AA\u26AB\u26BD\u26BE\u26C4\u26C5\u26CE\u26D4\u26EA\u26F2\u26F3\u26F5\u26FA\u26FD\u2705\u270A\u270B\u2728\u274C\u274E\u2753\u2755\u2757\u2795\u2797\u27B0\u27BF\u2B1B\u2B1C\u2B50\u2B55]|\uD83C[\uDC04\uDCCF\uDD8E\uDD91-\uDD9A\uDE01\uDE1A\uDE2F\uDE32-\uDE36\uDE38\uDE3A\uDE50\uDE51\uDF00-\uDF20\uDF2D-\uDF35\uDF37-\uDF7C\uDF7E-\uDF93\uDFA0-\uDFCA\uDFCF-\uDFD3\uDFE0-\uDFF0\uDFF4\uDFF8]|\uD83D[\uDC00-\uDC3E\uDC40\uDC42-\uDCFC\uDCFF-\uDD3D\uDD4B-\uDD4E\uDD50-\uDD67\uDD7A\uDD95\uDD96\uDDA4\uDDFB-\uDE4F\uDE80-\uDEC5\uDECC\uDED0\uDED2\uDED5\uDED7\uDEDC-\uDEDF\uDEEB\uDEEC\uDEF4-\uDEFC\uDFE0-\uDFEB\uDFF0]|\uD83E[\uDD0C-\uDD3A\uDD3C-\uDD45\uDD47-\uDDFF\uDE70-\uDE7C\uDE80-\uDE88\uDE90-\uDEBD\uDEBF-\uDEC5\uDECE-\uDEDB\uDEE0-\uDEE8\uDEF0])
+```
+
 ### Composite emoji
 
 Characters expected to have a monochromatic rendering by default, but can be colorful with variation selector 16.
@@ -11168,3 +11174,9 @@ Characters expected to have a monochromatic rendering by default, but can be col
 | 1 | L |
 | 1 | Ll |
 | 1 | Pd |
+
+#### Exhaustive regex
+
+```regex
+(?:[\u00A9\u00AE\u203C\u2049\u2122\u2139\u2194-\u2199\u21A9\u21AA\u2328\u23CF\u23ED\u23EF\u23F1\u23F2\u23F8\u23FA\u24C2\u25AA\u25AB\u25B6\u25C0\u25FB\u25FC\u2600-\u2604\u260E\u2611\u2618\u261D\u2620\u2622\u2623\u2626\u262A\u262E\u262F\u2638\u263A\u2640\u2642\u265F\u2660\u2663\u2665\u2666\u2668\u267B\u267E\u2692\u2694-\u2697\u2699\u269B\u269C\u26A0\u26A7\u26B0\u26B1\u26C8\u26CF\u26D1\u26D3\u26E9\u26F0\u26F1\u26F4\u26F7\u26F9\u2702\u2708\u2709\u270C\u270D\u270F\u2712\u2714\u2716\u271D\u2721\u2733\u2734\u2744\u2747\u2763\u2764\u27A1\u2934\u2935\u2B05\u2B07\u3030\u303D\u3297\u3299]|\uD83C[\uDD70\uDD71\uDD7E\uDD7F\uDE02\uDE37\uDF21\uDF24-\uDF2C\uDF36\uDF7D\uDF96\uDF97\uDF99\uDF9B\uDF9E\uDF9F\uDFCB-\uDFCE\uDFD4-\uDFDF\uDFF3\uDFF5\uDFF7]|\uD83D[\uDC3F\uDC41\uDCFD\uDD49\uDD4A\uDD6F\uDD70\uDD73-\uDD79\uDD87\uDD8A-\uDD8D\uDD90\uDDA5\uDDA8\uDDB1\uDDB2\uDDBC\uDDC2\uDDC4\uDDD1\uDDD3\uDDDC\uDDDE\uDDE1\uDDE3\uDDE8\uDDEF\uDDF3\uDDFA\uDECB\uDECD\uDECF\uDEE0-\uDEE5\uDEE9\uDEF0\uDEF3])
+```

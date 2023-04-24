@@ -67,10 +67,55 @@ filter Find-UnicodeCategoryClasses([Parameter(ValueFromPipeline)][int]$Value)
         Where-Object {[char]::ConvertFromUtf32($Value) -cmatch "\p{$_}"}
 }
 
-function Get-CharacterClass([Parameter(ValueFromPipeline)][int]$Value)
+function Get-CharacterClass([Parameter(ValueFromPipeline)][char]$Value)
 {End{
-    return '[{0}]' -f
-        (($input |ForEach-Object {([char]::ConvertFromUtf32($_).GetEnumerator() |ForEach-Object {'\u{0:X4}' -f ([int]$_)}) -join ''}) -join '|')
+    $class,$lastChar,$startRange,$inRange = '[',[char]::MinValue,[char]::MinValue,$false
+    $input |ForEach-Object {
+        if($inRange)
+        {
+            if($_ -eq [char]::MaxValue -or 1 -ne ($_ - $lastChar))
+            {
+                $inRange = $false
+                $class += '{0}\u{1:X4}\u{2:X4}' -f (1 -lt ($lastChar - $startRange) ? '-' : ''),([int]$lastChar),([int]$_)
+            }
+        }
+        elseif($_ -eq [char](1+[int]$lastChar))
+        {
+            $inRange = $true
+            $startRange = $_
+        }
+        else
+        {
+            $class += '\u{0:X4}' -f [int]$_
+        }
+        $lastChar = $_
+    }
+    $class += ']'
+    return $class
+}}
+
+function Get-Match([Parameter(ValueFromPipeline)][int]$CodePoint)
+{End{
+    $single,$double,$extra = $input |ForEach-Object {
+        $chars = [char]::ConvertFromUtf32($_)
+        [pscustomobject]@{CodePoint=$_;Chars=$chars}
+    } |Group-Object {$_.Chars.Length} |Sort-Object {$_.Values[0]}
+    [string[]] $sequences = @()
+    if($single -and $single.Name -eq 1)
+    {
+        $sequences += $single.Group |ForEach-Object {$_.Chars[0]} |Get-CharacterClass
+    }
+    if($double -and $double.Name -eq 2)
+    {
+        $double.Group |Group-Object {$_.Chars[0]} |ForEach-Object {
+            $sequences += ('\u{0:X4}' -f ([int]$_.Values[0])) + ($_.Group |ForEach-Object {$_.Chars[1]} |Get-CharacterClass)
+        }
+    }
+    if($extra)
+    {
+        $extra.Group.Chars |ForEach-Object {$sequences += $_}
+    }
+    return "(?:$($sequences -join '|'))"
 }}
 
 function ConvertTo-MarkdownCharacterChart([Parameter(ValueFromPipeline)][int]$Value)
@@ -126,6 +171,12 @@ $($simple |ConvertTo-MarkdownCharacterChart |Out-String |ConvertFrom-Markdown |S
 
 $($simple |ConvertTo-MarkdownCategoryCounts)
 
+#### Exhaustive regex
+
+``````regex
+$($simple |Get-Match)
+``````
+
 ### Composite emoji
 
 Characters expected to have a monochromatic rendering by default, but can be colorful with variation selector 16.
@@ -138,6 +189,12 @@ $($composite |ConvertTo-MarkdownCharacterChart |Out-String |ConvertFrom-Markdown
 </details>
 
 $($composite |ConvertTo-MarkdownCategoryCounts)
+
+#### Exhaustive regex
+
+``````regex
+$($composite |Get-Match)
+``````
 "@ |Out-File $OutFile utf8
 }
 
