@@ -268,6 +268,8 @@ $(0x41..0x5A |ForEach-Object {[char]$_} |Format-HtmlTableRow)
 
 <section class="container">
 
+<div><img src="country-codes.svg" alt="Country Codes, international and domestic, and their derivation" style="max-width:100%" /></div>
+
 <div><img src="int-country-codes-timeline.svg" alt="🌐 International Country Codes Timeline" style="max-width:100%" /></div>
 
 <div><img src="us-country-codes-timeline.svg" alt="🇺🇸 US Country Codes Timeline" style="max-width:100%" /></div>
