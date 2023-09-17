@@ -12,9 +12,6 @@ https://en.wikipedia.org/wiki/Comparison_of_alphabetic_country_codes
 https://en.wikipedia.org/wiki/FIPS_10-4
 
 .LINK
-https://en.wikipedia.org/wiki/Nomenclature_of_Territorial_Units_for_Statistics
-
-.LINK
 https://www.iso.org/iso-3166-country-codes.html
 
 .LINK
