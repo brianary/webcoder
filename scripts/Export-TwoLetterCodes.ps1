@@ -85,6 +85,7 @@ function Initialize-ReadHashes
             'Papua New Guinea' = 'PP'
             'Republic of the Congo' = 'CF'
             'Saint Helena, Ascension and Tristan da Cunha' = 'SH'
+            'São Tomé and Príncipe' = 'TP'
             'South Korea' = 'KS'
             'United Kingdom' = 'UK'
             'Vatican City' = 'VT'
@@ -102,6 +103,7 @@ function Initialize-ReadHashes
             'Macedonia' = 'MK'
             'Man, Isle of' = 'IM'
             'Papua-New Guinea' = 'PG'
+            'Sao Tome and Principe' = 'ST'
             'St. Helena' = 'SH'
             'The Gambia' = 'GM'
             'United Kingdom (England, Northern Ireland, Scotland, and Wales)' = 'GB'
@@ -269,6 +271,48 @@ function Initialize-Export
         us_only    = 0
         other_only = 0
     } -Scope Script -Option Constant
+    Set-Variable us2iso @{
+        AT = '(AU)'
+        AX = '(GB)'
+        BQ = '(US)'
+        BS = '(FR)'
+        CR = '(AU)'
+        DQ = '(US)'
+        DX = '(GB)'
+        EU = '(FR)'
+        FQ = '(US)'
+        GO = '(FR)'
+        GZ = '(PS)'
+        HQ = '(US)'
+        IP = '(FR)'
+        JN = '(NO)'
+        JQ = '(US)'
+        JU = '(FR)'
+        KQ = '(US)'
+        KV = '(XK)'
+        LQ = '(US)'
+        MQ = '(US)'
+        NT = '(NL)'
+        PF = '(CN)'
+        PG = '(CN)'
+        PJ = '(RU)'
+        ST = '(GB)'
+        SV = '(NO)'
+        TB = '(FR)'
+        TE = '(FR)'
+        WE = '(PS)'
+        WQ = '(US)'
+    } -Scope Script -Option Constant
+    Set-Variable iso2us @{
+        AX = '(FI)'
+        BL = '(FR)'
+        BQ = '(NL)'
+        PS = '(GZ/WE)'
+        RE = '(FR)'
+        SJ = '(JN/SV)'
+        UM = '(US)'
+        VI = '(US)'
+    } -Scope Script -Option Constant
     Set-Variable info @{
         AX = ' <a href="https://en.wikipedia.org/wiki/%C3%85land_Islands_dispute">ℹ️</a>'
         MM = ' <a href="https://en.wikipedia.org/wiki/Names_of_Myanmar">ℹ️</a>'
@@ -281,7 +325,7 @@ function Initialize-Export
 
 function Test-Mismatch([Parameter(Position=0,Mandatory=$true)][ValidateNotNullOrEmpty()][string]$value)
 {
-    if($value -in 'IM','FK','MK','SH','VC') {return $false}
+    if($value -in 'IM','FK','MK','SH','SZ','VC') {return $false}
     $uscountry =
         if($code.irs.ContainsKey($value)) {$code.irs[$value]}
         elseif($code.gec.ContainsKey($value)) {$code.gec[$value]}
@@ -295,7 +339,7 @@ function Get-IsoConversion([Parameter(Position=0,Mandatory=$true)][ValidateNotNu
     $country,$short,$uscode = $code.iso[$value],$code.isoshort[$value],''
     if($name.us.ContainsKey($country)) {$uscode = $name.us[$country]}
     elseif($name.us.ContainsKey($short)) {$uscode = $name.us[$short]}
-    else {return [pscustomobject]@{OfficialName=$country; CommonName=$short; UsName=''; UsCode='??'; IsoCode=$value}}
+    else {return [pscustomobject]@{OfficialName=$country; CommonName=$short; UsName=''; UsCode=$iso2us[$value] ?? '??'; IsoCode=$value}}
     return [pscustomobject]@{OfficialName=$country; CommonName=$short; UsName=$code.us[$uscode]; UsCode=$uscode; IsoCode=$value}
 }
 
@@ -307,7 +351,7 @@ function Get-UsConversion([Parameter(Position=0,Mandatory=$true)][ValidateNotNul
         elseif($code.fips.ContainsKey($value)) {$code.fips[$value]}
         else {$code.us[$value]}
     if($name.iso.ContainsKey($uscountry)) {return}
-    else {return [pscustomobject]@{OfficialName=''; CommonName=''; UsName=$code.us[$value]; UsCode=$value; IsoCode='??'}}
+    else {return [pscustomobject]@{OfficialName=''; CommonName=''; UsName=$code.us[$value]; UsCode=$value; IsoCode=$us2iso[$value] ?? '??'}}
 }
 
 function Get-CodeIndicator([Parameter(ValueFromPipeline=$true)][ValidatePattern('(?-i)\A[A-Z]{2}\z')][string]$value)
@@ -376,6 +420,12 @@ $($details |ForEach-Object {"<li>$([Net.WebUtility]::HtmlEncode($_) -replace '&a
 filter Format-HtmlTableRow([Parameter(ValueFromPipeline=$true)][char]$letter)
 {"<tr>$(0x41..0x5A |ForEach-Object {"$letter$([char]$_)"} |Format-HtmlTableCell)</tr>"}
 
+function Test-GencRenamed([string]$value)
+{
+    if(!$code.iso.ContainsKey($value)) {return $false}
+    return !$name.iso.ContainsKey($code.iso[$value])
+}
+
 function Format-HtmlCountries
 {@"
 <html><head><title>Two Letter Country Codes plus currency and language codes</title>
@@ -406,11 +456,22 @@ $(0x41..0x5A |ForEach-Object {[char]$_} |Format-HtmlTableRow)
 <caption><h2>US-ISO conversion ($($convert.Count))</h2></caption>
 <thead><tr><th>ISO</th><th>US</th><th>Official Name</th><th>Common Name</th><th>US Name</th></tr></thead>
 <tbody>$($convert |ForEach-Object {
-    "<tr><td>$($_.IsoCode)</td><td>$($_.UsCode)</td><td>$($_.OfficialName + $info[$_.IsoCode])</td><td>$($_.CommonName)</td><td>$($_.UsName)</td></tr>"})</tbody>
+    "<tr><td>$($_.IsoCode)</td><td>$($_.UsCode)</td><td>$($_.OfficialName + $info[$_.IsoCode ?? ''])</td><td>$($_.CommonName)</td><td>$($_.UsName)</td></tr>"})</tbody>
 <tfoot>
 <tr><td colspan="99">Matches: $($matched -join ', ')</td></tr>
 <tr><td colspan="99">Diplomatic context: <a href="https://en.wikipedia.org/wiki/List_of_states_with_limited_recognition">Wikipedia: List of states with limited recognition</a></td></tr>
 </tfoot>
+</table>
+
+<table>
+<caption>GENC changes to ISO</caption>
+<thead><tr><th>±</th><th>Code</th><th>Name</th><th>ISO Name</th></tr></thead>
+<tbody>$($code.genc.Keys |Where-Object {Test-GencRenamed $_} |
+    ForEach-Object {"<tr><td>📛</td><td>$_</td><td>$($code.genc[$_])</td><td>$($code.iso[$_])</td></tr>"})</tbody>
+<tbody>$($code.genc.Keys |Where-Object {$_ -notin $code.iso.Keys} |
+    ForEach-Object {"<tr><td>➕</td><td>$_</td><td colspan='2'>$($code.genc[$_])</td></tr>"})</tbody>
+<tbody>$($code.iso.Keys |Where-Object {$_ -notin $code.genc.Keys} |
+    ForEach-Object {"<tr><td>➖</td><td>$_</td><td colspan='2'>$($code.iso[$_])</td></tr>"})</tbody>
 </table>
 
 <section class="container">
