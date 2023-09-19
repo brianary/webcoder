@@ -75,6 +75,7 @@ function Initialize-ReadHashes
         us   = @{
             'Curaçao' = 'UC'
             'DR Congo' = 'CG'
+            'Eswatini' = 'WZ'
             'Falkland Islands' = 'FK'
             'Gambia' = 'GA'
             'Isle of Man' = 'IM'
@@ -105,6 +106,7 @@ function Initialize-ReadHashes
             'Papua-New Guinea' = 'PG'
             'Sao Tome and Principe' = 'ST'
             'St. Helena' = 'SH'
+            'Swaziland' = 'SZ'
             'The Gambia' = 'GM'
             'United Kingdom (England, Northern Ireland, Scotland, and Wales)' = 'GB'
             'Yemen (Aden)' = 'YE'
@@ -325,7 +327,7 @@ function Initialize-Export
 
 function Test-Mismatch([Parameter(Position=0,Mandatory=$true)][ValidateNotNullOrEmpty()][string]$value)
 {
-    if($value -in 'IM','FK','MK','SH','SZ','VC') {return $false}
+    if($value -in 'IM','FK','MK','SH','VC') {return $false}
     $uscountry =
         if($code.irs.ContainsKey($value)) {$code.irs[$value]}
         elseif($code.gec.ContainsKey($value)) {$code.gec[$value]}
