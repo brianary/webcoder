@@ -106,6 +106,7 @@ function Initialize-ReadHashes
             'Papua-New Guinea' = 'PG'
             'Sao Tome and Principe' = 'ST'
             'St. Helena' = 'SH'
+            'St. Lucia Island' = 'LC'
             'Swaziland' = 'SZ'
             'The Gambia' = 'GM'
             'United Kingdom (England, Northern Ireland, Scotland, and Wales)' = 'GB'
@@ -298,7 +299,6 @@ function Initialize-Export
         PF = '(CN)'
         PG = '(CN)'
         PJ = '(RU)'
-        ST = '(GB)'
         SV = '(NO)'
         TB = '(FR)'
         TE = '(FR)'
@@ -432,8 +432,9 @@ function Format-HtmlCountries
 {@"
 <html><head><title>Two Letter Country Codes plus currency and language codes</title>
 <link rel="stylesheet" href="http://webcoder.info/assets/css/style.css">
-<style>body {background: #FFF} div.container {margin:0 !important} td {vertical-align:top}
-footer {text-align:center;margin:1em;background:#DDD}</style>
+<style>body,h1,h2,th,td {background: #FFF;font-family:'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif}
+div.container {margin:0 !important} td {vertical-align:top}
+footer {text-align:center;margin:1em;background:#A6D}</style>
 </head><body>
 
 <table style="white-space:nowrap;font-size:9pt">
@@ -465,8 +466,10 @@ $(0x41..0x5A |ForEach-Object {[char]$_} |Format-HtmlTableRow)
 </tfoot>
 </table>
 
-<table>
-<caption>GENC changes to ISO</caption>
+<section class="container">
+
+<table style="margin:0 auto">
+<caption><h2>GENC changes to ISO</h2></caption>
 <thead><tr><th>±</th><th>Code</th><th>Name</th><th>ISO Name</th></tr></thead>
 <tbody>$($code.genc.Keys |Where-Object {Test-GencRenamed $_} |
     ForEach-Object {"<tr><td>📛</td><td>$_</td><td>$($code.genc[$_])</td><td>$($code.iso[$_])</td></tr>"})</tbody>
@@ -475,8 +478,6 @@ $(0x41..0x5A |ForEach-Object {[char]$_} |Format-HtmlTableRow)
 <tbody>$($code.iso.Keys |Where-Object {$_ -notin $code.genc.Keys} |
     ForEach-Object {"<tr><td>➖</td><td>$_</td><td colspan='2'>$($code.iso[$_])</td></tr>"})</tbody>
 </table>
-
-<section class="container">
 
 <div><object type="image/svg+xml" data="images/country-code-standards.svg" style="max-width:50%;padding:0 25%">
     <img src="images/country-code-standards.svg" alt="Country Codes, international and domestic, and their derivation"
@@ -493,9 +494,17 @@ $(0x41..0x5A |ForEach-Object {[char]$_} |Format-HtmlTableRow)
         style="max-width:100%" />
 </object></div>
 
+<div><object type="image/svg+xml" data="images/country-code-data.svg" style="max-width:40%;padding:0 30%">
+    <img src="images/country-code-data.svg" alt="Data Sources"
+        style="max-width:40%;padding:0 30%" />
+</object></div>
+
 </section>
 
-<footer>Thanks to <a href="https://datahub.io/docs/core-data">datahub.io</a>!</footer>
+<footer>Thanks to <a href="https://datahub.io/docs/core-data">datahub.io</a>,
+<a href="https://nsgreg.nga.mil/genc/">NSG Registry</a>,
+<a href="https://restcountries.com/">REST Countries 🇵🇪</a>,
+& <a href="https://irs.gov/countrycodes">IRS</a>!</footer>
 
 </html>
 "@}

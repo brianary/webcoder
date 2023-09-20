@@ -1,0 +1,15 @@
+---
+title: Data Sources
+---
+flowchart LR
+cache[(cache)] --> ref(((Reference)))
+irs[[IRS]] -->|IRS codes| cache
+nsg[[NSG]] -->|GENC codes| cache
+rest[[REST countries 🇵🇪]] -->|ISO codes| cache
+datahub[[Data Hub]] -->|FIPS, currency, & language codes| cache
+
+click cache "https://github.com/brianary/webcoder/tree/main/data" "cached data"
+click irs "https://irs.gov/countrycodes" "IRS country codes"
+click nsg "https://nsgreg.nga.mil/genc/" "NSG Standards Registry"
+click rest "https://restcountries.com/" "REST Countries 🇵🇪"
+click datahub "https://datahub.io/docs/core-data" "Data Hub"
