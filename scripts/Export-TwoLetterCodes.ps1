@@ -316,10 +316,10 @@ function Initialize-Export
         VI = '(US)'
     } -Scope Script -Option Constant
     Set-Variable info @{
-        AX = ' <a href="https://en.wikipedia.org/wiki/%C3%85land_Islands_dispute">ℹ️</a>'
-        MM = ' <a href="https://en.wikipedia.org/wiki/Names_of_Myanmar">ℹ️</a>'
-        PS = ' <a href="https://en.wikipedia.org/wiki/State_of_Palestine">ℹ️</a>'
-        UM = ' <a href="https://en.wikipedia.org/wiki/United_States_Minor_Outlying_Islands">ℹ️</a>'
+        AX = ' <a href="https://en.wikipedia.org/wiki/%C3%85land_Islands_dispute">🛈️</a>'
+        MM = ' <a href="https://en.wikipedia.org/wiki/Names_of_Myanmar">🛈️</a>'
+        PS = ' <a href="https://en.wikipedia.org/wiki/State_of_Palestine">🛈️</a>'
+        UM = ' <a href="https://en.wikipedia.org/wiki/United_States_Minor_Outlying_Islands">🛈️</a>'
     } -Scope Script -Option Constant
     Set-Variable matched (New-Object Collections.ArrayList) -Scope Script -Option Constant
     Set-Variable convert (New-Object Collections.ArrayList) -Scope Script -Option Constant
