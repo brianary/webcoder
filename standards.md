@@ -1,6 +1,58 @@
 Important Standards
 ===================
 
+```mermaid
+%%{init: {'theme': 'forest', 'timeline': {'disableMulticolor': true}}}%%
+mindmap
+Standards
+    common standard standards
+        humans("Human rights considerations (RFC8280)")
+        requirements("Requirements keywords (RFC2119 & RFC8174)")
+        nox("deprecating X- (RFC6648)")
+    codes
+        countries("country codes (ISO3166-1)")
+        languages("language codes (ISO639-1)")
+        currencies("currency codes (ISO4217)")
+    data formats
+        metadata
+            type("media type (RFC2046)")
+            external("external body (RFC2017)")
+            see metadata headers
+        time("date, time, duration, & recurrence (ISO8601)")
+        ical("iCalendar (RFC5545)")
+        jwt("JSON Web Token (RFC7519)")
+        robots("robots.txt (draft-rep-wg-topic-00)")
+        sectxt("security.txt (draft-foudil-securitytxt-11)")
+        editorconfig
+        text
+            Unicode
+            markdown("Markdown (RFC7764)")
+    addresses
+        uri("URIs (RFC3986)")
+        dataurl("data URLs (RFC2397)")
+    network protocols
+        http("HTTP/1.0 (RFC1945)")
+        Fetch
+    security
+        totp("Time-based One-Time Password (RFC6238)")
+        metadata headers
+            basicauth("Basic authorization (RFC7617)")
+            origin("Origin (RFC6454)")
+            hsts("HTTP String Transport Security (RFC6797)")
+            hpkp("HTTP Public Key Pinning (RFC7469)")
+            cors("Cross-origin request sharing")
+            csp("Content Security Policy")
+    programming
+        command line
+            NO_COLOR
+        languages
+            HTML
+            CSS
+            ECMAScript
+        APIs
+            dom("Document Object Model")
+```
+
 - [Unicode][]; see [&amp;what;][]
 - [ISO639-1 alpha-2][] Common language codes
 - [ISO3166-1 alpha-2][] Common country codes

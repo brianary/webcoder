@@ -501,6 +501,12 @@ $(0x41..0x5A |ForEach-Object {[char]$_} |Format-HtmlTableRow)
 
 </section>
 
+<!--
+TODO:
+- https://blog.ansi.org/tag/iso-country-codes/ or https://blog.ansi.org/tag/iso-3166/
+- https://blog.ansi.org/tag/language-codes/ or https://blog.ansi.org/tag/iso-639/
+-->
+
 <footer>Thanks to <a href="https://datahub.io/docs/core-data">datahub.io</a>,
 <a href="https://nsgreg.nga.mil/genc/">NSG Registry</a>,
 <a href="https://restcountries.com/">REST Countries 🇵🇪</a>,

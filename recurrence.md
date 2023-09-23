@@ -87,7 +87,7 @@ The [`rrule.js` demo][rrule.js] page allows you to design and test `RRULE` value
 [iCalendar]: https://en.wikipedia.org/wiki/ICalendar "Internet Calendaring and Scheduling Core Object Specification"
 [RFC5545]: https://tools.ietf.org/html/rfc5545#section-3.8.5.3 "RFC5545 &sect; 3.8.5.3: iCalendar: Properties: Recurrence Rule"
 [RRULE]: https://tools.ietf.org/html/rfc5545#section-3.3.10 "RFC5545 &sect; 3.3.10: iCalendar: Data Types: Recurrence Rule"
-[rrule.js]: https://jakubroztocil.github.io/rrule/ "This is a demo and test app for rrule.js, a JavaScript library for working with recurrence rules for calendar dates."
+[rrule.js]: https://jkbrzt.github.io/rrule/ "This is a demo and test app for rrule.js, a JavaScript library for working with recurrence rules for calendar dates."
 
 Comparison
 ----------
@@ -101,7 +101,6 @@ Comparison
 | ISO8601 (week date) | `R/2021-W01-1T03:00:00/P1W`                      |
 | RFC5545             | `RRULE:FREQ=WEEKLY;BYDAY=SU;BYHOUR=3;BYMINUTE=0` |
 
-
 ### New Year's Eve, one minute before midnight
 
 | Format  | Value                                                  |
@@ -110,13 +109,120 @@ Comparison
 | ISO8601 | `R/2000-12-31T23:59:00/P1Y`                            |
 | RFC5545 | `RRULE:FREQ=YEARLY;BYYEARDAY=-1;BYHOUR=23;BYMINUTE=59` |
 
+### New Year's Day (weekdays)
+
+| Format  | Value                                                |
+| ------- | ---------------------------------------------------- |
+| Cron    | `0 0 1 1 MON,TUE,WED,THU,FRI`                        |
+| ISO8601 | `R/2000-01-01/P1Y` _(not limited to weekdays)_       |
+| RFC5545 | `RRULE:FREQ=YEARLY;BYYEARDAY=1;BYDAY=MO,TU,WE,TH,FR` |
+
+### New Year's Day (observed Mondays)
+
+| Format  | Value                                    |
+| ------- | ---------------------------------------- |
+| Cron    | `0 0 2 1 MON`                            |
+| ISO8601 | _(not supported)_                        |
+| RFC5545 | `RRULE:FREQ=YEARLY;BYYEARDAY=2;BYDAY=MO` |
+
 ### Martin Luther King, Jr Day, lunchtime
 
-| Format              | Value                                              |
-| ------------------- | -------------------------------------------------- |
-| Cron                | `0 12 ? 1 MON#3`                                   |
-| ISO8601 (week date) | `R/2000-W03-1T12:00:00/P1Y`                        |
+| Format              | Value                                                        |
+| ------------------- | ------------------------------------------------------------ |
+| Cron                | `0 12 ? 1 MON#3`                                             |
+| ISO8601 (week date) | `R/2000-W03-1T12:00:00/P1Y`                                  |
 | RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=1;BYDAY=3MO;BYHOUR=12;BYMINUTE=0` |
+
+### Washington's Birthday
+
+| Format              | Value                                   |
+| ------------------- | --------------------------------------- |
+| Cron                | `0 0 ? 2 MON#3`                         |
+| ISO8601 (week date) | _(not supported)_                       |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=2;BYDAY=3MO` |
+
+### Memorial Day
+
+| Format              | Value                                    |
+| ------------------- | ---------------------------------------- |
+| Cron                | `0 0 ? 5 MON#L`                          |
+| ISO8601 (week date) | _(not supported)_                        |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=5;BYDAY=-1MO` |
+
+### Juneteenth
+
+| Format              | Value                                       |
+| ------------------- | ------------------------------------------- |
+| Cron                | `0 0 19 6 ?`                                |
+| ISO8601 (week date) | `R/2021-06-19/P1Y`                          |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=19` |
+
+### Independence Day
+
+| Format              | Value                                      |
+| ------------------- | ------------------------------------------ |
+| Cron                | `0 0 4 7 ?`                                |
+| ISO8601 (week date) | `R/2000-07-04/P1Y`                         |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=4` |
+
+### Labor Day
+
+| Format              | Value                                   |
+| ------------------- | --------------------------------------- |
+| Cron                | `0 0 ? 9 MON#1`                         |
+| ISO8601 (week date) | _(not supported)_                       |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=1MO` |
+
+### Indigenous People's Day
+
+| Format              | Value                                    |
+| ------------------- | ---------------------------------------- |
+| Cron                | `0 0 ? 10 MON#2`                         |
+| ISO8601 (week date) | _(not supported)_                        |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=2MO` |
+
+### Veteran's Day
+
+| Format              | Value                                        |
+| ------------------- | -------------------------------------------- |
+| Cron                | `0 0 11 11 ?`                                |
+| ISO8601 (week date) | `R/2000-11-11/P1Y`                           |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=11` |
+
+### Thanksgiving dinner
+
+Another irregular interval, the ISO8601 format has to combine 400 separate recurrences.
+
+| Format              | Value                                                          |
+| ------------------- | -------------------------------------------------------------- |
+| Cron                | `0 18 ? 11 THU#L`                                              |
+| ISO8601             | `R/2021-11-25T18:00:00/P400Y`                                  |
+| +                   | `R/2022-11-24T18:00:00/P400Y`                                  |
+| +                   | `R/2023-11-30T18:00:00/P400Y`                                  |
+| +                   | `R/2024-11-28T18:00:00/P400Y`                                  |
+| +                   | `R/2025-11-27T18:00:00/P400Y`                                  |
+| +                   | `R/2026-11-26T18:00:00/P400Y`                                  |
+| +                   | `R/2027-11-25T18:00:00/P400Y`                                  |
+| +                   | &vellip;                                                       |
+| +                   | _(400 entries total)_                                          |
+| ISO8601 (week date) | `R/2021-W47-4T18:00:00/P400Y`                                  |
+| +                   | `R/2022-W47-4T18:00:00/P400Y`                                  |
+| +                   | `R/2023-W48-4T18:00:00/P400Y`                                  |
+| +                   | `R/2024-W48-4T18:00:00/P400Y`                                  |
+| +                   | `R/2025-W48-4T18:00:00/P400Y`                                  |
+| +                   | `R/2026-W48-4T18:00:00/P400Y`                                  |
+| +                   | `R/2027-W47-4T18:00:00/P400Y`                                  |
+| +                   | &vellip;                                                       |
+| +                   | _(400 entries total)_                                          |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=-1TH;BYHOUR=18;BYMINUTE=0` |
+
+### Christmas Day
+
+| Format              | Value                                        |
+| ------------------- | -------------------------------------------- |
+| Cron                | `0 0 25 12 ?`                                |
+| ISO8601 (week date) | `R/2000-12-25/P1Y`                           |
+| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=25` |
 
 ### Leap Mondays, breakfast
 
@@ -141,33 +247,6 @@ Since this is an irregular interval, the ISO8601 format has to combine 15 separa
 | +       | `R/2360-02-29T07:00:00/P400Y`                                            |
 | +       | `R/2388-02-29T07:00:00/P400Y`                                            |
 | RFC5545 | `RRULE:FREQ=YEARLY;BYMONTH=2;BYDAY=MO;BYMONTHDAY=29;BYHOUR=7;BYMINUTE=0` |
-
-### Thanksgiving dinner
-
-Another irregular interval, the ISO8601 format has to combine 400 separate recurrences.
-
-| Format              | Value                                               |
-| ------------------- | --------------------------------------------------- |
-| Cron                | `0 18 ? 11 THU#L`                                   |
-| ISO8601             | `R/2021-11-25T18:00:00/P400Y`                       |
-| +                   | `R/2022-11-24T18:00:00/P400Y`                       |
-| +                   | `R/2023-11-30T18:00:00/P400Y`                       |
-| +                   | `R/2024-11-28T18:00:00/P400Y`                       |
-| +                   | `R/2025-11-27T18:00:00/P400Y`                       |
-| +                   | `R/2026-11-26T18:00:00/P400Y`                       |
-| +                   | `R/2027-11-25T18:00:00/P400Y`                       |
-| +                   | &vellip;                                            |
-| +                   | _(400 entries total)_                               |
-| ISO8601 (week date) | `R/2021-W47-4T18:00:00/P400Y`                       |
-| +                   | `R/2022-W47-4T18:00:00/P400Y`                       |
-| +                   | `R/2023-W48-4T18:00:00/P400Y`                       |
-| +                   | `R/2024-W48-4T18:00:00/P400Y`                       |
-| +                   | `R/2025-W48-4T18:00:00/P400Y`                       |
-| +                   | `R/2026-W48-4T18:00:00/P400Y`                       |
-| +                   | `R/2027-W47-4T18:00:00/P400Y`                       |
-| +                   | &vellip;                                            |
-| +                   | _(400 entries total)_                               |
-| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=-1TH;BYHOUR=18;BYMINUTE=0` |
 
 ### Antepenultimate Fridays, at 17:30
 

@@ -9,12 +9,13 @@ Research/Articles
   PowerShell module in F#, considering branding, source control, tests, documentation, and publication.
 - [Setext vs atx Header Styles in Markdown](markdown-headers.md) is an even-handed analysis of the available Markdown
   header styles.
+- [Recurrence Formats](recurrence.md) compares different formats for specifying repeating events.
 
 References
 ----------
 
 - [Windows Key Shortcuts for Windows 10](windowskey.md) has all the Windows Key shortcuts.
-- [Two Letter ISO/FIPS/NUTS Country Codes with Currency, Language, and Subregion Codes](countries.html) puts all the
+- [Two Letter ISO/US Country Codes with currency and language codes](countries.html) puts all the
   two-letter internationalization codes from several standards on the same grid.
 - [C# History](csharp-history.html) helps to determine what version of C# is required for specific language features.
 - [XSLT 2.0/XPath 2.0 QuickRef](xslt2.md) and [XML Schema QuickRef](xsd.md) for those of us that still have to work with
