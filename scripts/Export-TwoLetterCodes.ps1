@@ -415,7 +415,7 @@ filter Format-HtmlTableCell([Parameter(ValueFromPipeline=$true)][ValidatePattern
     if(!$details) {"<td>&cir; $value"}
     else {@"
 <td><details><summary>$value $(Get-CodeIndicator $value)</summary><ul>
-$($details |ForEach-Object {"<li>$([Net.WebUtility]::HtmlEncode($_) -replace '&amp;(#?\w+;)','&$1')</li>"})
+$($details |ForEach-Object {"<li>$([Security.SecurityElement]::Escape($_) -replace '&amp;(#?\w+;)','&$1')</li>"})
 </ul></details></td>
 "@}}
 
