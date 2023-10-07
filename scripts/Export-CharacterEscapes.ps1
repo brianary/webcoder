@@ -7,6 +7,9 @@ https://www.unicode.org/versions/Unicode5.2.0/ch05.pdf#G10213
 
 .LINK
 https://en.wikibooks.org/wiki/Unicode/Character_reference/0000-0FFF
+
+.LINK
+https://en.wikipedia.org/wiki/List_of_Unicode_characters#Control_codes
 #>
 
 #Requires -Version 7

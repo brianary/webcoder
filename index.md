@@ -4,6 +4,7 @@
 Research/Articles
 -----------------
 
+- [Encoding Markup in .NET](encoding-markup.md) compares the effects of different XML/HTML character encoders.
 - [Windows PowerShell to PowerShell Core](wps-to-psc.md) is how to deal with breaking changes in the new PowerShell.
 - [Writing a PowerShell Core Module With F#, A Complete Guide](fspsmodule.md) fully explains how to create a binary
   PowerShell module in F#, considering branding, source control, tests, documentation, and publication.
