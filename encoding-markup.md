@@ -3,8 +3,6 @@ Encoding Markup in .NET
 
 There are at least four ways to escape HTML or XML characters to entities in .NET, but they work quite differently.
 
-[Escape](#escape) | [Encode](#encode) | [HtmlEncode](#htmlencode) | [🏚️ _AntiXssEncoder_](#-antixssencoder)
-
 > TL;DR: In #PowerShell, the best options to encode to HTML or XML are
 > `[Security.SecurityElement]::Escape()` (minimal)
 > or `[Text.Encodings.Web.HtmlEncoder]::Default.Encode()` (comprehensive).
