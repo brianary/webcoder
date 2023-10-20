@@ -27,7 +27,7 @@ References
 PowerShell & F#
 ---------------
 
-My [Detextive][], [SelectXmlExtensions][], [CertAdmin][], or [Pretendpoint][] PowerShell modules can be installed by runnning
+[Detextive][], [SelectXmlExtensions][], [CertAdmin][], or [any of my PowerShell modules][psd1] can be installed by runnning
 `Install-Module SelectXmlExtensions` (for example). [DotNetGlobalToolProvider][] is a trivial exercise in creating a OneGet
 package.
 
@@ -39,7 +39,7 @@ I contribute a small amount to several community projects, as well.
 [Detextive]: https://github.com/brianary/Detextive "Investigates data to determine what the textual characteristics are."
 [SelectXmlExtensions]: https://powershellgallery.com/packages/SelectXmlExtensions/ "PowerShell cmdlets that Select-Xml can compose into pipelines"
 [CertAdmin]: https://www.powershellgallery.com/packages/CertAdmin/ "Manage certificates and their permissions on a Windows server."
-[Pretendpoint]: https://www.powershellgallery.com/packages/Pretendpoint/ "Pretend Endpoint, the disposable web server."
+[psd1]: https://www.powershellgallery.com/profiles/brianary "brianary's PowerShell Gallery modules"
 [DotNetGlobalToolProvider]: https://github.com/brianary/DotNetGlobalToolProvider "OneGet package provider for dotnet global tools."
 
 Some Old Perl Modules
@@ -52,16 +52,8 @@ chapter 21 of O'Reilly's [Games, Diversions & Perl Culture](http://shop.oreilly.
 - [Statistics-Lite](https://github.com/brianary/Statistics-Lite), a pretty basic stats package that for some
 reason has been used all over the world, in cancer research, and by NASA.
 
-Some Old Windows Projects
--------------------------
-
-- [dbscope](https://github.com/brianary/dbscope), a simple GUI to browse databases.
-- [magicnumber-lite](https://github.com/brianary/magicnumber-lite), a sort of simplified Windows port of
-  [file(1)](http://linux.die.net/man/1/file), which uses
-  [magic numbers](http://en.wikipedia.org/wiki/List_of_file_signatures) in data to determine the format of the data stream.
-  (Zip data starts with "PK". Java class files start with 0xCAFEBABE.)
-
 <footer>
     <a rel="me" href="https://mastodon.spotek.io/@brianary">🐘</a>
+    <a href="https://bookwyrm.social/user/brianary">📚</a>
     <a href="Friday.ics" title="#AntepenultimateFriday">🍸</a>
 </footer>
