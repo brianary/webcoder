@@ -71,25 +71,25 @@ entities. It doesn't encode any control characters or any characters outside the
 
 ### HtmlEncode Effect
 
-| codepoint(s)  | name                                 | encoded? |        format        |
-|---------------|--------------------------------------|:--------:|:--------------------:|
-| U+0000–U+001F | C0 Controls                          |    ❌     |      _␀_ – _␟_       |
-| U+0020        | SPACE                                |    ❌     |                      |
-| U+0021        | EXCLAMATION MARK                     |    ❌     |          !           |
-| U+0022        | QUOTATION MARK                       |    ✔️    |       `&quot;`       |
-| U+0023        | NUMBER SIGN                          |    ❌     |          \#          |
-| U+0024        | DOLLAR SIGN                          |    ❌     |          $           |
-| U+0025        | PERCENT SIGN                         |    ❌     |          %           |
-| U+0026        | AMPERSAND                            |    ✔️    |       `&amp;`        |
-| U+0027        | APOSTROPHE                           |    ✔️    |       `&#39;`        |
-| U+0028–U+003B | Basic Latin (partial)                |    ❌     |        ( – ;         |
-| U+003C        | LESS-THAN SIGN                       |    ✔️    |        `&lt;`        |
-| U+003D        | EQUALS SIGN                          |    ❌     |          =           |
-| U+003E        | GREATER-THAN SIGN                    |    ✔️    |        `&gt;`        |
-| U+003F–U+007E | Basic Latin (remaining)              |    ❌     |       ? – _␡_        |
-| U+0080–U+009F | C1 Controls                          |    ❌     |    _PAD_ – _APC_     |
-| U+00AD–U+00FF | Latin-1 Supplement                   |    ✔️    | `&#160;` – `&#255F;` |
-| U+0100–U+FFFF | Basic Multilingual Plane (remaining) |    ❌     |    Ā – _U+FFFF_†     |
+| codepoint(s)  | name                                 | encoded? |       format        |
+|---------------|--------------------------------------|:--------:|:-------------------:|
+| U+0000–U+001F | C0 Controls                          |    ❌     |      _␀_ – _␟_      |
+| U+0020        | SPACE                                |    ❌     |                     |
+| U+0021        | EXCLAMATION MARK                     |    ❌     |          !          |
+| U+0022        | QUOTATION MARK                       |    ✔️    |      `&quot;`       |
+| U+0023        | NUMBER SIGN                          |    ❌     |         \#          |
+| U+0024        | DOLLAR SIGN                          |    ❌     |          $          |
+| U+0025        | PERCENT SIGN                         |    ❌     |          %          |
+| U+0026        | AMPERSAND                            |    ✔️    |       `&amp;`       |
+| U+0027        | APOSTROPHE                           |    ✔️    |       `&#39;`       |
+| U+0028–U+003B | Basic Latin (partial)                |    ❌     |        ( – ;        |
+| U+003C        | LESS-THAN SIGN                       |    ✔️    |       `&lt;`        |
+| U+003D        | EQUALS SIGN                          |    ❌     |          =          |
+| U+003E        | GREATER-THAN SIGN                    |    ✔️    |       `&gt;`        |
+| U+003F–U+007E | Basic Latin (remaining)              |    ❌     |       ? – _␡_       |
+| U+0080–U+009F | C1 Controls                          |    ❌     |    _PAD_ – _APC_    |
+| U+00AD–U+00FF | Latin-1 Supplement                   |    ✔️    | `&#160;` – `&#255;` |
+| U+0100–U+FFFF | Basic Multilingual Plane (remaining) |    ❌     |    Ā – _U+FFFF_†    |
 
 † not a valid codepoint
 
@@ -107,31 +107,31 @@ ranges it doesn't encode, so it's a bad choice for a number of reasons.
 
 ### AntiXssEncoder Effect
 
-| codepoint(s)  | name                                  | encoded? |        format         | notes
-|---------------|---------------------------------------|:--------:|:---------------------:|------
-| U+0000–U+001F | C0 Controls                           |    ✔️    |   `&#0;` – `&#31;`    |
-| U+0020        | SPACE                                 |    ✔️    |        `&#32;`        | `XmlAttributeEncode()`
-| U+0020        | SPACE                                 |    ❌     |                       | `HtmlEncode()` & `XmlEncode()`
-| U+0021        | EXCLAMATION MARK                      |    ❌     |           !           |
-| U+0022        | QUOTATION MARK                        |    ✔️    |       `&quot;`        |
-| U+0023        | NUMBER SIGN                           |    ❌     |          \#           |
-| U+0024        | DOLLAR SIGN                           |    ❌     |           $           |
-| U+0025        | PERCENT SIGN                          |    ❌     |           %           |
-| U+0026        | AMPERSAND                             |    ✔️    |        `&amp;`        |
-| U+0027        | APOSTROPHE                            |    ✔️    |       `&apos;`        | `XmlAttributeEncode()` & `XmlEncode()`
-| U+0027        | APOSTROPHE                            |    ✔️    |        `&#39;`        | `HtmlEncode()`
-| U+0028–U+003B | Basic Latin (partial)                 |    ❌     |         ( – ;         | some printable 7-bit ASCII
-| U+003C        | LESS-THAN SIGN                        |    ✔️    |        `&lt;`         |
-| U+003D        | EQUALS SIGN                           |    ❌     |           =           |
-| U+003E        | GREATER-THAN SIGN                     |    ✔️    |        `&gt;`         |
-| U+003F–U+007E | Basic Latin (remaining printable)     |    ❌     |         ? – ~         |
-| U+007F        | DELETE                                |    ✔️    |       `&#127;`        |
-| U+0080–U+009F | C1 Controls                           |    ✔️    |  `&#127;` – `&#159;`  |
-| U+00A0        | NO-BREAK SPACE                        |    ✔️    |       `&#160;`        |
-| U+00A1–U+00AC | Latin-1 Supplement (partial)          |    ❌️    |         ¡ – ¬         |
-| U+00AD        | SOFT HYPHEN                           |    ✔️    |       `&#173;`        |
-| U+00AE–U+036F | Latin (remaining), various extensions |    ❌️    |         ® – ͯ         | see †
-| U+0370–U+FFFF | Basic Multilingual Plane (remaining)  |    ✔️    | `&#880;` – `&#65535;` |
+| codepoint(s)  | name                                  | encoded? |        format         | notes                                  |
+|---------------|---------------------------------------|:--------:|:---------------------:|----------------------------------------|
+| U+0000–U+001F | C0 Controls                           |    ✔️    |   `&#0;` – `&#31;`    |                                        |
+| U+0020        | SPACE                                 |    ✔️    |        `&#32;`        | `XmlAttributeEncode()`                 |
+| U+0020        | SPACE                                 |    ❌     |                       | `HtmlEncode()` & `XmlEncode()`         |
+| U+0021        | EXCLAMATION MARK                      |    ❌     |           !           |                                        |
+| U+0022        | QUOTATION MARK                        |    ✔️    |       `&quot;`        |                                        |
+| U+0023        | NUMBER SIGN                           |    ❌     |          \#           |                                        |
+| U+0024        | DOLLAR SIGN                           |    ❌     |           $           |                                        |
+| U+0025        | PERCENT SIGN                          |    ❌     |           %           |                                        |
+| U+0026        | AMPERSAND                             |    ✔️    |        `&amp;`        |                                        |
+| U+0027        | APOSTROPHE                            |    ✔️    |       `&apos;`        | `XmlAttributeEncode()` & `XmlEncode()` |
+| U+0027        | APOSTROPHE                            |    ✔️    |        `&#39;`        | `HtmlEncode()`                         |
+| U+0028–U+003B | Basic Latin (partial)                 |    ❌     |         ( – ;         | some printable 7-bit ASCII             |
+| U+003C        | LESS-THAN SIGN                        |    ✔️    |        `&lt;`         |                                        |
+| U+003D        | EQUALS SIGN                           |    ❌     |           =           |                                        |
+| U+003E        | GREATER-THAN SIGN                     |    ✔️    |        `&gt;`         |                                        |
+| U+003F–U+007E | Basic Latin (remaining printable)     |    ❌     |         ? – ~         |                                        |
+| U+007F        | DELETE                                |    ✔️    |       `&#127;`        |                                        |
+| U+0080–U+009F | C1 Controls                           |    ✔️    |  `&#127;` – `&#159;`  |                                        |
+| U+00A0        | NO-BREAK SPACE                        |    ✔️    |       `&#160;`        |                                        |
+| U+00A1–U+00AC | Latin-1 Supplement (partial)          |    ❌️    |         ¡ – ¬         |                                        |
+| U+00AD        | SOFT HYPHEN                           |    ✔️    |       `&#173;`        |                                        |
+| U+00AE–U+036F | Latin (remaining), various extensions |    ❌️    |         ® – ͯ         | see †                                  |
+| U+0370–U+FFFF | Basic Multilingual Plane (remaining)  |    ✔️    | `&#880;` – `&#65535;` |                                        |
 
 † these blocks:
 
