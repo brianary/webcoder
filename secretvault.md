@@ -15,7 +15,7 @@ Installing and setting up
 
 You probably just want a single store with a simple name.
 There are a number of configuration options you can set with [`Set-SecretStoreConfiguration`][],
-which you may want to investigate fully to use effectively for automation, or however you need to in your environment.
+which you may want to investigate fully to use effectively for automation, or to fit whatever your needs are for your environment.
 
 [`Set-SecretStoreConfiguration`]: https://learn.microsoft.com/powershell/module/microsoft.powershell.secretstore/set-secretstoreconfiguration
 
