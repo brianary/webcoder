@@ -15,13 +15,14 @@ Research/Articles
 References
 ----------
 
-- [Windows Key Shortcuts for Windows 10](windowskey.md) has all the Windows Key shortcuts.
 - [Two Letter ISO/US Country Codes with currency and language codes](countries.html) puts all the
   two-letter internationalization codes from several standards on the same grid.
 - [C# History](csharp-history.html) helps to determine what version of C# is required for specific language features.
 - [XSLT 2.0/XPath 2.0 QuickRef](xslt2.md) and [XML Schema QuickRef](xsd.md) for those of us that still have to work with
   a lot of XML.
 - [SQL Server Datatypes QuickRef](mssqldatatypes.html) is something I put together in the '90s.
+- [PowerShell secret vault](secretvault.md) describes using a secret vault from PowerShell.
+- [Windows Key Shortcuts for Windows 10](windowskey.md) has all the Windows Key shortcuts.
 - [Important Standards](standards.md) the specs and standards that make the Internet (and related stuff) work.
 
 PowerShell & F#
