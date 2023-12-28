@@ -17,13 +17,13 @@ Format comparisons
 
 |           .NET            |         strftime          |          en-US example           | description                                            |
 |:-------------------------:|:-------------------------:|:--------------------------------:|--------------------------------------------------------|
-|            `u`            |         `%FT%TZ`          |       2063-04-05T15:26:42Z       | universal "sortable" (ISO8601) format                  |
+|            `u`            |         `%FT%TZ`          |       2063-04-05T15:26:42Z       | UTC "sortable" (ISO8601) format                        |
 |            `s`            |          `%FT%T`          |       2063-04-05T15:26:42        | "sortable" (ISO8601) format                            |
 |        `O` or `o`         |   `%FT%H:%M:%S.0000000`   |   2063-04-05T15:26:42.0000000    | round-trip format                                      |
 |        `R` or `r`         |   `%a, %d %b %Y %T %Z`    |  Thu, 05 Apr 2063 15:26:42 GMT   | RFC1123 format                                         |
 |            `D`            |      `%A, %B %e, %Y`      |     Thursday, April 5, 2063      | long locale-dependent date format                      |
 |            `d`            |           `%D`            |             4/5/2063             | short locale-dependent date format                     |
-|            `U`            |    `%A, %B %e, %Y %T`     | Thursday, April 5, 2063 15:26:42 | "universal" long date and long time                    |
+|            `U`            |    `%A, %B %e, %Y %T`     | Thursday, April 5, 2063 15:26:42 | UTC long date and long time                            |
 |            `F`            |    `%A, %B %e, %Y %T`     | Thursday, April 5, 2063 15:26:42 | long date and long time                                |
 |            `f`            |    `%A, %B %e, %Y %R`     |  Thursday, April 5, 2063 15:26   | long date and short time                               |
 |            `G`            |          `%D %r`          |       4/5/2063 3:26:42 PM        | short date and long time                               |
@@ -49,11 +49,11 @@ Format comparisons
 |           `MMM`           |       `%b` or `%h`        |               Apr                | short month name                                       |
 |           `MM`            |           `%m`            |                04                | two-digit month                                        |
 |           `%M`            |           `%m`            |                4                 | one or two-digit month                                 |
-|                           |           `%u`            |                4                 | weekday as a digit 1 = Mon through 7 = Sun             |
-|                           |           `%w`            |                4                 | weekday as a digit 0 = Sun through 7 = Sat             |
 |                           |           `%U`            |                13                | week date week, 00 is first week < 4 days              |
 |                           |           `%V`            |                14                | [ISO week date][] week, 01 is first full week          |
 |                           |           `%W`            |                14                | Monday-start week date week, 00 is first week < 4 days |
+|                           |           `%u`            |                4                 | weekday as a digit 1 = Mon through 7 = Sun             |
+|                           |           `%w`            |                4                 | weekday as a digit 0 = Sun through 7 = Sat             |
 |          `dddd`           |           `%A`            |             Thursday             | full weekday name                                      |
 |           `ddd`           |           `%a`            |               Thu                | short weekday name                                     |
 |           `dd`            |           `%d`            |                05                | two-digit day of month                                 |
