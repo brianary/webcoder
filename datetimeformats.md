@@ -30,7 +30,7 @@ Format comparisons
 |            `g`            |       `%D %I:%M %p`       |         4/5/2063 3:26 PM         | short date and short time                              |
 | `ddd MMM d HH:mm:ss yyyy` |           `%c`            |     Thu Apr  5 15:26:42 2063     | locale-dependent date and time format                  |
 |      `yyyy\-MM\-dd`       |           `%F`            |            2063-04-05            | ISO8601 date                                           |
-|        `MM-dd-yy`         |           `%x`            |             04-05-63             | locale-dependent date format                           |
+|        `MM/dd/yy`         |           `%x`            |             04/05/63             | locale-dependent date format                           |
 |        `HH:mm:ss`         |           `%X`            |             15:26:42             | locale-dependent time format                           |
 |        `Y` or `y`         |          `%B %Y`          |            April 2063            | month and year format                                  |
 |        `M` or `m`         |          `%B %e`          |             April 5              | month and day format                                   |
@@ -53,7 +53,7 @@ Format comparisons
 |                           |           `%V`            |                14                | [ISO week date][] week, 01 is first full week          |
 |                           |           `%W`            |                14                | Monday-start week date week, 00 is first week < 4 days |
 |                           |           `%u`            |                4                 | weekday as a digit 1 = Mon through 7 = Sun             |
-|                           |           `%w`            |                4                 | weekday as a digit 0 = Sun through 7 = Sat             |
+|                           |           `%w`            |                4                 | weekday as a digit 0 = Sun through 6 = Sat             |
 |          `dddd`           |           `%A`            |             Thursday             | full weekday name                                      |
 |           `ddd`           |           `%a`            |               Thu                | short weekday name                                     |
 |           `dd`            |           `%d`            |                05                | two-digit day of month                                 |
