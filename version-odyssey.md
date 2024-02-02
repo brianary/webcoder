@@ -1,6 +1,17 @@
 A .NET Core/Standard Versioning Odyssey
 =======================================
 
+* * *
+
+> ‼︎ This article is out-of-date ‼︎
+> -------------------------------
+> 
+> This article is from a long time ago, and the issues mentioned have since been addressed.
+> 
+> It is retained for historical purposes.
+
+* * *
+
 <style>
 img:first-of-type {float: right; margin: 1ex;}
 h6 {font-size: 12pt; margin-bottom: 0; color: #636363;}
