@@ -134,10 +134,18 @@ div>table {display:table-cell;padding:1em;vertical-align:top}
 <tr><td>iso_week (thursday-week)</td><td>isowk or isoww</td><td>1</td><td>53</td></tr>
 <tr><td>millisecond</td><td>ms</td><td>0</td><td>999</td></tr>
 <tr><td colspan="5"><ul>
-<li><code><var>datetime_new</var>= dateadd(<var>datepart</var>,<var>number</var>,<var>datetime</var>)</code></li>
-<li><code><var>number_diff</var>= datediff(<var>datepart</var>,<var>from_datetime</var>,<var>to_datetime</var>)</code></li>
-<li><code><var>string_name</var>= datename(<var>datepart</var>,<var>datetime</var>)</code></li>
-<li><code><var>number_value</var>= datepart(<var>datepart</var>,<var>datetime</var>)</code></li></ul></td></tr>
+<li><code><var>datetimish_new</var> = dateadd(<var>datepart</var>,<var>number</var>,<var>datetimish</var>)</code></li>
+<li><code><var>datetimish_new</var> = date_bucket(<var>datepart</var>,<var>number</var>,<var>datetimish</var>,<br/>
+	<var>datetimish_origin</var> = '1900-01-01')</code> <sub>v2022</sub></li>
+<li><code><var>int_diff</var> = datediff(<var>datepart</var>,<var>from_datetimish</var>,<var>to_datetimish</var>)</code></li>
+<li><code><var>bigint_diff</var> = datediff_big(<var>datepart</var>,<var>from_datetimish</var>,<var>to_datetimish</var>)</code></li>
+<li><code><var>nvarchar_name</var> = datename(<var>datepart</var>,<var>datetimish</var>)</code></li>
+<li><code><var>int_value</var> = datepart(<var>datepart</var>,<var>datetimish</var>)</code></li>
+<li><code><var>datetimish_new</var> = datetrunc(<var>datepart</var>,<var>datetimish</var>)</code> <sub>v2022</sub></li>
+</ul>
+<small><var>datetimish</var> is <code>date</code>, <code>datetime</code>, <code>datetime2</code>, <code>datetimeoffset</code>, 
+<code>smalldatetime</code>, or <code>time</code><br/>(output type matches input type).</small>
+</td></tr>
 </tbody></table></div>
 
 </body></html>
