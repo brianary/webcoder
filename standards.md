@@ -19,11 +19,17 @@ Important Standards
 - [RFC6454][] `Origin: https://example.org/`
 - [RFC6648][] deprecating `X-` prefix
 - [RFC6797][] HSTS: `Strict-Transport-Security: max-age=16070400; includeSubdomains`
+- [RFC6901][] JSON select: `/paths/~1users/get`
 - [RFC7469][] HPKP: `Public-Key-Pins: max-age=2592000; pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g="; report-uri="http://example.com/pkp-report"; max-age=10000; includeSubDomains`
 - [RFC7519][] JWT: `{"alg": "HS256", "typ": "JWT"}` → `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9`; see [jwt.io][]
 - [RFC7617][] `Authorization: Basic dGVzdDoxMjPCow==`
 - [RFC7764][] Markdown guidance; see [commonmark.org][]
+- [RFC8259][] JSON: `{"": true, "key": "value", "zero": 0, "subobject": {"key": "value"}}`
 - [RFC8280][] Human rights considerations when developing protocols
+- [yaml][] YAML: `YAML: "Document Title"`
+- [jsonref][] JSON reference: `{"$ref": "https://example.net/value"}`
+- [jsonschema][] JSON schema `{"type": "string", "maxLength": 255}`
+- [openapi][]: OpenAPI: `{"openapi": "3.0.3", "info": {"title": "Example API", "version": "1.0"}}`
 - [draft-rep-wg-topic-00][] robots.txt; see [robotstxt.org][]
 - [draft-foudil-securitytxt-11][] security.txt; see [securitytxt.org][]
 - [editorconfig][] for specifying coding style
@@ -52,11 +58,13 @@ Important Standards
 [RFC6454]: https://tools.ietf.org/html/rfc6454 "The Web Origin Concept"
 [RFC6648]: https://tools.ietf.org/html/rfc6648 "Deprecating the 'X-' Prefix and Similar Constructs in Application Protocols"
 [RFC6797]: https://tools.ietf.org/html/rfc6797 "HTTP Strict Transport Security (HSTS)"
+[RFC6901]: https://tools.ietf.org/html/rfc6901 "JavaScript Object Notation (JSON) Pointer"
 [RFC7469]: https://tools.ietf.org/html/rfc7469 "Public Key Pinning Extension for HTTP"
 [RFC7519]: https://tools.ietf.org/html/rfc7519 "JSON Web Token (JWT)"
 [RFC7617]: https://tools.ietf.org/html/rfc7617 "The 'Basic' HTTP Authentication Scheme"
 [RFC7764]: https://tools.ietf.org/html/rfc7764 "Guidance on Markdown: Design Philosophies, Stability Strategies, and Select Registrations"
 [RFC8174]: https://tools.ietf.org/html/rfc8174 "Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words"
+[RFC8259]: https://tools.ietf.org/html/rfc8259 "The JavaScript Object Notation (JSON) Data Interchange Format"
 [RFC8280]: https://tools.ietf.org/html/rfc8280 "Research into Human Rights Protocol Considerations"
 [draft-rep-wg-topic-00]: https://tools.ietf.org/html/draft-rep-wg-topic-00 "Robots Exclusion Protocol"
 [draft-foudil-securitytxt-11]: https://tools.ietf.org/html/draft-foudil-securitytxt-11 "A File Format to Aid in Security Vulnerability Disclosure"
@@ -71,7 +79,11 @@ Important Standards
 [ECMA262]: https://tc39.es/ecma262/ "ECMAScript Language Specification"
 
 [media types]: https://www.iana.org/assignments/media-types/media-types.xhtml "IANA-registered media types list"
+[yaml]: https://yaml.org/ "YAML Ain't Markup Language"
+[jsonref]: http://jsonref.org/ "JSON Reference"
+[jsonschema]: https://json-schema.org/ "JSON Schema"
 [jwt.io]: https://jwt.io/ "JSON Web Tokens"
+[openapi]: https://www.openapis.org/ "OpenAPI"
 [commonmark.org]: https://commonmark.org/
 [robotstxt.org]: https://www.robotstxt.org/ "The Web Robots Pages"
 [securitytxt.org]: https://securitytxt.org/ "A proposed standard which allows websites to define security policies"
