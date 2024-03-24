@@ -20,7 +20,7 @@ which you may want to investigate fully to use effectively for automation, or to
 [`Set-SecretStoreConfiguration`]: https://learn.microsoft.com/powershell/module/microsoft.powershell.secretstore/set-secretstoreconfiguration
 
 ```powershell
-$VaultName = 'DefaultVault' # whatever name you want
+$VaultName = 'SecretVault' # whatever name you want
 Install-Module Microsoft.PowerShell.SecretManagement,Microsoft.PowerShell.SecretStore -Force
 Register-SecretVault -Name $VaultName -ModuleName Microsoft.PowerShell.SecretStore -DefaultVault
 Set-SecretStoreConfiguration -Interaction Prompt
@@ -34,7 +34,7 @@ All you really need to save is a name and a value, but providing more context ma
 
 ```powershell
 # assuming the secret is currently on the clipboard
-Set-Secret -Name GitHubToken -Secret "$(Get-Clipboard)" -Vault SecretStore -Metadata @{
+Set-Secret -Name GitHubToken -Secret "$(Get-Clipboard)" -Vault $VaultName -Metadata @{
     Description = 'A GitHub classic token'
     TokenName   = 'PowerShell token'
     Url         = 'https://github.com/settings/tokens'
