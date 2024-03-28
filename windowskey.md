@@ -1,5 +1,5 @@
-Windows Key Shortcuts for Windows 10
-====================================
+Windows Key Shortcuts for Windows 10 & 11
+=========================================
 
 Hold down the [Windows Key](https://en.wikipedia.org/wiki/Windows_Key) and press:
 
