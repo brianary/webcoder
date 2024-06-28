@@ -441,22 +441,22 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>C# History</h1>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
 <p>C# has added many new keywords, syntax elements, and features since its introduction.</p>
 </div>
 <table class="tableblock frame-none grid-none stripes-even stretch">
 <colgroup>
-<col style="width: 25%;">
-<col style="width: 60%;">
-<col style="width: 5%;">
-<col style="width: 10%;">
+<col style="width: 27.7777%;">
+<col style="width: 66.6666%;">
+<col style="width: 5.5557%;">
 </colgroup>
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Feature</th>
 <th class="tableblock halign-left valign-top">Keyword/Syntax</th>
 <th class="tableblock halign-center valign-top">Version</th>
-<th class="tableblock halign-center valign-top">Released</th>
 </tr>
 </thead>
 <tbody>
@@ -464,565 +464,547 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock">Anonymous methods</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>delegate</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2006-01-22</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Asynchronous members</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>async</strong> ⌨️ <strong>await</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">5.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2012-08-15</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Asynchronous streams</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>async <strong>IAsyncEnumerable&lt;T&gt;</strong> <em>Method</em>( … )</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Discards</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>_</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-04-05</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Dynamic binding</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>dynamic</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">4.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2010-04-12</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Exceptions: Exception filters</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>catch (<em>ExceptionType e</em>) <strong>when <em>expression</em></strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">6.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2014-11-12</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Exceptions: Throw expressions</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>expr</em> ? <em>expr</em> : throw <em>exception</em> 🔹 <em>x</em> ?? throw <em>exception</em> 🔹 <em>Member</em> &#8658; throw <em>exception</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-04-05</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Expression bodied members</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>Member</em> <strong>&#8658;</strong> <em>expression</em>; <em>// method, operator, or read-only property</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">6.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2014-11-12</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Expression bodied members: Expanded</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// constructors, finalizers, indexers, and all properties now supported</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-04-05</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Extension methods</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>Method</em>(<strong>this</strong> <em>Type param</em>)</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2007-11-19</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Function pointers</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>delegate</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Generics</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>Type</em><strong>&lt;T&gt;</strong> and 🧩 <strong>System.Collections.Generic</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2006-01-22</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Generics: INumber</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>🧩 <strong>INumber&lt;T&gt;</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Global usings</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>global using</strong> <em>Namespace</em> ;</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Indices and ranges</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>❇️ <strong>^</strong> ❇️ <strong>..</strong> 🧩 <strong>System.Index</strong> 🧩 <strong>System.Range</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Initialization: Anonymous types</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>new { }</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2007-11-19</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Initialization: Implicitly typed local variables</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>var</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2007-11-19</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Initialization: Index initializers</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>❇️ new Dictionary&lt;_type_,<em>type</em>&gt; <strong>{ [<em>value</em>] = <em>value</em>, }</strong></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>❇️ new Dictionary&lt; <em>type</em> , <em>type</em> &gt; <strong>{ [<em>value</em>] = <em>value</em>, }</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">6.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2014-11-12</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Initialization: Index reverse</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>var a = new int[] { [^3] = 0, [^2] = 1, [^1] = 2, }; <em>// [0, 1, 2]</em></code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">13.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Initialization: Initializers</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>new Type <strong>{ … }</strong> 🔹 new CollectionType <strong>{ item, item, item, … }</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2007-11-19</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Initialization: Required</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>❇️ <strong>required</strong> <em>fieldOrProperty</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Initialization: Target typed new</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// <strong>new()</strong> doesn&#8217;t require a type name when inferrable</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Interfaces: Default methods</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// provide interface method implementations to inherit</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Interfaces: Static virtual</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>static virtual</strong> <em>or</em> <strong>abstract virtual</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Iterators</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>yield return</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2006-01-22</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Lambda expressions</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>params</em> <strong>&#8658;</strong> <em>expression</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2007-11-19</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Lambda expressions: Attributes</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>var <em>name</em> = <strong>[Attribute]</strong> <em>params</em> &#8658; <em>expression</em> ;</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Lambda expressions: Discard params</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>(<strong><em></strong>) &#8658; _expression</em></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>(<strong>_</strong>) &#8658; <em>expression</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Lambda expressions: Natural type</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>var</strong> <em>name</em> = <em>params</em> &#8658; <em>expression</em> ; _// or name as object, Delegate, &amp;c</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>var</strong> <em>name</em> = <em>params</em> &#8658; <em>expression</em> ; <em>// or name as object, Delegate, &amp;c</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lambda expressions: Param defaults</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>(int index = 1) &#8658; arrayValues[index]</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">12.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Lambda expressions: Return type</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>var <em>name</em> = <strong><em>returntype</em></strong> <em>params</em> &#8658; <em>expression</em> ;</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Literals: Binary literals</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>0b</strong><em>10011</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-04-05</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Literals: Collection expressions</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>[1, 2, 3, 4, ..arrayValues]</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">12.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Literals: Default literals</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>default</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.1</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-08-14</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Literals: Digit separators</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>7</em><strong>_</strong><em>000</em><strong>_</strong><em>000</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-04-05</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Literals: Escape escape</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>"<strong>\e</strong>" <em>// U+001B Escape control character</em></code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">13.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Literals: Raw strings</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// multiline, multiquoted, indented string literals</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Literals: UTF-8 strings</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>"string literal"u8</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>"string literal"<strong>u8</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Local functions</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>type</em> <em>Name</em>() { <em>type</em> <em>OtherName</em>() { … } … <em>OtherName</em>(); }</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-04-05</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Local functions: Attributes</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// attributes are allowed before local functions</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Local functions: Extern</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// local functions may be marked as <strong>extern</strong></em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Local functions: Static</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// local functions can now be <strong>static</strong></em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Module initializers</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>[ModuleInitializer]</strong> <em>Method</em>() { … }</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multithreading: New lock object</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>🧩 <strong>System.Threading.Lock</strong></code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">13.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nameof operator</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>nameof()</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">6.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2014-11-12</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Native sized integers</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>nint</strong> <em>// System.IntPtr</em> ⌨️ <strong>nuint</strong> <em>// System.UIntPtr</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nesting: File scoped namespaces</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>namespace <em>Name</em> <strong>;</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nesting: Top level statements</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// statements in one source file outside any containing method imply program entry point</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-20</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nesting: Using declarations</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>using var</strong> <em>x</em> = <em>disposble</em>; <em>// applies to end of scope</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nulls: Null forgiving operator</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>❇️ <strong>!</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nulls: Null propagator</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>❇️ x<strong>?.</strong><em>member</em> ❇️ x<strong>?[</strong><em>expression</em><strong>]</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">6.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2014-11-12</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nulls: Null-coalescing assignment</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>❇️ <strong>??=</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nulls: Nullable types</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>🧩 <strong>Nullable&lt;T&gt;</strong> ❇️ <em>Type</em><strong>?</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2006-01-22</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nulls: Nullable types: Reference types</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// reference types may not be null without <strong>?</strong>, and require null-checking with it</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Operators: Checked/unchecked</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>❇️ <strong>checked</strong> <em>or</em> <strong>unchecked</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Parameters: Caller info attributes</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>🧩 <strong>CallerFilePathAttribute</strong> 🧩 <strong>CallerLineNumberAttribute</strong> 🧩 <strong>CallerMemberNameAttribute</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">5.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2012-08-15</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Parameters: Caller info attributes: Expression</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>🧩 <strong>CallerArgumentExpressionAttribute</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Parameters: In parameters</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>in</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.2</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-12-04</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Parameters: Named arguments</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>Method</em>( <strong>paramName:</strong> value)</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">4.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2010-04-12</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Parameters: Non-trailing named arguments</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// named params can precede unnamed ones that are in the right position</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.2</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-12-04</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Parameters: Params collections</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>Method</em>(<strong>params IEnumerable&lt;string&gt;</strong> strings)</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">13.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Parameters: Out variables</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>Method</em>(<strong>out var</strong> <em>param</em>)</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-04-05</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Parameters: Ref readonly parameters</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>ref readonly</strong></code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">12.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Partial classes</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>partial class</strong> ⌨️ <strong>partial interface</strong> ⌨️ <strong>partial struct</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2006-01-22</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Partial Methods</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>partial</strong> <em>type</em> <em>Method</em>( … );</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2007-11-19</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>expression</em> is <em><strong>pattern</strong></em> <em>// or <strong>is not</strong></em> 🔹 switch(<em>expression</em>) { case <em><strong>pattern</strong></em>: … }</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-04-05</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Character spans</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>charSpan</em> is "string literal"</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Conjunction</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>x</em> is <em>pattern</em> <strong>and</strong> <em>pattern</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Disjunction</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>x</em> is <em>pattern</em> <strong>or</strong> <em>pattern</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Lists</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>value</em> is <strong>[1, 2, 3, _, 5, ..]</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Negation</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>x</em> is <strong>not</strong> <em>pattern</em> <em>// not just types</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Parentheses</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>x</em> is <strong>(</strong> <em>patterns</em> <strong>)</strong> and <strong>(</strong> <em>patterns</em> <strong>)</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Properties</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>expression</em> is <strong>{ <em>Property</em>: <em>value</em> }</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Properties: Extended</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>expression</em> is <strong>{ <em>Property.Subproperty</em>: <em>value</em> }</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Relational</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>x</em> is <strong>&gt;</strong> <em>value</em> <em>// or &gt;= &lt; &#8656;</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Switch expressions</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>expression</em> switch { <em>pattern</em> &#8658; <em>value</em>, … }</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Tuples</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>expression</em> is ( <em>value/identifier</em> <strong>,</strong> …)</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pattern matching: Type variables</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>x</em> is <em>type</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Properties: Auto properties</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>Property</em> <strong>{ get; set; }</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2007-11-19</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Properties: Auto properties: Initializers</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>Property</em> { get; set; } <strong>= value;</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">6.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2014-11-12</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Properties: Init only setters</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>Property</em> { get; <strong>init</strong>; }</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Query expressions</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>from</strong> <em>item</em> in <em>Items</em> <strong>where</strong> <em>item != null</em> <strong>orderby</strong> <em>item</em> select <em>item</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2007-11-19</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Readonly members</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>readonly</strong> <em>Method</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Records</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>⌨️ <strong>record</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Records: Record structs</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>record struct</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Static imports</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>using static</strong> <em>Namespace.StaticClassName</em> ;</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">6.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2014-11-12</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Static lambdas and anonymous funcions</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// lambdas and anonymous functions may be <strong>static</strong></em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">String interpolation</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>❇️ $"…{expression}…"</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">6.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2014-11-12</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">String interpolation: Braces</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>$$""{"value": "{{value}}"}"" <em>// multiple $ add extra { } for interpolation</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">String interpolation: Const</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>const string name = $"…{constantexpr}…";</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">String interpolation: Custom handler</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>🧩 <strong>InterpolatedStringHandlerAttribute</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">String interpolation: Newlines</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>// newlines allowed within interpolation expressions</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">String interpolation: Verbatim enhancement</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>❇️ @$"…" (previously only $@"…" worked)</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">8.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2019-09-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Struct initializers</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><em>Property</em> { get; init; } = <em>value</em> ;</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">10.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2021-11-08</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Suppress emitting localsinit</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>🧩 <strong>SkipLocalsInitAttribute</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">9.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2020-11-10</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tuples and deconstruction</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tuples: Deconstruction</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>(<em>type</em>, …) <em>x</em> = (<em>value</em>, …); <em>// or with (_type <strong>PropertyName</strong></em>, …)</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-04-05</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Tuples: Inferred element names</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>list.Select(x &#8658; (x.Id, x.Name)).Where(y &#8658; y.Id == 1)</code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">7.1</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2017-08-14</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Types: Alias any type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>using stringset = System.Collections.Generic.HashSet&lt;string&gt;;</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">12.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Types: Experimental attribute</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>[Experimental]</strong> class <em>MyClass</em> { <strong>[Experimental]</strong> void <em>Method</em>() { … } }</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">12.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Types: Pointer aliases</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>nint</strong> <em>or</em> <strong>nuint</strong></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Types: Primary constructors</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>class <em>MyClass</em>(int id, string name) { … }</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">12.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Visibility: File scope</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>file</strong> class <em>MyClassName</em></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><strong>file</strong> class <em>MyClass</em></code></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">11.0</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2022-11-08</p></td>
 </tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>Source: <a href="https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-version-history">Microsoft Docs: C# Guide: The history of C#</a>
-and <a href="https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10">What&#8217;s new in C# 10</a>
-and <a href="https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-11">What&#8217;s new in C# 11</a></p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_sources">Sources</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)<mark>Versions">C</mark># Versions</a></p>
+</li>
+<li>
+<p><a href="https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-version-history">Microsoft Docs: C# Guide: The history of C#</a></p>
+</li>
+<li>
+<p><a href="https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-10">What&#8217;s new in C# 10</a></p>
+</li>
+<li>
+<p><a href="https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-11">What&#8217;s new in C# 11</a></p>
+</li>
+<li>
+<p><a href="https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-12">What&#8217;s new in C# 12</a></p>
+</li>
+<li>
+<p><a href="https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-13">What&#8217;s new in C# 13</a></p>
+</li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-28 21:14:42 -0800
+Last updated 2024-06-28 14:46:30 -0700
 </div>
 </div>
 </body>
