@@ -160,17 +160,17 @@ This is an H2
 
 Underlining headers provides a strong, natural visual decoration.
 
-Readability is the primary design goal of Markdown over other formats, and the ease of writing and parsing atx headers
-doesn't contribute to that goal.
+[Readability is the primary design goal of Markdown][goal] over other formats, and the comparative ease of writing and
+parsing atx headers doesn't contribute to that goal.
 
 Setext headers take about the same amount of work as closing atx headers (in either style), and don't suffer from the
 potential narritave confusion of including a symbol meaning "number" inline with header text.
 
 Visually, a single `#` character is easy to miss, though it is meant to indicate the header of greatest importance.
-The `#` character also denotes a comment in many languages, and if you include any of those in your document, e.g.
-distinguishing between a PowerShell comment and an H1 header becomes quite context-dependent. Headers like `# Products`
-can even read as "number of products" when scanning a text quickly, especially when missing the context of the Markdown
-syntax in unrendered/unhighlighted environments like database field values.
+The `#` character also denotes a comment in many languages (Python, Ruby, Perl, bash, &c), and if you include any of
+those in your document, e.g. distinguishing between a PowerShell comment and an H1 header becomes quite context-dependent.
+Headers like `# Products` can even read as "number of products" when scanning a text quickly, especially when missing the
+context of the Markdown syntax in unrendered/unhighlighted environments like database field values.
 
 ### The ambiguity of a single leading `#`
 
