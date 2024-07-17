@@ -24,6 +24,8 @@ References
 - [Date and time formatting comparison](datetimeformats.md) compares .NET and the GNU `strftime` date and time formatting
   template support, the latter is used in Linux and Unix systems.
 - [PowerShell secret vault](secretvault.md) describes using a secret vault from PowerShell.
+- [PowerShell Confirmation](powershell-confirmation.md) describes all the factors that can affect prompting users with
+  `$PSCmdlet.ShouldProcess()`.
 - [Windows Key Shortcuts for Windows 10](windowskey.md) has all the Windows Key shortcuts.
 - [Important Standards](standards.md) the specs and standards that make the Internet (and related stuff) work.
 
