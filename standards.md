@@ -3,44 +3,86 @@ Important Standards
 
 ![heirarchy map of standars, by category/topic](images/standards.svg)
 
-- [Unicode][]; see [&amp;what;][]
+Standards
+---------
+
+- [RFC8280][] Human rights considerations when developing protocols
+- [RFC2119][] & [RFC8174][] `MUST`, `MUST NOT`, `REQUIRED`, `SHALL`, `SHALL NOT`, `SHOULD`, `SHOULD NOT`, `RECOMMENDED`,  `MAY`, and `OPTIONAL`
+- [RFC6648][] deprecating `X-` prefix
+
+Protocols
+---------
+
+- [RFC3986][] `https://example.com/` • `ftp://user@pwd:example.net/` • `tel:+1-816-555-1212`
+- [RFC1945][] `GET`, `HEAD`, `POST`, `200 OK`, `Cache-Control: no-cache, no-store, must-revalidate`, `Expires: 0`
+- [RFC2017][] `Content-Type: message/external-body; access-type=URL; URL="http://www.example.com/"`
+- [draft-rep-wg-topic-00][] robots.txt; see [robotstxt.org][]
+- [draft-foudil-securitytxt-11][] security.txt; see [securitytxt.org][]
+- [Fetch][] Fetch: URL schemes, redirects, CORS, CSP, referrer, &c
+
+Security
+--------
+
+- [RFC6238][] 2FA token: 123456 <progress max="6" value="2" />
+- [RFC6454][] `Origin: https://example.org/`
+- [RFC6797][] HSTS: `Strict-Transport-Security: max-age=16070400; includeSubdomains`
+- [RFC7469][] HPKP: `Public-Key-Pins: max-age=2592000; pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g="; report-uri="http://example.com/pkp-report"; max-age=10000; includeSubDomains`
+- [RFC7617][] `Authorization: Basic dGVzdDoxMjPCow==`
+- [CORS][] Cross-origin request sharing
+- [CSP][] `Content-Security-Policy: default-src 'self' *.example.org 'unsafe-inline'; report-uri https://example.com/csp-report`
+- SAML
+
+Development
+------------
+
+- [editorconfig][] for specifying coding style
+- [emmet][] for efficient markup entry
+- [openapi][]: OpenAPI: `{"openapi": "3.0.3", "info": {"title": "Example API", "version": "1.0"}}`
+- [`NO_COLOR`][] for suppressing color output from terminal apps
+- [DOM][] for document manipulation
+- [ECMA262][] ECMAScript
+
+Codes
+-----
+
+- [RFC2046][] `text/*`, `image/*`, `audio/*`, `video/*`, `application/*`, `multipart/*`, `message/*`, `*/x-*`; see [media types][]
 - [ISO639-1 alpha-2][] Common language codes
 - [ISO3166-1 alpha-2][] Common country codes
 - [ISO4217][] Common currency codes
+
+Data
+----
+
 - [ISO8601][] Date, time, duration, and recurrence formats
-- [RFC1945][] `GET`, `HEAD`, `POST`, `200 OK`, `Cache-Control: no-cache, no-store, must-revalidate`, `Expires: 0`
-- [RFC2017][] `Content-Type: message/external-body; access-type=URL; URL="http://www.example.com/"`
-- [RFC2046][] `text/*`, `image/*`, `audio/*`, `video/*`, `application/*`, `multipart/*`, `message/*`, `*/x-*`; see [media types][]
-- [RFC2119][] & [RFC8174][] `MUST`, `MUST NOT`, `REQUIRED`, `SHALL`, `SHALL NOT`, `SHOULD`, `SHOULD NOT`, `RECOMMENDED`,  `MAY`, and `OPTIONAL`
 - [RFC2397][] `data:text/plain,Hello` • `data:image/png;base64,R0lGODlhBAAEAHAAACwAAAAABAAEAIH///8AAAAAAAAAAAACBYQdgXpQADs=`
-- [RFC3986][] `https://example.com/` • `ftp://user@pwd:example.net/` • `tel:+1-816-555-1212`
 - [RFC5545][] `BEGIN:VCALENDAR` … `END:VCALENDAR`
-- [RFC6238][] 2FA token: 123456 <progress max="6" value="2" />
-- [RFC6454][] `Origin: https://example.org/`
-- [RFC6648][] deprecating `X-` prefix
-- [RFC6797][] HSTS: `Strict-Transport-Security: max-age=16070400; includeSubdomains`
-- [RFC6901][] JSON select: `/paths/~1users/get`
-- [RFC7469][] HPKP: `Public-Key-Pins: max-age=2592000; pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g="; report-uri="http://example.com/pkp-report"; max-age=10000; includeSubDomains`
-- [RFC7519][] JWT: `{"alg": "HS256", "typ": "JWT"}` → `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9`; see [jwt.io][]
-- [RFC7617][] `Authorization: Basic dGVzdDoxMjPCow==`
-- [RFC7764][] Markdown guidance; see [commonmark.org][]
 - [RFC8259][] JSON: `{"": true, "key": "value", "zero": 0, "subobject": {"key": "value"}}`
-- [RFC8280][] Human rights considerations when developing protocols
+    - [RFC6901][] JSON select: `/paths/~1users/get`
+    - [jsonref][] JSON reference: `{"$ref": "https://example.net/value"}`
+    - [jsonschema][] JSON schema `{"type": "string", "maxLength": 255}`
+- [RFC7519][] JWT: `{"alg": "HS256", "typ": "JWT"}` → `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9`; see [jwt.io][]
 - [yaml][] YAML: `YAML: "Document Title"`
-- [jsonref][] JSON reference: `{"$ref": "https://example.net/value"}`
-- [jsonschema][] JSON schema `{"type": "string", "maxLength": 255}`
-- [openapi][]: OpenAPI: `{"openapi": "3.0.3", "info": {"title": "Example API", "version": "1.0"}}`
-- [draft-rep-wg-topic-00][] robots.txt; see [robotstxt.org][]
-- [draft-foudil-securitytxt-11][] security.txt; see [securitytxt.org][]
-- [editorconfig][] for specifying coding style
-- [`NO_COLOR`][] for suppressing color output from terminal apps
-- [Fetch][] Fetch: URL schemes, redirects, CORS, CSP, referrer, &c
-- [CORS][] Cross-origin request sharing
-- [CSP][] `Content-Security-Policy: default-src 'self' *.example.org 'unsafe-inline'; report-uri https://example.com/csp-report`
+- XML
+    - XPath
+    - XSLT
+
+Text
+----
+
+- [Unicode][]; see [&amp;what;][]
+- [RFC7764][] Markdown guidance; see [commonmark.org][]
+- [asciidoc][] for more complex text features, including powerful table support
+- wiki, reStructuredText, &c
 - [HTML][] `<!doctype html><title>Page</title><h1>Page</h1>`
-- [CSS][] `article {display: flex; flex-flow: column;}`
-- [DOM][] for document manipulation
-- [ECMA262][] ECMAScript
+    - [CSS][] `article {display: flex; flex-flow: column;}`
+- DocBook
+- LaTeX
+- ISO 26300 OpenDocument (ODF)
+- supporting content
+    - MathML
+    - AsciiMath
+    - Mermaid
+    - Graphviz DOT
 
 [Unicode]: https://home.unicode.org/
 [ISO639-1 alpha-2]: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#Table_of_all_possible_two_letter_codes "ISO639-1 alpha-2 Two-letter language codes"
@@ -83,7 +125,9 @@ Important Standards
 [jsonref]: http://jsonref.org/ "JSON Reference"
 [jsonschema]: https://json-schema.org/ "JSON Schema"
 [jwt.io]: https://jwt.io/ "JSON Web Tokens"
+[emmet]: https://docs.emmet.io/ "Emmet — the essential toolkit for web-developers"
 [openapi]: https://www.openapis.org/ "OpenAPI"
+[asciidoc]: https://asciidoc.org/ "AsciiDoc is a plain text markup language for writing technical content."
 [commonmark.org]: https://commonmark.org/
 [robotstxt.org]: https://www.robotstxt.org/ "The Web Robots Pages"
 [securitytxt.org]: https://securitytxt.org/ "A proposed standard which allows websites to define security policies"
