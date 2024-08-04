@@ -1,10 +1,8 @@
 Important Standards
 ===================
 
-![heirarchy map of standars, by category/topic](images/standards.svg)
-
-Standards
----------
+Standards For Standards
+-----------------------
 
 - [RFC8280][] Human rights considerations when developing protocols
 - [RFC2119][] & [RFC8174][] `MUST`, `MUST NOT`, `REQUIRED`, `SHALL`, `SHALL NOT`, `SHOULD`, `SHOULD NOT`, `RECOMMENDED`,  `MAY`, and `OPTIONAL`
@@ -16,9 +14,9 @@ Protocols
 - [RFC3986][] `https://example.com/` • `ftp://user@pwd:example.net/` • `tel:+1-816-555-1212`
 - [RFC1945][] `GET`, `HEAD`, `POST`, `200 OK`, `Cache-Control: no-cache, no-store, must-revalidate`, `Expires: 0`
 - [RFC2017][] `Content-Type: message/external-body; access-type=URL; URL="http://www.example.com/"`
+- [Fetch][] Fetch: URL schemes, redirects, CORS, CSP, referrer, &c
 - [draft-rep-wg-topic-00][] robots.txt; see [robotstxt.org][]
 - [draft-foudil-securitytxt-11][] security.txt; see [securitytxt.org][]
-- [Fetch][] Fetch: URL schemes, redirects, CORS, CSP, referrer, &c
 
 Security
 --------
@@ -30,7 +28,7 @@ Security
 - [RFC7617][] `Authorization: Basic dGVzdDoxMjPCow==`
 - [CORS][] Cross-origin request sharing
 - [CSP][] `Content-Security-Policy: default-src 'self' *.example.org 'unsafe-inline'; report-uri https://example.com/csp-report`
-- SAML
+- [SAML][]
 
 Development
 ------------
@@ -61,10 +59,10 @@ Data
     - [jsonref][] JSON reference: `{"$ref": "https://example.net/value"}`
     - [jsonschema][] JSON schema `{"type": "string", "maxLength": 255}`
 - [RFC7519][] JWT: `{"alg": "HS256", "typ": "JWT"}` → `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9`; see [jwt.io][]
-- [yaml][] YAML: `YAML: "Document Title"`
-- XML
-    - XPath
-    - XSLT
+- [YAML][]: `YAML: "Document Title"`
+- [XML][]
+    - [XPath][]
+    - [XSLT][]
 
 Text
 ----
@@ -72,17 +70,17 @@ Text
 - [Unicode][]; see [&amp;what;][]
 - [RFC7764][] Markdown guidance; see [commonmark.org][]
 - [asciidoc][] for more complex text features, including powerful table support
-- wiki, reStructuredText, &c
+- [wiki][], [reStructuredText][], [&c][lightmarkup]
 - [HTML][] `<!doctype html><title>Page</title><h1>Page</h1>`
     - [CSS][] `article {display: flex; flex-flow: column;}`
-- DocBook
-- LaTeX
-- ISO 26300 OpenDocument (ODF)
+- [DocBook][]
+- [LaTeX][]
+- ISO 26300 [OpenDocument][] (ODF)
 - supporting content
-    - MathML
-    - AsciiMath
-    - Mermaid
-    - Graphviz DOT
+    - [MathML][]
+    - [AsciiMath][]
+    - [Mermaid][]
+    - [Graphviz DOT][]
 
 [Unicode]: https://home.unicode.org/
 [ISO639-1 alpha-2]: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#Table_of_all_possible_two_letter_codes "ISO639-1 alpha-2 Two-letter language codes"
@@ -119,9 +117,8 @@ Text
 [CSS]: https://www.w3.org/Style/CSS/Overview.en.html "Cascading Style Sheets"
 [DOM]: https://dom.spec.whatwg.org/ "WHATWG DOM Living Standard"
 [ECMA262]: https://tc39.es/ecma262/ "ECMAScript Language Specification"
-
 [media types]: https://www.iana.org/assignments/media-types/media-types.xhtml "IANA-registered media types list"
-[yaml]: https://yaml.org/ "YAML Ain't Markup Language"
+[YAML]: https://yaml.org/ "YAML Ain't Markup Language"
 [jsonref]: http://jsonref.org/ "JSON Reference"
 [jsonschema]: https://json-schema.org/ "JSON Schema"
 [jwt.io]: https://jwt.io/ "JSON Web Tokens"
@@ -132,3 +129,17 @@ Text
 [robotstxt.org]: https://www.robotstxt.org/ "The Web Robots Pages"
 [securitytxt.org]: https://securitytxt.org/ "A proposed standard which allows websites to define security policies"
 [&amp;what;]: http://www.amp-what.com/ "Unicode character search"
+[XML]: https://www.w3.org/XML/ "W3C Extensible Markup Language (XML)"
+[XPath]: https://www.w3.org/TR/xpath-31/ "W3C XML Path Language (XPath) 3.1 "
+[XSLT]: https://www.w3.org/Style/XSL/ "W3C The Extensible Stylesheet Language Family (XSL)"
+[SAML]: http://xml.coverpages.org/saml.html "Security Assertion Markup Language (SAML)"
+[DocBook]: https://docbook.org/ "DocBook 5: The Definitive Guide"
+[LaTeX]: https://www.latex-project.org/ "The LaTeX Project"
+[OpenDocument]: https://groups.oasis-open.org/communities/tc-community-home2?CommunityKey=4bf06d41-79ad-4c58-9e8e-018dc7d05da8 "OASIS Open Document Format for Office Applications (OpenDocument) TC"
+[MathML]: https://www.w3.org/Math/ "W3C Math Home"
+[AsciiMath]: http://asciimath.org/ "AsciiMath is an easy-to-write markup language for mathematics."
+[Mermaid]: http://mermaid.js.org "Mermaid Diagramming and charting tool"
+[Graphviz DOT]: https://graphviz.org/doc/info/lang.html "Abstract grammar for defining Graphviz nodes, edges, graphs, subgraphs, and clusters."
+[wiki]: https://en.wikipedia.org/wiki/Help:Cheatsheet "WikiMedia Help:Cheatsheet"
+[reStructuredText]: https://www.docutils.org/rst.html "reStructuredText Markup Syntax and Parser Component of Docutils"
+[lightmarkup]: https://en.wikipedia.org/wiki/Lightweight_markup_language "Lightweight markup language"
