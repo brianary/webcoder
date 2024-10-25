@@ -172,6 +172,8 @@ those in your document, e.g. distinguishing between a PowerShell comment and an 
 Headers like `# Products` can even read as "number of products" when scanning a text quickly, especially when missing the
 context of the Markdown syntax in unrendered/unhighlighted environments like database field values.
 
+[goal]: https://daringfireball.net/projects/markdown/syntax#philosophy
+
 ### The ambiguity of a single leading `#`
 
 ``````markdown
