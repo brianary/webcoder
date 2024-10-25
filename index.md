@@ -33,8 +33,7 @@ PowerShell & F#
 ---------------
 
 [Detextive][], [SelectXmlExtensions][], [CertAdmin][], or [any of my PowerShell modules][psd1] can be installed by runnning
-`Install-Module SelectXmlExtensions` (for example). [DotNetGlobalToolProvider][] is a trivial exercise in creating a OneGet
-package.
+`Install-Module SelectXmlExtensions` (for example).
 
 My most active repo is [scripts](https://github.com/brianary/scripts), which is mostly PowerShell, but also some F# and other
 (primarily Windows) stuff.
