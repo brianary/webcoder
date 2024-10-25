@@ -3,6 +3,7 @@ description: Stuff I code.
 google_analytics: UA-61854432-1
 show_downloads: false
 theme: jekyll-theme-slate
+markdown: GFM
 
 plugins:
   - jemoji
