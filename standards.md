@@ -53,6 +53,8 @@ Data
 
 - [ISO8601][] Date, time, duration, and recurrence formats
 - [RFC2397][] `data:text/plain,Hello` • `data:image/png;base64,R0lGODlhBAAEAHAAACwAAAAABAAEAIH///8AAAAAAAAAAAACBYQdgXpQADs=`
+- [RFC2141][] `urn:uuid:7362d9df-829d-40be-a4f0-5ba4cd98b34c` • `urn:isbn:1529046130`
+- [text fragments][] `#:~:text=queryText` • `#:~:text=beginText,endText`
 - [RFC5545][] `BEGIN:VCALENDAR` … `END:VCALENDAR`
 - [RFC8259][] JSON: `{"": true, "key": "value", "zero": 0, "subobject": {"key": "value"}}`
     - [RFC6901][] JSON select: `/paths/~1users/get`
@@ -91,6 +93,7 @@ Text
 [RFC2017]: https://tools.ietf.org/html/rfc2017 "Definition of the URL MIME External-Body Access-Type"
 [RFC2046]: https://tools.ietf.org/html/rfc2046 "Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types"
 [RFC2119]: https://tools.ietf.org/html/rfc2119 "Key words for use in RFCs to Indicate Requirement Levels"
+[RFC2141]: https://tools.ietf.org/html/rfc2141 "URN Syntax"
 [RFC2397]: https://tools.ietf.org/html/rfc2397 "The 'data' URL scheme"
 [RFC3986]: https://tools.ietf.org/html/rfc3986 "Uniform Resource Identifier (URI): Generic Syntax"
 [RFC5545]: https://tools.ietf.org/html/rfc5545 "Internet Calendaring and Scheduling Core Object Specification (iCalendar)"
@@ -106,6 +109,7 @@ Text
 [RFC8174]: https://tools.ietf.org/html/rfc8174 "Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words"
 [RFC8259]: https://tools.ietf.org/html/rfc8259 "The JavaScript Object Notation (JSON) Data Interchange Format"
 [RFC8280]: https://tools.ietf.org/html/rfc8280 "Research into Human Rights Protocol Considerations"
+[text fragments]: https://wicg.github.io/scroll-to-text-fragment/ "URL Fragment Text Directives"
 [draft-rep-wg-topic-00]: https://tools.ietf.org/html/draft-rep-wg-topic-00 "Robots Exclusion Protocol"
 [draft-foudil-securitytxt-11]: https://tools.ietf.org/html/draft-foudil-securitytxt-11 "A File Format to Aid in Security Vulnerability Disclosure"
 [editorconfig]: https://editorconfig.org/
