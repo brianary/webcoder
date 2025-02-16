@@ -189,32 +189,15 @@ Comparison
 | ISO8601 (week date) | `R/2000-11-11/P1Y`                           |
 | RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=11` |
 
-### Thanksgiving dinner
+### `Thanksgiving` dinner
 
 Another irregular interval, the ISO8601 format has to combine 400 separate recurrences.
 
 | Format              | Value                                                          |
 | ------------------- | -------------------------------------------------------------- |
-| Cron                | `0 18 ? 11 THU#L`                                              |
-| ISO8601             | `R/2021-11-25T18:00:00/P400Y`                                  |
-| +                   | `R/2022-11-24T18:00:00/P400Y`                                  |
-| +                   | `R/2023-11-30T18:00:00/P400Y`                                  |
-| +                   | `R/2024-11-28T18:00:00/P400Y`                                  |
-| +                   | `R/2025-11-27T18:00:00/P400Y`                                  |
-| +                   | `R/2026-11-26T18:00:00/P400Y`                                  |
-| +                   | `R/2027-11-25T18:00:00/P400Y`                                  |
-| +                   | &vellip;                                                       |
-| +                   | _(400 entries total)_                                          |
-| ISO8601 (week date) | `R/2021-W47-4T18:00:00/P400Y`                                  |
-| +                   | `R/2022-W47-4T18:00:00/P400Y`                                  |
-| +                   | `R/2023-W48-4T18:00:00/P400Y`                                  |
-| +                   | `R/2024-W48-4T18:00:00/P400Y`                                  |
-| +                   | `R/2025-W48-4T18:00:00/P400Y`                                  |
-| +                   | `R/2026-W48-4T18:00:00/P400Y`                                  |
-| +                   | `R/2027-W47-4T18:00:00/P400Y`                                  |
-| +                   | &vellip;                                                       |
-| +                   | _(400 entries total)_                                          |
-| RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=-1TH;BYHOUR=18;BYMINUTE=0` |
+| Cron                | `0 18 ? 11 THU#4`                                              |
+| ISO8601 (week date) | _(not supported)_                       |
+| RFC5545             | `FREQ=YEARLY;BYMONTH=11;BYDAY=4TH;BYHOUR=18;BYMINUTE=0`        |
 
 ### Christmas Day
 
