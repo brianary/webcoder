@@ -189,7 +189,7 @@ Comparison
 | ISO8601 (week date) | `R/2000-11-11/P1Y`                           |
 | RFC5545             | `RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=11` |
 
-### `Thanksgiving` dinner
+### Thanksgiving dinner
 
 Another irregular interval, the ISO8601 format has to combine 400 separate recurrences.
 
