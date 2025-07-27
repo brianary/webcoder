@@ -57,7 +57,8 @@ chapter 21 of O'Reilly's [Games, Diversions & Perl Culture](http://shop.oreilly.
 reason has been used all over the world, in cancer research, and by NASA.
 
 <footer>
-    <a rel="me" href="https://mastodon.spotek.io/@brianary">🐘</a>
+    <a rel="me" href="https://mastodon.social/@dataelemental">🦣</a>
+    <a rel="me" href="https://mastodon.spotek.io/@brianary">🦣</a>
     <a href="https://bookwyrm.social/user/brianary">📚</a>
     <a href="Friday.ics" title="#AntepenultimateFriday">🍸</a>
 </footer>
