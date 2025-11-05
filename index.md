@@ -5,11 +5,17 @@ Various Internet resources
 
 For general data and programming info, see [dataelemental.dev](https://dataelemental.dev/).
 
+Utilities
+---------
+
+- [Symbolarium](symbolarium.html) is a very old Unicode character pallette, for those times when you don't have a better input method.
+
 Research/Articles
 -----------------
 
 - [Setext vs atx Header Styles in Markdown](markdown-headers.md) is an even-handed analysis of the available Markdown
   header styles.
+- [Are query string values encrypted over https?](https-query-strings.md)
 
 References
 ----------
