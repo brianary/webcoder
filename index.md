@@ -16,6 +16,7 @@ Research/Articles
 - [Setext vs atx Header Styles in Markdown](markdown-headers.md) is an even-handed analysis of the available Markdown
   header styles.
 - [Are query string values encrypted over https?](https-query-strings.md)
+- [Early Podcast Timeline](podcast-timeline.md)
 
 References
 ----------
