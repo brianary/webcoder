@@ -13,6 +13,7 @@ Protocols
 
 - [RFC3986][] `https://example.com/` • `ftp://user@pwd:example.net/` • `tel:+1-816-555-1212`
 - [RFC1945][] `GET`, `HEAD`, `POST`, `200 OK`, `Cache-Control: no-cache, no-store, must-revalidate`, `Expires: 0`
+- [QUERY draft][] `QUERY` verb
 - [RFC2017][] `Content-Type: message/external-body; access-type=URL; URL="http://www.example.com/"`
 - [Fetch][] Fetch: URL schemes, redirects, CORS, CSP, referrer, &c
 - [draft-rep-wg-topic-00][] robots.txt; see [robotstxt.org][]
@@ -90,6 +91,7 @@ Text
 [ISO4217]: https://en.wikipedia.org/wiki/ISO_4217#Active_codes
 [ISO8601]: https://en.wikipedia.org/wiki/ISO_8601 "Date, time, duration, and recurrence formats"
 [RFC1945]: https://tools.ietf.org/html/rfc1945 "Hypertext Transfer Protocol -- HTTP/1.0"
+[QUERY draft]: https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-14.html "The HTTP QUERY Method"
 [RFC2017]: https://tools.ietf.org/html/rfc2017 "Definition of the URL MIME External-Body Access-Type"
 [RFC2046]: https://tools.ietf.org/html/rfc2046 "Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types"
 [RFC2119]: https://tools.ietf.org/html/rfc2119 "Key words for use in RFCs to Indicate Requirement Levels"
