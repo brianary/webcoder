@@ -1,4 +1,4 @@
 Early Podcast Timeline
 ======================
 
-![a timeline diagram of early podcasts](podcast-timeline.svg)
+[![a timeline diagram of early podcasts](podcast-timeline.svg)](podcast-timeline.svg)
