@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Grafika (https://www.grafika.cc/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   preserveAspectRatio="xMidYMid"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="Loggy.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   inkscape:export-filename="Loggy.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0987458"
+     inkscape:cx="234.81318"
+     inkscape:cy="266.21262"
+     inkscape:window-width="1488"
+     inkscape:window-height="910"
+     inkscape:window-x="20"
+     inkscape:window-y="20"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3" />
+  <defs
+     id="defs2">
+    <filter
+       id="filter_1"
+       style="color-interpolation-filters:sRGB"
+       primitiveUnits="userSpaceOnUse"
+       x="-0.15669276"
+       y="-0.26859306"
+       width="1.3133855"
+       height="1.5371861">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="9.76"
+         id="feGaussianBlur1" />
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset1" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0.96 0 0 0 0 0.96 0 0 0 0 0.07 0 0 0 1 0"
+         result="dropShadow_1"
+         id="feColorMatrix1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="dropShadow_1"
+         operator="over"
+         result="Layer1"
+         id="feComposite1" />
+    </filter>
+    <filter
+       id="filter_2"
+       style="color-interpolation-filters:sRGB"
+       primitiveUnits="userSpaceOnUse"
+       x="-0.26148695"
+       y="-0.51811547"
+       width="1.5229739"
+       height="2.0362309">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="9.76"
+         id="feGaussianBlur2" />
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset2" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0.96 0 0 0 0 0.96 0 0 0 0 0.07 0 0 0 1 0"
+         result="dropShadow_1"
+         id="feColorMatrix2" />
+      <feComposite
+         in="SourceGraphic"
+         in2="dropShadow_1"
+         operator="over"
+         result="Layer1"
+         id="feComposite2" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8"
+       x="-0.1604517"
+       y="-0.31244297"
+       width="1.3209034"
+       height="1.6248859">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="20.846185"
+         id="feGaussianBlur8" />
+    </filter>
+  </defs>
+  <circle
+     style="opacity:1;fill:#434343;stroke:#f2f2f2;stroke-width:20;fill-opacity:1"
+     id="path4"
+     cx="255.74614"
+     cy="255.74614"
+     r="229.35242" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#4fff00;fill-opacity:1;stroke-width:20.0013;stroke-miterlimit:5"
+     x="81.720421"
+     y="323.20694"
+     id="text1"><tspan
+       sodipodi:role="line"
+       id="tspan7"
+       x="81.720421"
+       y="323.20694">✎🗊</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#4fff00;fill-opacity:1;stroke-width:20.0013;stroke-miterlimit:5;filter:url(#filter8)"
+     x="81.720421"
+     y="323.20694"
+     id="text8"><tspan
+       sodipodi:role="line"
+       id="tspan8"
+       x="81.720421"
+       y="323.20694">✎🗊</tspan></text>
+</svg>
