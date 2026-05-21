@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="true"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.0987458"
-     inkscape:cx="235.26825"
+     inkscape:cx="235.72331"
      inkscape:cy="266.21262"
-     inkscape:window-width="940"
+     inkscape:window-width="1488"
      inkscape:window-height="910"
      inkscape:window-x="20"
      inkscape:window-y="20"
@@ -103,13 +103,31 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#1a1a1a;fill-opacity:1;stroke-width:20.0013;stroke-miterlimit:5"
-     x="101.22685"
-     y="174.66481"
+     x="104.86737"
+     y="191.04712"
      id="text1"><tspan
        sodipodi:role="line"
-       id="tspan11">✯␀⚛☑</tspan><tspan
+       id="tspan4"
+       x="104.86737"
+       y="191.04712">✯␀⚛☑</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#1a1a1a;fill-opacity:1;stroke-width:20.0013;stroke-miterlimit:5"
+     x="103.95724"
+     y="292.07141"
+     id="text3"><tspan
        sodipodi:role="line"
-       id="tspan12">✉⌨⍟∄</tspan><tspan
+       id="tspan9"
+       x="103.95724"
+       y="292.07141">✉⌨⍟∄</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#1a1a1a;fill-opacity:1;stroke-width:20.0013;stroke-miterlimit:5"
+     x="103.95724"
+     y="388.54504"
+     id="text8"><tspan
        sodipodi:role="line"
-       id="tspan13">🛈⚠⎔⎘</tspan></text>
+       id="tspan10"
+       x="103.95724"
+       y="388.54504">🛈⚠⎔⎘</tspan></text>
 </svg>
